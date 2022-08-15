@@ -1,16 +1,14 @@
-### Hi there 👋
+## Hướng dẫn cách sử dụng
+### Cài đặt node v12.14.1
+### Run npm install
 
-<!--
-**pxwebshop/pxwebshop** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Tạo file .env
+`cp .env.example .env`
 
-Here are some ideas to get you started:
+### Tạo database
+`ecommerce`
+### Cấu hình domain giống với domain bạn cấu hình trong xampp vào file .env
+`APP_DOMAIN=http://ecommerce.local`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Chạy dự án
+`npm run watch`
