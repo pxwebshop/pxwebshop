@@ -5,16 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{ asset('assets/img/favicon.png')}}" rel="icon">
-    <link href="{{ asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <link rel="stylesheet" href="{{ asset('css/front/style.css')}}" rel="stylesheet">
+	<script src="{{ asset('js/front/fontawesome.js')}}" crossorigin="anonymous"></script>
 
-    <!-- Google Fonts -->
+	<link href="{{ asset('css/front/slick/slick.css')}}" rel="stylesheet" media="all">
+	<link href="{{ asset('css/front/slick/slick-theme.css')}}" rel="stylesheet" media="all">
+
+	<link href="{{ asset('css/front/aos.css')}}" rel="stylesheet">
+	<script src="{{ asset('js/front/aos.js')}}"></script>
+
+	<link rel="stylesheet" href="{{ asset('css/front/animate.min.css')}}">
+	<script src="{{ asset('js/front/wow.min.js')}}"></script>
+
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-   
-    <link href="{{ asset('assets/css/style.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -23,7 +27,7 @@
 
     <main id="main">
 
-        @yield('content');
+        @yield('content')
 
     </main>
 

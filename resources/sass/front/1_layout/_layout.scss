@@ -3,16 +3,16 @@ layout
 ------------------------------------------------------------*/
 /*
 ------------------------------------------------------------*/
-body {
-    width: 100%;
-    padding: 80px 0 0;
-    @include sp {
-        padding: 60px 0 0;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200;300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400;500;600;700;800;900&display=swap');
 
-    &.is-fixed {
-        position: fixed;
-    }
+body {
+	font-family: "Noto Sans Lao", sans-serif;
+	overflow-x: hidden;
+	overflow-y: auto;
+	min-width: 320px;
+	font-size: 1.4rem;
+	font-weight: 400;
 }
 
 /*

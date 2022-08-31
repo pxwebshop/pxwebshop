@@ -6,6 +6,11 @@
 //	margin: 0 auto;
 //}
 
+/*-------------------------------------------
+Base width
+-------------------------------------------*/
+$basewidth1: 1440px;
+
 //============================================
 // clearfix
 //============================================
@@ -67,6 +72,10 @@
     @media all and (-ms-high-contrast: none) {
         @content;
     }
+}
+
+@mixin notosan() {
+	font-family: "Noto Sans Lao", sans-serif;
 }
 
 @mixin hover {
