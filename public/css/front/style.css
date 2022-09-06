@@ -310,31 +310,53 @@ header
   line-height: 1.5;
   font-weight: 600;
   padding: 0 10px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   position: relative;
   cursor: pointer;
   display: inline-block;
+}
+@media screen and (min-width: 768px) {
+  .c-header__item:hover {
+    color: black;
+  }
+  .c-header__item:hover .c-header__child {
+    transition: 0.3 ease-in;
+    opacity: 1;
+    display: block;
+    color: black;
+  }
+  .c-header__item:hover .c-header__child__item {
+    background: linear-gradient(90deg, rgb(97, 96, 96) 0%, rgb(255, 204, 50) 5%, rgb(255, 204, 50) 38%, rgb(255, 204, 50) 100%);
+  }
+}
+.c-header__item .c-header__child {
+  opacity: 0;
+  width: 300px;
+  display: block;
+  position: absolute;
+  background: linear-gradient(90deg, rgb(255, 204, 50) 0%, rgb(255, 204, 50) 5%, rgb(255, 204, 50) 38%, rgb(97, 96, 96) 100%);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 20px 40px rgba(0, 0, 0, 0.18);
+  top: 65px;
+}
+.c-header__item .c-header__child__item {
+  transition: background-color 1000ms linear;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+.c-header__item .c-header__child__item a {
+  text-decoration: none;
+  color: #ffffff;
 }
 .c-header__item__services {
   height: 100%;
   display: flex;
   align-items: center;
+  position: relative;
 }
 .c-header__item__abouts {
   height: 100%;
   display: flex;
   align-items: center;
-}
-.c-header__item:hover {
-  color: black;
-  transition: all 0.1s;
-}
-.c-header__item:hover .c-header__child {
-  display: block;
-  color: black;
-}
-.c-header__item i {
-  margin: 0 6px;
 }
 .c-header__item:not(:first-child) {
   margin-left: 20px;
@@ -359,13 +381,16 @@ header
   display: flex;
   align-items: center;
 }
+.c-header__item i {
+  margin: 0 6px;
+}
 .c-header__link {
   color: black;
   text-decoration: none;
   font-weight: 700;
-  text-transform: capitalize;
   color: #ffffff;
   font-size: 1.6rem;
+  text-transform: uppercase;
 }
 .c-header__search {
   display: none;
