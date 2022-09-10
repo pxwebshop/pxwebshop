@@ -325,11 +325,9 @@ header
     display: block;
     color: black;
   }
-  .c-header__item:hover .c-header__child__item {
-    background: linear-gradient(90deg, rgb(97, 96, 96) 0%, rgb(255, 204, 50) 5%, rgb(255, 204, 50) 38%, rgb(255, 204, 50) 100%);
-  }
 }
 .c-header__item .c-header__child {
+  border-radius: 3px;
   opacity: 0;
   width: 300px;
   display: block;
@@ -344,8 +342,14 @@ header
   border-bottom: 1px solid #eee;
 }
 .c-header__item .c-header__child__item a {
+  transition: 0.3s all;
   text-decoration: none;
   color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .c-header__item .c-header__child__item:hover a {
+    color: black;
+  }
 }
 .c-header__item__services {
   height: 100%;
