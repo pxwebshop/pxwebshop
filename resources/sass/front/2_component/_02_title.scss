@@ -5,5 +5,11 @@ title
 /*
 ------------------------------------------------------------*/
 .c-title1 {
-
+    font-size: 2.7rem;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    &--color1 {
+        color: red;
+    }
 }
