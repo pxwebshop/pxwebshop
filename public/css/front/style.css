@@ -259,7 +259,6 @@ body {
   margin: 0 auto;
   padding: 0 30px;
   position: relative;
-  z-index: 2;
 }
 @media screen and (max-width: 767px) {
   .l-content {
@@ -275,7 +274,6 @@ body {
   margin: 0 auto;
   padding: 0 30px;
   position: relative;
-  z-index: 2;
 }
 @media screen and (max-width: 767px) {
   .l-container {
@@ -327,6 +325,7 @@ header
   }
 }
 .c-header__item .c-header__child {
+  z-index: 999;
   border-radius: 3px;
   opacity: 0;
   width: 300px;
@@ -401,7 +400,7 @@ header
   position: absolute;
   bottom: -20px;
   right: -10px;
-  transition: 0.3 ease-in;
+  transition: 0.3 ease;
 }
 .c-header__search input {
   padding: 0 15px;
