@@ -25,11 +25,9 @@
 
     @include('layouts.header')
 
-    <main id="main">
 
-        @yield('content')
+    @yield('content')
 
-    </main>
 
     @include('layouts.footer')
 
@@ -38,7 +36,6 @@
     <script src="{{ asset('js/jquery.min.js')}} "></script>
 
     <script src="{{ asset('js/jquery-ui.min.js')}} "></script>
-
 </body>
 
 </html>

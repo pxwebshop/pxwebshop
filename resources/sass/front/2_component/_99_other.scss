@@ -1,3 +1,60 @@
 /*------------------------------------------------------------
 other
 ------------------------------------------------------------*/
+.c-box1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    background: linear-gradient(90deg, rgba(50,255,198,1) 0%, rgba(50,154,255,1) 45%, rgba(63,140,232,1) 100%);
+    border-radius: 30px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    margin-left: -30px;
+    &__item {
+        width: 50%;
+        padding-left: 30px;
+        &:first-child {
+            padding-right: 20px;
+            border-right: 1px solid black;
+        }
+    }
+    &__icon {
+        width: 65px;
+        height: 65px;
+        display: flex;
+        margin-right: 10px;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(216, 47, 47);
+        border-radius: 50%;
+        i {
+            font-size: 4.0rem;
+            color: #ffff;
+        }
+    }
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+    &__tlt {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: #290d6b;
+    }
+    &__txt {
+        margin: 10px 0 7px;
+        color: #242d4c;
+        font-size: 1.7rem;
+        line-height: 1.3;
+    }
+    &__btn {
+        padding: 10px 20px;
+        color: #ffff;
+        display: block;
+        background-color: rgb(216, 47, 47);
+        border-radius: 20px;
+        border: none;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+}

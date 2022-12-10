@@ -5,11 +5,29 @@ title
 /*
 ------------------------------------------------------------*/
 .c-title1 {
-    font-size: 2.7rem;
-    font-weight: bold;
+    font-size: 4.0rem;
+    font-weight: 400;
     letter-spacing: 0.01rem;
-    text-align: center;
-    &--color1 {
-        color: red;
+    text-align: left;
+    line-height: 1.2;
+    &__color1 {
+        color: rgb(216, 47, 47);
+        font-size: 5.0rem;
+        font-weight: bold;
+    }
+    &__txt {
+        font-size: 5.0rem;
+        font-weight: bold;
+    }
+    &__description {
+        font-size: 1.7rem;
+        line-height: 1.4;
+        margin-top: 30px;
+    }
+    figure {
+        height: 300px;
+        img {
+            height: 100%;
+        }
     }
 }

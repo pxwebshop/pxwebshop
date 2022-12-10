@@ -3,7 +3,7 @@ header
 ------------------------------------------------------------*/
 .c-header {
     $root: &;
-    background: linear-gradient(90deg, rgba(255,204,50,1) 0%, rgba(255,204,50,1) 5%, rgba(255,204,50,1) 38%, rgba(97,96,96,1) 100%);
+    background: linear-gradient(90deg, rgba(50,255,198,1) 0%, rgba(50,154,255,1) 45%, rgba(63,140,232,1) 100%);
     .l-container {
         display: flex;
         justify-content: space-between;
@@ -40,66 +40,8 @@ header
                 }
             }
         }
-        #{$root}__child {
-            z-index: 999;
-            border-radius: 3px;
-            opacity: 0;
-            width: 300px;
-            display: block;
-            position: absolute;
-            background: linear-gradient(90deg, rgb(255, 204, 50) 0%, rgb(255, 204, 50) 5%, rgb(255, 204, 50) 38%, rgb(97, 96, 96) 100%);
-            box-shadow: 0 0 2px rgb(0 0 0 / 10%), 0 20px 40px rgb(0 0 0 / 18%);
-            top: 65px;
-            &__item {
-                transition: background-color 1000ms linear;
-                padding: 10px;
-                border-bottom: 1px solid #eee;
-                a {
-                    transition: 0.3s all;
-                    text-decoration: none;
-                    color: #ffffff;
-                }
-                @include hover() {
-                    // background: #f5f5f5;
-                   a {
-                    color: black;
-                   }
-                }
-            }
-        }
-        &__services {
-            height: 100%;
-            display: flex;
-            align-items: center;
-            position: relative;
-        }
-        &__abouts {
-            height: 100%;
-            display: flex;
-            align-items: center;
-        }
         &:not(:first-child) {
             margin-left: 20px;
-        }
-        &:last-child {
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-            position: relative;
-            margin-left: 0;
-            padding-left: 20px;
-            height: 100%;
-            @include hover() {
-                #{$root}__search {
-                    display: block;
-                }
-            }
-            i {
-                color: #ffffff;
-                font-size: 1.7rem;
-                display: flex;
-                align-items: center;
-            }
         }
         i {
             margin: 0 6px;
@@ -110,8 +52,7 @@ header
         text-decoration: none;
         font-weight: 700;
         color: #ffffff;
-        font-size: 1.6rem;
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
     &__search {
         display: none;
