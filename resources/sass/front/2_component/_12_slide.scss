@@ -4,3 +4,33 @@ video
 
 /*
 ------------------------------------------------------------*/
+.c-slider {
+    margin-left: -30px;
+
+    &__list {
+        width: 100%;
+        max-width: 1500px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px auto;
+    }
+    &__item {
+        width: 25%;
+        padding-left: 30px;
+    }
+
+    .slick-arrow {
+        z-index: 999;
+        background-color: transparent;
+        &::before {
+            font-size: 25px;
+            color: rgb(216, 47, 47);
+        }
+    }
+    .slick-prev {
+        left: 55px;
+    }
+    .slick-next {
+        right: 55px;
+    }
+}

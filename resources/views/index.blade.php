@@ -111,5 +111,50 @@
         </div>
       </div>
     </section>
+
+    <section class="p-home4">
+      <div class="c-slider">
+        <h2 class="c-title2">
+          <span class="c-title2__text">
+            Kho <span class="c-title2__color1">giao diện</span> website</span>
+          </span>
+          <span class="c-title2__text1">
+            Đa dạng các mẫu giao diện website thương mại điện tử, bán hàng, tin tức, giới <br/>thiệu mọi lĩnh vực cho bạn tham khảo.
+          </span>
+        </h2>
+        <div class="c-slider__list">
+          <div class="c-slider__item">
+            <figure>
+              <img src="https://placehold.jp/400x500.png" alt="">
+            </figure>
+          </div>
+          <div class="c-slider__item">
+            <figure>
+              <img src="https://placehold.jp/400x500.png" alt="">
+            </figure>
+          </div>
+          <div class="c-slider__item">
+            <figure>
+              <img src="https://placehold.jp/400x500.png" alt="">
+            </figure>
+          </div>
+          <div class="c-slider__item">
+            <figure>
+              <img src="https://placehold.jp/400x500.png" alt="">
+            </figure>
+          </div>
+          <div class="c-slider__item">
+            <figure>
+              <img src="https://placehold.jp/400x500.png" alt="">
+            </figure>
+          </div>
+          <div class="c-slider__item">
+            <figure>
+              <img src="https://placehold.jp/400x500.png" alt="">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
 </main>
 @endsection

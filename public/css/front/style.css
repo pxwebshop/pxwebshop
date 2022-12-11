@@ -508,6 +508,35 @@ video
 ------------------------------------------------------------*/
 /*
 ------------------------------------------------------------*/
+.c-slider {
+  margin-left: -30px;
+}
+.c-slider__list {
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px auto;
+}
+.c-slider__item {
+  width: 25%;
+  padding-left: 30px;
+}
+.c-slider .slick-arrow {
+  z-index: 999;
+  background-color: transparent;
+}
+.c-slider .slick-arrow::before {
+  font-size: 25px;
+  color: rgb(216, 47, 47);
+}
+.c-slider .slick-prev {
+  left: 55px;
+}
+.c-slider .slick-next {
+  right: 55px;
+}
+
 /*------------------------------------------------------------
 MV
 ------------------------------------------------------------*/
@@ -656,5 +685,5 @@ Page Top
   margin-top: -160px;
 }
 .p-home3 {
-  padding: 80px 0;
+  padding: 100px 0;
 }
