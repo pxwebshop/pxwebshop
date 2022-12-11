@@ -31,11 +31,13 @@
 
     @include('layouts.footer')
 
-    {{-- <script src="{{asset('assets/js/main.js')}}"></script> --}}
+    <script src="{{asset('assets/js/main.js')}}"></script>
 
     <script src="{{ asset('js/jquery.min.js')}} "></script>
 
     <script src="{{ asset('js/jquery-ui.min.js')}} "></script>
+
+    <script src="{{ asset('js/jquery.matchHeight')}} "></script>
 </body>
 
 </html>

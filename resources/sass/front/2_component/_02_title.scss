@@ -10,6 +10,7 @@ title
     letter-spacing: 0.01rem;
     text-align: left;
     line-height: 1.2;
+    color: #fff;
     &__color1 {
         color: rgb(216, 47, 47);
         font-size: 5.0rem;
@@ -23,11 +24,34 @@ title
         font-size: 1.7rem;
         line-height: 1.4;
         margin-top: 30px;
+        color: #fff;
     }
     figure {
         height: 300px;
         img {
             height: 100%;
         }
+    }
+}
+
+/*
+------------------------------------------------------------*/
+.c-title2 {
+    text-align: center;
+    color: #1E1666;
+    &__color1 {
+        color: rgb(216, 47, 47);
+    }
+    &__text {
+        font-size: 3.1rem;
+        display: block;
+        font-weight: 600;
+    }
+    &__text1 {
+        margin-top: 10px;
+        display: block;
+        color: #262932;
+        font-size: 1.7rem;
+        font-weight: 400;
     }
 }
