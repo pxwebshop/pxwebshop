@@ -276,5 +276,162 @@
         </div>
       </div>
     </section>
+
+
+    <section class="p-home6">
+      <div class="l-container">
+        <div class="c-box2">
+          <h2 class="c-title2">
+            <span class="c-title2__text">
+              Các bước hình thành website  <span class="c-title2__color1">chuyên nghiệp tại pxwebshop</span></span>
+            </span>
+            <span class="c-title2__text1">
+              PXwebshop với phương châm làm việc lấy khách hàng làm trung tâm, luôn hướng đến các giải pháp hỗ trợ khách hàng trong hoạt động thiết kế web. Chúng tôi có quy trình làm việc rõ ràng, nhằm phục vụ bạn chuyên nghiệp nhất.
+            </span>
+          </h2>
+
+          <ul class="c-box2__list c-box2__list--style1">
+            <li class="c-box2__item">
+              <div class="c-box2__inner">
+                <div class="c-box2__icon">
+                  Bước 1
+                </div>
+                <h4 class="c-box2__tlt">Thấu hiểu khách hàng</h4>
+                <p class="c-box2__txt">Đội ngũ nhân
+                  viên giàu kinh nghiệm của MIKO TECH gặp gỡ khách hàng, lắng nghe ý tưởng thiết kế, thảo luận về tính năng mà bạn
+                  mong muốn trong thiết kế web. Sau khi tư vấn giải pháp và tính năng phù hợp với mục đích và nhu cầu của bạn,
+                  chúng tôi lên kế hoạch thiết kế.</p>
+              </div>
+            </li>
+            <li class="c-box2__item">
+              <div class="c-box2__inner">
+                <div class="c-box2__icon">
+                  Bước 2
+                </div>
+                <h4 class="c-box2__tlt">Ký kết và hợp tác</h4>
+                <p class="c-box2__txt">Để đảm bảo quyền lợi cho bạn,
+                  chúng ta cùng nhau ghi nhận bằng văn bản
+                  pháp lý. Cái bắt tay nhỏ thể hiện tinh thần lớn, MIKO TECH sẽ là người đồng hành cùng bạn, giúp bạn xây dựng
+                  giải pháp thiết kế website phù hợp và nâng tầm thương hiệu của bạn trên thị trường.</p>
+              </div>
+            </li>
+            <li class="c-box2__item">
+              <div class="c-box2__inner">
+                <div class="c-box2__icon">
+                  Bước 3
+                </div>
+                <h4 class="c-box2__tlt">Thiết kế</h4>
+                <p class="c-box2__txt">Dựa trên ý
+                  tưởng của bạn, đội ngũ thiết kế website
+                  PXwebshop sở hữu những bộ óc sáng tạo và nhạy bén sẽ tạo ra những thiết kế website demo đẹp mắt, thu hút và
+                  chuẩn UI/UX. Sau khi bạn xem xét bản demo, đội ngũ thiết kế sẽ tiến hành chỉnh sửa để bạn chốt bản thiết kế
+                  chi
+                  tiết.</p>
+              </div>
+            </li>
+
+            <li class="c-box2__item">
+              <div class="c-box2__inner">
+                <div class="c-box2__icon">
+                  Bước 4
+                </div>
+                <h4 class="c-box2__tlt">Lập trình</h4>
+                <p class="c-box2__txt">Dựa trên ý
+                  Từ thiết kế đã có và những kinh nghiệm đúc kết trong nhiều năm làm việc, đội ngũ lập trình viên sẽ lên kế hoạch lập trình chuẩn UX (trải nghiệm người dùng), thực hiện lập trình web, đảm bảo đầy đủ các tính năng hữu ích và tiện lợi cho website của bạn.</p>
+              </div>
+            </li>
+            <li class="c-box2__item">
+              <div class="c-box2__inner">
+                <div class="c-box2__icon">
+                  Bước 5
+                </div>
+                <h4 class="c-box2__tlt">Thiết kế</h4>
+                <p class="c-box2__txt">Dựa trên ý tưởng của bạn, đội ngũ thiết kế website PXwebshop sở hữu những bộ óc sáng tạo và nhạy bén sẽ tạo ra những thiết kế website demo đẹp mắt, thu hút và chuẩn UI/UX. Sau khi bạn xem xét bản demo, đội ngũ thiết kế sẽ tiến hành chỉnh sửa để bạn chốt bản thiết kế chi tiết.</p>
+              </div>
+            </li>
+            <li class="c-box2__item">
+              <div class="c-box2__inner">
+                <div class="c-box2__icon">
+                  Bước 6
+                </div>
+                <h4 class="c-box2__tlt">Bàn giao toàn diện</h4>
+                <p class="c-box2__txt">Bàn giao toàn diện là trách nhiệm của toàn thể đội ngũ Pxwebshop. Đội ngũ Pxwebshop sẽ hướng dẫn bạn quản trị web tận tình và chu đáo. Dù đã hoàn thành dự án, đội ngũ Pxwebshop luôn trong tâm thế sẵn sàng hỗ trợ bạn trong quá trình bạn vận hành và quản trị website.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="p-home7">
+      <div class="l-container">
+        <div class="c-box3">
+          <h2 class="c-title2">
+            <span class="c-title2__text">
+              Các <span class="c-title2__color1">chứng chỉ</span> chuyên môn</span>
+            </span>
+          </h2>
+
+          <ul class="c-box3__wrap">
+            <li class="c-box3__item">
+             <div class="c-box3__inner">
+              <figure>
+                <img src="{{ asset('images/certificate1.jpg') }}" alt="" srcset="">
+              </figure>
+              <div class="c-box3__content">
+                <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+              </div>
+             </div>
+            </li>
+            <li class="c-box3__item">
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="https://placehold.jp/380x250.png" alt="" srcset="">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                </div>
+              </div>
+            </li>
+            <li class="c-box3__item">
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="https://placehold.jp/380x250.png" alt="" srcset="">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                </div>
+              </div>
+            </li>
+            <li class="c-box3__item">
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="https://placehold.jp/380x250.png" alt="" srcset="">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                </div>
+              </div>
+            </li>
+            <li class="c-box3__item">
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="https://placehold.jp/380x250.png" alt="" srcset="">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 </main>
 @endsection
