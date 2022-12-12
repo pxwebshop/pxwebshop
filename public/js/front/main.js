@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	$('.c-box2__item').matchHeight();
-
+	$('.c-list2__wrap').matchHeight();
+	
 	$('.c-slider__list').slick({
 		dots: false,
 		infinite: true,

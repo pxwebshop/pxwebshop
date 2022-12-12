@@ -181,17 +181,26 @@
                 <div class="c-list2__body">
                   <p class="c-list2__txt">Phù hợp với các website dạng Landing Page, website tin tức, website giới thiệu doanh nghiệp,... với đầy đủ các tính năng cần thiết ở một trang web chuẩn SEO.</p>
                   <ul class="c-list2__box">
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Mã nguồn: Pxwebshop Core</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Ngôn ngữngữ: Code PHP thuần 100%</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Framework (nếu khách hàng yêu cầu): Laravel</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Giao diện: Thiết kế giao diện theo mẫu có sẵn **</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bàn giao: Toàn bộ mã nguồn</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo hành: Vĩnh viễn</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo trì: 1 Năm</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Băng thông: Không giới hạn</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo mật: Tuyệt đối</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Mã nguồn: Pxwebshop Core</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Ngôn ngữ: Code PHP thuần 100%</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Framework (nếu khách hàng yêu cầu): Laravel</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Giao diện: Thiết kế giao diện theo mẫu có sẵn **</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Bàn giao: Toàn bộ mã nguồn</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Bảo hành: Vĩnh viễn</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Bảo trì: 1 Năm</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Băng thông: Không giới hạn</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Bảo mật: Tuyệt đối</li>
+
+                    <li class="c-list2__boxItem">✅ &nbsp;Chuẩn Mobile: Có</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Bảo hành: Hỗ trợ bảo trì, sửa lỗi, website miễn phí trọn đời</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 năm domain quốc tế (.com, .net, .org)</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 năm dùng hosting lên đến 3GB</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Không</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Đa ngôn ngữ: Không</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: không</li>
                   </ul>
                 </div>
+                <button class="c-btn1">Đăng Ký</button>
               </div>
             </li>
             <li class="c-list2__item">
@@ -203,19 +212,28 @@
                   <p class="c-list2__price">24,999,000 VNĐ</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">Phù hợp với các website dạng Landing Page, website tin tức, website giới thiệu doanh nghiệp,... với đầy đủ các tính năng cần thiết ở một trang web chuẩn SEO.</p>
+                  <p class="c-list2__txt">Phù hợp với các website bán hàng, website thương mại nhỏ, website bất động sản, web nông nghiệp,... với đầy đủ các tính năng cao cấp về đặt hàng, thanh toán.</p>
                   <ul class="c-list2__box">
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Mã nguồn: Pxwebshop Core</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Ngôn ngữngữ: Code PHP thuần 100%</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Framework (nếu khách hàng yêu cầu): Laravel</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Giao diện: Thiết kế giao diện theo mẫu có sẵn **</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bàn giao: Toàn bộ mã nguồn</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo hành: Vĩnh viễn</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo trì: 1 Năm</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Băng thông: Không giới hạn</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo mật: Tuyệt đối</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Mã nguồn: Pxwebshop Core</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Ngôn ngữ: Code PHP thuần 100%</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bàn giao: Toàn bộ mã nguồn</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo trì: 1 Năm</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (nếu khách hàng yêu cầu): Laravel</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Giao diện: Thiết kế giao diện riêng theo yêu cầu khách hàng</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Băng thông: Không giới hạn</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo mật: Tuyệt đối</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Chuẩn Mobile 100%</li>
+
+                    <li class="c-list2__boxItem">✅ &nbsp;Chuẩn Mobile: Có</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Bảo hành: Hỗ trợ bảo trì, sửa lỗi, website miễn phí trọn đời</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 năm domain Lào (.la, .com)</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 năm dùng hosting lên đến 5GB</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Không</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Đa ngôn ngữ: Tiếng Lào</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Giảm 10% phí dịch vụ chăm sóc Website + Fanpage</li>
                   </ul>
                 </div>
+                <button class="c-btn1">Đăng Ký</button>
               </div>
             </li>
             <li class="c-list2__item">
@@ -227,19 +245,30 @@
                   <p class="c-list2__price">24,999,000 VNĐ</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">Phù hợp với các website dạng Landing Page, website tin tức, website giới thiệu doanh nghiệp,... với đầy đủ các tính năng cần thiết ở một trang web chuẩn SEO.</p>
+                  <p class="c-list2__txt">Phù hợp với các website thương mại điện tử lớn, website có thuật toán thoạt toán truy xuất khó (phong thuỷ, toán học,...), website có traffic cao, cần độ bảo mật và SEO cao cấp.</p>
                   <ul class="c-list2__box">
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Mã nguồn: Pxwebshop Core</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Ngôn ngữngữ: Code PHP thuần 100%</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Framework (nếu khách hàng yêu cầu): Laravel</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Giao diện: Thiết kế giao diện theo mẫu có sẵn **</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bàn giao: Toàn bộ mã nguồn</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo hành: Vĩnh viễn</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo trì: 1 Năm</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Băng thông: Không giới hạn</li>
-                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo mật: Tuyệt đối</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Mã nguồn: Pxwebshop Core</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Ngôn ngữ: Code PHP thuần 100%</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (nếu khách hàng yêu cầu): Laravel</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Giao diện: Thiết kế giao diện riêng theo yêu cầu khách hàng</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bàn giao: Toàn bộ mã nguồn</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo hành: Vĩnh viễn</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo trì: 2 Năm</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Băng thông: Không giới hạn</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo mật: Tuyệt đối</li>
+
+                    <li class="c-list2__boxItem">✅ &nbsp;Chuẩn Mobile: Có</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Giao diện: AMP</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hỗ trợ thay đổi theo xu hướnghướng SEO mới nhất của Google theo thời gian bảo trì</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Bảo hành: Hỗ trợ bảo trì, sửa lỗi, website miễn phí trọn đời</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 năm domain quốc tế (.com, .net, .org)</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 năm dùng hosting lên đến 10GB</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Có</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Đa ngôn ngữ: Tiếng Việt, Tiếng Anh, Tiếng Lào, Tiếng Nhật</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Giảm 10% phí dịch vụ chăm sóc Website + Fanpage</li>
                   </ul>
                 </div>
+                <button class="c-btn1">Đăng Ký</button>
               </div>
             </li>
           </ul>

@@ -387,6 +387,27 @@ btn
 ------------------------------------------------------------*/
 /*
 ------------------------------------------------------------*/
+.c-btn1 {
+  left: 50%;
+  border-radius: 20px;
+  transform: translate(-50%, 0);
+  bottom: 10px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.7rem;
+  border: none;
+  cursor: pointer;
+  padding: 10px 40px;
+  color: #fff;
+  background: linear-gradient(to right, #E93154 0%, #FF342D 100%);
+  transition: 0.2s;
+}
+@media screen and (min-width: 768px) {
+  .c-btn1:hover {
+    transform: translate(-50%, -10px);
+  }
+}
+
 /*------------------------------------------------------------
 title
 ------------------------------------------------------------*/
@@ -490,7 +511,7 @@ list
 }
 
 .c-list2__body {
-  padding: 10px 20px;
+  padding: 10px 20px 40px 20px;
 }
 .c-list2__inner {
   margin-left: -30px;
@@ -514,6 +535,8 @@ list
 .c-list2__txt {
   font-size: 1.6rem;
   font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.2px;
 }
 .c-list2__tlt {
   font-size: 2.3rem;
@@ -522,7 +545,6 @@ list
 }
 .c-list2__tlt span {
   display: block;
-  font-size: 2.6rem;
   line-height: 1.3;
   text-transform: uppercase;
   text-align: center;
@@ -534,9 +556,8 @@ list
   align-items: baseline;
   line-height: 1.5;
 }
-.c-list2__boxItem .fa-star {
+.c-list2__boxItem strong {
   margin-right: 8px;
-  color: #e4dd6a;
 }
 .c-list2__boxItem:not(:first-child) {
   margin-top: 13px;
@@ -569,6 +590,7 @@ list
   border-top-right-radius: 10px;
 }
 .c-list2__wrap {
+  position: relative;
   border-radius: 10px;
   transition: transform 0.2s;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
