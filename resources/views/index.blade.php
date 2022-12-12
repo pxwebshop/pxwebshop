@@ -544,7 +544,7 @@
       <div class="c-box6">
         <h2 class="c-title2">
           <span class="c-title2__text">
-            <span class="c-title2__color1">Khoá đào tạo</span> nhân viên cấp cao</span>
+            <span class="c-title2__color1">Đào tạo</span> nhân viên cấp cao</span>
           </span>
           <span class="c-title2__text1">
             Doing...
@@ -601,6 +601,33 @@
           <li class="c-box6__item c-box6__item--style1">
             <figure>
               <img src="{{ asset('images/img13.jpeg') }}" alt="" srcset="">
+            </figure>
+          </li>
+
+          <li class="c-box6__item">
+            <ul class="c-box6__list">
+              <li class="c-box6__list__item">
+                <figure>
+                  <img src="{{ asset('images/img18.jpeg') }}" alt="" srcset="">
+                </figure>
+              </li>
+              <li class="c-box6__list__item">
+                <figure>
+                  <img src="{{ asset('images/img19.jpeg') }}" alt="" srcset="">
+                </figure>
+              </li>
+            </ul>
+            <div class="c-box6__img">
+              <div class="c-box6__img__item">
+                <figure>
+                  <img src="{{ asset('images/img20.jpeg') }}" alt="" srcset="">
+                </figure>
+              </div>
+            </div>
+          </li>
+          <li class="c-box6__item c-box6__item--style1">
+            <figure>
+              <img src="{{ asset('images/img17.jpeg') }}" alt="" srcset="">
             </figure>
           </li>
         </ul>
