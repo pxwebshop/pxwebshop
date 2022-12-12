@@ -363,7 +363,6 @@
       </div>
     </section>
 
-
     <section class="p-home7">
       <div class="l-container">
         <div class="c-box3">
@@ -427,6 +426,65 @@
                   <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
                   <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
                 </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-home8">
+      <div class="l-container">
+        <div class="c-box4">
+          <h2 class="c-title2">
+            <span class="c-title2__text">
+              <span class="c-title2__color1">Cam kết</span> từ chúng tôi</span>
+            </span>
+          </h2>
+
+          <ul class="c-box4__content">
+            <li class="c-box4__item">
+              <div class="c-box4__inner">
+                <p class="c-box4__icon">
+                  <i aria-hidden="true" class="far fa-life-ring"></i>
+                </p>
+                <h5 class="c-box4__tlt">Hỗ trợ tận tình</h5>
+                <p class="c-box4__txt">
+                  Tư vấn, hỗ trợ, giải đáp tận tình thắc mắc của khách hàng.
+                </p>
+              </div>
+            </li>
+            <li class="c-box4__item">
+              <div class="c-box4__inner">
+                <p class="c-box4__icon">
+                  <i aria-hidden="true" class="far fa-clock"></i>
+                </p>
+                <h5 class="c-box4__tlt">Hỗ trợ tận tình</h5>
+                <p class="c-box4__txt">
+                  Hỗ trợ xử lý mọi vấn đề liên quan đến hệ thống nhanh nhất có thể.
+                </p>
+              </div>
+            </li>
+            <li class="c-box4__item">
+              <div class="c-box4__inner">
+                <p class="c-box4__icon">
+                  <i aria-hidden="true" class="fas fa-headset"></i>
+                </p>
+                <h5 class="c-box4__tlt">Hỗ trợ tận tình</h5>
+                <p class="c-box4__txt">
+                  Hỗ trợ tư vấn kinh nghiệm, xử lý vấn đề trong quá trình sử dụng.​
+                </p>
+              </div>
+            </li>
+            <li class="c-box4__item">
+              <div class="c-box4__inner">
+                <p class="c-box4__icon">
+                  <i aria-hidden="true" class="far fa-check-square"></i>
+                </p>
+                <h5 class="c-box4__tlt">Hỗ trợ tận tình</h5>
+                <p class="c-box4__txt">
+                  Cam kết độc quyền cung cấp & sở hữu hợp pháp hệ thống.
+                </p>
               </div>
             </li>
           </ul>

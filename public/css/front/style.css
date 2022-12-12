@@ -825,7 +825,7 @@ other
   margin-bottom: 10px;
 }
 .c-box3__content {
-  padding: 40px 20px 20px 20px;
+  padding: 30px 20px 20px 20px;
   background-color: rgb(7, 164, 115);
   color: #fff;
   text-align: center;
@@ -858,6 +858,51 @@ other
 }
 .c-box3 .slick-dots li button:before {
   font-size: 12px;
+}
+
+.c-box4__content {
+  margin-top: 40px;
+  margin-left: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.c-box4__item {
+  width: 25%;
+  padding-left: 20px;
+}
+.c-box4__inner {
+  background-color: rgba(255, 255, 255, 0.1490196078);
+  border-radius: 15px;
+  padding: 20px;
+}
+.c-box4__icon {
+  margin: auto;
+  text-align: center;
+}
+.c-box4__icon i {
+  font-size: 5rem;
+}
+.c-box4__tlt {
+  text-align: center;
+  font-size: 2rem;
+  margin: 10px 0;
+  text-transform: capitalize;
+  position: relative;
+}
+.c-box4__tlt:after {
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  background-color: #fff;
+}
+.c-box4__txt {
+  line-height: 1.3;
+  font-size: 1.7rem;
 }
 
 /*------------------------------------------------------------
@@ -913,4 +958,8 @@ Page Top
 }
 .p-home7 {
   padding-top: 80px;
+}
+.p-home8 {
+  padding-top: 80px;
+  background-image: radial-gradient(at center center, rgb(50, 255, 198) 0%, rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
 }
