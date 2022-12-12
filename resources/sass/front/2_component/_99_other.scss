@@ -164,7 +164,7 @@ other
     }
     &__txt {
         font-size: 1.7rem;
-        line-height: 1.3;
+        line-height: 1.5;
     }
     figure {
         display: block;
@@ -250,5 +250,46 @@ other
     &__item {
         width: 20%;
         padding: 0 10px;
+    }
+}
+
+// ------------------------------------------------------------*/
+.c-box6 {
+    $root:&;
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    &__item {
+        width: 50%;
+        figure {
+            display: flex;
+            height: 100%;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+            
+        }
+        &--style1 {
+            figure {
+                height: 500px;
+            }
+        }
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        &__item {
+            height: 250px;
+            width: 50%;
+        }
+    }
+    &__img {
+        display: block;
+        &__item {
+            height: 250px;
+        }
     }
 }

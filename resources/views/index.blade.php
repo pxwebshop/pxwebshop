@@ -298,7 +298,7 @@
                 </div>
                 <h4 class="c-box2__tlt">Thấu hiểu khách hàng</h4>
                 <p class="c-box2__txt">Đội ngũ nhân
-                  viên giàu kinh nghiệm của MIKO TECH gặp gỡ khách hàng, lắng nghe ý tưởng thiết kế, thảo luận về tính năng mà bạn
+                  viên giàu kinh nghiệm của PxWebshop gặp gỡ khách hàng, lắng nghe ý tưởng thiết kế, thảo luận về tính năng mà bạn
                   mong muốn trong thiết kế web. Sau khi tư vấn giải pháp và tính năng phù hợp với mục đích và nhu cầu của bạn,
                   chúng tôi lên kế hoạch thiết kế.</p>
               </div>
@@ -311,7 +311,7 @@
                 <h4 class="c-box2__tlt">Ký kết và hợp tác</h4>
                 <p class="c-box2__txt">Để đảm bảo quyền lợi cho bạn,
                   chúng ta cùng nhau ghi nhận bằng văn bản
-                  pháp lý. Cái bắt tay nhỏ thể hiện tinh thần lớn, MIKO TECH sẽ là người đồng hành cùng bạn, giúp bạn xây dựng
+                  pháp lý. Cái bắt tay nhỏ thể hiện tinh thần lớn, PxWebshop sẽ là người đồng hành cùng bạn, giúp bạn xây dựng
                   giải pháp thiết kế website phù hợp và nâng tầm thương hiệu của bạn trên thị trường.</p>
               </div>
             </li>
@@ -369,6 +369,9 @@
           <h2 class="c-title2">
             <span class="c-title2__text">
               Các <span class="c-title2__color1">chứng chỉ</span> chuyên môn</span>
+            </span>
+            <span class="c-title2__text1">
+              Pxwebshop luôn học hỏi công nghệ mới để đem lại giá trị tốt nhất cho khách hàng
             </span>
           </h2>
 
@@ -534,6 +537,73 @@
             </li>
           </ul>
         </div>
+      </div>
+    </section>
+
+    <section class="p-home9 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+      <div class="c-box6">
+        <h2 class="c-title2">
+          <span class="c-title2__text">
+            <span class="c-title2__color1">Khoá đào tạo</span> nhân viên cấp cao</span>
+          </span>
+          <span class="c-title2__text1">
+            Doing...
+          </span>
+        </h2>
+        <ul class="c-box6__inner is-list2">
+          <li class="c-box6__item">
+            <ul class="c-box6__list">
+              <li class="c-box6__list__item">
+                <figure>
+                  <img src="{{ asset('images/img9.jpeg') }}" alt="" srcset="">
+                </figure>
+              </li>
+              <li class="c-box6__list__item">
+                <figure>
+                  <img src="{{ asset('images/img11.jpeg') }}" alt="" srcset="">
+                </figure>
+              </li>
+            </ul>
+            <div class="c-box6__img">
+              <div class="c-box6__img__item">
+                <figure>
+                  <img src="{{ asset('images/img10.jpeg') }}" alt="" srcset="">
+                </figure>
+              </div>
+            </div>
+          </li>
+          <li class="c-box6__item c-box6__item--style1">
+            <figure>
+              <img src="{{ asset('images/img12.jpeg') }}" alt="" srcset="">
+            </figure>
+          </li>
+          <li class="c-box6__item">
+            <ul class="c-box6__list">
+              <li class="c-box6__list__item">
+                <figure>
+                  <img src="{{ asset('images/img14.jpeg') }}" alt="" srcset="">
+                </figure>
+              </li>
+              <li class="c-box6__list__item">
+                <figure>
+                  <img src="{{ asset('images/img15.jpeg') }}" alt="" srcset="">
+                </figure>
+              </li>
+            </ul>
+            <div class="c-box6__img">
+              <div class="c-box6__img__item">
+                <figure>
+                  <img src="{{ asset('images/img16.jpeg') }}" alt="" srcset="">
+                </figure>
+              </div>
+            </div>
+          </li>
+          <li class="c-box6__item c-box6__item--style1">
+            <figure>
+              <img src="{{ asset('images/img13.jpeg') }}" alt="" srcset="">
+            </figure>
+          </li>
+        </ul>
       </div>
     </section>
 </main>

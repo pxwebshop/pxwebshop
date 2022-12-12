@@ -57,7 +57,10 @@ Page Top
     }
     &8 {
         padding-top: 70px;
-        background-image: radial-gradient(at center center, rgb(50, 255, 198) 0%, rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
+        background-image: radial-gradient(at center center, rgba(29, 188, 144, 0.8), rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
         padding-bottom: 50px;
+    }
+    &9 {
+        padding-top: 80px;
     }
 }

@@ -29,7 +29,17 @@ $(document).ready(function() {
 		autoplay: true,
 		arrows: false,
 	});
-	
+
+	$('.is-list2').slick({
+		dots: false,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		autoplay: true,
+		arrows: false,
+	});
+
 	$('.c-box3__question').click(function() {
 		$(this).next().slideToggle();
 		if ($(this).hasClass('is-active')) {

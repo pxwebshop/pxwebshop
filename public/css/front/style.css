@@ -840,7 +840,7 @@ other
 }
 .c-box3__txt {
   font-size: 1.7rem;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 .c-box3 figure {
   display: block;
@@ -922,6 +922,41 @@ other
   padding: 0 10px;
 }
 
+.c-box6__inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.c-box6__item {
+  width: 50%;
+}
+.c-box6__item figure {
+  display: flex;
+  height: 100%;
+}
+.c-box6__item figure img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.c-box6__item--style1 figure {
+  height: 500px;
+}
+.c-box6__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.c-box6__list__item {
+  height: 250px;
+  width: 50%;
+}
+.c-box6__img {
+  display: block;
+}
+.c-box6__img__item {
+  height: 250px;
+}
+
 /*------------------------------------------------------------
 Page Top
 ------------------------------------------------------------*/
@@ -979,6 +1014,9 @@ Page Top
 }
 .p-home8 {
   padding-top: 70px;
-  background-image: radial-gradient(at center center, rgb(50, 255, 198) 0%, rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
+  background-image: radial-gradient(at center center, rgba(29, 188, 144, 0.8), rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
   padding-bottom: 50px;
+}
+.p-home9 {
+  padding-top: 80px;
 }
