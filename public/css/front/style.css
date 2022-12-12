@@ -874,7 +874,7 @@ other
 .c-box4__inner {
   background-color: rgba(255, 255, 255, 0.1490196078);
   border-radius: 15px;
-  padding: 20px;
+  padding: 40px 20px;
 }
 .c-box4__icon {
   margin: auto;
@@ -886,7 +886,7 @@ other
 .c-box4__tlt {
   text-align: center;
   font-size: 2rem;
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
   text-transform: capitalize;
   position: relative;
 }
@@ -958,8 +958,10 @@ Page Top
 }
 .p-home7 {
   padding-top: 80px;
+  margin-bottom: 70px;
 }
 .p-home8 {
-  padding-top: 80px;
+  padding-top: 70px;
   background-image: radial-gradient(at center center, rgb(50, 255, 198) 0%, rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
+  padding-bottom: 50px;
 }

@@ -459,7 +459,7 @@
                 <p class="c-box4__icon">
                   <i aria-hidden="true" class="far fa-clock"></i>
                 </p>
-                <h5 class="c-box4__tlt">Hỗ trợ tận tình</h5>
+                <h5 class="c-box4__tlt">Xử lý lỗi nhanh​</h5>
                 <p class="c-box4__txt">
                   Hỗ trợ xử lý mọi vấn đề liên quan đến hệ thống nhanh nhất có thể.
                 </p>
@@ -470,7 +470,7 @@
                 <p class="c-box4__icon">
                   <i aria-hidden="true" class="fas fa-headset"></i>
                 </p>
-                <h5 class="c-box4__tlt">Hỗ trợ tận tình</h5>
+                <h5 class="c-box4__tlt">Tư vấn​</h5>
                 <p class="c-box4__txt">
                   Hỗ trợ tư vấn kinh nghiệm, xử lý vấn đề trong quá trình sử dụng.​
                 </p>
@@ -481,9 +481,9 @@
                 <p class="c-box4__icon">
                   <i aria-hidden="true" class="far fa-check-square"></i>
                 </p>
-                <h5 class="c-box4__tlt">Hỗ trợ tận tình</h5>
+                <h5 class="c-box4__tlt">Cam kết chính chủ​​</h5>
                 <p class="c-box4__txt">
-                  Cam kết độc quyền cung cấp & sở hữu hợp pháp hệ thống.
+                  Cam kết độc quyền cung cấp & sở hữu hợp pháp website.
                 </p>
               </div>
             </li>

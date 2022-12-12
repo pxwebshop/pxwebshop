@@ -203,7 +203,7 @@ other
     &__inner {
         background-color: #FFFFFF26;
         border-radius: 15px;
-        padding: 20px;
+        padding: 40px 20px;
     }
     &__icon {
         margin: auto;
@@ -215,7 +215,7 @@ other
     &__tlt {
         text-align: center;
         font-size: 2.0rem;
-        margin: 10px 0;
+        margin: 10px 0 20px 0;
         text-transform: capitalize;
         position: relative;
         &:after {
