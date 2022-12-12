@@ -535,8 +535,8 @@ list
 .c-list2__txt {
   font-size: 1.6rem;
   font-style: italic;
-  font-weight: 400;
-  letter-spacing: 0.2px;
+  font-weight: 300;
+  text-align: center;
 }
 .c-list2__tlt {
   font-size: 2.3rem;
@@ -903,6 +903,23 @@ other
 .c-box4__txt {
   line-height: 1.3;
   font-size: 1.7rem;
+}
+
+.c-box5 {
+  margin-top: 70px;
+  background-color: #fff;
+  padding: 40px 10px;
+  border-radius: 20px;
+}
+.c-box5__content {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.c-box5__item {
+  width: 20%;
+  padding: 0 10px;
 }
 
 /*------------------------------------------------------------

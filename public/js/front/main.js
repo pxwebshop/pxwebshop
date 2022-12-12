@@ -20,6 +20,16 @@ $(document).ready(function() {
 		autoplay: true,
 	});
 
+	$('.is-list1').slick({
+		dots: false,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		autoplay: true,
+		arrows: false,
+	});
+	
 	$('.c-box3__question').click(function() {
 		$(this).next().slideToggle();
 		if ($(this).hasClass('is-active')) {

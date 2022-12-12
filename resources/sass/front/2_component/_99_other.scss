@@ -234,3 +234,21 @@ other
         font-size: 1.7rem;
     }
 }
+
+// ------------------------------------------------------------*/
+.c-box5 {
+    margin-top: 70px;
+    background-color: #fff;
+    padding: 40px 10px;
+    border-radius: 20px;
+    &__content {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 20%;
+        padding: 0 10px;
+    }
+}

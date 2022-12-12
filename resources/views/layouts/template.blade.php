@@ -10,7 +10,7 @@
 	<link href="{{ asset('css/front/slick/slick.css')}}" rel="stylesheet" media="all">
 	<link href="{{ asset('css/front/slick/slick-theme.css')}}" rel="stylesheet" media="all">
 
-	<link href="{{ asset('css/front/aos.css')}}" rel="stylesheet">
+	{{-- <link href="{{ asset('css/front/aos.css')}}" rel="stylesheet"> --}}
 
 	<link rel="stylesheet" href="{{ asset('css/front/animate.min.css')}}">
 
@@ -42,7 +42,9 @@
     
 	<script src="{{ asset('js/front/fontawesome.js')}}" crossorigin="anonymous"></script>
 
-	<script src="{{ asset('js/front/aos.js')}}"></script>
+	{{-- <script src="{{ asset('js/front/aos.js')}}"></script> --}}
+
+    <script> new WOW().init(); </script>
 </body>
 
 </html>

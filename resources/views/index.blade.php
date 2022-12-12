@@ -5,7 +5,7 @@
 <main class="p-home">
     <section class="p-home1">
       <div class="l-container">
-        <ul class="c-list1">
+        <ul class="c-list1 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <li class="c-list1__item">
             <h2 class="c-title1">Thiết kế web chuẩn seo.<br/>
               <span class="c-title1__txt">Dẫn đầu</span>
@@ -38,7 +38,7 @@
  
     <section class="p-home2">
       <div class="l-container">
-        <ul class="c-box1">
+        <ul class="c-box1 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <li class="c-box1__item">
             <div class="c-box1__inner">
               <div class="c-box1__icon">
@@ -69,7 +69,7 @@
 
     <section class="p-home3">
       <div class="l-container">
-        <div class="c-box2">
+        <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
               Dịch vụ <span class="c-title2__color1">nổi bật</span> của <span class="c-title2__color1">Pxwebshop</span>
@@ -113,7 +113,7 @@
     </section>
 
     <section class="p-home4">
-      <div class="c-slider">
+      <div class="c-slider wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
         <h2 class="c-title2">
           <span class="c-title2__text">
             Kho <span class="c-title2__color1">giao diện</span> website</span>
@@ -159,7 +159,7 @@
 
     <section class="p-home5">
       <div class="l-container">
-        <div class="c-list2">
+        <div class="c-list2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
               Bảng giá dịch vụ <span class="c-title2__color1">thiết kế website</span> tại Pxwebshop</span>
@@ -280,7 +280,7 @@
 
     <section class="p-home6">
       <div class="l-container">
-        <div class="c-box2">
+        <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
               Các bước hình thành website  <span class="c-title2__color1">chuyên nghiệp tại pxwebshop</span></span>
@@ -365,7 +365,7 @@
 
     <section class="p-home7">
       <div class="l-container">
-        <div class="c-box3">
+        <div class="c-box3 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
               Các <span class="c-title2__color1">chứng chỉ</span> chuyên môn</span>
@@ -433,7 +433,7 @@
       </div>
     </section>
 
-    <section class="p-home8">
+    <section class="p-home8 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
       <div class="l-container">
         <div class="c-box4">
           <h2 class="c-title2">
@@ -486,6 +486,51 @@
                   Cam kết độc quyền cung cấp & sở hữu hợp pháp website.
                 </p>
               </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="c-box5">
+          <h2 class="c-title2">
+            <span class="c-title2__text">
+              <span class="c-title2__color1">Đối tác</span> tiêu biểu đã tin dùng</span>
+            </span>
+          </h2>
+          <ul class="c-box5__content is-list1">
+            <li class="c-box5__item">
+              <figure>
+                <img src="{{ asset('images/img1.png') }}" alt="" srcset="">
+              </figure>
+            </li>
+            <li class="c-box5__item">
+              <figure>
+                <img src="{{ asset('images/img2.png') }}" alt="" srcset="">
+              </figure>
+            </li>
+            <li class="c-box5__item">
+              <figure>
+                <img src="{{ asset('images/img3.png') }}" alt="" srcset="">
+              </figure>
+            </li>
+            <li class="c-box5__item">
+              <figure>
+                <img src="{{ asset('images/img4.png') }}" alt="" srcset="">
+              </figure>
+            </li>
+            <li class="c-box5__item">
+              <figure>
+                <img src="{{ asset('images/img5.png') }}" alt="" srcset="">
+              </figure>
+            </li>
+            <li class="c-box5__item">
+              <figure>
+                <img src="{{ asset('images/img6.png') }}" alt="" srcset="">
+              </figure>
+            </li>
+            <li class="c-box5__item">
+              <figure>
+                <img src="{{ asset('images/img7.png') }}" alt="" srcset="">
+              </figure>
             </li>
           </ul>
         </div>
