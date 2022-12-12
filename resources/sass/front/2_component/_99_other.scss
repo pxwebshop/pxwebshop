@@ -256,6 +256,9 @@ other
 // ------------------------------------------------------------*/
 .c-box6 {
     $root:&;
+    max-width: 3000px;
+    width: 100%;
+    margin: auto;
     &__inner {
         display: flex;
         flex-wrap: wrap;

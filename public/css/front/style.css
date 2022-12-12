@@ -922,6 +922,11 @@ other
   padding: 0 10px;
 }
 
+.c-box6 {
+  max-width: 3000px;
+  width: 100%;
+  margin: auto;
+}
 .c-box6__inner {
   display: flex;
   flex-wrap: wrap;

@@ -33,11 +33,16 @@ $(document).ready(function() {
 	$('.is-list2').slick({
 		dots: false,
 		infinite: true,
-		speed: 300,
+		speed: 800,
 		slidesToShow: 2,
 		slidesToScroll: 1,
 		autoplay: true,
 		arrows: false,
+		pauseOnFocus: false,
+        pauseOnHover: false,
+        pauseOnDotsHover: false,
+		draggable: false,
+		autoplaySpeed: 3000,
 	});
 
 	$('.c-box3__question').click(function() {
