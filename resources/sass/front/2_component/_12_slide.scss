@@ -15,7 +15,7 @@ video
         margin: 40px auto;
     }
     &__item {
-        width: 25%;
+        width: 33.33%;
         padding-left: 30px;
     }
 
@@ -32,5 +32,11 @@ video
     }
     .slick-next {
         right: 55px;
+    }
+    figure {
+        display: block;
+        img {
+            width: 100%;
+        }
     }
 }

@@ -12,3 +12,98 @@ list
         padding-left: 50px;
     }
 }
+
+// ------------------------------------------------------------*/
+.c-list2 {
+    $root:&;
+    &__price {
+
+    }
+    &__body {
+        padding: 10px 20px;
+    }
+    &__inner {
+        margin-left: -30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    &__item {
+        width: 33.33%;
+        padding-left: 30px;
+        &:nth-child(2) {
+            #{$root}__heading {
+                background: linear-gradient(90deg, rgba(255,50,188,1) 0%, rgba(194,50,255,1) 51%, rgba(232,63,66,1) 100%);
+            }
+        }
+        &:last-child {
+            #{$root}__heading {
+                background: linear-gradient(90deg, rgba(71,178,233,1) 0%, rgba(50,140,255,1) 48%, rgba(34,28,237,1) 100%);
+            }
+        }
+    }
+    &__box {
+      margin-top: 20px;
+    }
+    &__txt {
+        font-size: 1.6rem;
+        font-style: italic;
+    }
+    &__tlt {
+        font-size: 2.3rem;
+        line-height: 1.3;
+        text-align: center;
+        span {
+            display: block;
+            font-size: 2.6rem;
+            line-height: 1.3;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+    &__boxItem {
+        font-size: 1.6rem;
+        display: flex;
+        align-items: baseline;
+        line-height: 1.5;
+        .fa-star {
+            margin-right: 8px;
+            color: #e4dd6a;
+        }
+        &:not(:first-child) {
+            margin-top: 13px;
+        }
+    }
+    &__price {
+        font-size: 3.0rem;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.3;
+        position: relative;
+        margin-top: 30px;
+        &::before {
+            content: "";
+            display: block;
+            width: 65%;
+            height: 5px;
+            border-radius: 20px;
+            background-color: #fff;
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+    }
+    &__heading {
+        padding: 20px;
+        color: #fff;
+        background: linear-gradient(90deg, rgba(255,156,50,1) 0%, rgba(187,50,255,1) 51%, rgba(63,89,232,1) 100%);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    &__wrap {
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}

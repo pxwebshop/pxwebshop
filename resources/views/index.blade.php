@@ -156,5 +156,95 @@
         </div>
       </div>
     </section>
+
+    <section class="p-home5">
+      <div class="l-container">
+        <div class="c-list2">
+          <h2 class="c-title2">
+            <span class="c-title2__text">
+              Bảng giá dịch vụ <span class="c-title2__color1">thiết kế website</span> tại Pxwebshop</span>
+            </span>
+            <span class="c-title2__text1">
+              Giá thiết kế website trọn gói được Pxwebshop công khai rõ ràng và minh bạch. Tuỳ theo mục đích và lĩnh vực<br/>
+              kinh doanh mà khách hàng lựa chọn gói phù hợp
+            </span>
+          </h2>
+          <ul class="c-list2__inner">
+            <li class="c-list2__item">
+              <div class="c-list2__wrap">
+                <div class="c-list2__heading">
+                  <h4 class="c-list2__tlt">Gói dịch vụ thiết kế web
+                    <span>cơ bản</span>
+                  </h4>
+                  <p class="c-list2__price">24,999,000 VNĐ</p>
+                </div>
+                <div class="c-list2__body">
+                  <p class="c-list2__txt">Phù hợp với các website dạng Landing Page, website tin tức, website giới thiệu doanh nghiệp,... với đầy đủ các tính năng cần thiết ở một trang web chuẩn SEO.</p>
+                  <ul class="c-list2__box">
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Mã nguồn: Pxwebshop Core</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Ngôn ngữngữ: Code PHP thuần 100%</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Framework (nếu khách hàng yêu cầu): Laravel</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Giao diện: Thiết kế giao diện theo mẫu có sẵn **</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bàn giao: Toàn bộ mã nguồn</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo hành: Vĩnh viễn</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo trì: 1 Năm</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Băng thông: Không giới hạn</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo mật: Tuyệt đối</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="c-list2__item">
+              <div class="c-list2__wrap">
+                <div class="c-list2__heading">
+                  <h4 class="c-list2__tlt">Gói dịch vụ thiết kế web
+                    <span>cao cấp</span>
+                  </h4>
+                  <p class="c-list2__price">24,999,000 VNĐ</p>
+                </div>
+                <div class="c-list2__body">
+                  <p class="c-list2__txt">Phù hợp với các website dạng Landing Page, website tin tức, website giới thiệu doanh nghiệp,... với đầy đủ các tính năng cần thiết ở một trang web chuẩn SEO.</p>
+                  <ul class="c-list2__box">
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Mã nguồn: Pxwebshop Core</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Ngôn ngữngữ: Code PHP thuần 100%</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Framework (nếu khách hàng yêu cầu): Laravel</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Giao diện: Thiết kế giao diện theo mẫu có sẵn **</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bàn giao: Toàn bộ mã nguồn</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo hành: Vĩnh viễn</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo trì: 1 Năm</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Băng thông: Không giới hạn</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo mật: Tuyệt đối</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="c-list2__item">
+              <div class="c-list2__wrap">
+                <div class="c-list2__heading">
+                  <h4 class="c-list2__tlt">Gói dịch vụ thiết kế web
+                    <span>chuyên nghiệp</span>
+                  </h4>
+                  <p class="c-list2__price">24,999,000 VNĐ</p>
+                </div>
+                <div class="c-list2__body">
+                  <p class="c-list2__txt">Phù hợp với các website dạng Landing Page, website tin tức, website giới thiệu doanh nghiệp,... với đầy đủ các tính năng cần thiết ở một trang web chuẩn SEO.</p>
+                  <ul class="c-list2__box">
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Mã nguồn: Pxwebshop Core</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Ngôn ngữngữ: Code PHP thuần 100%</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Framework (nếu khách hàng yêu cầu): Laravel</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Giao diện: Thiết kế giao diện theo mẫu có sẵn **</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bàn giao: Toàn bộ mã nguồn</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo hành: Vĩnh viễn</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo trì: 1 Năm</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Băng thông: Không giới hạn</li>
+                    <li class="c-list2__boxItem"><span class="fa fa-star"></span> Bảo mật: Tuyệt đối</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 </main>
 @endsection
