@@ -570,7 +570,14 @@ list
 }
 .c-list2__wrap {
   border-radius: 10px;
+  transition: transform 0.2s;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .c-list2__wrap:hover {
+    transform: scale(1.03) translateY(-10px);
+  }
 }
 
 /*------------------------------------------------------------
