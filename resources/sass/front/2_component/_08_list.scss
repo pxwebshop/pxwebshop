@@ -20,7 +20,7 @@ list
 
     }
     &__body {
-        padding: 10px 20px 40px 20px;
+        padding: 10px 20px 80px 20px;
     }
     &__inner {
         margin-left: -30px;
@@ -96,7 +96,9 @@ list
         }
     }
     &__heading {
-        padding: 20px;
+        overflow: hidden;
+        position: relative;
+        padding: 30px 40px 20px 40px;
         color: #fff;
         background: linear-gradient(90deg, rgba(255,156,50,1) 0%, rgba(187,50,255,1) 51%, rgba(63,89,232,1) 100%);
         border-top-left-radius: 10px;
@@ -111,5 +113,21 @@ list
         @include hover() {
             transform: scale(1.03) translateY(-10px);
         }
+    }
+    &__hot {
+        font-size: 1.7rem;
+        font-weight: 500;
+        padding: 8px 30px;
+        transform: rotate(-43deg);
+        position: absolute;
+        top: 10px;
+        left: -31px;
+        line-height: 1;
+        font-weight: bold;
+        position: absolute;
+        text-transform: capitalize;
+        background-color: #ec3232;
+        color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 }

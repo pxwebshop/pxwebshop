@@ -197,7 +197,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 năm dùng hosting lên đến 3GB</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Không</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Đa ngôn ngữ: Không</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: không</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Không</li>
                   </ul>
                 </div>
                 <button class="c-btn1">Đăng Ký</button>
@@ -209,7 +209,8 @@
                   <h4 class="c-list2__tlt">Gói dịch vụ thiết kế web
                     <span>cao cấp</span>
                   </h4>
-                  <p class="c-list2__price">24,999,000 VNĐ</p>
+                  <p class="c-list2__price">39,999,000 VNĐ</p>
+                  <p class="c-list2__hot">nổi bật</p>
                 </div>
                 <div class="c-list2__body">
                   <p class="c-list2__txt">Phù hợp với các website bán hàng, website thương mại nhỏ, website bất động sản, web nông nghiệp,... với đầy đủ các tính năng cao cấp về đặt hàng, thanh toán.</p>
@@ -242,7 +243,7 @@
                   <h4 class="c-list2__tlt">Gói dịch vụ thiết kế web
                     <span>chuyên nghiệp</span>
                   </h4>
-                  <p class="c-list2__price">24,999,000 VNĐ</p>
+                  <p class="c-list2__price">LIÊN HỆ (VIP)</p>
                 </div>
                 <div class="c-list2__body">
                   <p class="c-list2__txt">Phù hợp với các website thương mại điện tử lớn, website có thuật toán thoạt toán truy xuất khó (phong thuỷ, toán học,...), website có traffic cao, cần độ bảo mật và SEO cao cấp.</p>
