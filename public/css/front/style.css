@@ -774,14 +774,12 @@ video
 }
 .c-slider__btnWrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: absolute;
   transform: translate(-50%, 0);
   top: 50%;
   left: 50%;
   z-index: 999;
-  max-width: 240px;
-  width: 100%;
 }
 .c-slider__btn {
   color: #fff;
@@ -1122,7 +1120,7 @@ other
      object-fit: cover;
 }
 .c-box6__item--style1 figure {
-  height: 500px;
+  height: 570px;
 }
 .c-box6__list {
   display: flex;
@@ -1136,7 +1134,7 @@ other
   display: block;
 }
 .c-box6__img__item {
-  height: 250px;
+  height: 320px;
 }
 
 /*------------------------------------------------------------

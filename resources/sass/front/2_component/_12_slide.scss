@@ -49,14 +49,12 @@ video
     }
     &__btnWrap {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         position: absolute;
         transform: translate(-50%, 0);
         top: 50%;
         left: 50%;
         z-index: 999;
-        max-width: 240px;
-        width: 100%;
     }
     &__btn {
         color: #fff;

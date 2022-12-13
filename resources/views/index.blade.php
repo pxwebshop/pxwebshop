@@ -139,7 +139,6 @@
               </figure>
               <div class="c-slider__btnWrap">
                 <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
-                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
               </div>
             </div>
           </div>
@@ -150,7 +149,6 @@
               </figure>
               <div class="c-slider__btnWrap">
                 <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
-                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
               </div>
             </div>
           </div>
@@ -161,7 +159,6 @@
               </figure>
               <div class="c-slider__btnWrap">
                 <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
-                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
               </div>
             </div>
           </div>
@@ -172,7 +169,6 @@
               </figure>
               <div class="c-slider__btnWrap">
                 <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
-                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
               </div>
             </div>
           </div>
@@ -183,7 +179,6 @@
               </figure>
               <div class="c-slider__btnWrap">
                 <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
-                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
               </div>
             </div>
           </div>
@@ -194,7 +189,6 @@
               </figure>
               <div class="c-slider__btnWrap">
                 <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
-                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
               </div>
             </div>
           </div>
