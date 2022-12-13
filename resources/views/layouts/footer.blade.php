@@ -5,8 +5,8 @@
                 <div class="c-footer__item">
                     <h5 class="c-footer__tlt">CÔNG TY TNHH TMĐT CÔNG NGHỆ PXWEBSHOP</h5>
                     <address>
-                        <span>VP Miền Nam: Doing</span>
-                        <span>VP Miền Trung: Doing</span>
+                        <span>VP tại Lào: Doing</span>
+                        <span>VP tại Việt Nam: 150 Huỳnh Tần Phát, Tân Thuận Đông, Quận 7, Thành Phố Hồ Chí Minh</span>
                     </address>
                     <figure class="c-footer__logo">
                         <img src="https://placehold.jp/280x120.png" alt="" srcset="">
