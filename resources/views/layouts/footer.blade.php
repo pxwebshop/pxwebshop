@@ -5,8 +5,8 @@
                 <div class="c-footer__item">
                     <h5 class="c-footer__tlt">CÔNG TY TNHH TMĐT CÔNG NGHỆ PXWEBSHOP</h5>
                     <address>
-                        <span>VP tại Lào: Doing</span>
-                        <span>VP tại Việt Nam: 150 Huỳnh Tần Phát, Tân Thuận Đông, Quận 7, Thành Phố Hồ Chí Minh</span>
+                        <span><i class="fa-solid fa-location-dot"></i> VP tại Lào: ບ້ານ ຂາມງອຍ,​ ເມືອງ ໄຊເສດຖາ, ນະຄອນຫຼວງວຽງຈັນ</span>
+                        <span><i class="fa-solid fa-location-dot"></i> VP tại Việt Nam: 150 Huỳnh Tần Phát, Tân Thuận Đông, Quận 7, Thành Phố Hồ Chí Minh</span>
                     </address>
                     <figure class="c-footer__logo">
                         <img src="https://placehold.jp/280x120.png" alt="" srcset="">
@@ -20,9 +20,9 @@
                             <span class="c-footer__item1__txt">pxwebshop@gmail.com</span>
                         </li>
                         <li class="c-footer__item1">
-                            <span class="c-footer__item1__tlt">Hotline/Zalo:</span>
+                            <span class="c-footer__item1__tlt">Hotline:</span>
                             <span class="c-footer__item1__txt">
-                                <a href="tel:+4733378901">+47 333 78 901 </a>
+                                <a href="tel:+02028266650">020 28266650 </a>
                             </span>
                         </li>
                         <li class="c-footer__item1">
