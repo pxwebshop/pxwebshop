@@ -26,6 +26,7 @@ $(document).ready(function() {
 		slidesToScroll: 3,
 		autoplay: false,
 		autoplaySpeed: 2000,
+		arrows: false,
 	});
 
 	$('.is-list1').slick({
