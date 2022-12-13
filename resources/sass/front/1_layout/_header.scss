@@ -3,7 +3,6 @@ header
 ------------------------------------------------------------*/
 .c-header {
     $root: &;
-    position: sticky;
     top: 0;
     z-index: 999;
     background: linear-gradient(90deg, rgba(50,255,198,1) 0%, rgba(50,154,255,1) 45%, rgba(63,140,232,1) 100%);
@@ -12,8 +11,11 @@ header
         justify-content: space-between;
         align-items: center;
     }
-    &__nav {
-        
+    &.fixed {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1;
     }
     &__list {
         display: flex;

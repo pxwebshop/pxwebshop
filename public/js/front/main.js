@@ -62,5 +62,18 @@ $(document).ready(function() {
 			$(this).addClass('is-active')
 		}
 	});
+
+	var btn = $('.c-slider__btn');
+	btn.on('click', function() {
+		$($(this).data('modal')).modal({ fadeDuration: 250 });
+		return false;
+	});
 });
-	
+
+$(window).scroll(function(){
+	if ($(this).scrollTop() > 120) {
+		$('.c-header').addClass('fixed');
+	} else {
+		$('.c-header').removeClass('fixed');
+	}
+});

@@ -138,7 +138,16 @@
                 <img src="https://congtyducduong.com/thiet-ke-website-gia-re-nhat-tren-thi-truong/banners/web-hoa/anh-web-lon-1.jpg" alt="">
               </figure>
               <div class="c-slider__btnWrap">
-                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a data-modal="#modal1" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div id="modal1" class="c-slider__modal is-modal">
+                <div class="c-slider__modal__overlay c-slider__modal__toggle">
+                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
+                    <figure>
+                      <img src="https://congtyducduong.com/thiet-ke-website-gia-re-nhat-tren-thi-truong/banners/web-hoa/anh-web-lon-1.jpg" alt="">
+                    </figure>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -193,6 +202,8 @@
             </div>
           </div>
         </div>
+
+        
       </div>
     </section>
 

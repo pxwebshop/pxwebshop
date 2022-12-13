@@ -376,8 +376,6 @@ side
 header
 ------------------------------------------------------------*/
 .c-header {
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   z-index: 999;
   background: linear-gradient(90deg, rgb(50, 255, 198) 0%, rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
@@ -386,6 +384,12 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.c-header.fixed {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 .c-header__list {
   display: flex;
@@ -792,6 +796,13 @@ video
   font-weight: 600;
   opacity: 0;
   text-transform: capitalize;
+}
+.c-slider__modal {
+  max-width: 95vw !important;
+  display: none;
+}
+.c-slider__modal figure {
+  height: auto !important;
 }
 .c-slider .slick-arrow {
   z-index: 10;

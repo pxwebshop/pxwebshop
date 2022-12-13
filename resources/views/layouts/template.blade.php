@@ -16,15 +16,14 @@
 
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 
 <body>
 
     @include('layouts.header')
 
-
     @yield('content')
-
 
     @include('layouts.footer')
 
@@ -42,7 +41,7 @@
     
 	<script src="{{ asset('js/front/fontawesome.js')}}" crossorigin="anonymous"></script>
 
-	{{-- <script src="{{ asset('js/front/aos.js')}}"></script> --}}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 
     <script> new WOW().init(); </script>
 </body>
