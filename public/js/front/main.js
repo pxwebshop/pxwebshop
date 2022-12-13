@@ -19,11 +19,11 @@ $(document).ready(function() {
 	});
 
 	$('.c-slider__list').slick({
-		dots: false,
+		dots: true,
 		infinite: true,
 		speed: 700,
 		slidesToShow: 3,
-		slidesToScroll: 1,
+		slidesToScroll: 3,
 		autoplay: false,
 		autoplaySpeed: 2000,
 	});

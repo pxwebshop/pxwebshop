@@ -17,6 +17,11 @@ video
     &__item {
         width: 33.33%;
         padding-left: 30px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    &__inner {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
 
     .slick-arrow {
@@ -33,8 +38,25 @@ video
     .slick-next {
         right: 55px;
     }
+    .slick-dots li {
+        button {
+            padding: 0;
+            &:before {
+                font-size: 1.0rem;
+            }
+        }
+    }
     figure {
+        &::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 20px;
+            background: url('/images/img-safari.png') no-repeat left top;
+            background-size: cover;
+        }
         display: block;
+        height: 500px;
         img {
             width: 100%;
         }

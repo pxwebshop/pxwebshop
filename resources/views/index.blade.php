@@ -133,34 +133,46 @@
         </h2>
         <div class="c-slider__list">
           <div class="c-slider__item">
-            <figure>
-              <img src="https://placehold.jp/400x500.png" alt="">
-            </figure>
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://congtyducduong.com/thiet-ke-website-gia-re-nhat-tren-thi-truong/banners/web-hoa/anh-web-lon-1.jpg" alt="">
+              </figure>
+            </div>
           </div>
           <div class="c-slider__item">
-            <figure>
-              <img src="https://placehold.jp/400x500.png" alt="">
-            </figure>
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://placehold.jp/400x500.png" alt="">
+              </figure>
+            </div>
           </div>
           <div class="c-slider__item">
-            <figure>
-              <img src="https://placehold.jp/400x500.png" alt="">
-            </figure>
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://placehold.jp/400x500.png" alt="">
+              </figure>
+            </div>
           </div>
           <div class="c-slider__item">
-            <figure>
-              <img src="https://placehold.jp/400x500.png" alt="">
-            </figure>
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://placehold.jp/400x500.png" alt="">
+              </figure>
+            </div>
           </div>
           <div class="c-slider__item">
-            <figure>
-              <img src="https://placehold.jp/400x500.png" alt="">
-            </figure>
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://placehold.jp/400x500.png" alt="">
+              </figure>
+            </div>
           </div>
           <div class="c-slider__item">
-            <figure>
-              <img src="https://placehold.jp/400x500.png" alt="">
-            </figure>
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://placehold.jp/400x500.png" alt="">
+              </figure>
+            </div>
           </div>
         </div>
       </div>
