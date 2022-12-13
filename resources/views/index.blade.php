@@ -141,13 +141,9 @@
                 <a data-modal="#modal1" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
               <div id="modal1" class="c-slider__modal is-modal">
-                <div class="c-slider__modal__overlay c-slider__modal__toggle">
-                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
-                    <figure>
-                      <img src="{{ asset('images/store-web/img1.png') }}" alt="">
-                    </figure>
-                  </div>
-                </div>
+                <figure>
+                  {{-- <img src="{{ asset('images/store-web/img1.png') }}" alt=""> --}}
+                </figure>
               </div>
             </div>
           </div>
@@ -160,13 +156,9 @@
                 <a data-modal="#modal2" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
               <div id="modal2" class="c-slider__modal is-modal">
-                <div class="c-slider__modal__overlay c-slider__modal__toggle">
-                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
-                    <figure>
-                      <img src="{{ asset('images/store-web/img2.png') }}" alt="">
-                    </figure>
-                  </div>
-                </div>
+                <figure>
+                  {{-- <img src="{{ asset('images/store-web/img2.png') }}" alt=""> --}}
+                </figure>
               </div>
             </div>
           </div>
@@ -179,13 +171,9 @@
                 <a data-modal="#modal3" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
               <div id="modal3" class="c-slider__modal is-modal">
-                <div class="c-slider__modal__overlay c-slider__modal__toggle">
-                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
-                    <figure>
-                      <img src="{{ asset('images/store-web/img3.png') }}" alt="">
-                    </figure>
-                  </div>
-                </div>
+                <figure>
+                  {{-- <img src="{{ asset('images/store-web/img3.png') }}" alt=""> --}}
+                </figure>
               </div>
             </div>
           </div>
@@ -198,13 +186,9 @@
                 <a data-modal="#modal4" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
               <div id="modal4" class="c-slider__modal is-modal">
-                <div class="c-slider__modal__overlay c-slider__modal__toggle">
-                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
-                    <figure>
-                      <img src="{{ asset('images/store-web/img4.png') }}" alt="">
-                    </figure>
-                  </div>
-                </div>
+                <figure>
+                  {{-- <img src="{{ asset('images/store-web/img4.png') }}" alt=""> --}}
+                </figure>
               </div>
             </div>
           </div>
@@ -217,13 +201,9 @@
                 <a data-modal="#modal5" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
               <div id="modal5" class="c-slider__modal is-modal">
-                <div class="c-slider__modal__overlay c-slider__modal__toggle">
-                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
-                    <figure>
-                      <img src="{{ asset('images/store-web/img5.png') }}" alt="">
-                    </figure>
-                  </div>
-                </div>
+                <figure>
+                  {{-- <img src="{{ asset('images/store-web/img5.png') }}" alt=""> --}}
+                </figure>
               </div>
             </div>
           </div>
@@ -236,13 +216,9 @@
                 <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
               <div id="modal5" class="c-slider__modal is-modal">
-                <div class="c-slider__modal__overlay c-slider__modal__toggle">
-                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
-                    <figure>
-                      <img src="{{ asset('images/store-web/img6.png') }}" alt="">
-                    </figure>
-                  </div>
-                </div>
+                <figure>
+                  {{-- <img src="{{ asset('images/store-web/img6.png') }}" alt=""> --}}
+                </figure>
               </div>
             </div>
           </div>

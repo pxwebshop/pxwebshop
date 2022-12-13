@@ -65,6 +65,11 @@ $(document).ready(function() {
 
 	var btn = $('.c-slider__btn');
 	btn.on('click', function() {
+		var img = $($(this).closest('.c-slider__inner').children().html());
+		var data = $($(this).closest('.c-slider__inner').find('.is-modal').get(0));
+	
+		$(data).html(img);
+
 		$($(this).data('modal')).modal({ fadeDuration: 250 });
 		return false;
 	});
