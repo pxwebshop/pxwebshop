@@ -32,11 +32,11 @@
                             </span>
                         </li>
                         <li class="c-footer__item1">
-                            <a class="c-footer__item1__link" href="#">
+                            <a class="c-footer__item1__link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pxwebshop">
                                 <span class="c-footer__icon">
                                     <i aria-hidden="true" class="fab fa-facebook"></i>
                                 </span>
-                                <span class="c-footer__icon__txt">Fanpage Pxwebshop</span>
+                                <span class="c-footer__icon__txt">Fanpage PXwebshop</span>
                             </a>
                         </li>
                     </div>

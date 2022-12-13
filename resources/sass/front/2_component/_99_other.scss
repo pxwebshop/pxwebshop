@@ -48,14 +48,15 @@ other
         line-height: 1.3;
     }
     &__btn {
-        padding: 10px 20px;
+        padding: 5px 20px;
         color: #ffff;
-        display: block;
         background-color: rgb(216, 47, 47);
         border-radius: 20px;
         border: none;
         font-size: 1.6rem;
         font-weight: 600;
+        display: inline-block;
+        text-decoration: none;
     }
 }
 
@@ -129,9 +130,23 @@ other
         font-size: 2.0rem;
         color: #1E1666;
         text-transform: capitalize;
+        position: relative;
+        &::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            #{$root}__list--style1 & {
+                content: normal;
+            }
+        }
     }
     &__txt {
         font-size: 1.7rem;
+        text-align: justify;
     }
 }
 

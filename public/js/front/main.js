@@ -1,4 +1,11 @@
 $(document).ready(function() {
+	$(".c-header__link").click(function(e) {
+		console.log(this);
+		e.preventDefault();
+		var aid = $(this).attr("href");
+		$('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+	});
+
 	$('.c-box2__item').matchHeight();
 	$('.c-list2__wrap').matchHeight();
 

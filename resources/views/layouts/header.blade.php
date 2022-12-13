@@ -6,19 +6,28 @@
         <nav class="c-header__nav">
             <ul class="c-header__list">
                 <li class="c-header__item">
-                    <a class="c-header__link" href="#">Trang chủ</a>
+                    <a class="c-header__link" href="#home">Trang chủ</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="#">Kho giao diện</a>
+                    <a class="c-header__link" href="#service">Dịch Vụ</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="#">Bài viết</a>
+                    <a class="c-header__link" href="#interface-warehouse">Kho giao diện</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="#">Về chúng tôi</a>
+                    <a class="c-header__link" href="#price-list">Bảng giá</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="#">Liên hệ</a>
+                    <a class="c-header__link" href="#procedure">Quy trình</a>
+                </li>
+                <li class="c-header__item">
+                    <a class="c-header__link" href="#certificate">Chứng chỉ</a>
+                </li>
+                <li class="c-header__item">
+                    <a class="c-header__link" href="#commit">Cam kết</a>
+                </li>
+                <li class="c-header__item">
+                    <a class="c-header__link" href="#train">Đào tạo</a>
                 </li>
             </ul>
         </nav>

@@ -3,7 +3,7 @@
 
 @section('content')
 <main class="p-home">
-    <section class="p-home1">
+    <section class="p-home1" id="home">
       <div class="l-container">
         <ul class="c-list1 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <li class="c-list1__item">
@@ -11,7 +11,7 @@
               <span class="c-title1__txt">Dẫn đầu</span>
               <span class="c-title1__color1">công nghệ</span>
             </h2>
-            <p class="c-title1__description">PXwebshop đi đầu trong lĩnh vực SEO và thiết kế website, thiết kế phần mềm, thiết kế hệ thống với hơn 6 năm kinh nghiệm và đội ngũ nhân viên chuyên nghiệp được đào tạo chuyên môn sâu.</p>
+            <p class="c-title1__description">PXwebshop đi đầu trong lĩnh vực SEO và thiết kế website, thiết kế phần mềm, thiết kế hệ thống với hơn 7 năm kinh nghiệm và đội ngũ nhân viên chuyên nghiệp được đào tạo chuyên môn sâu.</p>
           </li>
           <li class="c-list1__item">
             <figure>
@@ -47,7 +47,7 @@
               <div class="c-box1__info">
                 <h5 class="c-box1__tlt">Liên hệ WhatsApp</h5>
                 <p class="c-box1__txt">Trải nghiệm tương tác các tính năng của hệ thống, giá trị đem lại cho khách hàng khi sử dụng.</p>
-                <button class="c-box1__btn">Liên hệ ngay</button>
+                <a href="#" class="c-box1__btn">Liên hệ ngay</a>
               </div>
             </div>
           </li>
@@ -59,7 +59,7 @@
               <div class="c-box1__info">
                 <h5 class="c-box1__tlt">Tư vấn giải pháp</h5>
                 <p class="c-box1__txt">Hiểu rõ sản phẩm, hợp đồng của sản phẩm và lợi ích của khách hàng khi sử dụng.</p>
-                <button class="c-box1__btn"><i class="fa fa-phone"></i> 096.098.987</button>
+                <a class="c-box1__btn" href="tel:+02028266650"><i class="fa fa-phone"></i> 020 28266650</a>
               </div>
             </div>
           </li>
@@ -67,7 +67,7 @@
       </div>
     </section>
 
-    <section class="p-home3">
+    <section class="p-home3" id="service">
       <div class="l-container">
         <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
@@ -121,7 +121,7 @@
       </div>
     </section>
 
-    <section class="p-home4">
+    <section class="p-home4" id="interface-warehouse">
       <div class="c-slider wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
         <h2 class="c-title2">
           <span class="c-title2__text">
@@ -166,7 +166,7 @@
       </div>
     </section>
 
-    <section class="p-home5">
+    <section class="p-home5" id="price-list">
       <div class="l-container">
         <div class="c-list2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
@@ -288,7 +288,7 @@
     </section>
 
 
-    <section class="p-home6">
+    <section class="p-home6" id="procedure">
       <div class="l-container">
         <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
@@ -368,7 +368,7 @@
       </div>
     </section>
 
-    <section class="p-home7">
+    <section class="p-home7" id="certificate">
       <div class="l-container">
         <div class="c-box3 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
@@ -441,7 +441,7 @@
       </div>
     </section>
 
-    <section class="p-home8 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+    <section id="commit" class="p-home8 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
       <div class="l-container">
         <div class="c-box4">
           <h2 class="c-title2">
@@ -548,7 +548,7 @@
       </div>
     </section>
 
-    <section class="p-home9 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+    <section id="train" class="p-home9 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
       <div class="c-box6">
         <h2 class="c-title2">
           <span class="c-title2__text">
