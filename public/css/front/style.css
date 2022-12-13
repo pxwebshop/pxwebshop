@@ -1119,6 +1119,9 @@ Page Top
   background-image: radial-gradient(at center center, rgba(29, 188, 144, 0.8), rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
   padding-bottom: 50px;
 }
+.p-home8 .c-box4 .c-title2__text, .p-home8 .c-box4 .c-title2__text1 {
+  color: #fff;
+}
 .p-home9 {
   padding-top: 80px;
 }

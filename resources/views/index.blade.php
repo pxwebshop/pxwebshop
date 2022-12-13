@@ -86,7 +86,7 @@
                   <i class="fa fa-computer"></i>
                 </div>
                 <h4 class="c-box2__tlt">Dịch vụ thiết kế website</h4>
-                <p class="c-box2__txt">Dịch vụ thiết kế website sẽ đem lại nguồn thu khách hàng cho bạn và đem lại rất nhiều lợi ích cho doanh nghiệp của bạn.</p>
+                <p class="c-box2__txt">Với nhu cầu nguồn lực kinh doanh hiện nay PXwebshop luôn hướng đến tạo những website tốt nhất quảng báo cho doanh nghiệp và đem lại lợi nhuận tốt nhất.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -95,7 +95,7 @@
                   <i class="fa fa-network-wired"></i>
                 </div>
                 <h4 class="c-box2__tlt">Thiết kế hệ thống network</h4>
-                <p class="c-box2__txt">Hệ thống mạng sẽ đem lại cơ sở doanh nghiệp của bạn tiện lợi... doing</p>
+                <p class="c-box2__txt">Các doanh nghiệp còn hạn chết về network nên chúng tôi muốn cung cấp cho doanh nghiệp dịch vụ network để cho doanh nghiệp vận hành tốt nhất.. doing</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -103,8 +103,8 @@
                 <div class="c-box2__icon">
                   <i class="fa fa-computer"></i>
                 </div>
-                <h4 class="c-box2__tlt">Dịch vụ thiết kế logo, banner</h4>
-                <p class="c-box2__txt">Dịch vụ thiết kế logo, banner cho khách hàng không thể thiếu trong các doanh nghiệp.</p>
+                <h4 class="c-box2__tlt">Dịch vụ thiết kế logo,..</h4>
+                <p class="c-box2__txt">Dịch vụ thiết kế logo, banner..., với đội ngũ designer làm việc ở Bộ thông tin. Chúng tôi tự tin cung cấp sản phẩm tốt nhất đến các doanh nghiệp</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -113,7 +113,7 @@
                   <i class="fa-solid fa-code"></i>
                 </div>
                 <h4 class="c-box2__tlt">Xây dựng phần mềm</h4>
-                <p class="c-box2__txt">Phần mềm là thứ tất yếu trong việc quản trị của các doanh nghiệp, chắc chắn nó sẽ đem lại giá trị vô cùng lớn cho doanh ngiệp</p>
+                <p class="c-box2__txt">Chúng tôi chuyên phát triển phần mềm quản lý để giúp cho các doanh nghiệp vận hành tốt và đem lại lợi nhuận cao nhất.</p>
               </div>
             </li>
           </ul>
@@ -125,7 +125,7 @@
       <div class="c-slider wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
         <h2 class="c-title2">
           <span class="c-title2__text">
-            Kho <span class="c-title2__color1">giao diện</span> website</span>
+            Kho <span class="c-title2__color1">giao diện</span> website
           </span>
           <span class="c-title2__text1">
             Đa dạng các mẫu giao diện website thương mại điện tử, bán hàng, tin tức, giới <br/>thiệu mọi lĩnh vực cho bạn tham khảo.
@@ -171,7 +171,7 @@
         <div class="c-list2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              Bảng giá dịch vụ <span class="c-title2__color1">thiết kế website</span> tại Pxwebshop</span>
+              Bảng giá dịch vụ <span class="c-title2__color1">thiết kế website</span> tại Pxwebshop
             </span>
             <span class="c-title2__text1">
               Giá thiết kế website trọn gói được Pxwebshop công khai rõ ràng và minh bạch. Tuỳ theo mục đích và lĩnh vực<br/>
@@ -292,7 +292,7 @@
         <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              Các bước hình thành website  <span class="c-title2__color1">chuyên nghiệp tại pxwebshop</span></span>
+              Các bước hình thành website  <span class="c-title2__color1">chuyên nghiệp tại pxwebshop</span>
             </span>
             <span class="c-title2__text1">
               PXwebshop với phương châm làm việc lấy khách hàng làm trung tâm, luôn hướng đến các giải pháp hỗ trợ khách hàng trong hoạt động thiết kế web. Chúng tôi có quy trình làm việc rõ ràng, nhằm phục vụ bạn chuyên nghiệp nhất.
@@ -377,7 +377,7 @@
         <div class="c-box3 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              Các <span class="c-title2__color1">chứng chỉ</span> chuyên môn</span>
+              Các <span class="c-title2__color1">chứng chỉ</span> chuyên môn
             </span>
             <span class="c-title2__text1">
               Pxwebshop luôn học hỏi công nghệ mới để đem lại giá trị tốt nhất cho khách hàng
@@ -450,7 +450,10 @@
         <div class="c-box4">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              <span class="c-title2__color1">Cam kết</span> từ chúng tôi</span>
+              <span class="c-title2__color1">Cam kết</span> từ chúng tôi
+            </span>
+            <span class="c-title2__text1">
+              Pxwebshop với đội ngũ trong và ngoài nước cam kết chất lượng sản phẩm đem lại cho khách hàng là tốt nhất.
             </span>
           </h2>
 
@@ -556,7 +559,7 @@
             <span class="c-title2__color1">Đào tạo</span> nhân viên cấp cao</span>
           </span>
           <span class="c-title2__text1">
-            Doing...
+            Với kiến thức làm trong bộ thông tin được nhận công tác đào tạo cho nhân viên cấp cao.
           </span>
         </h2>
         <ul class="c-box6__inner is-list2">

@@ -61,6 +61,13 @@ Page Top
         padding-top: 70px;
         background-image: radial-gradient(at center center, rgba(29, 188, 144, 0.8), rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
         padding-bottom: 50px;
+        .c-box4 {
+            .c-title2 {
+                &__text,&__text1 {
+                    color:#fff;
+                }
+            }
+        }
     }
     &9 {
         padding-top: 80px;
