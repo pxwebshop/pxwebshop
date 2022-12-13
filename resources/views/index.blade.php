@@ -11,7 +11,7 @@
               <span class="c-title1__txt">Dẫn đầu</span>
               <span class="c-title1__color1">công nghệ</span>
             </h2>
-            <p class="c-title1__description">Pxwebshop đi đầu trong lĩnh vực SEO và thiết kế website, thiết kế phần mềm, thiết kế hệ thống với hơn 6 năm kinh nghiệm và đội ngũ nhân viên chuyên nghiệp được đào tạo chuyên môn sâu.</p>
+            <p class="c-title1__description">PXwebshop đi đầu trong lĩnh vực SEO và thiết kế website, thiết kế phần mềm, thiết kế hệ thống với hơn 6 năm kinh nghiệm và đội ngũ nhân viên chuyên nghiệp được đào tạo chuyên môn sâu.</p>
           </li>
           <li class="c-list1__item">
             <figure>
@@ -95,7 +95,7 @@
                   <i class="fa fa-network-wired"></i>
                 </div>
                 <h4 class="c-box2__tlt">Thiết kế hệ thống network</h4>
-                <p class="c-box2__txt">Các doanh nghiệp còn hạn chết về network nên chúng tôi muốn cung cấp cho doanh nghiệp dịch vụ network để cho doanh nghiệp vận hành tốt nhất.. doing</p>
+                <p class="c-box2__txt">Các doanh nghiệp còn hạn chế về hệ thống network nên chúng tôi muốn cung cấp cho doanh nghiệp dịch vụ network để cho doanh nghiệp vận hành tốt nhất.. doing</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -104,7 +104,7 @@
                   <i class="fa fa-computer"></i>
                 </div>
                 <h4 class="c-box2__tlt">Dịch vụ thiết kế logo,..</h4>
-                <p class="c-box2__txt">Dịch vụ thiết kế logo, banner..., với đội ngũ designer làm việc ở Bộ thông tin. Chúng tôi tự tin cung cấp sản phẩm tốt nhất đến các doanh nghiệp</p>
+                <p class="c-box2__txt">Dịch vụ thiết kế logo, banner..., với đội ngũ designer làm việc ở Bộ thông tin. Chúng tôi tự tin cung cấp sản phẩm tốt nhất đến các doanh nghiệp.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -236,6 +236,7 @@
 
                     <li class="c-list2__boxItem">✅ &nbsp;Chuẩn Mobile: Có</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Bảo hành: Hỗ trợ bảo trì, sửa lỗi, website miễn phí trọn đời</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Chuẩn SEO: Cam kết chuẩn SEO 100%</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 năm domain Lào (.la, .com)</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 năm dùng hosting lên đến 5GB</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Không</li>
@@ -268,7 +269,7 @@
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo mật: Tuyệt đối</li>
 
                     <li class="c-list2__boxItem">✅ &nbsp;Chuẩn Mobile: Có</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Giao diện: AMP</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Chuẩn SEO: Cam kết chuẩn SEO 100%</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Hỗ trợ thay đổi theo xu hướnghướng SEO mới nhất của Google theo thời gian bảo trì</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Bảo hành: Hỗ trợ bảo trì, sửa lỗi, website miễn phí trọn đời</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 năm domain quốc tế (.com, .net, .org)</li>
@@ -307,7 +308,7 @@
                 </div>
                 <h4 class="c-box2__tlt">Thấu hiểu khách hàng</h4>
                 <p class="c-box2__txt">Đội ngũ nhân
-                  viên giàu kinh nghiệm của PxWebshop gặp gỡ khách hàng, lắng nghe ý tưởng thiết kế, thảo luận về tính năng mà bạn
+                  viên giàu kinh nghiệm của PXwebshop gặp gỡ khách hàng, lắng nghe ý tưởng thiết kế, thảo luận về tính năng mà bạn
                   mong muốn trong thiết kế web. Sau khi tư vấn giải pháp và tính năng phù hợp với mục đích và nhu cầu của bạn,
                   chúng tôi lên kế hoạch thiết kế.</p>
               </div>
@@ -330,12 +331,7 @@
                   Bước 3
                 </div>
                 <h4 class="c-box2__tlt">Thiết kế</h4>
-                <p class="c-box2__txt">Dựa trên ý
-                  tưởng của bạn, đội ngũ thiết kế website
-                  PXwebshop sở hữu những bộ óc sáng tạo và nhạy bén sẽ tạo ra những thiết kế website demo đẹp mắt, thu hút và
-                  chuẩn UI/UX. Sau khi bạn xem xét bản demo, đội ngũ thiết kế sẽ tiến hành chỉnh sửa để bạn chốt bản thiết kế
-                  chi
-                  tiết.</p>
+                <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹthuật MIKO TECH sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
               </div>
             </li>
 
@@ -354,8 +350,8 @@
                 <div class="c-box2__icon">
                   Bước 5
                 </div>
-                <h4 class="c-box2__tlt">Thiết kế</h4>
-                <p class="c-box2__txt">Dựa trên ý tưởng của bạn, đội ngũ thiết kế website PXwebshop sở hữu những bộ óc sáng tạo và nhạy bén sẽ tạo ra những thiết kế website demo đẹp mắt, thu hút và chuẩn UI/UX. Sau khi bạn xem xét bản demo, đội ngũ thiết kế sẽ tiến hành chỉnh sửa để bạn chốt bản thiết kế chi tiết.</p>
+                <h4 class="c-box2__tlt">Thử nghiệm và chỉnh sửa</h4>
+                <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹ thuật PXwebshop sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -380,7 +376,7 @@
               Các <span class="c-title2__color1">chứng chỉ</span> chuyên môn
             </span>
             <span class="c-title2__text1">
-              Pxwebshop luôn học hỏi công nghệ mới để đem lại giá trị tốt nhất cho khách hàng
+              PXwebshop luôn học hỏi công nghệ mới để đem lại giá trị tốt nhất cho khách hàng
             </span>
           </h2>
 
@@ -453,7 +449,7 @@
               <span class="c-title2__color1">Cam kết</span> từ chúng tôi
             </span>
             <span class="c-title2__text1">
-              Pxwebshop với đội ngũ trong và ngoài nước cam kết chất lượng sản phẩm đem lại cho khách hàng là tốt nhất.
+              PXwebshop với đội ngũ trong và ngoài nước cam kết chất lượng sản phẩm đem lại cho khách hàng là tốt nhất.
             </span>
           </h2>
 
@@ -559,7 +555,7 @@
             <span class="c-title2__color1">Đào tạo</span> nhân viên cấp cao</span>
           </span>
           <span class="c-title2__text1">
-            Với kiến thức làm trong bộ thông tin được nhận công tác đào tạo cho nhân viên cấp cao.
+            Với kiến thức làm việc trong Bộ Thông Tin được nhận công tác đào tạo cho nhân viên cấp cao.
           </span>
         </h2>
         <ul class="c-box6__inner is-list2">
