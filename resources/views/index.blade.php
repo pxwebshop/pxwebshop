@@ -148,6 +148,10 @@
               <figure>
                 <img src="https://placehold.jp/400x500.png" alt="">
               </figure>
+              <div class="c-slider__btnWrap">
+                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
+              </div>
             </div>
           </div>
           <div class="c-slider__item">
@@ -155,6 +159,10 @@
               <figure>
                 <img src="https://placehold.jp/400x500.png" alt="">
               </figure>
+              <div class="c-slider__btnWrap">
+                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
+              </div>
             </div>
           </div>
           <div class="c-slider__item">
@@ -162,6 +170,10 @@
               <figure>
                 <img src="https://placehold.jp/400x500.png" alt="">
               </figure>
+              <div class="c-slider__btnWrap">
+                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
+              </div>
             </div>
           </div>
           <div class="c-slider__item">
@@ -169,6 +181,10 @@
               <figure>
                 <img src="https://placehold.jp/400x500.png" alt="">
               </figure>
+              <div class="c-slider__btnWrap">
+                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
+              </div>
             </div>
           </div>
           <div class="c-slider__item">
@@ -176,6 +192,10 @@
               <figure>
                 <img src="https://placehold.jp/400x500.png" alt="">
               </figure>
+              <div class="c-slider__btnWrap">
+                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a class="c-slider__btn c-slider__btn--style2" href="#">Xem Live</a>
+              </div>
             </div>
           </div>
         </div>

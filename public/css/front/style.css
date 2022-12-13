@@ -747,6 +747,7 @@ video
   margin-bottom: 10px;
 }
 .c-slider__inner {
+  z-index: 12;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   cursor: pointer;
   position: relative;
@@ -754,6 +755,10 @@ video
 @media screen and (min-width: 768px) {
   .c-slider__inner:hover:after {
     opacity: 0.6;
+    transition: 0.4s ease-in-out;
+  }
+  .c-slider__inner:hover .c-slider__btn {
+    opacity: 1;
     transition: 0.4s ease-in-out;
   }
 }
@@ -774,6 +779,7 @@ video
   transform: translate(-50%, 0);
   top: 50%;
   left: 50%;
+  z-index: 999;
 }
 .c-slider__btn {
   color: #fff;
@@ -784,12 +790,13 @@ video
   text-decoration: none;
   padding: 7px 20px;
   font-weight: 600;
+  opacity: 0;
 }
 .c-slider__btn--style1 {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .c-slider .slick-arrow {
-  z-index: 999;
+  z-index: 10;
   background-color: transparent;
 }
 .c-slider .slick-arrow::before {
