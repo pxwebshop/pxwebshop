@@ -21,12 +21,6 @@
                     <a class="c-header__link" href="#procedure">Quy trình</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="#certificate">Chứng chỉ</a>
-                </li>
-                <li class="c-header__item">
-                    <a class="c-header__link" href="#commit">Cam kết</a>
-                </li>
-                <li class="c-header__item">
                     <a class="c-header__link" href="#train">Đào tạo</a>
                 </li>
             </ul>
