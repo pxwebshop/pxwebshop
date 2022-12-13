@@ -215,7 +215,7 @@
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
-              <div id="modal5" class="c-slider__modal is-modal">
+              <div id="modal6" class="c-slider__modal is-modal">
                 <figure>
                   {{-- <img src="{{ asset('images/store-web/img6.png') }}" alt=""> --}}
                 </figure>
