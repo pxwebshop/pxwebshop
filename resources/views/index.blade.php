@@ -192,7 +192,7 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="https://placehold.jp/400x500.png" alt="">
+                <img src="{{ asset('images/store-web/img4.png') }}" alt="">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal4" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
@@ -211,7 +211,7 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="https://placehold.jp/400x500.png" alt="">
+                <img src="{{ asset('images/store-web/img5.png') }}" alt="">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal5" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
@@ -230,7 +230,7 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="https://placehold.jp/400x500.png" alt="">
+                <img src="{{ asset('images/store-web/img6.png') }}" alt="">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
