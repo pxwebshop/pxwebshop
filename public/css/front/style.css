@@ -286,6 +286,91 @@ side
 ------------------------------------------------------------*/
 /*
 ------------------------------------------------------------*/
+.c-footer {
+  padding: 80px 0 20px 0;
+  background-color: #27437c;
+}
+.c-footer__inner {
+  display: flex;
+  color: #fff;
+  margin-left: -30px;
+}
+.c-footer__item {
+  width: 28%;
+  padding-left: 30px;
+}
+.c-footer__item:first-child {
+  width: 44%;
+}
+.c-footer__tlt {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.c-footer__list {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.c-footer__item1 {
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+.c-footer__item1__txt {
+  font-weight: 600;
+}
+.c-footer__item1 a {
+  color: #fff;
+  text-decoration: none;
+}
+.c-footer__item1 a i {
+  color: #fff;
+}
+.c-footer__icon__txt {
+  color: #fff;
+}
+.c-footer__list1 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+}
+.c-footer__list1__item {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.c-footer__list1 a {
+  color: #fff;
+  text-decoration: none;
+}
+.c-footer address {
+  display: block;
+  font-size: 1.6rem;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+.c-footer address span {
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 10px;
+}
+.c-footer__copyright {
+  margin-top: 50px;
+  color: #fff;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+}
+.c-footer__copyright::before {
+  margin-bottom: 20px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
 /*------------------------------------------------------------
 header
 ------------------------------------------------------------*/
@@ -875,6 +960,12 @@ other
   background-color: rgba(255, 255, 255, 0.1490196078);
   border-radius: 15px;
   padding: 40px 20px;
+  transition: 0.2s;
+}
+@media screen and (min-width: 768px) {
+  .c-box4__inner:hover {
+    transform: translateY(-10px);
+  }
 }
 .c-box4__icon {
   margin: auto;
@@ -1003,10 +1094,12 @@ Page Top
   padding-top: 100px;
 }
 .p-home4 {
-  padding-top: 100px;
+  padding-top: 60px;
+  background-color: rgb(243, 249, 255);
+  padding-bottom: 50px;
 }
 .p-home5 {
-  padding-top: 100px;
+  padding-top: 60px;
   margin-bottom: 50px;
 }
 .p-home6 {
