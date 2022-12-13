@@ -135,7 +135,7 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="https://congtyducduong.com/thiet-ke-website-gia-re-nhat-tren-thi-truong/banners/web-hoa/anh-web-lon-1.jpg" alt="">
+                <img src="{{ asset('images/store-web/img1.png') }}" alt="">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal1" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
@@ -144,7 +144,45 @@
                 <div class="c-slider__modal__overlay c-slider__modal__toggle">
                   <div class="c-slider__modal__wrapper c-slider__modal__transition">
                     <figure>
-                      <img src="https://congtyducduong.com/thiet-ke-website-gia-re-nhat-tren-thi-truong/banners/web-hoa/anh-web-lon-1.jpg" alt="">
+                      <img src="{{ asset('images/store-web/img1.png') }}" alt="">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="{{ asset('images/store-web/img2.png') }}" alt="">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal2" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div id="modal2" class="c-slider__modal is-modal">
+                <div class="c-slider__modal__overlay c-slider__modal__toggle">
+                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
+                    <figure>
+                      <img src="{{ asset('images/store-web/img2.png') }}" alt="">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="{{ asset('images/store-web/img3.png') }}" alt="">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal3" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div id="modal3" class="c-slider__modal is-modal">
+                <div class="c-slider__modal__overlay c-slider__modal__toggle">
+                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
+                    <figure>
+                      <img src="{{ asset('images/store-web/img3.png') }}" alt="">
                     </figure>
                   </div>
                 </div>
@@ -157,7 +195,16 @@
                 <img src="https://placehold.jp/400x500.png" alt="">
               </figure>
               <div class="c-slider__btnWrap">
-                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a data-modal="#modal4" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div id="modal4" class="c-slider__modal is-modal">
+                <div class="c-slider__modal__overlay c-slider__modal__toggle">
+                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
+                    <figure>
+                      <img src="{{ asset('images/store-web/img4.png') }}" alt="">
+                    </figure>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -167,7 +214,16 @@
                 <img src="https://placehold.jp/400x500.png" alt="">
               </figure>
               <div class="c-slider__btnWrap">
-                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a data-modal="#modal5" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div id="modal5" class="c-slider__modal is-modal">
+                <div class="c-slider__modal__overlay c-slider__modal__toggle">
+                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
+                    <figure>
+                      <img src="{{ asset('images/store-web/img5.png') }}" alt="">
+                    </figure>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -177,33 +233,20 @@
                 <img src="https://placehold.jp/400x500.png" alt="">
               </figure>
               <div class="c-slider__btnWrap">
-                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
-            </div>
-          </div>
-          <div class="c-slider__item">
-            <div class="c-slider__inner">
-              <figure>
-                <img src="https://placehold.jp/400x500.png" alt="">
-              </figure>
-              <div class="c-slider__btnWrap">
-                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
-              </div>
-            </div>
-          </div>
-          <div class="c-slider__item">
-            <div class="c-slider__inner">
-              <figure>
-                <img src="https://placehold.jp/400x500.png" alt="">
-              </figure>
-              <div class="c-slider__btnWrap">
-                <a class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              <div id="modal5" class="c-slider__modal is-modal">
+                <div class="c-slider__modal__overlay c-slider__modal__toggle">
+                  <div class="c-slider__modal__wrapper c-slider__modal__transition">
+                    <figure>
+                      <img src="{{ asset('images/store-web/img6.png') }}" alt="">
+                    </figure>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-        
       </div>
     </section>
 
