@@ -2,8 +2,8 @@
 @extends('layouts.template')
 
 @section('content')
-<main class="p-home">
-    <section class="p-home1" id="home">
+<main class="p-home" id="home">
+    <section class="p-home1">
       <div class="l-container">
         <ul class="c-list1 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <li class="c-list1__item">
