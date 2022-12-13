@@ -101,6 +101,15 @@
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
+                  <i class="fa fa-computer"></i>
+                </div>
+                <h4 class="c-box2__tlt">Dịch vụ thiết kế logo, banner</h4>
+                <p class="c-box2__txt">Dịch vụ thiết kế logo, banner cho khách hàng không thể thiếu trong các doanh nghiệp.</p>
+              </div>
+            </li>
+            <li class="c-box2__item">
+              <div class="c-box2__inner">
+                <div class="c-box2__icon">
                   <i class="fa-solid fa-code"></i>
                 </div>
                 <h4 class="c-box2__tlt">Xây dựng phần mềm</h4>
