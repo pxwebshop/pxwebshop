@@ -140,11 +140,6 @@
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal1" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
-              <div id="modal1" class="c-slider__modal is-modal">
-                <figure>
-                  <img src="{{ asset('images/store-web/img1.jpg') }}" alt="">
-                </figure>
-              </div>
             </div>
           </div>
           <div class="c-slider__item">
@@ -154,11 +149,6 @@
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal2" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
-              </div>
-              <div id="modal2" class="c-slider__modal is-modal">
-                <figure>
-                  <img src="{{ asset('images/store-web/img2.jpg') }}" alt="">
-                </figure>
               </div>
             </div>
           </div>
@@ -170,11 +160,6 @@
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal3" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
-              <div id="modal3" class="c-slider__modal is-modal">
-                <figure>
-                  <img src="{{ asset('images/store-web/img3.jpg') }}" alt="">
-                </figure>
-              </div>
             </div>
           </div>
           <div class="c-slider__item">
@@ -184,11 +169,6 @@
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal4" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
-              </div>
-              <div id="modal4" class="c-slider__modal is-modal">
-                <figure>
-                  <img src="{{ asset('images/store-web/img4.jpg') }}" alt="">
-                </figure>
               </div>
             </div>
           </div>
@@ -200,11 +180,6 @@
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal5" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
-              <div id="modal5" class="c-slider__modal is-modal">
-                <figure>
-                  <img src="{{ asset('images/store-web/img5.jpg') }}" alt="">
-                </figure>
-              </div>
             </div>
           </div>
           <div class="c-slider__item">
@@ -214,11 +189,6 @@
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
-              </div>
-              <div id="modal6" class="c-slider__modal is-modal">
-                <figure>
-                  <img src="{{ asset('images/store-web/img6.jpg') }}" alt="">
-                </figure>
               </div>
             </div>
           </div>

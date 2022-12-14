@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	$(".c-header__link").click(function(e) {
-		console.log(this);
 		e.preventDefault();
 		var aid = $(this).attr("href");
 		$('html,body').animate({scrollTop: $(aid).offset().top},'slow');
@@ -65,12 +64,16 @@ $(document).ready(function() {
 
 	var btn = $('.c-slider__btn');
 	btn.on('click', function() {
-		// var img = $($(this).closest('.c-slider__inner').children().html());
-		// var data = $($(this).closest('.c-slider__inner').find('.is-modal').get(0));
-	
-		// $(data).html(img);
+		var img = $($(this).closest('.c-slider__inner').children().get(0)).html();
+		var id = $(this).data('modal');
 
+		id = id.replace("#", "");
+		var html = `<div id="${id}" class="c-slider__modal is-modal">${img}</div>`;
+		if ($("#"+ id).length === 0) {
+			$('body').append(html);
+		}
 		$($(this).data('modal')).modal({ fadeDuration: 250 });
+
 		return false;
 	});
 });
