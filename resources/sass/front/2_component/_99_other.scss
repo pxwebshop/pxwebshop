@@ -338,7 +338,7 @@ other
     padding: 40px 10px;
     border-radius: 20px;
     @include sp() {
-        margin-top: 30px;
+        margin-top: 20px;
         padding: 20px 10px;
     }
     &__content {
@@ -366,9 +366,15 @@ other
         display: flex;
         flex-wrap: wrap;
         margin-top: 40px;
+        @include sp() {
+            margin-top: 20px;
+        }
     }
     &__item {
         width: 50%;
+        @include sp() {
+            width: 100%;
+        }
         figure {
             display: flex;
             height: 100%;
@@ -376,11 +382,13 @@ other
                 width: 100%;
                 object-fit: cover;
             }
-            
         }
         &--style1 {
             figure {
                 height: 570px;
+                @include sp() {
+                    height: 400px;
+                }
             }
         }
     }
@@ -390,12 +398,18 @@ other
         &__item {
             height: 250px;
             width: 50%;
+            @include sp() {
+                height: 180px;
+            }
         }
     }
     &__img {
         display: block;
         &__item {
             height: 320px;
+            @include sp() {
+                height: 220px;
+            }
         }
     }
 }

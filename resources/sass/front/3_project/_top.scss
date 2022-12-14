@@ -36,6 +36,9 @@ Page Top
     }
     &2 {
         margin-top: -160px;
+        @include sp() {
+            margin-top: -135px;
+        }
     }
     &3 {
         padding-top: 85px;

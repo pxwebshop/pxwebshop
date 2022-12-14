@@ -75,6 +75,14 @@ $(document).ready(function() {
         pauseOnDotsHover: false,
 		draggable: false,
 		autoplaySpeed: 3000,
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+			  	}
+			}
+		]
 	});
 
 	$('.c-box3__question').click(function() {
