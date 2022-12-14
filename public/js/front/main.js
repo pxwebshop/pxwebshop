@@ -73,6 +73,7 @@ $(document).ready(function() {
 		pauseOnFocus: false,
         pauseOnHover: false,
         pauseOnDotsHover: false,
+		focusOnSelect: false,
 		draggable: false,
 		autoplaySpeed: 3000,
 		responsive: [{
