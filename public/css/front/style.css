@@ -1345,6 +1345,11 @@ other
   width: 100%;
   margin: auto;
 }
+@media screen and (max-width: 767px) {
+  .c-box6 .c-title2 {
+    padding: 0 20px;
+  }
+}
 .c-box6__inner {
   display: flex;
   flex-wrap: wrap;
@@ -1377,7 +1382,7 @@ other
 }
 @media screen and (max-width: 767px) {
   .c-box6__item--style1 figure {
-    height: 400px;
+    height: 330px;
   }
 }
 .c-box6__list {
@@ -1390,7 +1395,7 @@ other
 }
 @media screen and (max-width: 767px) {
   .c-box6__list__item {
-    height: 180px;
+    height: 130px;
   }
 }
 .c-box6__img {
@@ -1401,7 +1406,7 @@ other
 }
 @media screen and (max-width: 767px) {
   .c-box6__img__item {
-    height: 220px;
+    height: 200px;
   }
 }
 

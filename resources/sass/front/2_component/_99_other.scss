@@ -362,6 +362,11 @@ other
     max-width: 3000px;
     width: 100%;
     margin: auto;
+    .c-title2 {
+        @include sp() {
+            padding: 0 20px;
+        }
+    }
     &__inner {
         display: flex;
         flex-wrap: wrap;
@@ -387,7 +392,7 @@ other
             figure {
                 height: 570px;
                 @include sp() {
-                    height: 400px;
+                    height: 330px;
                 }
             }
         }
@@ -399,7 +404,7 @@ other
             height: 250px;
             width: 50%;
             @include sp() {
-                height: 180px;
+                height: 130px;
             }
         }
     }
@@ -408,7 +413,7 @@ other
         &__item {
             height: 320px;
             @include sp() {
-                height: 220px;
+                height: 200px;
             }
         }
     }
