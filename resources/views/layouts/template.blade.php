@@ -33,7 +33,7 @@
 
     <script src="{{ asset('js/front/jquery.matchHeight.js')}} "></script>
 
-    <script type="text/javascript" src="{{ asset('js/front/slick.min.js')}} "></script>
+    <script src="{{ asset('js/front/slick.min.js')}} "></script>
 
     <script src="{{ asset('js/front/main.js') }}"></script>
 
