@@ -14,7 +14,7 @@
                 </div>
                 <div class="c-footer__item">
                     <h5 class="c-footer__tlt">LIÊN HỆ</h5>
-                    <div class="c-footer__list">
+                    <ul class="c-footer__list">
                         <li class="c-footer__item1">
                             <span class="c-footer__item1__tlt">Email:</span>
                             <span class="c-footer__item1__txt">pxwebshop@gmail.com</span>
@@ -39,7 +39,7 @@
                                 <span class="c-footer__icon__txt">Fanpage PXwebshop</span>
                             </a>
                         </li>
-                    </div>
+                    </ul>
                 </div>
                 <div class="c-footer__item">
                     <h5 class="c-footer__tlt">ĐIỀU KHOẢN CHÍNH SÁCH</h5>
