@@ -412,20 +412,9 @@
 
           <ul class="c-box3__wrap">
             <li class="c-box3__item">
-             <div class="c-box3__inner">
-              <figure>
-                <img src="{{ asset('images/certificate/img1.jpg') }}" alt="" srcset="">
-              </figure>
-              <div class="c-box3__content">
-                <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
-                <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
-              </div>
-             </div>
-            </li>
-            <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img2.jpg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/certificate/img3.jpg') }}" alt="" srcset="">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
@@ -436,7 +425,16 @@
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img3.jpg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/certificate/img1.jpg') }}" alt="" srcset="">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                </div>
+              </div>
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="{{ asset('images/certificate/img2.jpg') }}" alt="" srcset="">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>

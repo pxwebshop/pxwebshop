@@ -1009,6 +1009,13 @@ other
   background-color: rgb(7, 164, 115);
   color: #fff;
   text-align: center;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+  transform: translate(0px, -100%);
 }
 .c-box3__tlt {
   font-size: 2rem;
@@ -1016,15 +1023,22 @@ other
   margin-bottom: 20px;
 }
 .c-box3__inner {
-  background-color: rgb(7, 164, 115);
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .c-box3__inner:hover .c-box3__content {
+    opacity: 1;
+    transform: translate(0px, 0%);
+  }
 }
 .c-box3__txt {
   font-size: 1.7rem;
   line-height: 1.5;
 }
 .c-box3 figure {
+  position: relative;
   display: block;
-  height: 250px;
+  cursor: pointer;
 }
 .c-box3 figure img {
   height: 100%;
