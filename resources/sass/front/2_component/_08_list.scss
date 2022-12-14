@@ -7,9 +7,28 @@ list
     margin-left: -50px;
     align-items: center;
     padding: 100px 0 50px 0;
+    @include sp() {
+        padding: 0;
+        margin-left: 0;
+        padding: 50px 0px 0;
+    }
     &__item {
         width: 50%;
         padding-left: 50px;
+        @include sp() {
+            padding-left: 0;
+            width: 100%;
+        }
+    }
+    figure {
+        @include sp() {
+            margin-top: 20px;
+        }
+        img {
+            @include sp() {
+                width: 100%;
+            }
+        }
     }
 }
 
