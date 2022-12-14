@@ -26,6 +26,14 @@ $(document).ready(function() {
 		autoplay: false,
 		autoplaySpeed: 2000,
 		arrows: false,
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+			  	}
+			}
+		]
 	});
 
 	$('.is-list1').slick({
