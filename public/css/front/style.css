@@ -1017,6 +1017,9 @@ other
   transition: 0.3s ease-in-out;
   transform: translate(0px, -100%);
 }
+.c-box3__item--style1 .c-box3__content {
+  transform: translate(-100%, 0%);
+}
 .c-box3__tlt {
   font-size: 2rem;
   line-height: 1.2;

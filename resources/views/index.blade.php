@@ -422,7 +422,7 @@
                 </div>
               </div>
             </li>
-            <li class="c-box3__item">
+            <li class="c-box3__item c-box3__item--style1">
               <div class="c-box3__inner">
                 <figure>
                   <img src="{{ asset('images/certificate/img1.jpg') }}" alt="" srcset="">
