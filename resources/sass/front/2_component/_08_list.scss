@@ -46,6 +46,9 @@ list
         display: flex;
         flex-wrap: wrap;
         margin-top: 40px;
+        @include max-w(850px) {
+            margin-left: -20px;
+        }
         @include sp() {
             margin-top: 20px;
             margin-left: 0;
@@ -54,6 +57,9 @@ list
     &__item {
         width: 33.33%;
         padding-left: 30px;
+        @include max-w(850px) {
+            padding-left: 20px;
+        }
         @include sp() {
             width: 100%;
             padding-left: 0;
