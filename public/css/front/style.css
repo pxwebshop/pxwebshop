@@ -864,6 +864,14 @@ list
   color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+@media screen and (max-width: 767px) {
+  .c-list2__hot {
+    font-size: 1.6rem;
+    padding: 5px 30px;
+    top: 10px;
+    left: -33px;
+  }
+}
 
 /*------------------------------------------------------------
 table
