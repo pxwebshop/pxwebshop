@@ -8,7 +8,7 @@
                         <span><i class="fa-solid fa-location-dot"></i> VP tại Lào: ບ້ານ ຂາມງອຍ,​ ເມືອງ ໄຊເສດຖາ, ນະຄອນຫຼວງວຽງຈັນ</span>
                         <span><i class="fa-solid fa-location-dot"></i> VP tại Việt Nam: 150 Huỳnh Tần Phát, Tân Thuận Đông, Quận 7, Thành Phố Hồ Chí Minh</span>
                     </address>
-                    <figure class="c-footer__logo">
+                    <figure class="c-footer__logo pc-only">
                         <img src="https://placehold.jp/280x120.png" alt="" srcset="">
                     </figure>
                 </div>
