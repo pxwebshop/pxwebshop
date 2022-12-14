@@ -1133,7 +1133,7 @@ other
 }
 @media screen and (max-width: 850px) {
   .c-box2__list {
-    padding-left: 20px;
+    margin-left: -20px;
   }
 }
 @media screen and (max-width: 767px) {
