@@ -17,6 +17,9 @@ video
         display: flex;
         flex-wrap: wrap;
         margin: 40px auto;
+        @include sp() {
+            margin: 20px auto;
+        }
     }
     &__item {
         width: 33.33%;

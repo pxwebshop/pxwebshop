@@ -361,7 +361,7 @@
                   Bước 3
                 </div>
                 <h4 class="c-box2__tlt">Thiết kế</h4>
-                <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹthuật MIKO TECH sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
+                <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹthuật PXwebshop sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
               </div>
             </li>
 

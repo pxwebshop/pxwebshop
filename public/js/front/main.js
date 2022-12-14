@@ -15,6 +15,14 @@ $(document).ready(function() {
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		arrows: false,
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+			  	}
+			}
+		]
 	});
 
 	$('.c-slider__list').slick({
@@ -44,6 +52,14 @@ $(document).ready(function() {
 		slidesToScroll: 1,
 		autoplay: true,
 		arrows: false,
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1
+			  	}
+			}
+		]
 	});
 
 	$('.is-list2').slick({
