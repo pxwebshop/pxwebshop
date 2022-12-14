@@ -436,7 +436,7 @@
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="https://placehold.jp/380x250.png" alt="" srcset="">
+                  <img src="{{ asset('images/certificate/img3.jpg') }}" alt="" srcset="">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
@@ -447,7 +447,7 @@
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="https://placehold.jp/380x250.png" alt="" srcset="">
+                  <img src="{{ asset('images/certificate/img4.jpg') }}" alt="" srcset="">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
@@ -458,7 +458,7 @@
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="https://placehold.jp/380x250.png" alt="" srcset="">
+                  <img src="{{ asset('images/certificate/img5.jpg') }}" alt="" srcset="">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
