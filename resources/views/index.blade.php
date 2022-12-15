@@ -591,52 +591,52 @@
             <ul class="c-box6__list">
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img9.jpeg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/img9.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </li>
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img11.jpeg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/img11.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </li>
             </ul>
             <div class="c-box6__img">
               <div class="c-box6__img__item">
                 <figure>
-                  <img src="{{ asset('images/img10.jpeg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/img10.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </div>
             </div>
           </li>
           <li class="c-box6__item c-box6__item--style1">
             <figure>
-              <img src="{{ asset('images/img12.jpeg') }}" alt="" srcset="">
+              <img src="{{ asset('images/img12.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
             </figure>
           </li>
           <li class="c-box6__item">
             <ul class="c-box6__list">
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img14.jpeg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/img14.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </li>
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img15.jpeg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/img15.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </li>
             </ul>
             <div class="c-box6__img">
               <div class="c-box6__img__item">
                 <figure>
-                  <img src="{{ asset('images/img16.jpeg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/img16.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </div>
             </div>
           </li>
           <li class="c-box6__item c-box6__item--style1">
             <figure>
-              <img src="{{ asset('images/img13.jpeg') }}" alt="" srcset="">
+              <img src="{{ asset('images/img13.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
             </figure>
           </li>
 
@@ -644,26 +644,26 @@
             <ul class="c-box6__list">
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img18.jpeg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/img18.jpeg') }}" alt="">
                 </figure>
               </li>
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img19.jpeg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/img19.jpeg') }}" alt="">
                 </figure>
               </li>
             </ul>
             <div class="c-box6__img">
               <div class="c-box6__img__item">
                 <figure>
-                  <img src="{{ asset('images/img20.jpeg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/img20.jpeg') }}" alt="">
                 </figure>
               </div>
             </div>
           </li>
           <li class="c-box6__item c-box6__item--style1">
             <figure>
-              <img src="{{ asset('images/img17.jpeg') }}" alt="" srcset="">
+              <img src="{{ asset('images/img17.jpeg') }}" alt="">
             </figure>
           </li>
         </ul>
