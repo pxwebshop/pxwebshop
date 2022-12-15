@@ -109,6 +109,18 @@ $(document).ready(function() {
 
 		return false;
 	});
+
+	$(".js-menu").click(function() {
+		if ($(this).hasClass('is-active')) {
+			$(this).removeClass('is-active');
+			$(this).prev().removeClass('is-active');
+			$('body').removeClass('is-fixed');
+		} else {
+			$(this).addClass('is-active');
+			$(this).prev().addClass('is-active');
+			$('body').addClass('is-fixed');
+		}
+	})
 });
 
 $(window).scroll(function(){
