@@ -6,7 +6,7 @@ $(document).ready(function() {
 		
 		e.preventDefault();
 		var aid = $(this).attr("href");
-		$('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+		$('html,body').animate({scrollTop: $(aid).offset().top - 80 +'px'},'slow');
 	});
 
 	$('.c-box2__item').matchHeight();
