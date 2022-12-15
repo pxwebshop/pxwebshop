@@ -1,8 +1,7 @@
 $(document).ready(function() {
 	var top = 0 ;
 	$(window).on('load resize', function () {
-		console.log(2);
-		if (wind.outerWidth() < 768) {
+		if ($(window).outerWidth() < 768) {
 		  	top = 80;
 		} else {
 			top = 0;
@@ -13,7 +12,7 @@ $(document).ready(function() {
 		$('body').removeClass('is-fixed');
 		$('.c-header__nav').removeClass('is-active');
 		$('.js-menu').removeClass('is-active');
-		
+		console.log(top);
 		e.preventDefault();
 		var aid = $(this).attr("href");
 		$('html,body').animate({scrollTop: $(aid).offset().top - top +'px'},'slow');
