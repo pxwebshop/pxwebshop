@@ -1,4 +1,14 @@
 $(document).ready(function() {
+	var top = 0 ;
+	$(window).on('load resize', function () {
+		console.log(2);
+		if (wind.outerWidth() < 768) {
+		  	top = 80;
+		} else {
+			top = 0;
+		}
+	});
+
 	$(".c-header__link").click(function(e) {
 		$('body').removeClass('is-fixed');
 		$('.c-header__nav').removeClass('is-active');
@@ -6,7 +16,7 @@ $(document).ready(function() {
 		
 		e.preventDefault();
 		var aid = $(this).attr("href");
-		$('html,body').animate({scrollTop: $(aid).offset().top - 80 +'px'},'slow');
+		$('html,body').animate({scrollTop: $(aid).offset().top - top +'px'},'slow');
 	});
 
 	$('.c-box2__item').matchHeight();
