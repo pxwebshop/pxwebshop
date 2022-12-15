@@ -135,7 +135,7 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img1.jpg') }}" alt="">
+                <img src="{{ asset('images/store-web/img1.jpg') }}" alt="nest mart grocery">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal1" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
@@ -145,7 +145,7 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img2.jpg') }}" alt="">
+                <img src="{{ asset('images/store-web/img2.jpg') }}" alt="blogar">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal2" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
@@ -155,7 +155,7 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img3.jpg') }}" alt="">
+                <img src="{{ asset('images/store-web/img3.jpg') }}" alt="optinistic blog">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal3" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
@@ -165,7 +165,7 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img4.jpg') }}" alt="">
+                <img src="{{ asset('images/store-web/img4.jpg') }}" alt="elanna">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal4" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
@@ -175,7 +175,7 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img5.jpg') }}" alt="">
+                <img src="{{ asset('images/store-web/img5.jpg') }}" alt="innivation architecture">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal5" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
@@ -185,7 +185,7 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img6.jpg') }}" alt="">
+                <img src="{{ asset('images/store-web/img6.jpg') }}" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
@@ -414,7 +414,7 @@
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img3.jpg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/certificate/img3.jpg') }}" alt="advaced diplona in fomation techology">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
@@ -425,7 +425,7 @@
             <li class="c-box3__item c-box3__item--style1">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img1.jpg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/certificate/img1.jpg') }}" alt="huawei certification">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
@@ -434,18 +434,7 @@
               </div>
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img2.jpg') }}" alt="" srcset="">
-                </figure>
-                <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
-                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
-                </div>
-              </div>
-            </li>
-            <li class="c-box3__item">
-              <div class="c-box3__inner">
-                <figure>
-                  <img src="{{ asset('images/certificate/img4.jpg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/certificate/img2.jpg') }}" alt="cisco ceftifications">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
@@ -456,7 +445,18 @@
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img5.jpg') }}" alt="" srcset="">
+                  <img src="{{ asset('images/certificate/img4.jpg') }}" alt="certificate course in advanced web technology">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                </div>
+              </div>
+            </li>
+            <li class="c-box3__item">
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="{{ asset('images/certificate/img5.jpg') }}" alt="certificate course in data communication and networking">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
@@ -532,43 +532,43 @@
         <div class="c-box5">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              <span class="c-title2__color1">Đối tác</span> tiêu biểu đã tin dùng</span>
+              <span class="c-title2__color1">Đối tác</span> tiêu biểu đã tin dùng
             </span>
           </h2>
           <ul class="c-box5__content is-list1">
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img1.png') }}" alt="" srcset="">
+                <img src="{{ asset('images/img1.png') }}" alt="">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img2.png') }}" alt="" srcset="">
+                <img src="{{ asset('images/img2.png') }}" alt="pxwebshop chuyên phân phối website">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img3.png') }}" alt="" srcset="">
+                <img src="{{ asset('images/img3.png') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img4.png') }}" alt="" srcset="">
+                <img src="{{ asset('images/img4.png') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img5.png') }}" alt="" srcset="">
+                <img src="{{ asset('images/img5.png') }}" alt="pxwebshop cung cấp website giá rẻ">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img6.png') }}" alt="" srcset="">
+                <img src="{{ asset('images/img6.png') }}" alt="pxwebshop chất lượng sản phẩm cao">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img7.png') }}" alt="" srcset="">
+                <img src="{{ asset('images/img7.png') }}" alt="pxwebshop thông tin người dùng bảo mật">
               </figure>
             </li>
           </ul>
@@ -580,7 +580,7 @@
       <div class="c-box6">
         <h2 class="c-title2">
           <span class="c-title2__text">
-            <span class="c-title2__color1">Đào tạo</span> nhân viên cấp cao</span>
+            <span class="c-title2__color1">Đào tạo</span> nhân viên cấp cao
           </span>
           <span class="c-title2__text1">
             Với kiến thức làm việc trong Bộ Thông Tin được nhận công tác đào tạo cho nhân viên cấp cao.
