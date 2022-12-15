@@ -445,6 +445,7 @@ header
 @media screen and (max-width: 767px) {
   .c-header .l-container {
     height: 100%;
+    padding: 0;
   }
 }
 @media screen and (max-width: 767px) {
@@ -536,12 +537,14 @@ header
     transform: translateX(100%);
     opacity: 0;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0px;
     background-color: #ffffff;
     z-index: 999;
     height: 100vh;
     transition: 0.3s;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 }
 @media screen and (max-width: 767px) {
@@ -651,6 +654,7 @@ header
   .c-header figure {
     z-index: 9;
     height: 100%;
+    padding-left: 30px;
   }
 }
 @media screen and (max-width: 767px) {

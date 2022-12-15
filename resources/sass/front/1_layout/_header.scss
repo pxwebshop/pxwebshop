@@ -12,6 +12,7 @@ header
         align-items: center;
         @include sp() {
             height: 100%;
+            padding: 0;
         }
     }
     @include sp() {
@@ -97,12 +98,14 @@ header
             transform: translateX(100%);
             opacity: 0;
             width: 100%;
-            position: absolute;
+            position: fixed;
             top: 0px;
             background-color: #ffffff;
             z-index: 999;
             height: 100vh;
             transition: 0.3s;
+            overflow-x: hidden;
+            overflow-y: auto;
         }
         &.is-active {
             @include sp() {
@@ -217,6 +220,7 @@ header
         @include sp() {
             z-index: 9;
             height: 100%;
+            padding-left: 30px;
         }
         img {
             @include sp() {
