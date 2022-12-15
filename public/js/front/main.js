@@ -1,5 +1,9 @@
 $(document).ready(function() {
 	$(".c-header__link").click(function(e) {
+		$('body').removeClass('is-fixed');
+		$('.c-header__nav').removeClass('is-active');
+		$('.js-menu').removeClass('is-active');
+		
 		e.preventDefault();
 		var aid = $(this).attr("href");
 		$('html,body').animate({scrollTop: $(aid).offset().top},'slow');
