@@ -251,7 +251,7 @@ body {
   font-weight: 400;
 }
 body.is-fixed {
-  overflow-y: hidden;
+  position: fixed;
 }
 
 /*
@@ -555,7 +555,6 @@ header
 }
 @media screen and (max-width: 767px) {
   .c-header__btn {
-    position: relative;
     z-index: 8;
     width: 60px;
     height: 60px;
@@ -564,7 +563,7 @@ header
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
   }

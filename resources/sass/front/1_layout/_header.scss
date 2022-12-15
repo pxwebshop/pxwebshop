@@ -116,8 +116,6 @@ header
     }
     &__btn {
         @include sp() {
-        
-            position: relative;
             z-index: 8;
             width: 60px;
             height: 60px;
@@ -126,7 +124,7 @@ header
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            position: absolute;
+            position: fixed;
             right: 0;
             top: 0;
         }
