@@ -266,6 +266,7 @@ body.is-fixed {
 @media screen and (max-width: 767px) {
   .l-content {
     max-width: 100%;
+    padding: 0 20px;
   }
 }
 
@@ -281,6 +282,7 @@ body.is-fixed {
 @media screen and (max-width: 767px) {
   .l-container {
     max-width: 100%;
+    padding: 0 20px;
   }
 }
 
@@ -653,7 +655,7 @@ header
   .c-header figure {
     z-index: 9;
     height: 100%;
-    padding-left: 30px;
+    padding-left: 20px;
   }
 }
 @media screen and (max-width: 767px) {
