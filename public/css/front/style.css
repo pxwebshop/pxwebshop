@@ -1908,6 +1908,7 @@ other
   resize: none;
   margin-bottom: 10px;
   box-sizing: border-box;
+  padding: 20px;
 }
 .c-box8__icon {
   display: flex;

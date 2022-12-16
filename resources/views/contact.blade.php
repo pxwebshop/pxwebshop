@@ -16,7 +16,7 @@
                             <ul class="c-box8__address">
                                 <li class="c-box8__address__item">
                                     <figure>
-                                        <img src="https://sehilo.com/wp-content/uploads/2021/09/map.png" alt="">
+                                        <img src="{{asset('images/address/img1.png')}}" alt="">
                                     </figure>
                                     <div class="c-box8__address__style1">
                                         <div class="c-box8__address__text">
@@ -31,7 +31,7 @@
                                 </li>
                                 <li class="c-box8__address__item">
                                     <figure>
-                                        <img src="https://sehilo.com/wp-content/uploads/2021/09/phone.png" alt="">
+                                        <img src="{{asset('images/address/img2.png')}}" alt="">
                                     </figure>
                                     <div class="c-box8__address__text">
                                         <h5>HOTLINE</h5>						
@@ -40,7 +40,7 @@
                                 </li>
                                 <li class="c-box8__address__item">
                                     <figure>
-                                        <img src="https://sehilo.com/wp-content/uploads/2021/09/map.png" alt="">
+                                        <img src="{{asset('images/address/img3.png')}}" alt="">
                                     </figure>
                                     <div class="c-box8__address__text">
                                         <h5>Email</h5>						

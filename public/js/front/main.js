@@ -15,8 +15,12 @@ $(document).ready(function() {
 		var aid = $(this).attr("href");
 		
 		if(aid.indexOf('#') != -1) {
-			e.preventDefault();
-			$('html,body').animate({scrollTop: $(aid).offset().top - top +'px'},'slow');
+			aid = aid.replace("/", "");
+
+			if ($(aid).offset() !== undefined) {
+				e.preventDefault();
+				$('html,body').animate({scrollTop: $(aid).offset().top - top +'px'},'slow');
+			}
 		}
 	});
 
