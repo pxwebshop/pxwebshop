@@ -12,10 +12,12 @@ $(document).ready(function() {
 		$('body').removeClass('is-fixed');
 		$('.c-header__nav').removeClass('is-active');
 		$('.js-menu').removeClass('is-active');
-		console.log(top);
-		e.preventDefault();
 		var aid = $(this).attr("href");
-		$('html,body').animate({scrollTop: $(aid).offset().top - top +'px'},'slow');
+		
+		if(aid.indexOf('#') != -1) {
+			e.preventDefault();
+			$('html,body').animate({scrollTop: $(aid).offset().top - top +'px'},'slow');
+		}
 	});
 
 	$('.c-box2__item').matchHeight();
@@ -137,7 +139,7 @@ $(document).ready(function() {
 });
 
 $(window).scroll(function(){
-	if ($(this).scrollTop() > 120) {
+	if ($(this).scrollTop() > 250) {
 		$('.c-header').addClass('fixed');
 	} else {
 		$('.c-header').removeClass('fixed');
