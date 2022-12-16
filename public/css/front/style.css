@@ -1751,6 +1751,11 @@ other
   position: relative;
   font-weight: bold;
 }
+@media screen and (max-width: 767px) {
+  .c-box8__tlt {
+    font-size: 2.5rem;
+  }
+}
 .c-box8__tlt::before {
   content: "";
   display: block;
@@ -1838,6 +1843,11 @@ other
   text-align: center;
   text-transform: capitalize;
   position: relative;
+}
+@media screen and (max-width: 767px) {
+  .c-box8__form__tlt {
+    font-size: 2.2rem;
+  }
 }
 .c-box8__form__tlt::after {
   content: "";
