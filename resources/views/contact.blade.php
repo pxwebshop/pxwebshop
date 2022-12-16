@@ -51,7 +51,7 @@
                             <div class="c-box8__icon">
                                 <h5 class="c-box8__titleSocial">Chúng tôi trên: &nbsp; </h5>
                                 <div class="c-box8__socialIcons">
-                                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">
+                                    <a href="https://www.facebook.com/pxwebshop" target="_blank" rel="noopener noreferrer nofollow">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                     <a href="#" target="_blank" rel="noopener noreferrer nofollow">
