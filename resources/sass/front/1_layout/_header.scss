@@ -231,4 +231,9 @@ header
             }
         }
     }
+    &__logo {
+        display: flex;
+        text-decoration: none;
+        height: 100%;
+    }
 }

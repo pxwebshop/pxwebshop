@@ -1,8 +1,10 @@
 <header class="c-header ">
     <div class="l-container">
-        <figure>
-            <img src="https://placehold.jp/150x80.png" alt="">
-        </figure>
+        <a class="c-header__logo" href="#">
+            <figure>
+                <img src="https://placehold.jp/150x80.png" alt="">
+            </figure>
+        </a>
         <nav class="c-header__nav">
             <ul class="c-header__list">
                 <li class="c-header__item">
