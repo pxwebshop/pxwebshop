@@ -1,14 +1,13 @@
 $(document).ready(function() {
 	var top = 0 ;
-	$(window).on('load resize', function () {
+	
+	$(".c-header__link").click(function(e) {
 		if ($(window).outerWidth() < 768) {
-		  	top = 80;
+			top = 80;
 		} else {
 			top = 0;
 		}
-	});
 
-	$(".c-header__link").click(function(e) {
 		$('body').removeClass('is-fixed');
 		$('.c-header__nav').removeClass('is-active');
 		$('.js-menu').removeClass('is-active');
