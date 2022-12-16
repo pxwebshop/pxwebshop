@@ -1,4 +1,4 @@
-<header class="c-header ">
+<header class="c-header {{ Route::current()->getName() == 'contact' ? 'c-header--style1' : ''}}">
     <div class="l-container">
         <a class="c-header__logo" href="/">
             <figure>

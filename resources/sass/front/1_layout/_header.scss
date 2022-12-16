@@ -16,6 +16,12 @@ header
             padding: 0;
         }
     }
+    &--style1 {
+        background: #ffffff;
+        #{$root}__link {
+            color: #1E1666;
+        }
+    }
     @include sp() {
         height: 60px;
         background: #ffffff;
@@ -26,7 +32,7 @@ header
         top: 0;
         z-index: 1;
         background: #ffffff;
-        .c-header__link {
+        #{$root}__link {
             color: #1E1666;
         }
     }
@@ -34,6 +40,7 @@ header
         display: flex;
         height: 80px;
         align-items: center;
+        flex-wrap: wrap;
         @include sp() {
             flex-direction: column;
             width: 100%;
