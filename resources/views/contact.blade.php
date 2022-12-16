@@ -51,10 +51,10 @@
                             <div class="c-box8__icon">
                                 <h5 class="c-box8__titleSocial">Chúng tôi trên: &nbsp; </h5>
                                 <div class="c-box8__socialIcons">
-                                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer nofollow" >
+                                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
-                                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer nofollow">
+                                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">
                                         <i class="fa fa-whatsapp" aria-hidden="true"></i>
                                     </a>
                                 </div>

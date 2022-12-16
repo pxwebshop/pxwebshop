@@ -1930,6 +1930,10 @@ other
 .c-box8__titleSocial {
   font-size: 1.7rem;
 }
+.c-box8__phone {
+  color: black;
+  text-decoration: none;
+}
 
 /*------------------------------------------------------------
 Page Top
