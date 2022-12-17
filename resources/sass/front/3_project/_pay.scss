@@ -1,0 +1,37 @@
+/*
+------------------------------------------------------------*/
+.p-pay {
+    &1 {
+        padding: 70px 0;
+        @include sp() {
+            padding: 30px 0;
+        }
+        &__tlt {
+            font-size: 1.9rem;
+            font-weight: 700;
+            margin-bottom: 7px;
+            line-height: 1.5;
+        }
+        &__txt {
+            font-size: 1.6rem;
+        }
+        &__contact {
+            font-size: 1.6rem;
+            span {
+                font-weight: 600;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+        &__box {
+            &:first-child {
+                margin-bottom: 20px;
+            }
+        }
+        .c-title2 {
+            margin-top: 50px;
+        }
+    }
+  }

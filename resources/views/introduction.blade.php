@@ -97,6 +97,7 @@
                             <li><span>Database</span></li>
                             <li><span>Bootstrap</span></li>
                             <li><span>Reactjs</span></li>
+                            <li><span>Wordpress</span></li>
                             <li><span>...</span></li>
                         </ul>
                         <div class="c-list8__social">
@@ -125,6 +126,9 @@
                             <li><span>Sketch</span></li>
                             <li><span>Photoshop</span></li>
                             <li><span>Ai</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>JavaScript</span></li>
                             <li><span>...</span></li>
                         </ul>
                         <div class="c-list8__social">

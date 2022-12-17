@@ -33,7 +33,7 @@
                             <a class="c-header__child__link" href="/contact">Liên hệ</a>
                         </li>
                         <li class="c-header__child__item">
-                            <a class="c-header__child__link" href="/contact">Thanh toán</a>
+                            <a class="c-header__child__link" href="/pay">Thanh toán</a>
                         </li>
                         <li class="c-header__child__item">
                             <a class="c-header__child__link" href="/introduction">Giới thiệu</a>
