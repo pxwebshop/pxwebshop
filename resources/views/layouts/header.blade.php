@@ -1,4 +1,4 @@
-<header class="c-header ">
+<header class="c-header {{ Route::current()->getName() !== 'home' ? 'c-header--style1' : ''}}">
     <div class="l-container">
         <a class="c-header__logo" href="/">
             <figure>
@@ -26,7 +26,19 @@
                     <a class="c-header__link" href="/#train">Đào tạo</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="/contact">Liên hệ</a>
+                    <a class="c-header__link" href="#">Về chúng tôi &nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
+                    <ul class="c-header__child">
+                        <li class="c-header__child__item">
+                            <a class="c-header__child__link" href="/contact">Liên hệ</a>
+                        </li>
+                        <li class="c-header__child__item">
+                            <a class="c-header__child__link" href="/contact">Thanh toán</a>
+                        </li>
+                        <li class="c-header__child__item">
+                            <a class="c-header__child__link" href="/introduction">Giới thiệu</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>
