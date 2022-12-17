@@ -58,9 +58,9 @@ header
         cursor: pointer;
         display: inline-block;
         height: 100%;
-        display: flex;
         align-items: center;
         @include sp() {
+            height: auto;
             font-size: 1.6rem;
             padding: 0;
             display: block;
@@ -82,9 +82,27 @@ header
         }
         &:not(:first-child) {
             margin-left: 8px;
+            @include sp() {
+                margin-left: 0;
+            }
         }
         i {
             margin: 0 6px;
+        }
+        &--style1 {
+            & > a {
+                @include sp() {
+                    border-bottom: 1px solid #ccc;
+                }
+            }
+            a {
+              @include sp() {
+                color: #1E1666;
+                font-weight: 400;
+                text-decoration: none;
+                text-transform: capitalize;
+              }
+            }
         }
 
         #{$root}__child {
@@ -99,8 +117,23 @@ header
             z-index: 8;
             border-radius: 5px;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            @include sp() {
+                position: static;
+                opacity: 1;
+                width: 100%;
+            }
             &__item {
                 border-bottom: 1px solid #ccc;
+                @include sp() {
+                    border-style: dotted;
+                    line-height: 1.5;
+                    padding-left: 40px;
+                }
+                &:last-child {
+                    @include sp() {
+                        border-bottom: 0;
+                    }
+                }
                 a {
                     color: #1E1666;
                     display: block;
@@ -111,6 +144,12 @@ header
                 }
                 &:last-child {
                     border-bottom: none;
+                }
+            }
+            &__link {
+                @include sp() {
+                    display: block;
+                    padding: 10px 0 10px 50px;
                 }
             }
         }
@@ -131,6 +170,7 @@ header
         }
         
         @include sp() {
+            height: auto;
             color: black;
             font-weight: 400;
             padding: 10px 0 10px 20px;
