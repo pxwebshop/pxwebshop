@@ -72,7 +72,7 @@
         <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              Dịch vụ <span class="c-title2__color1">nổi bật</span> của <span class="c-title2__color1">Pxwebshop</span>
+              Dịch vụ <span class="c-title2__color1">nổi bật</span> của <span class="c-title2__color1">PXwebshop</span>
             </span>
             <span class="c-title2__text1">
               Pxwebshop chuyên cung cấp các giải pháp cho doanh nghiệp vừa và nhỏ. Với đội ngũ nhân viên giàu kinh nghiệm thực tế, làm việc theo tiêu chuẩn nhật bản. Đảm bảo hệ thống của bạn vận hành tốt nhất.

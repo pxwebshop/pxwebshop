@@ -20,6 +20,7 @@
                     <figure class="c-list8__img">
                         <img src="/images/team/phonexay.jpg" alt="">
                     </figure>
+
                     <div class="c-list8__content">
                         <span class="c-list8__name"><span class="c-list8__title">Founder</span> - Phonexay Namsavanh</span> <br>
                         <span class="c-list8__position">Network Designer, Trainer</span>
@@ -37,13 +38,7 @@
                             <li><span>PHP</span></li>
                             <li><span>...</span></li>
                         </ul>
-                        <div class="c-list8__social">
-                            <ul>
-                                <li><a href="#" class="c-list8__link1">Twitter</a></li>
-                                <li><a href="#" class="c-list8__link2">Facebook</a></li>
-                                <li><a href="#" class="c-list8__link3">Linkedin</a></li>
-                            </ul>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -52,6 +47,7 @@
                     <figure class="c-list8__img">
                         <img src="/images/team/dangquy.jpg" alt="">
                     </figure>
+
                     <div class="c-list8__content">
                         <span class="c-list8__name"><span class="c-list8__title">Founder</span> - Dang Quy</span> <br>
                         <span class="c-list8__position">Developer</span>
@@ -69,13 +65,6 @@
                             <li><span>Vuejs</span></li>
                             <li><span>...</span></li>
                         </ul>
-                        <div class="c-list8__social">
-                            <ul>
-                                <li><a href="#" class="c-list8__link1">Twitter</a></li>
-                                <li><a href="#" class="c-list8__link2">Facebook</a></li>
-                                <li><a href="#" class="c-list8__link3">Linkedin</a></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -84,6 +73,7 @@
                     <figure class="c-list8__img">
                         <img src="/images/team/minchong.jpg" alt="">
                     </figure>
+
                     <div class="c-list8__content">
                         <span class="c-list8__name">Nguyen Minh Cong</span> <br>
                         <span class="c-list8__position">Developer</span>
@@ -100,13 +90,6 @@
                             <li><span>Wordpress</span></li>
                             <li><span>...</span></li>
                         </ul>
-                        <div class="c-list8__social">
-                            <ul>
-                                <li><a href="#" class="c-list8__link1">Twitter</a></li>
-                                <li><a href="#" class="c-list8__link2">Facebook</a></li>
-                                <li><a href="#" class="c-list8__link3">Linkedin</a></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -131,13 +114,6 @@
                             <li><span>JavaScript</span></li>
                             <li><span>...</span></li>
                         </ul>
-                        <div class="c-list8__social">
-                            <ul>
-                                <li><a href="#" class="c-list8__link1">Twitter</a></li>
-                                <li><a href="#" class="c-list8__link2">Facebook</a></li>
-                                <li><a href="#" class="c-list8__link3">Linkedin</a></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
