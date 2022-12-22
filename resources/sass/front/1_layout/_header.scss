@@ -57,7 +57,7 @@ header
         position: relative;
         cursor: pointer;
         display: inline-block;
-        height: 100%;
+        height: auto;
         align-items: center;
         @include sp() {
             height: auto;
