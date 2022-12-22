@@ -417,7 +417,7 @@
                   <img src="{{ asset('images/certificate/img3.jpg') }}" alt="advaced diplona in fomation techology">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <h5 class="c-box3__tlt">Advaced diplona in fomation techology</h5>
                   <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
                 </div>
               </div>
@@ -428,7 +428,7 @@
                   <img src="{{ asset('images/certificate/img1.jpg') }}" alt="huawei certification">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <h5 class="c-box3__tlt">Huawei certification</h5>
                   <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
                 </div>
               </div>
@@ -437,7 +437,7 @@
                   <img src="{{ asset('images/certificate/img2.jpg') }}" alt="cisco ceftifications">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <h5 class="c-box3__tlt">Cisco ceftifications</h5>
                   <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
                 </div>
               </div>
@@ -448,7 +448,7 @@
                   <img src="{{ asset('images/certificate/img4.jpg') }}" alt="certificate course in advanced web technology">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <h5 class="c-box3__tlt">Certificate course in advanced web technology</h5>
                   <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
                 </div>
               </div>
@@ -459,7 +459,7 @@
                   <img src="{{ asset('images/certificate/img5.jpg') }}" alt="certificate course in data communication and networking">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Certified Network Security Specialist</h5>
+                  <h5 class="c-box3__tlt">Certificate course in data communication and networking</h5>
                   <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
                 </div>
               </div>
