@@ -418,7 +418,7 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Advaced diplona in fomation techology</h5>
-                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                  <p class="c-box3__txt">Viết ngôn ngữ lào</p>
                 </div>
               </div>
             </li>
@@ -429,7 +429,7 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Huawei certification</h5>
-                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                  <p class="c-box3__txt">Viết ngôn ngữ lào</p>
                 </div>
               </div>
               <div class="c-box3__inner">
@@ -438,7 +438,7 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Cisco ceftifications</h5>
-                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                  <p class="c-box3__txt">Viết ngôn ngữ lào</p>
                 </div>
               </div>
             </li>
@@ -449,7 +449,7 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certificate course in advanced web technology</h5>
-                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                  <p class="c-box3__txt">Viết ngôn ngữ lào</p>
                 </div>
               </div>
             </li>
@@ -460,7 +460,7 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certificate course in data communication and networking</h5>
-                  <p class="c-box3__txt">Chứng chỉ chuyên gia bảo mật của ICSI cấp</p>
+                  <p class="c-box3__txt">Viết ngôn ngữ lào</p>
                 </div>
               </div>
             </li>
