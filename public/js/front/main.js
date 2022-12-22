@@ -43,6 +43,7 @@ $(document).ready(function() {
 			aid = aid.replace("/", "");
 
 			if ($(aid).offset() !== undefined) {
+				bodyFixReset();
 				e.preventDefault();
 				$('html,body').animate({scrollTop: $(aid).offset().top - top +'px'},'slow');
 			}
@@ -139,9 +140,9 @@ $(document).ready(function() {
 		}
 	});
 
-	$(".c-header__item--style1").click(function(e) {
+	$("span.c-header__link").click(function(e) {
 		e.preventDefault();
-		$(this).children().next().slideToggle();
+		$(this).next().slideToggle();
 		if ($(this).hasClass('is-active')) {
 			$(this).removeClass('is-active')
 		} else {
