@@ -8,7 +8,7 @@
         <nav class="c-header__nav">
             <ul class="c-header__list">
                 <li class="c-header__item">
-                    <a class="c-header__link" href="{{ Route::current()->getName() == 'home' ? '#home' : '/'}}">Trang chủ</a>
+                    <a class="c-header__link is-home" href="{{ Route::current()->getName() == 'home' ? '/#home' : '/'}}">Trang chủ</a>
                 </li>
                 <li class="c-header__item">
                     <a class="c-header__link" href="/#service">Dịch Vụ</a>
@@ -50,4 +50,3 @@
         </div>
     </div>
 </header>
-

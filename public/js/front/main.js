@@ -2,7 +2,6 @@ let body = $('body')
 let bodyHtml = $('body, HTML')
 
 $(document).ready(function() {
-	var top = 0 ;
 	/* ======================================
 	body fix
 	====================================== */
@@ -29,10 +28,11 @@ $(document).ready(function() {
 	}
 
 	$("a.c-header__link").click(function(e) {
+		let headerHeight = $('header').innerHeight();
 		if ($(window).outerWidth() < 768) {
-			top = 80;
+			headerHeight = headerHeight*2;
 		} else {
-			top = 0;
+			headerHeight = headerHeight/2;
 		}
 
 		$('.c-header__nav').removeClass('is-active');
@@ -45,7 +45,7 @@ $(document).ready(function() {
 			if ($(aid).offset() !== undefined) {
 				bodyFixReset();
 				e.preventDefault();
-				$('html,body').animate({scrollTop: $(aid).offset().top - top +'px'},'slow');
+				$('html,body').animate({scrollTop: $(aid).offset().top - headerHeight +'px'},'slow');
 			}
 		}
 	});
