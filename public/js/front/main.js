@@ -140,16 +140,6 @@ $(document).ready(function() {
 		}
 	});
 
-	$("span.c-header__link").click(function(e) {
-		e.preventDefault();
-		$(this).next().slideToggle();
-		if ($(this).hasClass('is-active')) {
-			$(this).removeClass('is-active')
-		} else {
-			$(this).addClass('is-active')
-		}
-	});
-
 	var btn = $('.c-slider__btn');
 	btn.on('click', function() {
 		var img = $($(this).closest('.c-slider__inner').children().get(0)).html();

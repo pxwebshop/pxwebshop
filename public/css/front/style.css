@@ -536,11 +536,6 @@ header
     text-transform: capitalize;
   }
 }
-@media screen and (max-width: 767px) {
-  .c-header__item--style1 .c-header__child {
-    display: none;
-  }
-}
 .c-header__item .c-header__child {
   position: absolute;
   opacity: 0;
@@ -560,6 +555,8 @@ header
     opacity: 1;
     width: 100%;
     padding: 0;
+    border-left: 5px solid #1E1666;
+    border-radius: 0;
   }
 }
 .c-header__item .c-header__child__item {
