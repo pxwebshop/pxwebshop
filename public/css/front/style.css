@@ -250,9 +250,6 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
 }
-body.is-fixed {
-  position: fixed;
-}
 
 /*
 ------------------------------------------------------------*/
@@ -537,6 +534,11 @@ header
     font-weight: 400;
     text-decoration: none;
     text-transform: capitalize;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-header__item--style1 .c-header__child {
+    display: none;
   }
 }
 .c-header__item .c-header__child {

@@ -103,6 +103,11 @@ header
                 text-transform: capitalize;
               }
             }
+            .c-header__child {
+                @include sp() {
+                    display: none;
+                }
+            }
         }
 
         #{$root}__child {
