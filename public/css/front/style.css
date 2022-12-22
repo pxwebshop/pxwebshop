@@ -591,6 +591,7 @@ header
 @media screen and (max-width: 767px) {
   .c-header__item .c-header__child__link {
     display: block;
+    color: black;
     padding: 10px 0 10px 50px;
   }
 }

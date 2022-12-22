@@ -155,6 +155,7 @@ header
             &__link {
                 @include sp() {
                     display: block;
+                    color: black;
                     padding: 10px 0 10px 50px;
                 }
             }
