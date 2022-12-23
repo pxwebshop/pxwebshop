@@ -34,6 +34,12 @@ $(document).ready(function() {
 		} else {
 			headerHeight = headerHeight/2;
 		}
+		$("a.c-header__link").each(function() {
+			$(this).css({'opacity':'', 'color': ''});
+		});
+
+		$(this).css({'opacity': '0.6', 'color': '#052055'});
+
 		if ($(this).hasClass('is-child_item')) {
 			$(this).next().slideToggle();
 			return false;
