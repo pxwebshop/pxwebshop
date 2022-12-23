@@ -453,6 +453,11 @@ header
   color: #fff;
 }
 @media screen and (max-width: 767px) {
+  .c-header--style1 .c-header__link {
+    color: #1E1666;
+  }
+}
+@media screen and (max-width: 767px) {
   .c-header {
     height: 60px;
     background: #ffffff;

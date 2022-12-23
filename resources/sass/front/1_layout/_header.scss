@@ -25,6 +25,9 @@ header
 
         #{$root}__link {
             color: #fff;
+            @include sp() {
+                color: #1E1666;
+            }
         }
     }
     @include sp() {
