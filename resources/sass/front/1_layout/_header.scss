@@ -16,6 +16,10 @@ header
             padding: 0;
         }
     }
+    .is-choose {
+        color : #052055;
+        opacity: 0.6;
+    }
     &--style1 {
         background: #ffffff;
         #{$root}__link {

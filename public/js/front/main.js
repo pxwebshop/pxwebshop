@@ -35,10 +35,10 @@ $(document).ready(function() {
 			headerHeight = headerHeight/2;
 		}
 		$("a.c-header__link").each(function() {
-			$(this).css({'opacity':'', 'color': ''});
+			$(this).removeClass('is-choose');
 		});
 
-		$(this).css({'opacity': '0.6', 'color': '#052055'});
+		$(this).addClass('is-choose');
 
 		if ($(this).hasClass('is-child_item')) {
 			$(this).next().slideToggle();
