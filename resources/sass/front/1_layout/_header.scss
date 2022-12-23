@@ -68,6 +68,7 @@ header
             border-bottom: 1px solid #ccc;
             text-align: left;
         }
+       
         &:not(:first-child) {
             margin-left: 8px;
             @include sp() {

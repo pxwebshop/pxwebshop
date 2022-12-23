@@ -26,8 +26,8 @@
                     <a class="c-header__link" href="/#train">Đào tạo</a>
                 </li>
                 <li class="c-header__item c-header__item--style1">
-                    <span class="c-header__link">Về chúng tôi &nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </span>
+                    <a href="#" class="c-header__link is-child_item">Về chúng tôi &nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
                     <ul class="c-header__child">
                         <li class="c-header__child__item">
                             <a class="c-header__child__link" href="/contact">Liên hệ</a>

@@ -34,6 +34,12 @@ $(document).ready(function() {
 		} else {
 			headerHeight = headerHeight/2;
 		}
+		if ($(this).hasClass('is-child_item')) {
+			$(this).next().slideToggle();
+			return false;
+		} else {
+			$('.is-child_item').next().css('display', 'none');
+		}
 
 		$('.c-header__nav').removeClass('is-active');
 		$('.js-menu').removeClass('is-active');
@@ -48,10 +54,6 @@ $(document).ready(function() {
 				$('html,body').animate({scrollTop: $(aid).offset().top - headerHeight +'px'},'slow');
 			}
 		}
-	});
-
-	$('span.c-header__link').click(function() {
-		$(this).next().slideToggle();
 	});
 
 	$('.c-box2__item').matchHeight();
