@@ -1422,13 +1422,19 @@ video
   cursor: pointer;
   position: relative;
 }
-.c-slider__inner:hover:after {
-  opacity: 0.6;
-  transition: 0.4s ease-in-out;
-}
-.c-slider__inner:hover .c-slider__btn {
-  opacity: 1;
-  transition: 0.4s ease-in-out;
+@media screen and (min-width: 768px) {
+  .c-slider__inner:hover:after {
+    opacity: 0.6;
+    transition: 0.4s ease-in-out;
+  }
+  .c-slider__inner:hover .c-slider__btn {
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+  }
+  .c-slider__inner:hover img {
+    transform: translateY(-70%);
+    transition: 3s ease-in-out;
+  }
 }
 .c-slider__inner:after {
   content: "";
