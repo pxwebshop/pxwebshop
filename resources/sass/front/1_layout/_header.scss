@@ -6,7 +6,7 @@ header
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     top: 0;
     z-index: 999;
-    background: linear-gradient(90deg, rgba(50,255,198,1) 0%, rgba(50,154,255,1) 45%, rgba(63,140,232,1) 100%);
+    background: #ffffff;
     .l-container {
         display: flex;
         justify-content: space-between;
@@ -21,9 +21,10 @@ header
         opacity: 0.6;
     }
     &--style1 {
-        background: #ffffff;
+        background: linear-gradient(90deg, rgba(50,255,198,1) 0%, rgba(50,154,255,1) 45%, rgba(63,140,232,1) 100%);
+
         #{$root}__link {
-            color: #1E1666;
+            color: #fff;
         }
     }
     @include sp() {
@@ -160,7 +161,8 @@ header
         height: 100%;
         display: flex;
         align-items: center;
-        
+        color: #1E1666;
+
         @include sp() {
             height: auto;
             color: black;

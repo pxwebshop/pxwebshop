@@ -471,7 +471,7 @@ other
     }
     &__item {
         font-size: 1.7rem;
-        font-weight: 600;
+    font-weight: 600;
     }
     &__txt {
         color: #fff;
@@ -687,5 +687,31 @@ other
     &__phone {
         color: black;
         text-decoration: none;
+    }
+}
+
+.c-box9 {
+    &__list {
+        margin: 40px 0;
+        padding: 30px 0;
+        @include sp() {
+            margin: 30px 0;
+            padding: 20px 0;
+        }
+    }
+    &__tlt {
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+    &__txt {
+        font-size: 1.6rem;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    &__item {
+        margin-bottom: 40px;
     }
 }

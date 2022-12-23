@@ -45,10 +45,10 @@
                     <h5 class="c-footer__tlt">ĐIỀU KHOẢN CHÍNH SÁCH</h5>
                     <ul class="c-footer__list1">
                         <li class="c-footer__list1__item">
-                            <a href="">Chính Sách Bảo Mật</a>
+                            <a href="/privacy-policy">Chính Sách Bảo Mật</a>
                         </li>
                         <li class="c-footer__list1__item">
-                            <a href="">Điều Khoản Sử Dụng</a>
+                            <a href="/terms-of-use">Điều Khoản Sử Dụng</a>
                         </li>
                         <li class="c-footer__list1__item">
                             <a href="">Thông Tin Thanh Toán</a>

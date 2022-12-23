@@ -46,7 +46,6 @@ $(document).ready(function() {
 		} else {
 			$('.is-child_item').next().css('display', 'none');
 		}
-
 		$('.c-header__nav').removeClass('is-active');
 		$('.js-menu').removeClass('is-active');
 		var aid = $(this).attr("href");
