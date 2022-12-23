@@ -15,7 +15,7 @@
           </li>
           <li class="c-list1__item">
             <figure>
-              <img src="https://placehold.jp/500x300.png" alt="" srcset="">
+              <img src="/images/banner.png" alt="thiết kế website giá rẻ">
             </figure>
           </li>
         </ul>
