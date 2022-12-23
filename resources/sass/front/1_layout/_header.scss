@@ -68,18 +68,6 @@ header
             border-bottom: 1px solid #ccc;
             text-align: left;
         }
-        @include hover() {
-            color: black;
-            #{$root}__child {
-                transition: 0.3 ease-in;
-                opacity: 1;
-                display: block;
-                color: black;
-                &__item {
-                    // background: linear-gradient(90deg, rgb(97, 96, 96) 0%, rgb(255, 204, 50) 5%, rgb(255, 204, 50) 38%, rgb(255, 204, 50) 100%);
-                }
-            }
-        }
         &:not(:first-child) {
             margin-left: 8px;
             @include sp() {
@@ -107,11 +95,10 @@ header
 
         #{$root}__child {
             position: absolute;
-            opacity: 0;
-            transition: 0.3s ease-in-out;
+            display: none;
             width: 250px;
             background-color: #ffffff;
-            top: 70px;
+            top: 40px;
             right: 0;
             padding: 10px 0;
             z-index: 8;
@@ -168,11 +155,6 @@ header
         height: 100%;
         display: flex;
         align-items: center;
-        @include hover() {
-            #{$root}__child {
-                opacity: 1;
-            }
-        }
         
         @include sp() {
             height: auto;

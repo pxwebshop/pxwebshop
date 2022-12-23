@@ -50,6 +50,10 @@ $(document).ready(function() {
 		}
 	});
 
+	$('span.c-header__link').click(function() {
+		$(this).next().slideToggle();
+	});
+
 	$('.c-box2__item').matchHeight();
 	$('.c-list2__wrap').matchHeight();
 	
