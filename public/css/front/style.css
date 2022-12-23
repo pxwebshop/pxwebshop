@@ -2298,6 +2298,12 @@ Page Top
 .p-home1 {
   background: linear-gradient(90deg, rgb(50, 255, 198) 0%, rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
 }
+.p-home1 .c-title1 {
+  color: #1E1666;
+}
+.p-home1 .c-title1__description {
+  color: #242d4c;
+}
 .p-home1__box {
   position: relative;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
