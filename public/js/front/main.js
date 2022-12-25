@@ -153,15 +153,7 @@ $(document).ready(function() {
 
 	var btn = $('.c-slider__btn');
 	btn.on('click', function() {
-		var img = $($(this).closest('.c-slider__inner').children().get(0)).html();
-		var id = $(this).data('modal');
-
-		id = id.replace("#", "");
-		var html = `<div id="${id}" class="c-slider__modal is-modal">${img}</div>`;
-		if ($("#"+ id).length === 0) {
-			$('body').append(html);
-		}
-		$($(this).data('modal')).modal({ fadeDuration: 250 });
+		$($(this).next().data('modal')).modal({ fadeDuration: 250 });
 
 		return false;
 	});

@@ -1478,11 +1478,7 @@ video
   text-transform: capitalize;
 }
 .c-slider__modal {
-  max-width: 95vw !important;
   display: none;
-}
-.c-slider__modal figure {
-  height: auto !important;
 }
 .c-slider .slick-arrow {
   z-index: 10;
@@ -2355,6 +2351,14 @@ Page Top
 @media screen and (max-width: 767px) {
   .p-home4 {
     padding: 40px 15px 20px;
+  }
+}
+.p-home4 .c-slider__list:last-child {
+  margin-top: 70px;
+}
+@media screen and (max-width: 767px) {
+  .p-home4 .c-slider__list:last-child {
+    margin-top: 60px;
   }
 }
 .p-home5 {

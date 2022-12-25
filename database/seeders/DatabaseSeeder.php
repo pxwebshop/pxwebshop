@@ -13,6 +13,32 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        //
+        $data = [
+            [
+                'username' => 'username1',
+                'password' => bcrypt('12345'),
+            ],
+            [
+                'username' => 'username2',
+                'password' => bcrypt('12345'),
+            ],
+            [
+                'username' => 'admin',
+                'password' => bcrypt('admin!@#123'),
+            ],
+        ];
+
+        \DB::table('users')->insert($data);
+
+        $data1 = [
+            [
+                'name' => 'Danh muc du lich',
+                'slug' => 'danh-muc-du-lich',
+                'description' => 'desciption',
+            ],
+        ];
+
+        \DB::table('categories')->insert($data1);
     }
 }

@@ -7,10 +7,10 @@
       <div class="l-container">
         <ul class="c-list1 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <li class="c-list1__item">
-            <h2 class="c-title1">Thiết kế web chuẩn seo.<br/>
+            <h1 class="c-title1">Thiết kế web chuẩn seo.<br/>
               <span class="c-title1__txt">Dẫn đầu</span>
               <span class="c-title1__color1">công nghệ</span>
-            </h2>
+            </h1>
             <p class="c-title1__description">PXwebshop đi đầu trong lĩnh vực SEO và thiết kế website, thiết kế phần mềm, thiết kế hệ thống với hơn 7 năm kinh nghiệm và đội ngũ nhân viên chuyên nghiệp được đào tạo chuyên môn sâu.</p>
           </li>
           <li class="c-list1__item">
@@ -135,63 +135,262 @@
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img1.jpg') }}" alt="nest mart grocery">
+                <img src="https://mona.media/wp-content/uploads/2019/05/vanphongphamfast-trangchu.jpg" alt="nest mart grocery">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal1" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/05/vanphongphamfast-trangchu.jpg" alt="elanna">
+                </figure>
+              </div>
             </div>
           </div>
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img2.jpg') }}" alt="blogar">
+                <img src="https://mona.media/wp-content/uploads/2019/06/cleverfood-trangchu.jpg" alt="blogar">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal2" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
-            </div>
-          </div>
-          <div class="c-slider__item">
-            <div class="c-slider__inner">
-              <figure>
-                <img src="{{ asset('images/store-web/img3.jpg') }}" alt="optinistic blog">
-              </figure>
-              <div class="c-slider__btnWrap">
-                <a data-modal="#modal3" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/06/cleverfood-trangchu.jpg" alt="elanna">
+                </figure>
               </div>
             </div>
           </div>
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img4.jpg') }}" alt="elanna">
+                <img src="https://mona.media/wp-content/uploads/2019/05/dualeoshoes-trangchu.jpg" alt="elanna">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal4" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/05/dualeoshoes-trangchu.jpg" alt="elanna">
+                </figure>
+              </div>
             </div>
           </div>
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img5.jpg') }}" alt="innivation architecture">
+                <img src="https://mona.media/wp-content/uploads/2019/04/nuochoa-trangchu.jpg" alt="innivation architecture">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal5" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/04/nuochoa-trangchu.jpg" alt="elanna">
+                </figure>
+              </div>
             </div>
           </div>
           <div class="c-slider__item">
             <div class="c-slider__inner">
               <figure>
-                <img src="{{ asset('images/store-web/img6.jpg') }}" alt="digital solution">
+                <img src="https://mona.media/wp-content/uploads/2019/03/broshop-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
                 <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/03/broshop-trangchu.jpg" alt="elanna">
+                </figure>
+              </div>
             </div>
           </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2019/02/maynenkhi-trangchu.jpg" alt="digital solution">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/02/maynenkhi-trangchu.jpg" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2019/02/laptoppro.vn-trang-chu.png" alt="digital solution">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/02/laptoppro.vn-trang-chu.png" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2019/02/watch-mirora-trangchu.jpg" alt="digital solution">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/02/watch-mirora-trangchu.jpg" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="c-slider__list">
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2020/06/FireShot-Capture-019-Yoko-Edu-mauweb.monamedia.net_.png" alt="digital solution">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2020/06/FireShot-Capture-019-Yoko-Edu-mauweb.monamedia.net_.png" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2019/03/fpt-hanoi-trangchu.jpg" alt="digital solution">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/03/fpt-hanoi-trangchu.jpg" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2019/01/FireShot-Capture-482-Kids-World-http___mauweb.monamedia.net_kidsworld_.jpg" alt="digital solution">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/01/FireShot-Capture-482-Kids-World-http___mauweb.monamedia.net_kidsworld_.jpg" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2019/02/mlandmarkresidence-landingpage.jpg" alt="nest mart grocery">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal1" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/02/mlandmarkresidence-landingpage.jpg" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2019/01/phu-my-hung.jpg" alt="blogar">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal2" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/01/phu-my-hung.jpg" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2019/02/traveltime-trangchu.jpg" alt="elanna">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal4" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/02/traveltime-trangchu.jpg" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2019/02/trabble-trangchu.jpg" alt="innivation architecture">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal5" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2019/02/trabble-trangchu.jpg" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu-truot-tuyet.jpg" alt="digital solution">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu-truot-tuyet.jpg" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="c-slider__item">
+            <div class="c-slider__inner">
+              <figure>
+                <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu.jpg" alt="digital solution">
+              </figure>
+              <div class="c-slider__btnWrap">
+                <a data-modal="#modal6" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+              </div>
+              <div class="c-slider__modal">
+                <figure>
+                  <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu.jpg" alt="elanna">
+                </figure>
+              </div>
+            </div>
+          </div>
+         
         </div>
       </div>
     </section>

@@ -61,6 +61,16 @@ Page Top
         @include sp() {
             padding: 40px 15px 20px;
         }
+        .c-slider {
+            &__list {
+                &:last-child {
+                    margin-top: 70px;
+                    @include sp() {
+                        margin-top: 60px;
+                    }
+                }
+            }
+        }
     }
     &5 {
         padding-top: 85px;
