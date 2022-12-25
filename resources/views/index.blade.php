@@ -291,7 +291,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/01/FireShot-Capture-482-Kids-World-http___mauweb.monamedia.net_kidsworld_.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex1" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex11" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
               <div class="c-slider__modal" id="ex11" class="modal">
                 <figure>
@@ -306,7 +306,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/mlandmarkresidence-landingpage.jpg" alt="nest mart grocery">
               </figure>
               <div class="c-slider__btnWrap">
-                <a  href="#ex1" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a  href="#ex12" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
               <div class="c-slider__modal" id="ex12" class="modal">
                 <figure>
@@ -321,7 +321,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/01/phu-my-hung.jpg" alt="blogar">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex1" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex13" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
               <div class="c-slider__modal" id="ex13" class="modal">
                 <figure>
@@ -336,7 +336,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/traveltime-trangchu.jpg" alt="elanna">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex1" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex14" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
               </div>
               <div class="c-slider__modal" id="ex14" class="modal">
                 <figure>
