@@ -151,12 +151,12 @@ $(document).ready(function() {
 		}
 	});
 
-	var btn = $('.c-slider__btn');
-	btn.on('click', function() {
-		$($(this).next().data('modal')).modal({ fadeDuration: 250 });
-
-		return false;
-	});
+// 	var btn = $('.c-slider__btn');
+// 	btn.on('click', function() {
+// 		$($(this).parent().next().data('modal')).modal({ fadeDuration: 250 });
+// console.log($($(this).parent().next()));
+// 		return false;
+// 	});
 
 	$(".js-menu").click(function() {
 		if ($(this).hasClass('is-active')) {
@@ -168,7 +168,7 @@ $(document).ready(function() {
 			$(this).prev().addClass('is-active');
 			bodyFix();
 		}
-	})
+	});
 });
 
 $(window).scroll(function(){
