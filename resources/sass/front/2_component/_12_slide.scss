@@ -91,6 +91,9 @@ video
     }
     &__modal {
         display: none;
+        &.modal {
+            max-width: 2000px;
+        }
     }
 
     .slick-arrow {
