@@ -29,6 +29,7 @@ header
                 color: #1E1666;
             }
         }
+        
     }
     @include sp() {
         height: 60px;
@@ -87,6 +88,7 @@ header
             margin: 0 6px;
         }
         &--style1 {
+            height: 40px;
             & > a {
                 @include sp() {
                     border-bottom: 1px solid #ccc;
@@ -99,6 +101,11 @@ header
                 text-decoration: none;
                 text-transform: capitalize;
               }
+            }
+            @include hover() {
+                #{$root}__child {
+                    display: block;
+                }
             }
         }
 
@@ -172,6 +179,9 @@ header
             font-weight: 400;
             padding: 10px 0 10px 20px;
             display: block;
+        }
+        &.is-child_item {
+            
         }
     }
     &__content {

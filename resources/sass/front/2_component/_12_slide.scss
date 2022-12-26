@@ -46,7 +46,7 @@ video
                 transition: 0.4s ease-in-out;
             }
             img {
-                transform: translateY(-70%);
+                transform: translateY(calc(-100% + 500px));
                 transition: 3s ease-in-out;
             }
         }

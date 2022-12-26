@@ -70,7 +70,11 @@ Page Top
                     }
                 }
             }
-           
+            .slick-dots li {
+                @include sp() {
+                    margin: 0;
+                }
+            }
         }
     }
     &5 {

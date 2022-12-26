@@ -521,6 +521,9 @@ header
 .c-header__item i {
   margin: 0 6px;
 }
+.c-header__item--style1 {
+  height: 40px;
+}
 @media screen and (max-width: 767px) {
   .c-header__item--style1 > a {
     border-bottom: 1px solid #ccc;
@@ -532,6 +535,11 @@ header
     font-weight: 400;
     text-decoration: none;
     text-transform: capitalize;
+  }
+}
+@media screen and (min-width: 768px) {
+  .c-header__item--style1:hover .c-header__child {
+    display: block;
   }
 }
 .c-header__item .c-header__child {
@@ -1442,7 +1450,7 @@ video
     transition: 0.4s ease-in-out;
   }
   .c-slider__inner:hover img {
-    transform: translateY(-70%);
+    transform: translateY(calc(-100% + 500px));
     transition: 3s ease-in-out;
   }
 }
@@ -2362,6 +2370,11 @@ Page Top
 @media screen and (max-width: 767px) {
   .p-home4 .c-slider__list:last-child {
     margin-top: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .p-home4 .c-slider .slick-dots li {
+    margin: 0;
   }
 }
 .p-home5 {
