@@ -89,6 +89,9 @@ header
         }
         &--style1 {
             height: 40px;
+            @include sp() {
+                height: auto;
+            }
             & > a {
                 @include sp() {
                     border-bottom: 1px solid #ccc;
@@ -127,6 +130,7 @@ header
                 padding: 0;
                 border-left: 5px solid #1E1666;
                 border-radius: 0;
+                display: block;
             }
             &__item {
                 border-bottom: 1px solid #ccc;

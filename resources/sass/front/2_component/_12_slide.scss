@@ -94,6 +94,9 @@ video
         &.modal {
             max-width: 2000px;
         }
+        @include sp() {
+            padding: 10px;
+        }
     }
 
     .slick-arrow {
