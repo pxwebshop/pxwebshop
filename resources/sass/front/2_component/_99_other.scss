@@ -715,3 +715,128 @@ other
         margin-bottom: 40px;
     }
 }
+
+.c-box10 {
+    height: 300px;
+    position: relative;
+    &__img {
+        height: 100%;
+        figure {
+            height: 100%;
+            display: block;
+            img {
+                height: 100%;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+    }
+    &__tlt {
+        font-size: 2.8rem;
+        font-weight: bold;
+        line-height: 1.3;
+    }
+    &__description {
+        font-size: 1.6rem;
+        font-style: italic;
+        line-height: 1.5;
+        margin: 10px 0;
+    }
+    &__nav {
+
+    }
+    &__inner {
+        color: #1E1666;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    &__breadcrumb {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.6rem;
+        color: black;
+        padding: 20px 0px;
+        background-color: #fff;
+        &__item {
+            color: #1E1666;
+            padding: 0 30px;
+            text-transform: capitalize;
+            position: relative;
+            font-weight: 700;
+            &.is-active {
+                &::before, &::after {
+                    content: normal;
+                }
+            }
+            &::before, &::after {
+                content: "";
+                display: block;
+                width: 13px;
+                background-color: #1E1666;
+                height: 2px;
+                right: -5px;
+                position: absolute;
+            }
+            &::before {
+                bottom: 10px;
+                transform: rotate(-25deg);
+            }
+            &::after {
+                top: 10px;
+                transform: rotate(25deg);
+            }
+        }
+        a {
+            color: #1E1666;
+            text-decoration: none;
+        }
+    }
+}
+
+.c-box11 {
+    &__content {
+        display: flex;
+    }
+    &__inner {
+        flex: 1;
+    }
+    &__author {
+        font-size: 1.6rem;
+        color: #1E1666;
+        display: flex;
+        font-weight: bold;
+        span {
+            text-transform: capitalize;
+            margin-left: 10px;
+        }
+        &__txt {
+            color: #cb2121;
+        }
+    }
+    &__txt {
+
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #1E1666;
+        padding: 30px 0;
+    }
+    &__date {
+        display: flex;
+        align-items: center;
+    }
+    &__datePost {
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    &__slidebar {
+        width: 300px;
+        border: 1px solid red;
+    }
+}

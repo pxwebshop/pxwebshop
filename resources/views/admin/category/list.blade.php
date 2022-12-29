@@ -26,7 +26,13 @@
                         <th scope="col">Slug</th>
                         <th scope="col">Mô tả</th>
                         <th scope="col">Ngày Tạo</th>
-                        <th scope="col">Trạng Thái</th>
+                        <th scope="col" class="text-center">
+                            @if(\Request::route()->getName() == 'edit_category')
+                                <a href="{{route('add_category') }}" type="button" class="btn btn-primary">Thêm</a>
+                            @else
+                                Trạng Thái
+                            @endif
+                        </th>
                     </tr>
                     </thead>
                     <tbody>
@@ -38,8 +44,8 @@
                             <td>{{$item->description}}</td>
                             <td>{{date('d-m-Y', strtotime($item->created_at))}}</td>
                             <td class="text-center">
-                                <a class="btn btn-warning text-white" href="">Sửa</a>
-                                <a onclick="return confirm(`Bạn có muốn xóa nhân viên không?`);"  href="" class="btn btn-danger">Xoá</button>
+                                <a class="btn btn-warning text-white" href="{{route('edit_category', $item->id) }}">Sửa</a>
+                                <a onclick="return confirm(`Bạn có muốn xóa danh mục {{$item->name}} không?`);"  href="{{route('delete_category', $item->id) }}" class="btn btn-danger">Xoá</button>
                             </td>
                         </tr>
                         @endforeach
@@ -52,7 +58,7 @@
         <div class="col-lg-5">
             <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Thêm danh mục</h5>
+                  <h5 class="card-title">{{ \Request::route()->getName() == 'edit_category' ? 'Sửa' : 'Thêm'}} danh mục</h5>
     
                   <!-- Multi Columns Form -->
                   <form class="row g-3" method="post">

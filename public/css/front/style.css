@@ -2308,6 +2308,122 @@ other
   margin-bottom: 40px;
 }
 
+.c-box10 {
+  height: 300px;
+  position: relative;
+}
+.c-box10__img {
+  height: 100%;
+}
+.c-box10__img figure {
+  height: 100%;
+  display: block;
+}
+.c-box10__img figure img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.c-box10__tlt {
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.c-box10__description {
+  font-size: 1.6rem;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+.c-box10__inner {
+  color: #1E1666;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.c-box10__breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.6rem;
+  color: black;
+  padding: 20px 0px;
+  background-color: #fff;
+}
+.c-box10__breadcrumb__item {
+  color: #1E1666;
+  padding: 0 30px;
+  text-transform: capitalize;
+  position: relative;
+  font-weight: 700;
+}
+.c-box10__breadcrumb__item.is-active::before, .c-box10__breadcrumb__item.is-active::after {
+  content: normal;
+}
+.c-box10__breadcrumb__item::before, .c-box10__breadcrumb__item::after {
+  content: "";
+  display: block;
+  width: 13px;
+  background-color: #1E1666;
+  height: 2px;
+  right: -5px;
+  position: absolute;
+}
+.c-box10__breadcrumb__item::before {
+  bottom: 10px;
+  transform: rotate(-25deg);
+}
+.c-box10__breadcrumb__item::after {
+  top: 10px;
+  transform: rotate(25deg);
+}
+.c-box10__breadcrumb a {
+  color: #1E1666;
+  text-decoration: none;
+}
+
+.c-box11__content {
+  display: flex;
+}
+.c-box11__inner {
+  flex: 1;
+}
+.c-box11__author {
+  font-size: 1.6rem;
+  color: #1E1666;
+  display: flex;
+  font-weight: bold;
+}
+.c-box11__author span {
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.c-box11__author__txt {
+  color: #cb2121;
+}
+.c-box11__top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #1E1666;
+  padding: 30px 0;
+}
+.c-box11__date {
+  display: flex;
+  align-items: center;
+}
+.c-box11__datePost {
+  margin-left: 5px;
+  font-weight: bold;
+}
+.c-box11__slidebar {
+  width: 300px;
+  border: 1px solid red;
+}
+
 /*------------------------------------------------------------
 Page Top
 ------------------------------------------------------------*/

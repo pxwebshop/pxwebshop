@@ -18,9 +18,14 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
+        'id',
         'name',
+        'username',
         'email',
         'password',
+        'status',
+        'created_at',
+        'updated_at'
     ];
 
     /**
@@ -42,4 +47,30 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
     
+    protected $appends = [
+        'id', 'status', 'name'
+    ];
+
+    public function username()
+    {
+        return 'username';
+    }
+
+    const NOT_APPROVED_YET = 0;
+    const ACTIVE = 1;
+    const INACTIVE = 2;
+
+    const STATUS = [
+        self::NOT_APPROVED_YET,
+        self::ACTIVE,
+        self::INACTIVE
+    ];
+
+    const USER_ROLE = 1;
+    const ADMIN_ROLE = 2;
+
+    public static function getStatus()
+    {
+        return self::STATUS;
+    }
 }

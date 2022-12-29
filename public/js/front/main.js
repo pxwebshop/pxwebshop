@@ -1,6 +1,7 @@
 let body = $('body')
 let bodyHtml = $('body, HTML')
 
+
 $(document).ready(function() {
 	/* ======================================
 	body fix

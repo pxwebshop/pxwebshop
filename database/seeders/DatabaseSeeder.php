@@ -37,6 +37,16 @@ class DatabaseSeeder extends Seeder
                 'slug' => 'danh-muc-du-lich',
                 'description' => 'desciption',
             ],
+            [
+                'name' => 'Danh muc ẩm thực',
+                'slug' => 'danh-muc-am-thuc',
+                'description' => 'desciption',
+            ],
+            [
+                'name' => 'Danh muc blockchain',
+                'slug' => 'danh-muc-blockchain',
+                'description' => 'desciption',
+            ],
         ];
 
         \DB::table('categories')->insert($data1);
