@@ -32,7 +32,7 @@ class BlogController extends Controller
       $categories = $request->get('categories');
 
       \DB::beginTransaction();
-
+      $data = [];
       if ($request->hasFile('featured_image')) {
          $image      = $request->file('featured_image');
          $fileName   = time() . '.' . $image->getClientOriginalExtension();
@@ -48,13 +48,16 @@ class BlogController extends Controller
          ];
       }
 
-      $data = [
+      $data1 = [
          'user_id'            => \Auth::user()->id,
          'status'             => $request->input('status'),
          'title'              => $request->input('title'),
          'content'            => $request->input('content'),
       ];
-      $blog = Blog::create($data);
+
+      $result = array_merge($data, $data1);
+
+      $blog = Blog::create($result);
      
       foreach ($categories as $id) {
          $blog->blog_category()->attach([ $id ]);

@@ -516,7 +516,6 @@
       </div>
     </section>
 
-
     <section class="p-home6" id="procedure">
       <div class="l-container">
         <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
@@ -785,57 +784,20 @@
 
         <div class="c-list10">
           <ul class="c-list10__list">
+            @foreach($blogs as $key => $item)
             <li class="c-list10__item">
-              <a class="c-list10__wrap">
+              <a href="{{route('blog_detail', $item->id)}}" class="c-list10__wrap">
                 <figure>
-                  <img src="https://placehold.jp/320x240.png" alt="">
-                </figure>
-                <ul class="c-list10__cat">
-                  <li class="c-list10__cat__item">category1</li>
-                  <li class="c-list10__cat__item">category2</li>
-                  <li class="c-list10__cat__item">category2</li>
-                  <li class="c-list10__cat__item">category2</li>
-                  <li class="c-list10__cat__item">category2</li>
-                </ul>
-                <h3 class="c-list10__tlt">title title title title title title title title title title title title title title</h3>
-              </a>
-            </li>
-            <li class="c-list10__item">
-              <a class="c-list10__wrap">
-                <figure>
-                  <img src="https://placehold.jp/320x240.png" alt="">
+                  <img src="{{url('storage/images/blog/feature/'.$item->featured_image.'')}}" alt="">
                 </figure>
                 <ul class="c-list10__cat">
                   <li class="c-list10__cat__item">category1</li>
                   <li class="c-list10__cat__item">category2</li>
                 </ul>
-                <h3 class="c-list10__tlt">title title title title title title title title title title title title title title</h3>
+                <h3 class="c-list10__tlt">{{$item->title}}</h3>
               </a>
             </li>
-            <li class="c-list10__item">
-              <a class="c-list10__wrap">
-                <figure>
-                  <img src="https://placehold.jp/320x240.png" alt="">
-                </figure>
-                <ul class="c-list10__cat">
-                  <li class="c-list10__cat__item">category1</li>
-                  <li class="c-list10__cat__item">category2</li>
-                </ul>
-                <h3 class="c-list10__tlt">title title title title title title title</h3>
-              </a>
-            </li>
-            <li class="c-list10__item">
-              <a class="c-list10__wrap">
-                <figure>
-                  <img src="https://placehold.jp/320x240.png" alt="">
-                </figure>
-                <ul class="c-list10__cat">
-                  <li class="c-list10__cat__item">category1</li>
-                  <li class="c-list10__cat__item">category2</li>
-                </ul>
-                <h3 class="c-list10__tlt">title title title title title title title</h3>
-              </a>
-            </li>
+            @endforeach
           </ul>
         </div>
       </div>

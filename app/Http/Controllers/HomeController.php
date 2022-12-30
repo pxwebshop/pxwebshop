@@ -6,13 +6,16 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Validator;
 use App\Models\Order;
+use App\Models\Blog;
 use Carbon\Carbon;
 use Brian2694\Toastr\Facades\Toastr;
 class HomeController extends Controller
 {
      public function index(Request $request)
      {
-          return view('index');
+          $blogs = Blog::orderBy('created_at', 'desc')->take(4)->get();
+
+          return view('index', compact('blogs'));
      }
 
      public function contact(Request $request)

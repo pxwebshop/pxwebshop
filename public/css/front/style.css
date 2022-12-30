@@ -1422,6 +1422,8 @@ list
   display: flex;
   flex-direction: column;
   border-radius: 5px;
+  text-decoration: none;
+  color: #262932;
 }
 .c-list10__cat {
   margin: 10px 0;
@@ -1445,6 +1447,7 @@ list
 .c-list10__tlt {
   padding: 0 10px 20px 10px;
   line-height: 1.5;
+  text-decoration: underline;
 }
 .c-list10 figure {
   height: 240px;
