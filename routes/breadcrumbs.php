@@ -20,6 +20,12 @@ Breadcrumbs::for('users', function ($trail) {
     $trail->push('Danh sách người dùng', route('list_users'));
 });
 
+Breadcrumbs::for('profile', function ($trail) {
+    $trail->parent('home');
+    $trail->push('Người dùng', route('list_users'));
+    $trail->push('Hồ sơ', route('profile'));
+});
+
 Breadcrumbs::for('add_blog', function ($trail) {
     $trail->parent('home');
     $trail->push('Bài viết', route('list_blog'));

@@ -50,7 +50,9 @@
                             </td>
                             <td>{{date('d-m-Y', strtotime($item->created_at))}}</td>
                             <td class="text-center">
-                                <a class="btn btn-warning text-white" href="{{route('edit_account', $item->id) }}">Sửa</a>
+                                @if($item->username != \Auth::user()->username)
+                                    <a class="btn btn-warning text-white" href="{{route('edit_account', $item->id) }}">Sửa</a>
+                                @endif
                                 <a onclick="return confirm(`Bạn có muốn xóa nhân viên không?`);"  href="{{route('delete_account', $item->id) }}" class="btn btn-danger">Xoá</button>
                             </td>
                         </tr>

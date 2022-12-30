@@ -6,7 +6,7 @@ btn
 ------------------------------------------------------------*/
 .c-btn1 {
     left: 50%;
-    border-radius: 20px;
+    border-radius: 30px;
     transform: translate(-50%, 0);
     bottom: 25px;
     position: absolute;
@@ -14,12 +14,17 @@ btn
     font-size: 1.6rem;
     border: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 8px;
     width: 150px;
     color: #fff;
     background: linear-gradient(to right, #E93154 0%, #FF342D 100%);
     transition: 0.2s;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    
     @include hover() {
-        transform: translate(-50%, 0) scale(1.2);
+        transform: translate(-50%, 0) scale(1.1);
+        opacity: 1;
     }
 }

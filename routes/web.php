@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::post('/', 'HomeController@postForm')->name('register');
 Route::get('/contact', 'ContactController@index')->name('contact');
 Route::get('/introduction', 'IntroductionController@index')->name('introduction');
 Route::get('/pay', 'PayController@index')->name('pay');
@@ -31,9 +32,14 @@ Route::group(['prefix' => 'blog'], function () {
 Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
     Route::get('/dashboard', 'Admin\DashboardController@index')->name('dashboard');
     Route::get('/logout', 'Admin\UserController@logout')->name('logout');
-    Route::get('/users', 'Admin\UserController@users')->name('list_users');
-    Route::post('/users', 'Admin\UserController@postCreate');
-    
+
+    Route::group(['prefix' => 'users'], function () {
+        Route::get('/', 'Admin\UserController@users')->name('list_users');
+        Route::post('/', 'Admin\UserController@postCreate');
+        Route::get('/profile', 'Admin\UserController@profile')->name('profile');
+        Route::post('/profile', 'Admin\UserController@postProfile');
+    });
+
     Route::get('/edit/{id}', 'Admin\UserController@edit')->name('edit_account');
     Route::post('/edit/{id}', 'Admin\UserController@postEdit')->name('post_edit_account');
     Route::get('/delete/{id}', 'Admin\UserController@delete')->name('delete_account');

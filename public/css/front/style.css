@@ -784,7 +784,7 @@ btn
 ------------------------------------------------------------*/
 .c-btn1 {
   left: 50%;
-  border-radius: 20px;
+  border-radius: 30px;
   transform: translate(-50%, 0);
   bottom: 25px;
   position: absolute;
@@ -792,15 +792,19 @@ btn
   font-size: 1.6rem;
   border: none;
   cursor: pointer;
-  padding: 10px;
+  padding: 8px;
   width: 150px;
   color: #fff;
   background: linear-gradient(to right, #E93154 0%, #FF342D 100%);
   transition: 0.2s;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
 }
 @media screen and (min-width: 768px) {
   .c-btn1:hover {
-    transform: translate(-50%, 0) scale(1.2);
+    transform: translate(-50%, 0) scale(1.1);
+    opacity: 1;
   }
 }
 
@@ -2424,6 +2428,124 @@ other
   border: 1px solid red;
 }
 
+.c-box12 {
+  padding: 50px 0;
+}
+@media screen and (max-width: 767px) {
+  .c-box12 {
+    padding: 20px 0;
+  }
+}
+.c-box12__inner {
+  display: flex;
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .c-box12__inner {
+    flex-direction: column-reverse;
+  }
+}
+.c-box12__list {
+  margin-top: 30px;
+}
+@media screen and (max-width: 767px) {
+  .c-box12__list {
+    margin-top: 20px;
+  }
+}
+.c-box12__item {
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 767px) {
+  .c-box12__item {
+    margin-bottom: 10px;
+  }
+}
+.c-box12__item input, .c-box12__item select {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 15px;
+  border: 1px solid #6b6a7b;
+  border-radius: 3px;
+}
+@media screen and (max-width: 767px) {
+  .c-box12__item input, .c-box12__item select {
+    padding: 5px 10px;
+  }
+}
+.c-box12__tlt {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .c-box12__tlt {
+    font-size: 2.3rem;
+  }
+}
+.c-box12__tlt__sub {
+  text-align: center;
+}
+.c-box12__txt {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.c-box12__btn {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  display: block;
+  border: none;
+  background: linear-gradient(to right, #E93154 0%, #FF342D 100%);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .c-box12__btn {
+    padding: 8px 20px;
+  }
+}
+.c-box12 form {
+  width: 40%;
+  padding-right: 30px;
+}
+@media screen and (max-width: 767px) {
+  .c-box12 form {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+.c-box12 figure {
+  max-height: 400px;
+  overflow: hidden;
+  width: 60%;
+}
+@media screen and (max-width: 767px) {
+  .c-box12 figure {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.c-box12 figure img {
+  width: 100%;
+}
+.c-box12 .print-error-msg {
+  margin: 20px 0 -20px 0;
+}
+@media screen and (max-width: 767px) {
+  .c-box12 .print-error-msg {
+    margin: 20px 0;
+  }
+}
+.c-box12 .print-error-msg li {
+  color: red;
+}
+
 /*------------------------------------------------------------
 Page Top
 ------------------------------------------------------------*/
@@ -2561,6 +2683,18 @@ Page Top
 @media screen and (max-width: 767px) {
   .p-home9 {
     padding-top: 40px;
+  }
+}
+.p-home10 {
+  display: none;
+}
+.p-home10.modal {
+  width: auto;
+  max-width: none;
+}
+@media screen and (max-width: 767px) {
+  .p-home10.modal {
+    padding: 0px;
   }
 }
 

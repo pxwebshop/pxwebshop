@@ -42,13 +42,6 @@ class UserController extends Controller
           return redirect()->route('home');
      }
 
-     public function logout(Request $request)
-     {
-          Auth::logout();
-          Toastr::success('Đăng xuất thành công!');
-          return redirect()->route('login');
-     }
-
      public function users(Request $request)
      {
           $users = User::all();
@@ -115,5 +108,52 @@ class UserController extends Controller
         }
 
         return redirect()->route('list_users');
+    }
+
+    public function profile(Request $request)
+    {
+          $user = \Auth::user();
+
+          return view('admin.user.profile', compact('user'));
+    }
+
+    public function postProfile(Request $request)
+    {
+          $user = User::find(\Auth::id());
+
+          $request->validate([
+               'old_password'          => 'required|max:64|min:3|without_spaces',
+               'new_password'          => 'required|max:64|min:3|without_spaces',
+               'new_confirm_password'  => 'required|same:new_password'
+          ]);
+
+          if (Hash::check($request->get('old_password'), $user->password)) { 
+               $user->password = Hash::make(trim($request->input('new_password')));
+
+               try {
+                    if($user->isDirty()) {
+                         Toastr::success('Thay đổi mật khẩu thành công');
+                    } else {
+                         Toastr::warning('Dữ liệu chưa được thay đổi');
+                         return back();
+                    }
+                    $user->save();
+                    \Auth::logout();
+                    return redirect()->route('login');
+               } catch (\Exception $ex) {
+                    Toastr::error('Có lỗi khi lưu dữ liệu '. $ex->getMessage());
+               }
+          } else {
+               Toastr::error('Nhập mật khẩu cũ không giống');
+          }
+
+          return back();
+    }
+
+    public function logout(Request $request)
+    {
+        \Auth::logout();
+        Toastr::success('Đăng xuất thành công!');
+        return redirect()->route('login');
     }
 }

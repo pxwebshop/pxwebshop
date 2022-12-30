@@ -4,14 +4,14 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link {{ \Request::route()->getName() !== 'dashboard' ? 'collapsed' : ''}}" href="#">
+        <a class="nav-link {{ \Request::route()->getName() !== 'dashboard' ? 'collapsed' : ''}}" href="{{route('dashboard')}}">
           <i class="bi bi-grid"></i>
           <span>Dashboard</span>
         </a>
       </li><!-- End Dashboard Nav -->
 
       <li class="nav-item">
-        <a class="nav-link {{ in_array( \Request()->route()->getPrefix(), array('/admin')) ? '' : 'collapsed' }}" data-bs-target="#components-nav1" data-bs-toggle="collapse" href="#">
+        <a class="nav-link {{ in_array( \Request()->route()->getName(), array('list_users')) ? '' : 'collapsed' }}" data-bs-target="#components-nav1" data-bs-toggle="collapse" href="#">
           <i class="bi bi-person-square"></i><span>Người dùng</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-nav1" class="nav-content collapse {{\Request::route()->getName() == 'list_users' ? 'show' : '' }} {{\Request::route()->getName() == 'list_users' ? 'show' : '' }}" data-bs-parent="#sidebar-nav">

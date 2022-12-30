@@ -438,7 +438,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Không</li>
                   </ul>
                 </div>
-                <button class="c-btn1">Đăng Ký</button>
+                <a href="#register" rel="modal:open" class="c-btn1">Đăng Ký</a>
               </div>
             </li>
             <li class="c-list2__item">
@@ -473,7 +473,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Giảm 10% phí dịch vụ chăm sóc Website + Fanpage</li>
                   </ul>
                 </div>
-                <button class="c-btn1">Đăng Ký</button>
+                <a href="#register" rel="modal:open" class="c-btn1">Đăng Ký</a>
               </div>
             </li>
             <li class="c-list2__item">
@@ -508,7 +508,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Giảm 10% phí dịch vụ chăm sóc Website + Fanpage</li>
                   </ul>
                 </div>
-                <button class="c-btn1">Đăng Ký</button>
+                <a href="#register" rel="modal:open" class="c-btn1">Đăng Ký</a>
               </div>
             </li>
           </ul>
@@ -868,5 +868,90 @@
         </ul>
       </div>
     </section>
+
+    <section id="register" class="p-home10 modal">
+      <div class="l-container">
+          <div class="c-box12">
+            <div class="c-box12__inner">
+              <form action="" method="POST">
+                @csrf
+                <h2 class="c-box12__tlt">Nhận thông tin đăng ký</h2>
+                <p class="c-box12__tlt__sub">Pxwebshop hỗ trợ khách hàng 24/7</p>
+
+                <div class="print-error-msg" style="display:none">
+                  <ul></ul>
+                </div>
+          
+                <ul class="c-box12__list">
+                  <li class="c-box12__item">
+                    <p class="c-box12__txt">Họ tên</p>
+                    <input name="name" type="text" placeholder="Họ tên">
+                  </li>
+                  <li class="c-box12__item">
+                    <p class="c-box12__txt">Email</p>
+                    <input name="email" type="email" placeholder="Email">
+                  </li>
+                  <li class="c-box12__item">
+                    <p class="c-box12__txt">Số điện thoại</p>
+                    <input name="phone" type="number" placeholder="Số điện thoại">
+                  </li>
+                  <li class="c-box12__item">
+                    <p class="c-box12__txt">Chọn gói dịch vụ</p>
+                    <select name="service_pack">
+                      <option value="0">Chọn gói dịch vụ</option>
+                      <option value="1">Dịch vụ thiết kế web CƠ BẢN</option>
+                      <option value="2">Dịch vụ thiết kế web CAO CẤP</option>
+                      <option value="3">Dịch vụ thiết kế web CHUYÊN NGHIỆP</option>
+                    </select>
+                  </li>
+                </ul>
+                <button type="submit" class="c-box12__btn">Gửi Yêu Cầu</button>
+              </form>
+              <figure>
+                <img src="https://placehold.jp/800x500.png" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+              </figure>
+            </div>
+          </div>
+      </div>
+    </section>
 </main>
 @endsection
+
+@push('scripts')
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      $(".c-box12__btn").click(function(e){
+        e.preventDefault();
+
+        var _token = $("input[name='_token']").val();
+        var name = $("input[name='name']").val();
+        var email = $("input[name='email']").val();
+        var phone = $("input[name='phone']").val();
+        var service_pack = $("select[name='service_pack']").val();
+
+        $.ajax({
+            url: "/",
+            type:'POST',
+            data: {_token:_token, name:name, email:email, phone:phone, service_pack:service_pack},
+            success: function(data) {
+              alert(data.success);
+              location.reload();
+            },
+            error: function(errors) {
+              printErrorMsg(errors.responseJSON.error);
+            }
+        });
+      }); 
+
+      function printErrorMsg (msg) {
+        $(".print-error-msg").find("ul").html('');
+        $(".print-error-msg").css('display','block');
+        $.each( msg, function( key, value ) {
+          $(".print-error-msg").find("ul").append('<li>'+value+'</li>');
+        });
+      }
+  });
+</script>
+
+@endpush

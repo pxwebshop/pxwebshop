@@ -840,3 +840,101 @@ other
         border: 1px solid red;
     }
 }
+
+.c-box12 {
+    padding: 50px 0;
+    @include sp() {
+        padding: 20px 0;
+    }
+    &__inner {
+        display: flex;
+        text-align: left;
+        @include sp() {
+            flex-direction: column-reverse;
+        }
+    }
+    &__list {
+        margin-top: 30px;
+        @include sp() {
+            margin-top: 20px;
+        }
+    }
+    &__item {
+        margin-bottom: 15px;
+        @include sp() {
+            margin-bottom: 10px;
+        }
+        input, select {
+            font-size: 1.6rem;
+            line-height: 1.5;
+            display: block;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 5px 15px;
+            border: 1px solid #6b6a7b;
+            border-radius: 3px;
+            @include sp() {
+                padding: 5px 10px;
+            }
+        }
+    }
+    &__tlt {
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        text-align: center;
+        @include sp() {
+            font-size: 2.3rem;
+        }
+        &__sub {
+            text-align: center;
+        }
+    }
+    &__txt {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    &__btn {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        display: block;
+        border: none;
+        background: linear-gradient(to right, #E93154 0%, #FF342D 100%);
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 30px;
+        font-weight: 700;
+        cursor: pointer;
+        @include sp() {
+            padding: 8px 20px;
+        }
+    }
+    form {
+        width: 40%;
+        padding-right: 30px;
+        @include sp() {
+            width: 100%;
+            padding-right: 0;
+        }
+    }
+    figure {
+        max-height: 400px;
+        overflow: hidden;
+        width: 60%;
+        @include sp() {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .print-error-msg {
+        margin: 20px 0 -20px 0;
+        @include sp() {
+            margin: 20px 0;
+        }
+        li {
+            color: red;
+        }
+    }
+}

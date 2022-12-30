@@ -115,10 +115,11 @@
                     @endforeach
                 </select>
                 @include('_partials.alert', ['field' => 'status'])
+                
+                <div class="mt-2 text-end">
+                    <button type="submit" class="btn btn-primary">{{ \Request::route()->getName() == 'edit_blog' ? 'Cập nhật' : 'Lưu'}} bài viết</button>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-12">
-            <button type="submit" class="btn btn-primary">{{ \Request::route()->getName() == 'edit_blog' ? 'Cập nhật' : 'Lưu'}} bài viết</button>
         </div>
     </form>
 </section>

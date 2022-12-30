@@ -28,6 +28,10 @@ $(document).ready(function() {
 		bodyHtml.scrollTop(scrollPosi);
 	}
 
+	$('.c-btn1').click(function() {
+		
+	});
+
 	$("a.c-header__link").click(function(e) {
 		let headerHeight = $('header').innerHeight();
 		if ($(window).outerWidth() < 768) {

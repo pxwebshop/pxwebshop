@@ -113,13 +113,15 @@ class BlogController extends Controller
       $blog->blog_category()->sync($categories);
       
       try {
-         $blog->save();
          if($blog->isDirty()) {
             Toastr::success('Cập nhật bài viết thành công!');
          } else {
             Toastr::warning('Dữ liệu chưa được thay đổi. Ngoại trừ danh mục');
          }
+         $blog->save();
+
          \DB::commit();
+         
          if ($request->hasFile('featured_image')) {
             \Storage::disk('local')->put('public/images/blog/feature/'.$fileName, $img);
             \Storage::delete('public/images/blog/feature/'. $fileOld);

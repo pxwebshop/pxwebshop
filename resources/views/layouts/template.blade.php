@@ -44,6 +44,8 @@
 	<script src="{{ asset('js/front/jquery.modal.min.js')}}"></script>
 
     <script> new WOW().init(); </script>
+
+    @stack('scripts')
 </body>
 
 </html>
