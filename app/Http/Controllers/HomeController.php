@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Validator;
 use App\Models\Order;
+use Carbon\Carbon;
 use Brian2694\Toastr\Facades\Toastr;
 class HomeController extends Controller
 {
@@ -23,7 +24,15 @@ class HomeController extends Controller
      {
           $validator = Validator::make($request->all(), [
                'name'           => 'required|max:100|min:3',
-               'email'          => 'required|email',
+               'email'          => [
+                    'required',
+                    'email',
+                    function ($attribute, $value, $fail) use($request) {
+                         if (Order::whereEmail($request->get('email'))->whereDate('created_at', Carbon::today())->exists()) {
+                             $fail($attribute.' đã đăng ký.');
+                         }
+                    },
+               ],
                'phone'          => 'required|numeric|min:10',
                'service_pack'   => 'required|numeric|min:0|not_in:0'
           ], [

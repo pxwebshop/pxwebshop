@@ -1392,6 +1392,55 @@ list
   }
 }
 
+.c-list10__list {
+  display: flex;
+  margin-left: -20px;
+}
+@media screen and (max-width: 767px) {
+  .c-list10__list {
+    margin-left: 0;
+  }
+}
+.c-list10__item {
+  width: 25%;
+  padding-left: 20px;
+}
+@media screen and (max-width: 767px) {
+  .c-list10__item {
+    padding-left: 0;
+    width: 100%;
+  }
+}
+.c-list10__wrap {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.c-list10__cat {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+.c-list10__cat__item {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+.c-list10__cat__item:not(:last-child) {
+  margin-right: 5px;
+}
+.c-list10__tlt {
+  padding: 0 10px 20px 10px;
+  line-height: 1.5;
+}
+
 /*------------------------------------------------------------
 table
 ------------------------------------------------------------*/

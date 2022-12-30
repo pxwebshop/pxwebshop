@@ -62,6 +62,8 @@ $(document).ready(function() {
 
 	$('.c-box2__item').matchHeight();
 	$('.c-list2__wrap').matchHeight();
+	$('.c-list10__wrap').matchHeight();
+	
 	
 	$('.c-box3__wrap').slick({
 		dots: true,

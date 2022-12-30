@@ -38,7 +38,7 @@ class BlogController extends Controller
          $fileName   = time() . '.' . $image->getClientOriginalExtension();
 
          $img = \Image::make($image->getRealPath());
-         $img->resize(320, 320, function ($constraint) {
+         $img->resize(320, 240, function ($constraint) {
              $constraint->aspectRatio();                 
          });
 
