@@ -777,6 +777,12 @@
 
     <section class="p-home9 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
       <div class="l-container">
+        <h2 class="c-title2">
+          <span class="c-title2__text">
+            <span class="c-title2__color1">Bài viết</span> nổi bật
+          </span>
+        </h2>
+
         <div class="c-list10">
           <ul class="c-list10__list">
             <li class="c-list10__item">

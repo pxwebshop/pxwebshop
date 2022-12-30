@@ -435,6 +435,7 @@ list
     &__list {
         display: flex;
         margin-left: -20px;
+        flex-wrap: wrap;
         @include sp() {
             margin-left: 0;
         }
@@ -445,6 +446,11 @@ list
         @include sp() {
             padding-left: 0;
             width: 100%;
+        }
+        &:not(:last-child) {
+            @include sp() {
+                margin-bottom: 20px;
+            }
         }
     }
     &__wrap {
@@ -475,5 +481,13 @@ list
     &__tlt {
         padding: 0 10px 20px 10px;
         line-height: 1.5;
+    }
+    figure {
+        height: 240px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 }
