@@ -775,7 +775,7 @@
       </div>
     </section>
 
-    <section class="p-homexx">
+    <section class="p-home9 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
       <div class="l-container">
         <div class="c-list10">
           <ul class="c-list10__list">
@@ -835,7 +835,7 @@
       </div>
     </section>
 
-    <section id="train" class="p-home9 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+    <section id="train" class="p-home10 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
       <div class="c-box6">
         <h2 class="c-title2">
           <span class="c-title2__text">
@@ -929,7 +929,7 @@
       </div>
     </section>
 
-    <section id="register" class="p-home10 modal">
+    <section id="register" class="p-home11 modal">
       <div class="l-container">
           <div class="c-box12">
             <div class="c-box12__inner">

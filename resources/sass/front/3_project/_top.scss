@@ -127,12 +127,15 @@ Page Top
         }
     }
     &9 {
+        
+    }
+    &10 {
         padding-top: 85px;
         @include sp() {
             padding-top: 40px;
         }
     }
-    &10 {
+    &11 {
         display: none;
         &.modal {
             width: auto;

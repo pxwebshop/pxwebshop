@@ -2726,23 +2726,23 @@ Page Top
 .p-home8 .c-box4__inner {
   height: 100%;
 }
-.p-home9 {
+.p-home10 {
   padding-top: 85px;
 }
 @media screen and (max-width: 767px) {
-  .p-home9 {
+  .p-home10 {
     padding-top: 40px;
   }
 }
-.p-home10 {
+.p-home11 {
   display: none;
 }
-.p-home10.modal {
+.p-home11.modal {
   width: auto;
   max-width: none;
 }
 @media screen and (max-width: 767px) {
-  .p-home10.modal {
+  .p-home11.modal {
     padding: 0px;
   }
 }
