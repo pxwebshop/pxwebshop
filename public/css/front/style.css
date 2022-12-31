@@ -2940,6 +2940,9 @@ Page blog
   -webkit-padding-start: 40px;
           padding-inline-start: 40px;
 }
+.p-blog1 ul li, .p-blog1 ol li {
+  line-height: 1.8;
+}
 .p-blog1 h1 {
   font-size: 3rem;
   margin-bottom: 20px;
@@ -2953,6 +2956,6 @@ Page blog
   font-size: 1.9rem;
 }
 .p-blog1 p {
-  line-height: 1.5;
+  line-height: 1.8;
   text-align: justify;
 }
