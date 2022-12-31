@@ -4,3 +4,39 @@ breadcrumb
 
 /*
 ------------------------------------------------------------*/
+.c-breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    &__item {
+        display: block;
+        padding: 0 20px;
+        position: relative;
+        font-weight: 500;
+        &:not(:last-child) {
+            &::after {
+                content: "›";
+                font-size: 2.5rem;
+                position: absolute;
+                right: 0;
+                top: 0;
+                line-height: 0.8;
+                color: #fff;
+            }
+        }
+    }
+    &__link {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
+    }
+    &__txt {
+        color: #fff;
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
+    }
+}

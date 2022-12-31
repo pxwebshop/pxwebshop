@@ -27,7 +27,7 @@
                     <a class="c-header__link" href="/#train">Đào tạo</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="/blog">Bài viết</a>
+                    <a class="c-header__link" href="/#blog">Bài viết</a>
                 </li>
                 <li class="c-header__item c-header__item--style1">
                     <a href="#about-us" class="c-header__link is-child_item">Về chúng tôi &nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>

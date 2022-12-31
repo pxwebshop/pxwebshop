@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200;300;400;500;600;800&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400;500;600;700;800;900&display=swap);
+@charset "UTF-8";
 /*------------------------------------------------------------
 	Reset
 ------------------------------------------------------------*/
@@ -237,6 +238,41 @@ breadcrumb
 ------------------------------------------------------------*/
 /*
 ------------------------------------------------------------*/
+.c-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.c-breadcrumb__item {
+  display: block;
+  padding: 0 20px;
+  position: relative;
+  font-weight: 500;
+}
+.c-breadcrumb__item:not(:last-child)::after {
+  content: "›";
+  font-size: 2.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 0.8;
+  color: #fff;
+}
+.c-breadcrumb__link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+.c-breadcrumb__txt {
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+
 /*------------------------------------------------------------
 layout
 ------------------------------------------------------------*/
@@ -1425,6 +1461,11 @@ list
   text-decoration: none;
   color: #262932;
 }
+@media screen and (min-width: 768px) {
+  .c-list10__wrap:hover .c-list10__tlt {
+    text-decoration: none;
+  }
+}
 .c-list10__cat {
   margin: 10px 0;
   display: flex;
@@ -1434,7 +1475,7 @@ list
   padding-bottom: 5px;
 }
 .c-list10__cat__item {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   border: 1px solid #ccc;
   border-radius: 15px;
@@ -1457,6 +1498,8 @@ list
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 /*------------------------------------------------------------
@@ -2611,6 +2654,33 @@ other
 }
 .c-box12 .print-error-msg li {
   color: red;
+}
+
+.c-box13__inner {
+  background: url("/images/background.webp") center no-repeat;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.c-box13__inner::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #042433;
+  background: linear-gradient(90deg, rgb(8, 15, 43) 0%, rgb(35, 93, 149) 45%, rgb(15, 38, 66) 100%);
+  opacity: 0.85;
+}
+.c-box13__tlt {
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
 }
 
 /*------------------------------------------------------------

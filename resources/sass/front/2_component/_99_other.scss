@@ -938,3 +938,32 @@ other
         }
     }
 }
+
+.c-box13 {
+    &__inner {
+        background: url('/images/background.webp') center no-repeat;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: #042433;
+            background: linear-gradient(90deg, rgb(8 15 43) 0%, rgb(35 93 149) 45%, rgb(15 38 66) 100%);
+            opacity: .85;
+        }
+    }
+    &__tlt {
+        text-align: center;
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+    }
+}

@@ -774,7 +774,7 @@
       </div>
     </section>
 
-    <section class="p-home9 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
+    <section id="blog" class="p-home9 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
       <div class="l-container">
         <h2 class="c-title2">
           <span class="c-title2__text">
@@ -791,8 +791,9 @@
                   <img src="{{url('storage/images/blog/feature/'.$item->featured_image.'')}}" alt="">
                 </figure>
                 <ul class="c-list10__cat">
-                  <li class="c-list10__cat__item">category1</li>
-                  <li class="c-list10__cat__item">category2</li>
+                  @foreach($item->blog_category()->get() as $value)
+                    <li class="c-list10__cat__item">{{$value->name}}</li>
+                  @endforeach
                 </ul>
                 <h3 class="c-list10__tlt">{{$item->title}}</h3>
               </a>
