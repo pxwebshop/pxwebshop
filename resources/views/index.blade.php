@@ -790,12 +790,10 @@
                 <figure>
                   <img src="{{url('storage/images/blog/feature/'.$item->featured_image.'')}}" alt="">
                 </figure>
-                <ul class="c-list10__cat">
-                  @foreach($item->blog_category()->get() as $value)
-                    <li class="c-list10__cat__item">{{$value->name}}</li>
-                  @endforeach
-                </ul>
-                <h3 class="c-list10__tlt">{{$item->title}}</h3>
+                <div class="c-list10__info">
+                  <h3 class="c-list10__tlt">{{$item->title}}</h3>
+                  <p class="c-list10__date"><span>Ngày đăng: </span>{{ date('d-m-Y', strtotime($item->created_at)); }}</p>
+                </div>
               </a>
             </li>
             @endforeach

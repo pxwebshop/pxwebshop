@@ -13,8 +13,8 @@ class HomeController extends Controller
 {
      public function index(Request $request)
      {
-          $blogs = Blog::orderBy('created_at', 'desc')->take(4)->get();
-
+          $blogs = Blog::with('user')->orderBy('created_at', 'desc')->take(4)->get();
+          
           return view('index', compact('blogs'));
      }
 
