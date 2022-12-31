@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
+use App\Models\Blog;
 class BlogController extends Controller
 {
    public function blog(Request $request)
@@ -12,8 +12,10 @@ class BlogController extends Controller
       return view('blog');
    }
 
-   public function detail(Request $request)
+   public function detail($id, Request $request)
    {
-      return view('blog');
+      $blog = Blog::find($id);
+
+      return view('blog', compact('blog'));
    }
 }

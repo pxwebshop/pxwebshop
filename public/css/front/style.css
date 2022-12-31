@@ -1439,7 +1439,7 @@ list
   }
 }
 .c-list10__item {
-  width: 25%;
+  width: 33.33%;
   padding-left: 20px;
 }
 @media screen and (max-width: 767px) {
@@ -1490,10 +1490,12 @@ list
   border-top-right-radius: 5px;
 }
 .c-list10__info {
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 10px 10px;
 }
 .c-list10__date {
-  margin-top: 20px;
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+  padding-top: 7px;
   text-transform: capitalize;
   font-size: 1.8rem;
   text-align: right;
@@ -2915,4 +2917,13 @@ Page Top
 }
 .p-pay1 .c-title2 {
   margin-top: 50px;
+}
+
+/*------------------------------------------------------------
+Page blog
+------------------------------------------------------------*/
+/*
+------------------------------------------------------------*/
+.p-blog1 {
+  margin: 70px 0;
 }

@@ -23,6 +23,10 @@
         </div>
     </div>
 
-    
+    <section class="p-blog1">
+        <div class="l-content">
+            {!! $blog->content !!}
+        </div>
+    </section>
 </main>
 @endsection
