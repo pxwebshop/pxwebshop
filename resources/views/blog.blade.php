@@ -10,13 +10,13 @@
                 <h2 class="c-box13__tlt">Bài Viết</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#">Trang chủ</a>
+                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
                     </li>
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#">Trang chủ</a>
+                        <a class="c-breadcrumb__link" href="#blog">Bài Viết</a>
                     </li>
                     <li class="c-breadcrumb__item">
-                        <span class="c-breadcrumb__txt">bài viết</span>
+                        <span class="c-breadcrumb__txt">{{$blog->title}}</span>
                     </li>
                 </ul>
             </div>
@@ -25,6 +25,7 @@
 
     <section class="p-blog1">
         <div class="l-content">
+            <h1>{{$blog->title}}</h1>
             {!! $blog->content !!}
         </div>
     </section>
