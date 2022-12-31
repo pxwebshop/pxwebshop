@@ -158,12 +158,6 @@
                          </tbody>
                       </table>
                    </div>
-                   <div class="dataTable-bottom">
-                      <div class="dataTable-info">Showing 1 to 5 of 5 entries</div>
-                      <nav class="dataTable-pagination">
-                         <ul class="dataTable-pagination-list"></ul>
-                      </nav>
-                   </div>
                 </div>
              </div>
 
