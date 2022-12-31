@@ -7,5 +7,13 @@ Page blog
 .p-blog {
     &1 {
         margin: 70px 0;
+        ul, ol {
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
     }
 }
