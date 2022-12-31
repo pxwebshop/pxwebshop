@@ -260,6 +260,13 @@ breadcrumb
   line-height: 0.8;
   color: #fff;
 }
+.c-breadcrumb__item:last-child {
+  display: inline-block;
+  width: 280px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
 .c-breadcrumb__link {
   display: block;
   text-decoration: none;
