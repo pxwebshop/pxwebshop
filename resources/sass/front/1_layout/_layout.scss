@@ -53,12 +53,12 @@ body {
    
     &__content {
         padding-right: 30px;
-        width: calc(100% - 420px);
+        width: calc(100% - 350px);
         @include sp() {
             padding-right: 0;
         }
     }
     &__slidebar {
-        width: 420px;
+        width: 350px;
     }
 }

@@ -60,6 +60,9 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
         Route::post('/{id}/edit', 'Admin\CategoryController@postEdit');
         Route::get('/{id}/delete', 'Admin\CategoryController@delete')->name('delete_category');
     });
+
+    // Route::group(['prefix' => 'order'], function () {
+    //     Route::get('/', 'Admin\OrderController@index')->name('list_order');
 });
 
 Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
