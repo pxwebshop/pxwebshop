@@ -15,7 +15,8 @@ class BlogController extends Controller
    public function detail($id, Request $request)
    {
       $blog = Blog::find($id);
+      $blogs = Blog::where('id', '!=', $id)->get();
 
-      return view('blog', compact('blog'));
+      return view('blog', compact('blog', 'blogs'));
    }
 }

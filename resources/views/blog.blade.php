@@ -24,9 +24,28 @@
     </div>
 
     <section class="p-blog1">
-        <div class="l-content">
-            <h1>{{$blog->title}}</h1>
-            {!! $blog->content !!}
+        <div class="l-container1">
+            <div class="l-container1__content">
+                <h1>{{$blog->title}}</h1>
+                {!! $blog->content !!}
+            </div>
+            <div class="l-container1__slidebar">
+                <div class="c-list11">
+                    <h3 class="c-list11__title">Bài viết mới nhất</h3>
+                    <ul class="c-list11__inner">
+                        @foreach($blogs as $item)
+                        <li class="c-list11__item">
+                            <a class="c-list11__link" href="/blog/{{$item->id}}">
+                                <figure>
+                                    <img src="{{url('storage/images/blog/feature/'.$item->featured_image.'')}}" alt="">
+                                </figure>
+                                <p class="c-list11__tlt">{{$item->title}}</p>
+                            </a>
+                        </li>
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 </main>

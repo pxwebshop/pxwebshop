@@ -42,3 +42,23 @@ body {
     //     padding: 0 20px;
     // }
 }
+
+.l-container1 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+   
+    &__content {
+        padding-right: 30px;
+        width: calc(100% - 420px);
+        @include sp() {
+            padding-right: 0;
+        }
+    }
+    &__slidebar {
+        width: 420px;
+    }
+}

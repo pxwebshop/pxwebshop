@@ -320,6 +320,27 @@ body {
   position: relative;
 }
 
+.l-container1 {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  display: flex;
+}
+.l-container1__content {
+  padding-right: 30px;
+  width: calc(100% - 420px);
+}
+@media screen and (max-width: 767px) {
+  .l-container1__content {
+    padding-right: 0;
+  }
+}
+.l-container1__slidebar {
+  width: 420px;
+}
+
 /*------------------------------------------------------------
 side
 ------------------------------------------------------------*/
@@ -1510,6 +1531,54 @@ list
 }
 .c-list10__date span {
   font-size: 1.6rem;
+}
+
+.c-list11 {
+  border: 1px solid #ccc;
+  padding: 0 30px 30px 30px;
+}
+.c-list11__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.c-list11__item {
+  display: block;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.c-list11__item:not(:first-child) {
+  margin-top: 20px;
+}
+.c-list11__item:last-child {
+  border-bottom: none;
+}
+.c-list11__link {
+  display: block;
+  text-decoration: none;
+  color: #242d4c;
+}
+.c-list11__tlt {
+  line-height: 1.3;
+  margin-top: 5px;
+}
+.c-list11__title {
+  font-size: 2.5rem;
+  position: relative;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 20px 0 30px 0;
+}
+.c-list11__title::before {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #1E1666;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+.c-list11 figure img {
+  width: 100%;
 }
 
 /*------------------------------------------------------------
@@ -2934,7 +3003,7 @@ Page blog
 .p-blog1 {
   margin: 70px 0;
 }
-.p-blog1 ul, .p-blog1 ol {
+.p-blog1 .l-container1__content ul, .p-blog1 .l-container1__content ol {
   list-style-type: disc;
   -webkit-margin-before: 1em;
           margin-block-start: 1em;
@@ -2947,22 +3016,22 @@ Page blog
   -webkit-padding-start: 40px;
           padding-inline-start: 40px;
 }
-.p-blog1 ul li, .p-blog1 ol li {
+.p-blog1 .l-container1__content ul li, .p-blog1 .l-container1__content ol li {
   line-height: 1.8;
 }
-.p-blog1 h1 {
+.p-blog1 .l-container1__content h1 {
   font-size: 3rem;
   margin-bottom: 20px;
   line-height: 1.3;
 }
-.p-blog1 h2 {
+.p-blog1 .l-container1__content h2 {
   font-size: 2.5rem;
   line-height: 1.3;
 }
-.p-blog1 h3 {
+.p-blog1 .l-container1__content h3 {
   font-size: 1.9rem;
 }
-.p-blog1 p {
+.p-blog1 .l-container1__content p {
   line-height: 1.8;
   text-align: justify;
 }
