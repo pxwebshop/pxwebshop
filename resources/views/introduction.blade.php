@@ -7,10 +7,10 @@
         <div class="l-container">
             <h2 class="c-title2">
                 <span class="c-title2__text">
-                   <span class="c-title2__color1">Đội</span> của chúng tôi
+                   <span class="c-title2__color1">ທີມ​ງານ</span> ​ຂອງ​ພວກ​ເຮົາ
                 </span>
                 <span class="c-title2__text1">
-                  Với hơn 7 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, chúng tôi luôn luôn tự tin đem lại giá trị tốt nhất cho khách hàng.
+                ດ້ວຍປະສົບການຫຼາຍກວ່າ 7 ປີໃນດ້ານເຕັກໂນໂລຢີຂໍ້ມູນຂ່າວສານ, ພວກເຮົາຫມັ້ນໃຈທີ່ຈະນໍາເອົາສີ່ງທີ່ດີທີ່ສຸດໃຫ້ກັບລູກຄ້າຂອງພວກເຮົາ.
                 </span>
               </h2>
 

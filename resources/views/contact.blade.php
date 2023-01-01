@@ -9,8 +9,8 @@
             <div class="l-container">
                 <ul class="c-box8">
                     <li class="c-box8__item">
-                        <h5 class="c-box8__tlt">Liên hệ trực tiếp</h5>
-                        <p class="c-box8__txt">Bất cứ khi nào cần hỗ trợ, hãy liên hệ qua tôi các kênh sau.</p>
+                        <h5 class="c-box8__tlt">ຕິດຕໍ່ໂດຍກົງ</h5>
+                        <p class="c-box8__txt">ເມື່ອໃດກໍ່ຕາມທີ່ທ່ານຕ້ອງການຄວາມຊ່ວຍເຫຼືອ, ກະລຸນາຕິດຕໍ່ພວກເຮົາໂດຍຜ່ານຊ່ອງທາງຕໍ່ໄປນີ້.</p>
     
                         <div class="c-box8__wrap">
                             <ul class="c-box8__address">
@@ -20,12 +20,8 @@
                                     </figure>
                                     <div class="c-box8__address__style1">
                                         <div class="c-box8__address__text">
-                                            <h5>Địa chỉ tại Lào: </h5>						
+                                            <h5>ທີ່ຢູ່: </h5>						
                                             <p>ບ້ານ ຂາມງອຍ,​ ເມືອງ ໄຊເສດຖາ, ນະຄອນຫຼວງວຽງຈັນ</p>
-                                        </div>
-                                        <div class="c-box8__address__text">
-                                            <h5>Địa chỉ ở Việt Nam: </h5>						
-                                            <p>150 Huỳnh Tần Phát, Tân Thuận Đông, Quận 7, Thành Phố Hồ Chí Minh</p>
                                         </div>
                                     </div>
                                 </li>
@@ -44,12 +40,12 @@
                                     </figure>
                                     <div class="c-box8__address__text">
                                         <h5>Email</h5>						
-                                        <p>pxwebshop@gmail.com</p>
+                                        <p>laosmarttech@gmail.com</p>
                                     </div>
                                 </li>
                             </ul>
                             <div class="c-box8__icon">
-                                <h5 class="c-box8__titleSocial">Chúng tôi trên: &nbsp; </h5>
+                                <h5 class="c-box8__titleSocial">ຕິດຕາມພວກເຮົາ: &nbsp; </h5>
                                 <div class="c-box8__socialIcons">
                                     <a href="https://www.facebook.com/pxwebshop" target="_blank" rel="noopener noreferrer nofollow">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -63,18 +59,19 @@
                     </li>
                     <li class="c-box8__item">
                         <form action="" class="c-box8__form">
-                            <h5 class="c-box8__form__tlt">Gửi yêu cầu tư vấn</h5>
+                            <h5 class="c-box8__form__tlt">ສົ່ງຄວາມຕ້ອງການ ເພື່ອຂໍຄຳແນະນຳ
+                            </h5>
                             <div class="c-box8__input">
-                                <input type="text" placeholder="Nhập họ và tên">
+                                <input type="text" placeholder="ຊື່ ແລະ ນາມສະກຸນ">
                             </div>
                             <div class="c-box8__input">
-                                <input type="email" placeholder="Email">
+                                <input type="email" placeholder="ອີເມວ">
                             </div>
                             <div class="c-box8__input">
-                                <input type="number" placeholder="Nhập số điện thoại">
+                                <input type="number" placeholder="ເບີ້ໂທລະສັບ">
                             </div>
                             <textarea name="" rows="10"></textarea>
-                            <button class="c-box8__btn" type="submit">Gửi yêu cầu &nbsp;&nbsp;&nbsp; <i class="fa fa-angle-right"></i></button>
+                            <button class="c-box8__btn" type="submit">ສົ່ງຄວາມຕ້ອງການ &nbsp;&nbsp;&nbsp; <i class="fa fa-angle-right"></i></button>
                         </form>
                     </li>
                 </ul>

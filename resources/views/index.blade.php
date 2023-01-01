@@ -7,11 +7,11 @@
       <div class="l-container">
         <ul class="c-list1 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <li class="c-list1__item">
-            <h1 class="c-title1">Thiết kế web chuẩn seo.<br/>
-              <span class="c-title1__txt">Dẫn đầu</span>
-              <span class="c-title1__color1">công nghệ</span>
+            <h1 class="c-title1">ອອກແບບເວັບໄຊ ມາດຕະຖານ SEO.<br/>
+              <span class="c-title1__txt">ເປັນຜູ້ນຳ</span>
+              <span class="c-title1__color1">ໃນດ້ານເຕັກໂນໂລຊີ</span>
             </h1>
-            <p class="c-title1__description">PXwebshop đi đầu trong lĩnh vực SEO và thiết kế website, thiết kế phần mềm, thiết kế hệ thống với hơn 7 năm kinh nghiệm và đội ngũ nhân viên chuyên nghiệp được đào tạo chuyên môn sâu.</p>
+            <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນດ້ານ SEO, ການອອກແບບເວັບໄຊ, ການອອກແບບໂປຣແກຣມ, ການອອກແບບລະບົບເຄືອຂ່າຍ, ການອອກແບບລະບົບບ້ານອັດສະລິຍະ ແລະ ການຝຶກອົບຮົມ. ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ແລະ ມີທີມງານມືອາຊີບທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
           </li>
           <li class="c-list1__item">
             <figure>
@@ -21,7 +21,7 @@
         </ul>
       </div>
       {{-- <div class="l-container">
-        <h3 class="c-title1">BẢNG GIÁ DỊCH VỤ <span class="c-title1--color1">THIẾT KẾ WEBSITE</span> TẠI PXWEBSHOP</h3>
+        <h3 class="c-title1">ລາຄາບໍລິການ <span class="c-title1--color1">ອອກແບບ WEBSITE</span> TẠI PXWEBSHOP</h3>
         <p class="c-text1">Giá thiết kế web trọn gói được Pxwebshop công khai rõ ràng và minh bạch. Tuỳ theo mục đích và lĩnh vực <br/>kinh doanh mà khách hàng lựa chọn gói dịc vụ phù hợp</p>
       </div> --}}
       <div class="p-home1__box">
@@ -45,9 +45,9 @@
                 <i class="fa fa-whatsapp"></i>
               </div>
               <div class="c-box1__info">
-                <h5 class="c-box1__tlt">Liên hệ WhatsApp</h5>
-                <p class="c-box1__txt">Trải nghiệm tương tác các tính năng của hệ thống, giá trị đem lại cho khách hàng khi sử dụng.</p>
-                <a href="#" class="c-box1__btn">Liên hệ ngay</a>
+                <h5 class="c-box1__tlt">ຕິດຕໍ່ WhatsApp</h5>
+                <p class="c-box1__txt">ສຳພັດຄຸນສົມບັດໃນການຕອບໂຕ້ຂອງລະບົບ, ເຊີ່ງເປັນສີ່ງທີ່ລູກຄ້າຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
+                <a href="#" class="c-box1__btn">ຕິດຕໍ່ຕອນນີ້</a>
               </div>
             </div>
           </li>
@@ -57,8 +57,8 @@
                 <i class="fa fa-users"></i>
               </div>
               <div class="c-box1__info">
-                <h5 class="c-box1__tlt">Tư vấn giải pháp</h5>
-                <p class="c-box1__txt">Hiểu rõ sản phẩm, hợp đồng của sản phẩm và lợi ích của khách hàng khi sử dụng.</p>
+                <h5 class="c-box1__tlt">ຂໍຄຳປຶກສາ</h5>
+                <p class="c-box1__txt">ເຂົ້າໃຈຜະລິດຕະພັນ, ສັນຍາຂອງຜະລິດຕະພັນ ແລະ ຜົນປະໂຫຍດຂອງລູກຄ້າທີ່ຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
                 <a class="c-box1__btn" href="tel:+02028266650"><i class="fa fa-phone"></i> 020 28266650</a>
               </div>
             </div>
@@ -72,10 +72,10 @@
         <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              Dịch vụ <span class="c-title2__color1">nổi bật</span> của <span class="c-title2__color1">PXwebshop</span>
+            ບໍລິການ <span class="c-title2__color1">ທີ່ໂດດເດັ່ນ</span> ຂອງ <span class="c-title2__color1">Lao Smart Tech</span>
             </span>
             <span class="c-title2__text1">
-              Pxwebshop chuyên cung cấp các giải pháp cho doanh nghiệp vừa và nhỏ. Với đội ngũ nhân viên giàu kinh nghiệm thực tế, làm việc theo tiêu chuẩn nhật bản. Đảm bảo hệ thống của bạn vận hành tốt nhất.
+            Lao Smart Tech ຊ່ຽວຊານໃນການສະຫນອງທາງເລືອກສໍາລັບທຸລະກິດຂະຫນາດນ້ອຍ ແລະ ຂະຫນາດກາງ, ດ້ວຍພະນັກງານທີ່ມີປະສົບການຕົວຈີງ, ເຮັດວຽກຕາມມາດຕະຖານຍີ່ປຸ່ນ.<br> ເພື່ອຮັບປະກັນວ່າລະບົບຂອງທ່ານເຮັດວຽກໄດ້ດີ ແລະ ມີປະສິດທິພາບສູງສຸດ.
             </span>
           </h2>
 
@@ -85,8 +85,8 @@
                 <div class="c-box2__icon">
                   <i class="fa fa-computer"></i>
                 </div>
-                <h4 class="c-box2__tlt">Dịch vụ thiết kế website</h4>
-                <p class="c-box2__txt">Với nhu cầu nguồn lực kinh doanh hiện nay PXwebshop luôn hướng đến tạo những website tốt nhất quảng báo cho doanh nghiệp và đem lại lợi nhuận tốt nhất.</p>
+                <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Website</h4>
+                <p class="c-box2__txt">ຕາມຄວາມຕ້ອງການຊັບພະຍາກອນທາງທຸລະກິດໃນປັດຈຸບັນ Lao Smart Tech ມຸ່ງໝັ້ນທີ່ຈະສ້າງເວັບໄຊທີ່ດີທີ່ສຸດ ເພື່ອໂຄສະນາທຸລະກິດ ແລະ ສ້າງຜົນກຳໄລສູງສຸດ.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -94,8 +94,8 @@
                 <div class="c-box2__icon">
                   <i class="fa fa-network-wired"></i>
                 </div>
-                <h4 class="c-box2__tlt">Thiết kế hệ thống network</h4>
-                <p class="c-box2__txt">Các doanh nghiệp còn hạn chế về hệ thống network nên chúng tôi muốn cung cấp cho doanh nghiệp dịch vụ network để cho doanh nghiệp vận hành tốt nhất.. doing</p>
+                <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Network</h4>
+                <p class="c-box2__txt">ບັນດາອົງກອນຕ່າງໆ ຍັງມີຂໍ້ຈຳກັດທາງດ້ານລະບົບເຄືອຂ່າຍ ທີ່ບໍ່ໄດ້ມາດຕະຖານ, ດັ່ງນັ້ນພວກເຮົາພ້ອມທີ່ຈະໃຫ້ບໍລິການເພື່ອ ອອກແບບ, ຕິດຕັ້ງ, ປັບປຸງ ແລະ ບຳລຸງຮັກສາລະບົບເຄືອຂ່າຍຂອງລູກຄ້າ ໃຫ້ມີປະສິດທິພາບສູງສຸດ.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -103,7 +103,7 @@
                 <div class="c-box2__icon">
                   <i class="fa fa-computer"></i>
                 </div>
-                <h4 class="c-box2__tlt">Dịch vụ thiết kế logo,..</h4>
+                <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Logo,..</h4>
                 <p class="c-box2__txt">Dịch vụ thiết kế logo, banner..., với đội ngũ designer làm việc ở Bộ thông tin. Chúng tôi tự tin cung cấp sản phẩm tốt nhất đến các doanh nghiệp.</p>
               </div>
             </li>
@@ -112,7 +112,7 @@
                 <div class="c-box2__icon">
                   <i class="fa-solid fa-code"></i>
                 </div>
-                <h4 class="c-box2__tlt">Xây dựng phần mềm</h4>
+                <h4 class="c-box2__tlt">ຂຽນໂປຣແກຣມ</h4>
                 <p class="c-box2__txt">Chúng tôi chuyên phát triển phần mềm quản lý để giúp cho các doanh nghiệp vận hành tốt và đem lại lợi nhuận cao nhất.</p>
               </div>
             </li>
@@ -125,10 +125,10 @@
       <div class="c-slider wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
         <h2 class="c-title2">
           <span class="c-title2__text">
-            Kho <span class="c-title2__color1">giao diện</span> website
+             <span class="c-title2__color1">ຕົວຢ່າງ</span> Website
           </span>
           <span class="c-title2__text1">
-            Đa dạng các mẫu giao diện website thương mại điện tử, bán hàng, tin tức, giới <br/>thiệu mọi lĩnh vực cho bạn tham khảo.
+            ມີແບບເວັບໄຊທີ່ຫຼາກຫຼາຍສຳຫຼັບເວັບໄຊອີຄອມເມິດສ, ຂາຍສີນຄ້າ, ຂ່າວສານ, ແນະນຳທຸລະກິດ  <br/> ໂດຍຄວບຄຸມທຸກສາຂາອາຊີບ ໃຫ້ທ່ານເລືອກໄດ້ຕາມໃຈມັກ.
           </span>
         </h2>
         <div class="c-slider__list">
@@ -138,7 +138,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/05/vanphongphamfast-trangchu.jpg" alt="nest mart grocery">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex1" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex1" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex1" class="modal">
                 <figure>
@@ -153,7 +153,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/06/cleverfood-trangchu.jpg" alt="blogar">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex2" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex2" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex2" class="modal">
                 <figure>
@@ -168,7 +168,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/05/dualeoshoes-trangchu.jpg" alt="elanna">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex3" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex3" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex3" class="modal">
                 <figure>
@@ -183,7 +183,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/04/nuochoa-trangchu.jpg" alt="innivation architecture">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex4" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex4" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex4" class="modal">
                 <figure>
@@ -198,7 +198,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/03/broshop-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex5" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex5" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex5" class="modal">
                 <figure>
@@ -213,7 +213,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/maynenkhi-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex6" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex6" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex6" class="modal">
                 <figure>
@@ -228,7 +228,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/laptoppro.vn-trang-chu.png" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex7" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex7" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex7" class="modal">
                 <figure>
@@ -243,7 +243,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/watch-mirora-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex8" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex8" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex8" class="modal">
                 <figure>
@@ -261,7 +261,7 @@
                 <img src="https://mona.media/wp-content/uploads/2020/06/FireShot-Capture-019-Yoko-Edu-mauweb.monamedia.net_.png" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex9" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex9" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex9" class="modal">
                 <figure>
@@ -276,7 +276,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/03/fpt-hanoi-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex10" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex10" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex10" class="modal">
                 <figure>
@@ -291,7 +291,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/01/FireShot-Capture-482-Kids-World-http___mauweb.monamedia.net_kidsworld_.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex11" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex11" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex11" class="modal">
                 <figure>
@@ -306,7 +306,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/mlandmarkresidence-landingpage.jpg" alt="nest mart grocery">
               </figure>
               <div class="c-slider__btnWrap">
-                <a  href="#ex12" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a  href="#ex12" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex12" class="modal">
                 <figure>
@@ -321,7 +321,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/01/phu-my-hung.jpg" alt="blogar">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex13" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex13" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex13" class="modal">
                 <figure>
@@ -336,7 +336,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/traveltime-trangchu.jpg" alt="elanna">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex14" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex14" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex14" class="modal">
                 <figure>
@@ -351,7 +351,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/trabble-trangchu.jpg" alt="innivation architecture">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex15" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex15" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex15" class="modal">
                 <figure>
@@ -366,7 +366,7 @@
                 <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu-truot-tuyet.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex16" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex16" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex16" class="modal">
                 <figure>
@@ -381,7 +381,7 @@
                 <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex17" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">Xem demo</a>
+                <a href="#ex17" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
               </div>
               <div class="c-slider__modal" id="ex17" class="modal">
                 <figure>
@@ -400,21 +400,20 @@
         <div class="c-list2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              Bảng giá dịch vụ <span class="c-title2__color1">thiết kế website</span> tại Pxwebshop
+              ແພັກເກັດລາຄາ <span class="c-title2__color1">ບໍລິການອອກແບບເວັບໄຊ</span> ຂອງ Lao Smart Tech
             </span>
             <span class="c-title2__text1">
-              Giá thiết kế website trọn gói được Pxwebshop công khai rõ ràng và minh bạch. Tuỳ theo mục đích và lĩnh vực<br/>
-              kinh doanh mà khách hàng lựa chọn gói phù hợp
+            ລາຄາແພັກເກັດອອກແບບເວັບໄຊ ໄດ້ລະບຸລາຍລະອຽດຕ່າງໆ ຢ່າງຊັດເຈນ ແລະ ໂປງໃສ. ຂື້ນຢູ່ກັບຈຸດປະສົງ ແລະ ປະເພດຂອງທຸລະກິດ ທີ່ລູກຄ້າເລືອກຕາມຄວາມເຫມາະສົມ. 
             </span>
           </h2>
           <ul class="c-list2__inner">
             <li class="c-list2__item">
               <div class="c-list2__wrap">
                 <div class="c-list2__heading">
-                  <h4 class="c-list2__tlt">Gói dịch vụ thiết kế web
-                    <span>cơ bản</span>
+                  <h4 class="c-list2__tlt">ແພັກເກັດບໍລິການອອກແບບເວັບໄຊ 
+                    <span>(Basic)</span>
                   </h4>
-                  <p class="c-list2__price">24,999,000 VNĐ</p>
+                  <p class="c-list2__price">24,999,000 LAK</p>
                 </div>
                 <div class="c-list2__body">
                   <p class="c-list2__txt">Phù hợp với các website dạng Landing Page, website tin tức, website giới thiệu doanh nghiệp,... với đầy đủ các tính năng cần thiết ở một trang web chuẩn SEO.</p>
@@ -438,17 +437,17 @@
                     <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Không</li>
                   </ul>
                 </div>
-                <a href="#register" rel="modal:open" class="c-btn1">Đăng Ký</a>
+                <a href="#register" rel="modal:open" class="c-btn1">ລົງທະບຽນ</a>
               </div>
             </li>
             <li class="c-list2__item">
               <div class="c-list2__wrap">
                 <div class="c-list2__heading">
-                  <h4 class="c-list2__tlt">Gói dịch vụ thiết kế web
-                    <span>cao cấp</span>
+                  <h4 class="c-list2__tlt">ແພັກເກັດບໍລິການອອກແບບເວັບໄຊ
+                    <span>(Advanced)</span>
                   </h4>
-                  <p class="c-list2__price">39,999,000 VNĐ</p>
-                  <p class="c-list2__hot">nổi bật</p>
+                  <p class="c-list2__price">39,999,000 LAK</p>
+                  <p class="c-list2__hot">ໂດດເດັນ</p>
                 </div>
                 <div class="c-list2__body">
                   <p class="c-list2__txt">Phù hợp với các website bán hàng, website thương mại nhỏ, website bất động sản, web nông nghiệp,... với đầy đủ các tính năng cao cấp về đặt hàng, thanh toán.</p>
@@ -473,16 +472,16 @@
                     <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Giảm 10% phí dịch vụ chăm sóc Website + Fanpage</li>
                   </ul>
                 </div>
-                <a href="#register" rel="modal:open" class="c-btn1">Đăng Ký</a>
+                <a href="#register" rel="modal:open" class="c-btn1">ລົງທະບຽນ</a>
               </div>
             </li>
             <li class="c-list2__item">
               <div class="c-list2__wrap">
                 <div class="c-list2__heading">
-                  <h4 class="c-list2__tlt">Gói dịch vụ thiết kế web
-                    <span>chuyên nghiệp</span>
+                  <h4 class="c-list2__tlt">ແພັກເກັດບໍລິການອອກແບບເວັບໄຊ
+                    <span>(Professional)</span>
                   </h4>
-                  <p class="c-list2__price">LIÊN HỆ (VIP)</p>
+                  <p class="c-list2__price">ຕິດຕໍ່ (VIP)</p>
                 </div>
                 <div class="c-list2__body">
                   <p class="c-list2__txt">Phù hợp với các website thương mại điện tử lớn, website có thuật toán thoạt toán truy xuất khó (phong thuỷ, toán học,...), website có traffic cao, cần độ bảo mật và SEO cao cấp.</p>
@@ -508,7 +507,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Giảm 10% phí dịch vụ chăm sóc Website + Fanpage</li>
                   </ul>
                 </div>
-                <a href="#register" rel="modal:open" class="c-btn1">Đăng Ký</a>
+                <a href="#register" rel="modal:open" class="c-btn1">ລົງທະບຽນ</a>
               </div>
             </li>
           </ul>
@@ -521,10 +520,10 @@
         <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              Các bước hình thành website  <span class="c-title2__color1">chuyên nghiệp tại pxwebshop</span>
+              ຂັ້ນຕອນດຳເນີນງານ website  <span class="c-title2__color1">ມືອາຊີບຂອງ Lao Smart Tech </span>
             </span>
             <span class="c-title2__text1">
-              PXwebshop với phương châm làm việc lấy khách hàng làm trung tâm, luôn hướng đến các giải pháp hỗ trợ khách hàng trong hoạt động thiết kế web. Chúng tôi có quy trình làm việc rõ ràng, nhằm phục vụ bạn chuyên nghiệp nhất.
+            Lao Smart Tech phương châm làm việc lấy khách hàng làm trung tâm, luôn hướng đến các giải pháp hỗ trợ khách hàng trong hoạt động thiết kế web. Chúng tôi có quy trình làm việc rõ ràng, nhằm phục vụ bạn chuyên nghiệp nhất.
             </span>
           </h2>
 
@@ -778,7 +777,7 @@
       <div class="l-container">
         <h2 class="c-title2">
           <span class="c-title2__text">
-            <span class="c-title2__color1">Bài viết</span> nổi bật
+            <span class="c-title2__color1">ບົດຄວາມ</span> ຍອດນິຍົມ
           </span>
         </h2>
 
@@ -902,8 +901,8 @@
             <div class="c-box12__inner">
               <form action="" method="POST">
                 @csrf
-                <h2 class="c-box12__tlt">Nhận thông tin đăng ký</h2>
-                <p class="c-box12__tlt__sub">Pxwebshop hỗ trợ khách hàng 24/7</p>
+                <h2 class="c-box12__tlt">ປ້ອນຂໍ້ມູນເພື່ອ ລົງທະບຽນ</h2>
+                <p class="c-box12__tlt__sub">Lao Smart Tech ໃຫ້ຄຳແນະນຳ ແລະ ຊ່ວຍເຫຼືອລູກຄ້າ 24/7</p>
 
                 <div class="print-error-msg" style="display:none">
                   <ul></ul>
@@ -911,28 +910,28 @@
           
                 <ul class="c-box12__list">
                   <li class="c-box12__item">
-                    <p class="c-box12__txt">Họ tên</p>
-                    <input name="name" type="text" placeholder="Họ tên">
+                    <p class="c-box12__txt">ຊື່ ແລະ ນາມສະກຸນ</p>
+                    <input name="name" type="text" placeholder="ຊື່ ແລະ ນາມສະກຸນ">
                   </li>
                   <li class="c-box12__item">
-                    <p class="c-box12__txt">Email</p>
-                    <input name="email" type="email" placeholder="Email">
+                    <p class="c-box12__txt">ອີເມວ</p>
+                    <input name="email" type="email" placeholder="ອີເມວ">
                   </li>
                   <li class="c-box12__item">
-                    <p class="c-box12__txt">Số điện thoại</p>
-                    <input name="phone" type="number" placeholder="Số điện thoại">
+                    <p class="c-box12__txt">ເບີ້ໂທລະສັບ</p>
+                    <input name="phone" type="number" placeholder="ເບີ້ໂທລະສັບ">
                   </li>
                   <li class="c-box12__item">
-                    <p class="c-box12__txt">Chọn gói dịch vụ</p>
+                    <p class="c-box12__txt">ເລືອກປະເພດບໍລິການ</p>
                     <select name="service_pack">
-                      <option value="0">Chọn gói dịch vụ</option>
-                      <option value="1">Dịch vụ thiết kế web CƠ BẢN</option>
-                      <option value="2">Dịch vụ thiết kế web CAO CẤP</option>
-                      <option value="3">Dịch vụ thiết kế web CHUYÊN NGHIỆP</option>
+                      <option value="0">ເລືອກປະເພດບໍລິການ</option>
+                      <option value="1">ບໍລິການອອກແບບເວັບໄຊ (Basic)</option>
+                      <option value="2">ບໍລິການອອກແບບເວັບໄຊ (Advanced) </option>
+                      <option value="3">ບໍລິການອອກແບບເວັບໄຊ (Professional)</option>
                     </select>
                   </li>
                 </ul>
-                <button type="submit" class="c-box12__btn">Gửi Yêu Cầu</button>
+                <button type="submit" class="c-box12__btn">ລົງທະບຽນ</button>
               </form>
               <figure>
                 <img src="https://placehold.jp/800x500.png" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">

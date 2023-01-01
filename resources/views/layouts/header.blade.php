@@ -9,38 +9,38 @@
         <nav class="c-header__nav">
             <ul class="c-header__list">
                 <li class="c-header__item">
-                    <a class="c-header__link is-home {{ Route::current()->getName() == 'home' ? 'is-choose' : ''}}" href="{{ Route::current()->getName() == 'home' ? '/#home' : '/'}}">Trang chủ</a>
+                    <a class="c-header__link is-home {{ Route::current()->getName() == 'home' ? 'is-choose' : ''}}" href="{{ Route::current()->getName() == 'home' ? '/#home' : '/'}}">ໜ້າຫຼັກ</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="/#service">Dịch Vụ</a>
+                    <a class="c-header__link" href="/#service">ບໍລິການ</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="/#interface-warehouse">Kho giao diện</a>
+                    <a class="c-header__link" href="/#interface-warehouse">ຕົວຢ່າງເວັບໄຊ</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="/#price-list">Bảng giá</a>
+                    <a class="c-header__link" href="/#price-list">ລາຄາເວັບໄຊ</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="/#procedure">Quy trình</a>
+                    <a class="c-header__link" href="/#procedure">ຂັ້ນຕອນດຳເນີນງານ</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="/#train">Đào tạo</a>
+                    <a class="c-header__link" href="/#train">ຫຼັກສູດຝຶກອົບຮົມ</a>
                 </li>
                 <li class="c-header__item">
-                    <a class="c-header__link" href="/#blog">Bài viết</a>
+                    <a class="c-header__link" href="/#blog">ບົດຄວາມ</a>
                 </li>
                 <li class="c-header__item c-header__item--style1">
-                    <a href="#about-us" class="c-header__link is-child_item">Về chúng tôi &nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <a href="#about-us" class="c-header__link is-child_item">ກ່ຽວກັບພວກເຮົາ &nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
                     </a>
                     <ul class="c-header__child">
                         <li class="c-header__child__item">
-                            <a class="c-header__child__link" href="/contact">Liên hệ</a>
+                            <a class="c-header__child__link" href="/contact">ຕິດຕໍ່ພວກເຮົາ</a>
                         </li>
                         <li class="c-header__child__item">
-                            <a class="c-header__child__link" href="/pay">Thanh toán</a>
+                            <a class="c-header__child__link" href="/pay">ຊຳລະເງິນ</a>
                         </li>
                         <li class="c-header__child__item">
-                            <a class="c-header__child__link" href="/introduction">Giới thiệu</a>
+                            <a class="c-header__child__link" href="/introduction">ແນະນຳ</a>
                         </li>
                     </ul>
                 </li>
