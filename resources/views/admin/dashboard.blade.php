@@ -16,11 +16,11 @@
    <div class="row">
 
       <!-- Left side columns -->
-      <div class="col-lg-8">
+      <div class="col-lg-12">
         <div class="row">
 
           <!-- Sales Card -->
-          <div class="col-xxl-4 col-md-6">
+          <div class="col-xxl-4 col-md-4">
             <div class="card info-card sales-card">
 
               <div class="filter">
@@ -55,7 +55,7 @@
           </div><!-- End Sales Card -->
 
           <!-- Revenue Card -->
-          <div class="col-xxl-4 col-md-6">
+          <div class="col-xxl-4 col-md-4">
             <div class="card info-card revenue-card">
 
               <div class="filter">
@@ -90,7 +90,7 @@
           </div><!-- End Revenue Card -->
 
           <!-- Customers Card -->
-          <div class="col-xxl-4 col-xl-12">
+          <div class="col-xxl-4 col-md-4">
 
             <div class="card info-card customers-card">
 
@@ -138,11 +138,12 @@
                       <table class="table table-borderless datatable dataTable-table">
                          <thead>
                             <tr>
-                               <th scope="col" data-sortable="" style="width: 10.9489%;"><a href="#" class="dataTable-sorter">#</a></th>
-                               <th scope="col" data-sortable="" style="width: 23.9659%;"><a href="#" class="dataTable-sorter">Họ tên</a></th>
-                               <th scope="col" data-sortable="" style="width: 40.146%;"><a href="#" class="dataTable-sorter">Email</a></th>
-                               <th scope="col" data-sortable="" style="width: 9.85401%;"><a href="#" class="dataTable-sorter">SDT</a></th>
-                               <th scope="col" data-sortable="" style="width: 15.0852%;"><a href="#" class="dataTable-sorter">Trạng thái</a></th>
+                               <th scope="col"><a href="#">#</a></th>
+                               <th scope="col"><a href="#">Họ tên</a></th>
+                               <th scope="col"><a href="#">Email</a></th>
+                               <th scope="col"><a href="#">SDT</a></th>
+                               <th scope="col"><a href="#">Gói dịc vụ</a></th>
+                               <th scope="col"><a href="#">Trạng thái</a></th>
                             </tr>
                          </thead>
                          <tbody>
@@ -152,7 +153,21 @@
                                <td>{{$item->name}}</td>
                                <td><a href="#" class="text-primary">{{$item->email}}</a></td>
                                <td>{{$item->phone}}</td>
-                               <td><span class="badge bg-success">{{$item->status}}</span></td>
+                               <td>
+                                @foreach(\App\Models\Order::SERVICES_PACKES as $key => $value)
+                                  @if($key == $item->service_pack)
+                                    
+                                    @if ($key == \App\Models\Order::SERVICE_PACK1)
+                                      <span class="badge bg-success">{{ $value }}</span>
+                                    @elseif ($key == \App\Models\Order::SERVICE_PACK2)
+                                      <span class="badge bg-danger">{{ $value }}</span>
+                                    @else
+                                      <span class="badge bg-primary">{{ $value }}</span>
+                                    @endif
+                                  @endif
+                                @endforeach
+                              </td>
+                               <td><span class="badge bg-success">{{ \App\Models\Order::STATUS[0] }}</span></td>
                             </tr>
                             @endforeach
                          </tbody>

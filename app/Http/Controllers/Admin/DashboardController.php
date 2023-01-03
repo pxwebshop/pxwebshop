@@ -10,7 +10,7 @@ class DashboardController extends Controller
 {
    public function index(Request $request)
    {
-      $orders = Order::all();
+      $orders = Order::notApprovedYet()->get();
 
       return view('admin.dashboard', compact('orders'));
    }
