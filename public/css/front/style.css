@@ -1498,8 +1498,8 @@ list
   flex-direction: column;
   border-radius: 5px;
   text-decoration: none;
-  color: #262932;
-  background-color: rgb(243, 249, 255);
+  color: #ffffff;
+  background-color: #0c7669;
 }
 @media screen and (min-width: 768px) {
   .c-list10__wrap:hover .c-list10__tlt {
@@ -1530,6 +1530,7 @@ list
 }
 .c-list10__info {
   padding: 20px 10px 10px 10px;
+  position: relative;
 }
 .c-list10__date {
   margin-top: 15px;
@@ -1542,6 +1543,22 @@ list
 }
 .c-list10__date span {
   font-size: 1.6rem;
+}
+.c-list10__category {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+.c-list10__category__item {
+  background: linear-gradient(to right, #E93154 0%, #FF342D 100%);
+  margin-right: 5px;
+  padding: 3px 20px;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 600;
+  border-top-right-radius: 5px;
 }
 
 .c-list11 {

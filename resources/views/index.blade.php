@@ -792,6 +792,15 @@
                 <div class="c-list10__info">
                   <h3 class="c-list10__tlt">{{$item->title}}</h3>
                   <p class="c-list10__date"><span>Ngày đăng: </span>{{ date('d-m-Y', strtotime($item->created_at)); }}</p>
+                  <ul class="c-list10__category">
+                    @foreach($item->blog_category()->get() as $key => $value)
+                      @if($key == 0)
+                      <li class="c-list10__category__item">
+                        {{$value->name}}
+                      </li>
+                      @endif
+                    @endforeach
+                  </ul>
                 </div>
               </a>
             </li>
