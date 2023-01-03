@@ -38,11 +38,11 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
         Route::post('/', 'Admin\UserController@postCreate');
         Route::get('/profile', 'Admin\UserController@profile')->name('profile');
         Route::post('/profile', 'Admin\UserController@postProfile');
-    });
 
-    Route::get('/edit/{id}', 'Admin\UserController@edit')->name('edit_account');
-    Route::post('/edit/{id}', 'Admin\UserController@postEdit')->name('post_edit_account');
-    Route::get('/delete/{id}', 'Admin\UserController@delete')->name('delete_account');
+        Route::get('/edit/{id}', 'Admin\UserController@edit')->name('edit_account');
+        Route::post('/edit/{id}', 'Admin\UserController@postEdit')->name('post_edit_account');
+        Route::get('/delete/{id}', 'Admin\UserController@delete')->name('delete_account');
+    });
 
     Route::group(['prefix' => 'blog'], function () {
         Route::get('/', 'Admin\BlogController@index')->name('list_blog');

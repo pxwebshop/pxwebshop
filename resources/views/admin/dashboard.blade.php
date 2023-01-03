@@ -142,9 +142,9 @@
                                <th scope="col"><a href="#">Họ tên</a></th>
                                <th scope="col"><a href="#">Email</a></th>
                                <th scope="col"><a href="#">SDT</a></th>
-                               <th scope="col"><a href="#">Gói dịc vụ</a></th>
+                               <th scope="col"><a href="#">Gói dịch vụ</a></th>
                                <th scope="col"><a href="#">Trạng thái</a></th>
-                               <th scope="col"><a href="#">Thời Gian</a></th>
+                               <th scope="col"><a href="#">Thời Gian Đăng Ký</a></th>
                             </tr>
                          </thead>
                          <tbody>
