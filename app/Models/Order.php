@@ -48,4 +48,9 @@ class Order extends Model
     {
         return $query->where('status', self::NOT_APPROVED_YET);
     }
+
+    public function scopeCancel($query)
+    {
+        return $query->where('status', '!=', self::CANCEL);
+    }
 }
