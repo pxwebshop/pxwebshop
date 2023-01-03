@@ -7,11 +7,11 @@
       <div class="l-container">
         <ul class="c-list1 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <li class="c-list1__item">
-            <h1 class="c-title1">ອອກແບບເວັບໄຊ ມາດຕະຖານ SEO.<br/>
+            <h1 class="c-title1">ອອກແບບເວັບໄຊ ຕາມມາດຕະຖານ SEO.<br/>
               <span class="c-title1__txt">ເປັນຜູ້ນຳ</span>
               <span class="c-title1__color1">ໃນດ້ານເຕັກໂນໂລຊີ</span>
             </h1>
-            <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນດ້ານ SEO, ການອອກແບບເວັບໄຊ, ການອອກແບບໂປຣແກຣມ, ການອອກແບບລະບົບເຄືອຂ່າຍ, ການອອກແບບລະບົບບ້ານອັດສະລິຍະ ແລະ ການຝຶກອົບຮົມ. ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ແລະ ມີທີມງານມືອາຊີບທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
+            <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນດ້ານ SEO, ອອກແບບເວັບໄຊ, ອອກແບບໂປຣແກຣມ, ອອກແບບລະບົບເຄືອຂ່າຍ, ອອກແບບລະບົບບ້ານອັດສະລິຍະ ແລະ ຝຶກອົບຮົມ. /ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ແລະ ມີທີມງານມືອາຊີບທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
           </li>
           <li class="c-list1__item">
             <figure>
@@ -46,7 +46,7 @@
               </div>
               <div class="c-box1__info">
                 <h5 class="c-box1__tlt">ຕິດຕໍ່ WhatsApp</h5>
-                <p class="c-box1__txt">ສຳພັດຄຸນສົມບັດໃນການຕອບໂຕ້ຂອງລະບົບ, ເຊີ່ງເປັນສີ່ງທີ່ລູກຄ້າຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
+                <p class="c-box1__txt">ສຳພັດຄຸນສົມບັດໃນການຕອບໂຕ້ຂອງລະບົບເວັບໄຊ, ເຊີ່ງເປັນສີ່ງທີ່ລູກຄ້າຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
                 <a href="#" class="c-box1__btn">ຕິດຕໍ່ຕອນນີ້</a>
               </div>
             </div>
@@ -58,7 +58,7 @@
               </div>
               <div class="c-box1__info">
                 <h5 class="c-box1__tlt">ຂໍຄຳປຶກສາ</h5>
-                <p class="c-box1__txt">ເຂົ້າໃຈຜະລິດຕະພັນ, ສັນຍາຂອງຜະລິດຕະພັນ ແລະ ຜົນປະໂຫຍດຂອງລູກຄ້າທີ່ຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
+                <p class="c-box1__txt">ເຂົ້າໃຈຜະລິດຕະພັນ, ສັນຍາ ແລະ ຜົນປະໂຫຍດຂອງລູກຄ້າທີ່ຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
                 <a class="c-box1__btn" href="tel:+02028266650"><i class="fa fa-phone"></i> 020 28266650</a>
               </div>
             </div>
@@ -75,7 +75,7 @@
             ບໍລິການ <span class="c-title2__color1">ທີ່ໂດດເດັ່ນ</span> ຂອງ <span class="c-title2__color1">Lao Smart Tech</span>
             </span>
             <span class="c-title2__text1">
-            Lao Smart Tech ຊ່ຽວຊານໃນການສະຫນອງທາງເລືອກສໍາລັບທຸລະກິດຂະຫນາດນ້ອຍ ແລະ ຂະຫນາດກາງ, ດ້ວຍພະນັກງານທີ່ມີປະສົບການຕົວຈີງ, ເຮັດວຽກຕາມມາດຕະຖານຍີ່ປຸ່ນ.<br> ເພື່ອຮັບປະກັນວ່າລະບົບຂອງທ່ານເຮັດວຽກໄດ້ດີ ແລະ ມີປະສິດທິພາບສູງສຸດ.
+            Lao Smart Tech ຊ່ຽວຊານໃນການສະໜອງຊ່ອງທາງໃນການເພີ່ມມູນຄ່າສໍາຫຼັບທຸລະກິດຂະໜາດນ້ອຍ ແລະ ຂະໜາດກາງ, ດ້ວຍພະນັກງານທີ່ມີປະສົບການຕົວຈີງ, ເຮັດວຽກຕາມມາດຕະຖານຍີ່ປຸ່ນ.<br> ເພື່ອຮັບປະກັນວ່າລະບົບຂອງທ່ານເຮັດວຽກໄດ້ດີ ແລະ ມີປະສິດທິພາບສູງສຸດ.
             </span>
           </h2>
 
@@ -95,7 +95,7 @@
                   <i class="fa fa-network-wired"></i>
                 </div>
                 <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Network</h4>
-                <p class="c-box2__txt">ບັນດາອົງກອນຕ່າງໆ ຍັງມີຂໍ້ຈຳກັດທາງດ້ານລະບົບເຄືອຂ່າຍ ທີ່ບໍ່ໄດ້ມາດຕະຖານ, ດັ່ງນັ້ນພວກເຮົາພ້ອມທີ່ຈະໃຫ້ບໍລິການເພື່ອ ອອກແບບ, ຕິດຕັ້ງ, ປັບປຸງ ແລະ ບຳລຸງຮັກສາລະບົບເຄືອຂ່າຍຂອງລູກຄ້າ ໃຫ້ມີປະສິດທິພາບສູງສຸດ.</p>
+                <p class="c-box2__txt">ຫຼາຍໆອົງກອນຍັງມີຂໍ້ຈຳກັດທາງດ້ານລະບົບເຄືອຂ່າຍ ທີ່ບໍ່ໄດ້ມາດຕະຖານ, ດັ່ງນັ້ນພວກເຮົາພ້ອມທີ່ຈະໃຫ້ບໍລິການເພື່ອ ອອກແບບ, ຕິດຕັ້ງ, ປັບປຸງ ແລະ ບຳລຸງຮັກສາລະບົບເຄືອຂ່າຍຂອງທ່ານ ໃຫ້ມີປະສິດທິພາບສູງສຸດ.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -104,7 +104,7 @@
                   <i class="fa fa-computer"></i>
                 </div>
                 <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Logo,..</h4>
-                <p class="c-box2__txt">Dịch vụ thiết kế logo, banner..., với đội ngũ designer làm việc ở Bộ thông tin. Chúng tôi tự tin cung cấp sản phẩm tốt nhất đến các doanh nghiệp.</p>
+                <p class="c-box2__txt">ບໍລິການອອກແບບ Logo, Banner... ໂດຍທີມງານອອກແບບທີ່ເປັນມືອາຊີບ, ພວກເຮົາໝັ້ນໃຈທີ່ຈະມອບຜະລິດຕະພັນທີ່ດີທີ່ສຸດໃຫ້ກັບທ່ານ.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -113,7 +113,7 @@
                   <i class="fa-solid fa-code"></i>
                 </div>
                 <h4 class="c-box2__tlt">ຂຽນໂປຣແກຣມ</h4>
-                <p class="c-box2__txt">Chúng tôi chuyên phát triển phần mềm quản lý để giúp cho các doanh nghiệp vận hành tốt và đem lại lợi nhuận cao nhất.</p>
+                <p class="c-box2__txt">ພວກເຮົາມີຄວາມຊຳນານໃນການພັດທະນາໂປຣແກຣມຄຸ້ມຄອງ ແລະ ຈັດການລະບົບ ເພື່ອຊ່ວຍໃຫ້ທຸລະກິດຂອງທ່ານດໍາເນີນການໄດ້ຢ່າງມີປະສິດທິພາບ ແລະ ງ່າຍໃນການບໍລິຫານຈັດການ.</p>
               </div>
             </li>
           </ul>
@@ -128,7 +128,7 @@
              <span class="c-title2__color1">ຕົວຢ່າງ</span> Website
           </span>
           <span class="c-title2__text1">
-            ມີແບບເວັບໄຊທີ່ຫຼາກຫຼາຍສຳຫຼັບເວັບໄຊອີຄອມເມິດສ, ຂາຍສີນຄ້າ, ຂ່າວສານ, ແນະນຳທຸລະກິດ  <br/> ໂດຍຄວບຄຸມທຸກສາຂາອາຊີບ ໃຫ້ທ່ານເລືອກໄດ້ຕາມໃຈມັກ.
+            ມີຕົວຢ່າງເວັບໄຊທີ່ຫຼາກຫຼາຍບໍ່ວ່າຈະເປັນເວັບໄຊ ອີຄອມເມິດສ, ຂາຍສີນຄ້າ, ຂ່າວສານ, ແນະນຳທຸລະກິດ  <br/> ໂດຍຄວບຄຸມທຸກສາຂາອາຊີບ ໃຫ້ທ່ານເລືອກໄດ້ຕາມໃຈມັກ.
           </span>
         </h2>
         <div class="c-slider__list">
@@ -138,7 +138,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/05/vanphongphamfast-trangchu.jpg" alt="nest mart grocery">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex1" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex1" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex1" class="modal">
                 <figure>
@@ -153,7 +153,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/06/cleverfood-trangchu.jpg" alt="blogar">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex2" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex2" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex2" class="modal">
                 <figure>
@@ -168,7 +168,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/05/dualeoshoes-trangchu.jpg" alt="elanna">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex3" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex3" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex3" class="modal">
                 <figure>
@@ -183,7 +183,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/04/nuochoa-trangchu.jpg" alt="innivation architecture">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex4" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex4" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex4" class="modal">
                 <figure>
@@ -198,7 +198,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/03/broshop-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex5" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex5" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex5" class="modal">
                 <figure>
@@ -213,7 +213,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/maynenkhi-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex6" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex6" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex6" class="modal">
                 <figure>
@@ -228,7 +228,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/laptoppro.vn-trang-chu.png" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex7" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex7" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex7" class="modal">
                 <figure>
@@ -243,7 +243,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/watch-mirora-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex8" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex8" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex8" class="modal">
                 <figure>
@@ -261,7 +261,7 @@
                 <img src="https://mona.media/wp-content/uploads/2020/06/FireShot-Capture-019-Yoko-Edu-mauweb.monamedia.net_.png" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex9" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex9" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex9" class="modal">
                 <figure>
@@ -276,7 +276,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/03/fpt-hanoi-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex10" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex10" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex10" class="modal">
                 <figure>
@@ -291,7 +291,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/01/FireShot-Capture-482-Kids-World-http___mauweb.monamedia.net_kidsworld_.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex11" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex11" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex11" class="modal">
                 <figure>
@@ -306,7 +306,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/mlandmarkresidence-landingpage.jpg" alt="nest mart grocery">
               </figure>
               <div class="c-slider__btnWrap">
-                <a  href="#ex12" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a  href="#ex12" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex12" class="modal">
                 <figure>
@@ -321,7 +321,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/01/phu-my-hung.jpg" alt="blogar">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex13" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex13" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex13" class="modal">
                 <figure>
@@ -336,7 +336,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/traveltime-trangchu.jpg" alt="elanna">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex14" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex14" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex14" class="modal">
                 <figure>
@@ -351,7 +351,7 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/trabble-trangchu.jpg" alt="innivation architecture">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex15" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex15" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex15" class="modal">
                 <figure>
@@ -366,7 +366,7 @@
                 <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu-truot-tuyet.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex16" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex16" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex16" class="modal">
                 <figure>
@@ -381,7 +381,7 @@
                 <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex17" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ demo</a>
+                <a href="#ex17" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
               <div class="c-slider__modal" id="ex17" class="modal">
                 <figure>
@@ -400,40 +400,40 @@
         <div class="c-list2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              ແພັກເກັດລາຄາ <span class="c-title2__color1">ບໍລິການອອກແບບເວັບໄຊ</span> ຂອງ Lao Smart Tech
+            ລາຄາແພັກເກັດ <span class="c-title2__color1">ບໍລິການອອກແບບເວັບໄຊ</span> ຂອງ Lao Smart Tech
             </span>
             <span class="c-title2__text1">
-            ລາຄາແພັກເກັດອອກແບບເວັບໄຊ ໄດ້ລະບຸລາຍລະອຽດຕ່າງໆ ຢ່າງຊັດເຈນ ແລະ ໂປງໃສ. ຂື້ນຢູ່ກັບຈຸດປະສົງ ແລະ ປະເພດຂອງທຸລະກິດ ທີ່ລູກຄ້າເລືອກຕາມຄວາມເຫມາະສົມ. 
+            ລາຄາແພັກເກັດອອກແບບເວັບໄຊ ໄດ້ລະບຸລາຍລະອຽດຕ່າງໆໄວ້ຢ່າງຊັດເຈນ ແລະ ຄົບຖ້ວນ, ທ່ານສາມາດເລືອກຕາມຄວາມເຫມາະສົມ ຂອງຈຸດປະສົງ ແລະ ປະເພດທຸລະກິດຂອງທ່ານ. 
             </span>
           </h2>
           <ul class="c-list2__inner">
             <li class="c-list2__item">
               <div class="c-list2__wrap">
                 <div class="c-list2__heading">
-                  <h4 class="c-list2__tlt">ແພັກເກັດບໍລິການອອກແບບເວັບໄຊ 
+                  <h4 class="c-list2__tlt">ບໍລິການອອກແບບເວັບໄຊ 
                     <span>(Basic)</span>
                   </h4>
                   <p class="c-list2__price">24,999,000 LAK</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">Phù hợp với các website dạng Landing Page, website tin tức, website giới thiệu doanh nghiệp,... với đầy đủ các tính năng cần thiết ở một trang web chuẩn SEO.</p>
+                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຮູບແບບ Landing Page, ເວັບໄຊຂ່າວສານ, ເວັບໄຊແນະນຳທຸລະກິດ... ພ້ອມກັບຟັງຊັ່ນຕ່າງໆ ທີ່ຈຳເປັນໃນເວັບໄຊມາດຕະຖານ SEO.</p>
                   <ul class="c-list2__box">
-                    <li class="c-list2__boxItem"><strong>⭐</strong>Mã nguồn: Pxwebshop Core</li>
-                    <li class="c-list2__boxItem"><strong>⭐</strong>Ngôn ngữ: Code PHP thuần 100%</li>
-                    <li class="c-list2__boxItem"><strong>⭐</strong>Framework (nếu khách hàng yêu cầu): Laravel</li>
-                    <li class="c-list2__boxItem"><strong>⭐</strong>Giao diện: Thiết kế giao diện theo mẫu có sẵn **</li>
-                    <li class="c-list2__boxItem"><strong>⭐</strong>Bàn giao: Toàn bộ mã nguồn</li>
-                    <li class="c-list2__boxItem"><strong>⭐</strong>Bảo hành: Vĩnh viễn</li>
-                    <li class="c-list2__boxItem"><strong>⭐</strong>Bảo trì: 1 Năm</li>
-                    <li class="c-list2__boxItem"><strong>⭐</strong>Băng thông: Không giới hạn</li>
-                    <li class="c-list2__boxItem"><strong>⭐</strong>Bảo mật: Tuyệt đối</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Source Code: Lao Smart Tech Core</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>ພາສາ: Code PHP 100%</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>ແບບເວັບໄຊ: ອອກແບບເວັບໄຊຕາມຕົວຢ່າງທີ່ມີຢູ່ແລ້ວ</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>ສົ່ງມອບ: Source Code ທັງໝົດ</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>ຮັບປະກັນ: ຕະຫຼອດການໃຊ້ງານ</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>ບໍາລຸງຮັກສາ: 1 ປີ</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>ແບນວິດ: ບໍ່ຈຳກັດ</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;Chuẩn Mobile: Có</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Bảo hành: Hỗ trợ bảo trì, sửa lỗi, website miễn phí trọn đời</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 năm domain quốc tế (.com, .net, .org)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 năm dùng hosting lên đến 3GB</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: Có</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ຮັບປະກັນ: Hỗ trợ ບໍາລຸງຮັກສາ, sửa lỗi, website miễn phí trọn đời</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 ປີ domain quốc tế (.com, .net, .org)</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 ປີ dùng hosting lên đến 3GB</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Không</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Đa ngôn ngữ: Không</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Đa ພາສາ: Không</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Không</li>
                   </ul>
                 </div>
@@ -443,32 +443,31 @@
             <li class="c-list2__item">
               <div class="c-list2__wrap">
                 <div class="c-list2__heading">
-                  <h4 class="c-list2__tlt">ແພັກເກັດບໍລິການອອກແບບເວັບໄຊ
+                  <h4 class="c-list2__tlt">ບໍລິການອອກແບບເວັບໄຊ
                     <span>(Advanced)</span>
                   </h4>
                   <p class="c-list2__price">39,999,000 LAK</p>
-                  <p class="c-list2__hot">ໂດດເດັນ</p>
+                  <p class="c-list2__hot">ໂດດເດັ່ນ</p>
                 </div>
                 <div class="c-list2__body">
                   <p class="c-list2__txt">Phù hợp với các website bán hàng, website thương mại nhỏ, website bất động sản, web nông nghiệp,... với đầy đủ các tính năng cao cấp về đặt hàng, thanh toán.</p>
                   <ul class="c-list2__box">
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Mã nguồn: Pxwebshop Core</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Ngôn ngữ: Code PHP thuần 100%</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bàn giao: Toàn bộ mã nguồn</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo trì: 1 Năm</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (nếu khách hàng yêu cầu): Laravel</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Giao diện: Thiết kế giao diện riêng theo yêu cầu khách hàng</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Băng thông: Không giới hạn</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo mật: Tuyệt đối</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Chuẩn Mobile 100%</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ພາສາ: Code PHP 100%</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ສົ່ງມອບ: Source Code ທັງໝົດ</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ບໍາລຸງຮັກສາ: 1 ປີ</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ແບບເວັບໄຊ: Thiết kế ແບບເວັບໄຊ riêng theo yêu cầu khách hàng</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ແບນວິດ: ບໍ່ຈຳກັດ</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;Chuẩn Mobile: Có</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Bảo hành: Hỗ trợ bảo trì, sửa lỗi, website miễn phí trọn đời</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Chuẩn SEO: Cam kết chuẩn SEO 100%</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 năm domain Lào (.la, .com)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 năm dùng hosting lên đến 5GB</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: Có</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ຮັບປະກັນ: Hỗ trợ ບໍາລຸງຮັກສາ, sửa lỗi, website miễn phí trọn đời</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ SEO: Cam kết ມາດຕະຖານ SEO 100%</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 ປີ domain Lào (.la, .com)</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 ປີ dùng hosting lên đến 5GB</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Không</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Đa ngôn ngữ: Tiếng Lào</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Đa ພາສາ: Tiếng Lào</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Giảm 10% phí dịch vụ chăm sóc Website + Fanpage</li>
                   </ul>
                 </div>
@@ -478,32 +477,32 @@
             <li class="c-list2__item">
               <div class="c-list2__wrap">
                 <div class="c-list2__heading">
-                  <h4 class="c-list2__tlt">ແພັກເກັດບໍລິການອອກແບບເວັບໄຊ
+                  <h4 class="c-list2__tlt">ບໍລິການອອກແບບເວັບໄຊ
                     <span>(Professional)</span>
                   </h4>
                   <p class="c-list2__price">ຕິດຕໍ່ (VIP)</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">Phù hợp với các website thương mại điện tử lớn, website có thuật toán thoạt toán truy xuất khó (phong thuỷ, toán học,...), website có traffic cao, cần độ bảo mật và SEO cao cấp.</p>
+                  <p class="c-list2__txt">Phù hợp với các website thương mại điện tử lớn, website có thuật toán thoạt toán truy xuất khó (phong thuỷ, toán học,...), website có traffic cao, cần độ ຄວາມປອດໄພ và SEO cao cấp.</p>
                   <ul class="c-list2__box">
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Mã nguồn: Pxwebshop Core</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Ngôn ngữ: Code PHP thuần 100%</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (nếu khách hàng yêu cầu): Laravel</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Giao diện: Thiết kế giao diện riêng theo yêu cầu khách hàng</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bàn giao: Toàn bộ mã nguồn</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo hành: Vĩnh viễn</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo trì: 2 Năm</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Băng thông: Không giới hạn</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> Bảo mật: Tuyệt đối</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ພາສາ: Code PHP 100%</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ແບບເວັບໄຊ: Thiết kế ແບບເວັບໄຊ riêng theo yêu cầu khách hàng</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ສົ່ງມອບ: Source Code ທັງໝົດ</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ຮັບປະກັນ: ຕະຫຼອດການໃຊ້ງານ</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ບໍາລຸງຮັກສາ: 2 ປີ</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ແບນວິດ: ບໍ່ຈຳກັດ</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;Chuẩn Mobile: Có</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Chuẩn SEO: Cam kết chuẩn SEO 100%</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hỗ trợ thay đổi theo xu hướnghướng SEO mới nhất của Google theo thời gian bảo trì</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Bảo hành: Hỗ trợ bảo trì, sửa lỗi, website miễn phí trọn đời</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 năm domain quốc tế (.com, .net, .org)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 năm dùng hosting lên đến 10GB</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: Có</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ SEO: Cam kết ມາດຕະຖານ SEO 100%</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hỗ trợ thay đổi theo xu hướnghướng SEO mới nhất của Google theo thời gian ບໍາລຸງຮັກສາ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ຮັບປະກັນ: Hỗ trợ ບໍາລຸງຮັກສາ, sửa lỗi, website miễn phí trọn đời</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 ປີ domain quốc tế (.com, .net, .org)</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 ປີ dùng hosting lên đến 10GB</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Có</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Đa ngôn ngữ: Tiếng Việt, Tiếng Anh, Tiếng Lào, Tiếng Nhật</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Đa ພາສາ: Tiếng Việt, Tiếng Anh, Tiếng Lào, Tiếng Nhật</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Giảm 10% phí dịch vụ chăm sóc Website + Fanpage</li>
                   </ul>
                 </div>
@@ -520,10 +519,10 @@
         <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              ຂັ້ນຕອນດຳເນີນງານ website  <span class="c-title2__color1">ມືອາຊີບຂອງ Lao Smart Tech </span>
+              ຂັ້ນຕອນດຳເນີນງານສ້າງ website  <span class="c-title2__color1">ແບບມືອາຊີບຂອງ Lao Smart Tech </span>
             </span>
             <span class="c-title2__text1">
-            Lao Smart Tech phương châm làm việc lấy khách hàng làm trung tâm, luôn hướng đến các giải pháp hỗ trợ khách hàng trong hoạt động thiết kế web. Chúng tôi có quy trình làm việc rõ ràng, nhằm phục vụ bạn chuyên nghiệp nhất.
+            Lao Smart Tech ຢຶດຖືເອົາລູກຄ້າເປັນສູນກາງ ໂດຍເນັ້ນໃນການຊ່ວຍເຫຼືອ, ໃຫ້ຄຳປຶກສາ ແລະ ແກ້ໄຂບັນຫາຂອງລູກຄ້າ ໃນການອອກແບບເວັບໄຊ.<br> ພວກເຮົາມີຂະບວນການເຮັດວຽກທີ່ຈະແຈ້ງ ແລະ ຊັດເຈນ ເພື່ອຮັບໃຊ້ທ່ານຢ່າງເປັນມືອາຊີບ.
             </span>
           </h2>
 
@@ -531,11 +530,11 @@
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
-                  Bước 1
+                  ຂັ້ນຕອນ 1
                 </div>
-                <h4 class="c-box2__tlt">Thấu hiểu khách hàng</h4>
+                <h4 class="c-box2__tlt">ເຂົ້າໃຈລູກຄ້າ</h4>
                 <p class="c-box2__txt">Đội ngũ nhân
-                  viên giàu kinh nghiệm của PXwebshop gặp gỡ khách hàng, lắng nghe ý tưởng thiết kế, thảo luận về tính năng mà bạn
+                  viên giàu kinh nghiệm của Lao Smart Tech gặp gỡ khách hàng, lắng nghe ý tưởng thiết kế, thảo luận về tính năng mà bạn
                   mong muốn trong thiết kế web. Sau khi tư vấn giải pháp và tính năng phù hợp với mục đích và nhu cầu của bạn,
                   chúng tôi lên kế hoạch thiết kế.</p>
               </div>
@@ -543,51 +542,51 @@
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
-                  Bước 2
+                  ຂັ້ນຕອນ 2
                 </div>
-                <h4 class="c-box2__tlt">Ký kết và hợp tác</h4>
+                <h4 class="c-box2__tlt">ລົງ​ນາມ ​ແລະ ​ຮ່ວມ​ມື​</h4>
                 <p class="c-box2__txt">Để đảm bảo quyền lợi cho bạn,
                   chúng ta cùng nhau ghi nhận bằng văn bản
-                  pháp lý. Cái bắt tay nhỏ thể hiện tinh thần lớn, PxWebshop sẽ là người đồng hành cùng bạn, giúp bạn xây dựng
+                  pháp lý. Cái bắt tay nhỏ thể hiện tinh thần lớn, Lao Smart Tech sẽ là người đồng hành cùng bạn, giúp bạn xây dựng
                   giải pháp thiết kế website phù hợp và nâng tầm thương hiệu của bạn trên thị trường.</p>
               </div>
             </li>
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
-                  Bước 3
+                  ຂັ້ນຕອນ 3
                 </div>
-                <h4 class="c-box2__tlt">Thiết kế</h4>
-                <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹthuật PXwebshop sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
+                <h4 class="c-box2__tlt">ອອກແບບ</h4>
+                <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹthuật Lao Smart Tech sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
               </div>
             </li>
 
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
-                  Bước 4
+                  ຂັ້ນຕອນ 4
                 </div>
                 <h4 class="c-box2__tlt">Lập trình</h4>
                 <p class="c-box2__txt">Dựa trên ý
-                  Từ thiết kế đã có và những kinh nghiệm đúc kết trong nhiều năm làm việc, đội ngũ lập trình viên sẽ lên kế hoạch lập trình chuẩn UX (trải nghiệm người dùng), thực hiện lập trình web, đảm bảo đầy đủ các tính năng hữu ích và tiện lợi cho website của bạn.</p>
+                  Từ thiết kế đã có và những kinh nghiệm đúc kết trong nhiều ປີ làm việc, đội ngũ lập trình viên sẽ lên kế hoạch lập trình ມາດຕະຖານ UX (trải nghiệm người dùng), thực hiện lập trình web, đảm bảo đầy đủ các tính năng hữu ích và tiện lợi cho website của bạn.</p>
               </div>
             </li>
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
-                  Bước 5
+                  ຂັ້ນຕອນ 5
                 </div>
                 <h4 class="c-box2__tlt">Thử nghiệm và chỉnh sửa</h4>
-                <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹ thuật PXwebshop sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
+                <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹ thuật Lao Smart Tech sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
               </div>
             </li>
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
-                  Bước 6
+                  ຂັ້ນຕອນ 6
                 </div>
-                <h4 class="c-box2__tlt">Bàn giao toàn diện</h4>
-                <p class="c-box2__txt">Bàn giao toàn diện là trách nhiệm của toàn thể đội ngũ Pxwebshop. Đội ngũ Pxwebshop sẽ hướng dẫn bạn quản trị web tận tình và chu đáo. Dù đã hoàn thành dự án, đội ngũ Pxwebshop luôn trong tâm thế sẵn sàng hỗ trợ bạn trong quá trình bạn vận hành và quản trị website.</p>
+                <h4 class="c-box2__tlt">ສົ່ງມອບ toàn diện</h4>
+                <p class="c-box2__txt">ສົ່ງມອບ toàn diện là trách nhiệm của toàn thể đội ngũ Lao Smart Tech. Đội ngũ Lao Smart Tech sẽ hướng dẫn bạn quản trị web tận tình và chu đáo. Dù đã hoàn thành dự án, đội ngũ Lao Smart Tech luôn trong tâm thế sẵn sàng hỗ trợ bạn trong quá trình bạn vận hành và quản trị website.</p>
               </div>
             </li>
           </ul>
@@ -600,10 +599,10 @@
         <div class="c-box3 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              Các <span class="c-title2__color1">chứng chỉ</span> chuyên môn
+              ບັນດາ <span class="c-title2__color1">ໃບຢັ້ງຢືນ</span> ວິຊາຊີບ
             </span>
             <span class="c-title2__text1">
-              PXwebshop luôn học hỏi công nghệ mới để đem lại giá trị tốt nhất cho khách hàng
+             Lao Smart Tech ຮຽນຮູ້ເຕັກໂນໂລຊີໃໝ່ໆຢູ່ຕະຫຼອດເວລາ ເພື່ອນຳເອົາມູນຄ່າທີ່ດີທີ່ສຸດໃຫ້ແກ່ລູກຄ້າ.
             </span>
           </h2>
 
@@ -615,7 +614,7 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Advaced diplona in fomation techology</h5>
-                  <p class="c-box3__txt">(example: Chứng chỉ chuyên gia bảo mật của ICSI cấp)Viết ngôn ngữ lào</p>
+                  <p class="c-box3__txt">(example: Chứng chỉ chuyên gia ຄວາມປອດໄພ của ICSI cấp)Viết ພາສາ lào</p>
                 </div>
               </div>
             </li>
@@ -626,7 +625,7 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Huawei certification</h5>
-                  <p class="c-box3__txt">Viết ngôn ngữ lào</p>
+                  <p class="c-box3__txt">Viết ພາສາ lào</p>
                 </div>
               </div>
               <div class="c-box3__inner">
@@ -635,7 +634,7 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Cisco ceftifications</h5>
-                  <p class="c-box3__txt">Viết ngôn ngữ lào</p>
+                  <p class="c-box3__txt">Viết ພາສາ lào</p>
                 </div>
               </div>
             </li>
@@ -646,7 +645,7 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certificate course in advanced web technology</h5>
-                  <p class="c-box3__txt">Viết ngôn ngữ lào</p>
+                  <p class="c-box3__txt">Viết ພາສາ lào</p>
                 </div>
               </div>
             </li>
@@ -657,7 +656,7 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certificate course in data communication and networking</h5>
-                  <p class="c-box3__txt">Viết ngôn ngữ lào</p>
+                  <p class="c-box3__txt">Viết ພາສາ lào</p>
                 </div>
               </div>
             </li>
@@ -671,10 +670,10 @@
         <div class="c-box4">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              <span class="c-title2__color1">Cam kết</span> từ chúng tôi
+              <span class="c-title2__color1">ຄໍາສັນຍາ </span> ຈາກພວກເຮົາ
             </span>
             <span class="c-title2__text1">
-              PXwebshop với đội ngũ trong và ngoài nước cam kết chất lượng sản phẩm đem lại cho khách hàng là tốt nhất.
+              Lao Smart Tech ພ້ອມດ້ວຍທີມງານທັງພາຍໃນ ແລະ ຕ່າງປະເທດ ມຸ່ງຫມັ້ນທີ່ຈະສະຫນອງຜະລິດຕະພັນຄຸນນະພາບທີ່ດີທີ່ສຸດໃຫ້ແກ່ລູກຄ້າ.
             </span>
           </h2>
 
@@ -684,9 +683,9 @@
                 <p class="c-box4__icon">
                   <i aria-hidden="true" class="far fa-life-ring"></i>
                 </p>
-                <h5 class="c-box4__tlt">Hỗ trợ tận tình</h5>
+                <h5 class="c-box4__tlt">ຊ່ວຍເຫຼືອ</h5>
                 <p class="c-box4__txt">
-                  Tư vấn, hỗ trợ, giải đáp tận tình thắc mắc của khách hàng.
+                  ຕອບສະໜອງ, ຊ່ວຍເຫຼືອ ແລະ ຕອບຄໍາຖາມຂອງລູກຄ້າ ດ້ວຍຄວາມຈີງໃຈ.
                 </p>
               </div>
             </li>
@@ -695,9 +694,9 @@
                 <p class="c-box4__icon">
                   <i aria-hidden="true" class="far fa-clock"></i>
                 </p>
-                <h5 class="c-box4__tlt">Xử lý lỗi nhanh​</h5>
+                <h5 class="c-box4__tlt">ແກ້ໄຂບັນຫາຢ່າງວ່ອງໄວ​</h5>
                 <p class="c-box4__txt">
-                  Hỗ trợ xử lý mọi vấn đề liên quan đến hệ thống nhanh nhất có thể.
+                  ຕອບສະໜອງຈັດການບັນຫາຕ່າງໆທີ່ກ່ຽວຂ້ອງກັບລະບົບ ໄວເທົ່າທີ່ເປັນໄປໄດ້.
                 </p>
               </div>
             </li>
@@ -706,9 +705,9 @@
                 <p class="c-box4__icon">
                   <i aria-hidden="true" class="fas fa-headset"></i>
                 </p>
-                <h5 class="c-box4__tlt">Tư vấn​</h5>
+                <h5 class="c-box4__tlt">ໃຫ້ຄໍາປຶກສາ​</h5>
                 <p class="c-box4__txt">
-                  Hỗ trợ tư vấn kinh nghiệm, xử lý vấn đề trong quá trình sử dụng.​
+                  ​ໃຫ້​ຄໍາ​ປຶກ​ສາດ້ວຍຄວາມຈີງໃຈ​ ເພື່ອ​ແກ້​ໄຂ​ບັນ​ຫາ​ໃນ​ລະ​ຫວ່າງ​ການ​​ໃຊ້ງານ.​
                 </p>
               </div>
             </li>
@@ -717,9 +716,9 @@
                 <p class="c-box4__icon">
                   <i aria-hidden="true" class="far fa-check-square"></i>
                 </p>
-                <h5 class="c-box4__tlt">Cam kết chính chủ​​</h5>
+                <h5 class="c-box4__tlt">ຮັບປະກັນ ຈາກພວກເຮົາ​​</h5>
                 <p class="c-box4__txt">
-                  Cam kết độc quyền cung cấp & sở hữu hợp pháp website.
+                  ຮັບປະກັນສິດທິໃນການເປັນເຈົ້າຂອງເວັບໄຊຖືກຕ້ອງຕາມກົດໝາຍ.
                 </p>
               </div>
             </li>
@@ -729,7 +728,7 @@
         <div class="c-box5">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              <span class="c-title2__color1">Đối tác</span> tiêu biểu đã tin dùng
+              <span class="c-title2__color1">ຄູ່ຮ່ວມມື </span> ທີ່ເຊື່ອຖືໃຊ້ບໍລິການ
             </span>
           </h2>
           <ul class="c-box5__content is-list1">
@@ -765,7 +764,7 @@
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img7.png') }}" alt="pxwebshop thông tin người dùng bảo mật">
+                <img src="{{ asset('images/img7.png') }}" alt="pxwebshop thông tin người dùng ຄວາມປອດໄພ">
               </figure>
             </li>
           </ul>
@@ -805,10 +804,10 @@
       <div class="c-box6">
         <h2 class="c-title2">
           <span class="c-title2__text">
-            <span class="c-title2__color1">Đào tạo</span> nhân viên cấp cao
+            <span class="c-title2__color1">ຝຶກອົບຮົມ</span> ພະນັກງານລະດັບສູງ
           </span>
           <span class="c-title2__text1">
-            Với kiến thức làm việc trong Bộ Thông Tin được nhận công tác đào tạo cho nhân viên cấp cao.
+           ດ້ວຍ​ຄວາມ​ຮູ້ ແລະ ຄວາມສາມາດ ​ໃນ​ການ​ເຮັດ​ວຽກ​ກ່ຽວກັບດ້ານເຕັກໂນໂລຊີການສື່ສານ ແລະ ຂໍ້ມູນຂ່າວສານ Lao Smart Tech ​ໄດ້​ສະໜອງ​ການ​ຝຶກ​ອົບຮົມໃຫ້ແກ່​ພະນັກງານລະດັບສູງ.
           </span>
         </h2>
         <ul class="c-box6__inner is-list2">
