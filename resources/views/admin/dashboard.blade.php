@@ -144,6 +144,7 @@
                                <th scope="col"><a href="#">SDT</a></th>
                                <th scope="col"><a href="#">Gói dịc vụ</a></th>
                                <th scope="col"><a href="#">Trạng thái</a></th>
+                               <th scope="col"><a href="#">Thời Gian</a></th>
                             </tr>
                          </thead>
                          <tbody>
@@ -168,6 +169,7 @@
                                 @endforeach
                               </td>
                                <td><span class="badge bg-success">{{ \App\Models\Order::STATUS[0] }}</span></td>
+                               <td>{{ $item->created_at }}</td>
                             </tr>
                             @endforeach
                          </tbody>
