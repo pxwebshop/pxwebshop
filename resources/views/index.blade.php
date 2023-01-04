@@ -771,7 +771,8 @@
         </div>
       </div>
     </section>
-
+    
+    @if(count($blogs) > 0)
     <section id="blog" class="p-home9 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
       <div class="l-container">
         <h2 class="c-title2">
@@ -808,6 +809,7 @@
         </div>
       </div>
     </section>
+    @endif
 
     <section id="train" class="p-home10 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
       <div class="c-box6">
@@ -972,7 +974,7 @@
             data: {_token:_token, name:name, email:email, phone:phone, service_pack:service_pack},
             success: function(data) {
               $('.loader').remove();
-              
+
               setTimeout(() => {
                 alert(data.success);
                 location.reload();
