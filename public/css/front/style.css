@@ -262,7 +262,7 @@ breadcrumb
 }
 .c-breadcrumb__item:last-child {
   display: inline-block;
-  width: 280px;
+  max-width: 280px;
   white-space: nowrap;
   overflow: hidden !important;
   text-overflow: ellipsis;

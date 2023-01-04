@@ -3,6 +3,24 @@
 
 @section('content')
 <main class="p-introduction" id="introduction">
+    <div class="c-box13">
+        <div class="c-box13__inner">
+            <div class="l-container">
+                <h2 class="c-box13__tlt">Bài Viết</h2>
+                <ul class="c-breadcrumb">
+                    <li class="c-breadcrumb__item">
+                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
+                    </li>
+                    <li class="c-breadcrumb__item">
+                        <a class="c-breadcrumb__link" href="#blog">Giới thiệu</a>
+                    </li>
+                    <li class="c-breadcrumb__item">
+                        <span class="c-breadcrumb__txt">Thành viên</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <section class="p-introduction1">
         <div class="l-container">
             <h2 class="c-title2">
