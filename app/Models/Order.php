@@ -44,6 +44,13 @@ class Order extends Model
         self::SERVICE_PACK3 => 'Gói chuyên nghiệp',
     ];
 
+    const PRICES_PACKES = [
+        self::SERVICE_PACK => 0,
+        self::SERVICE_PACK1 => 24999000,
+        self::SERVICE_PACK2 => 39999000,
+        self::SERVICE_PACK3 => 'Gói chuyên nghiệp',
+    ];
+
     public function scopeNotApprovedYet($query)
     {
         return $query->where('status', self::NOT_APPROVED_YET);
