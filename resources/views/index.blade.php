@@ -11,7 +11,7 @@
               <span class="c-title1__txt">ເປັນຜູ້ນຳ</span>
               <span class="c-title1__color1">ໃນດ້ານເຕັກໂນໂລຊີ</span>
             </h1>
-            <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນດ້ານ SEO, ອອກແບບເວັບໄຊ, ອອກແບບໂປຣແກຣມ, ອອກແບບລະບົບເຄືອຂ່າຍ, ອອກແບບລະບົບບ້ານອັດສະລິຍະ ແລະ ຝຶກອົບຮົມ. /ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ແລະ ມີທີມງານມືອາຊີບທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
+            <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນດ້ານ SEO, ອອກແບບເວັບໄຊ, ອອກແບບໂປຣແກຣມ, ອອກແບບລະບົບເຄືອຂ່າຍ, ອອກແບບລະບົບບ້ານອັດສະລິຍະ ແລະ ຝຶກອົບຮົມ. ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ແລະ ມີທີມງານມືອາຊີບທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
           </li>
           <li class="c-list1__item">
             <figure>
@@ -964,18 +964,19 @@
         var phone = $("input[name='phone']").val();
         var service_pack = $("select[name='service_pack']").val();
 
-        $.ajax({
-            url: "/",
-            type:'POST',
-            data: {_token:_token, name:name, email:email, phone:phone, service_pack:service_pack},
-            success: function(data) {
-              alert(data.success);
-              location.reload();
-            },
-            error: function(errors) {
-              printErrorMsg(errors.responseJSON.error);
-            }
-        });
+        $('body').append(`<div class="is-loading"></div>`);
+        // $.ajax({
+        //     url: "/",
+        //     type:'POST',
+        //     data: {_token:_token, name:name, email:email, phone:phone, service_pack:service_pack},
+        //     success: function(data) {
+        //       alert(data.success);
+        //       location.reload();
+        //     },
+        //     error: function(errors) {
+        //       printErrorMsg(errors.responseJSON.error);
+        //     }
+        // });
       }); 
 
       function printErrorMsg (msg) {

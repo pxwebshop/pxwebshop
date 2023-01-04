@@ -968,3 +968,18 @@ other
         letter-spacing: 0.5px;
     }
 }
+
+.is-loading{
+    margin: 70px auto;
+    width: 400px;
+    height: 400px;
+    border: 10px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin {
+    100%{
+      transform: rotate(360deg);
+    }
+  }
