@@ -957,26 +957,33 @@
   $(document).ready(function() {
       $(".c-box12__btn").click(function(e){
         e.preventDefault();
+        $(this).prop('disabled', true);
+        $(this).append(`<span class="loader"></span>`);
 
         var _token = $("input[name='_token']").val();
         var name = $("input[name='name']").val();
         var email = $("input[name='email']").val();
         var phone = $("input[name='phone']").val();
         var service_pack = $("select[name='service_pack']").val();
-
-        $('body').append(`<div class="is-loading"></div>`);
-        // $.ajax({
-        //     url: "/",
-        //     type:'POST',
-        //     data: {_token:_token, name:name, email:email, phone:phone, service_pack:service_pack},
-        //     success: function(data) {
-        //       alert(data.success);
-        //       location.reload();
-        //     },
-        //     error: function(errors) {
-        //       printErrorMsg(errors.responseJSON.error);
-        //     }
-        // });
+        let that = this;
+        $.ajax({
+            url: "/",
+            type:'POST',
+            data: {_token:_token, name:name, email:email, phone:phone, service_pack:service_pack},
+            success: function(data) {
+              $('.loader').remove();
+              
+              setTimeout(() => {
+                alert(data.success);
+                location.reload();
+              }, 200);
+            },
+            error: function(errors) {
+              printErrorMsg(errors.responseJSON.error);
+              $(that).prop('disabled', false);
+              $('.loader').remove();
+            },
+        });
       }); 
 
       function printErrorMsg (msg) {

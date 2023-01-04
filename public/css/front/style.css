@@ -2619,6 +2619,9 @@ other
   border-radius: 30px;
   font-weight: 700;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 @media screen and (max-width: 767px) {
   .c-box12__btn {
@@ -2660,7 +2663,39 @@ other
 .c-box12 .print-error-msg li {
   color: red;
 }
+.c-box12 button[disabled=disabled], .c-box12 button:disabled {
+  background: #ccc;
+}
 
+.loader {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+  display: block;
+  margin-left: 30px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .c-box13__inner {
   background: url("/images/background.webp") center no-repeat;
   padding-top: 80px;
@@ -2688,28 +2723,6 @@ other
   letter-spacing: 0.5px;
 }
 
-.is-loading {
-  margin: 70px auto;
-  width: 400px;
-  height: 400px;
-  border: 10px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  border-top-color: #fff;
-  -webkit-animation: spin 1s linear infinite;
-          animation: spin 1s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
-  }
-}
 /*------------------------------------------------------------
 Page Top
 ------------------------------------------------------------*/
