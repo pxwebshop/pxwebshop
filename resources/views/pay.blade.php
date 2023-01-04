@@ -3,6 +3,21 @@
 
 @section('content')
 <main class="p-pay" id="pay">
+    <div class="c-box13">
+        <div class="c-box13__inner">
+            <div class="l-container">
+                <h2 class="c-box13__tlt">Thông tin thanh toán</h2>
+                <ul class="c-breadcrumb">
+                    <li class="c-breadcrumb__item">
+                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
+                    </li>
+                    <li class="c-breadcrumb__item">
+                        <span class="c-breadcrumb__txt">Thanh toán</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <section class="p-pay1">
         <div class="l-container">
             <div class="p-pay1__box">

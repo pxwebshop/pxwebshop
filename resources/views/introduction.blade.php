@@ -6,16 +6,13 @@
     <div class="c-box13">
         <div class="c-box13__inner">
             <div class="l-container">
-                <h2 class="c-box13__tlt">Bài Viết</h2>
+                <h2 class="c-box13__tlt">Giới thiệu thành viên</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
                         <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
                     </li>
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#blog">Giới thiệu</a>
-                    </li>
-                    <li class="c-breadcrumb__item">
-                        <span class="c-breadcrumb__txt">Thành viên</span>
+                        <span class="c-breadcrumb__txt">Giới thiệu</span>
                     </li>
                 </ul>
             </div>
