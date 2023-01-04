@@ -3,8 +3,22 @@
 
 @section('content')
 <main class="p-contact" id="contact">
+    <div class="c-box13">
+        <div class="c-box13__inner">
+            <div class="l-container">
+                <h2 class="c-box13__tlt">Thông tin liên hệ</h2>
+                <ul class="c-breadcrumb">
+                    <li class="c-breadcrumb__item">
+                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
+                    </li>
+                    <li class="c-breadcrumb__item">
+                        <span class="c-breadcrumb__txt">Liên hệ</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <section class="p-contact1">
-       
         <div class="p-contact1__content">
             <div class="l-container">
                 <ul class="c-box8">
