@@ -51,6 +51,10 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
         Route::get('/{id}/edit', 'Admin\BlogController@edit')->name('edit_blog');
         Route::post('/{id}/edit', 'Admin\BlogController@postEdit');
         Route::get('/{id}/delete', 'Admin\BlogController@delete')->name('delete_blog');
+
+        Route::get('/outstanding', 'Admin\BlogController@outstanding')->name('outstanding');
+        Route::post('/outstanding', 'Admin\BlogController@postOutstanding');
+        
     });
 
     Route::group(['prefix' => 'categories'], function () {

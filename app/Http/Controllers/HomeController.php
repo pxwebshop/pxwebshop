@@ -13,7 +13,7 @@ class HomeController extends Controller
 {
      public function index(Request $request)
      {
-          $blogs = Blog::with('user')->orderBy('created_at', 'desc')->take(4)->get();
+          $blogs = Blog::with('user')->outstanding()->orderBy('created_at', 'desc')->take(3)->get();
           
           return view('index', compact('blogs'));
      }

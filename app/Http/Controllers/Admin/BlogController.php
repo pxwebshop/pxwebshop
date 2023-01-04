@@ -150,4 +150,40 @@ class BlogController extends Controller
 
        return redirect()->route('list_blog');
    }
+
+   public function outstanding(Request $request)
+   {
+      $data = Blog::select('id', 'title')->active()->notOutstanding()->get();
+      $categories = Category::select('name', 'id')->get();
+      $outstanding = Blog::select('id', 'title')->active()->outstanding()->get();
+
+      $ids = $outstanding->pluck('id')->toArray();
+
+      return view('admin.blog.outstanding', compact('data', 'categories', 'outstanding','ids'));
+   }
+
+   public function postOutstanding(Request $request)
+   {
+      \DB::beginTransaction();
+      
+      try {
+
+         Blog::whereIn('id', json_decode($request->get('blog-outstanding-choose'), true))
+         ->update(array('outstanding' => 0));
+
+         $ids = json_decode($request->get('blog-outstanding'), true);
+         foreach($ids as $id) {
+            $blog = Blog::find($id);
+            $blog->outstanding = Blog::OUTSTANDING;
+            $blog->save();
+         }
+         \DB::commit();
+         Toastr::success("Cập nhật thành công!");
+      } catch(\Exception $e) {
+         Toastr::error('Thất bại!'. $e->getMessage());
+         \DB::rollback();
+      }
+
+      return redirect()->route('outstanding');
+   }
 }

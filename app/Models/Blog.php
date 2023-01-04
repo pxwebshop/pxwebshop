@@ -27,6 +27,8 @@ class Blog extends Model
     const ACTIVE = 2;
     const STOPPED = 3;
 
+    const OUTSTANDING = 1;
+
     const STATUS = [
         self::CHOOSE_STATUS => '---Chọn trạng thái---',
         self::NOT_APPROVED_YET => 'Chưa duyệt',
@@ -52,5 +54,20 @@ class Blog extends Model
     public function user()
     {
         return $this->belongsTo('App\Models\User', 'user_id', 'id');
+    }
+
+    public function scopeActive($query)
+    {
+        return $query->where('status', self::ACTIVE);
+    }
+    
+    public function scopeNotOutstanding($query)
+    {
+        return $query->where('outstanding', '!=', self::OUTSTANDING);
+    }
+
+    public function scopeOutstanding($query)
+    {
+        return $query->where('outstanding', self::OUTSTANDING);
     }
 }

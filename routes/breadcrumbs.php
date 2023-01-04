@@ -31,3 +31,8 @@ Breadcrumbs::for('add_blog', function ($trail) {
     $trail->push('Bài viết', route('list_blog'));
     $trail->push('Thêm bài viết', route('add_blog'));
 });
+
+Breadcrumbs::for('outstanding', function ($trail) {
+    $trail->parent('home');
+    $trail->push('Bài viết nổi bật', route('outstanding'));
+});
