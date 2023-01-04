@@ -26,7 +26,14 @@
                         <th scope="col">Username</th>
                         <th scope="col">Trạng thái</th>
                         <th scope="col">Ngày Tạo</th>
-                        <th scope="col">Trạng Thái</th>
+
+                        <th scope="col" class="text-center">
+                            @if(\Request::route()->getName() == 'edit_account')
+                                <a href="{{route('list_users') }}" type="button" class="btn btn-primary">Thêm</a>
+                            @else
+                                Trạng Thái
+                            @endif
+                        </th>
                     </tr>
                     </thead>
                     <tbody>
@@ -52,8 +59,8 @@
                             <td class="text-center">
                                 @if($item->username != \Auth::user()->username)
                                     <a class="btn btn-warning text-white" href="{{route('edit_account', $item->id) }}">Sửa</a>
+                                    <a onclick="return confirm(`Bạn có muốn xóa nhân viên không?`);"  href="{{route('delete_account', $item->id) }}" class="btn btn-danger">Xoá</button>
                                 @endif
-                                <a onclick="return confirm(`Bạn có muốn xóa nhân viên không?`);"  href="{{route('delete_account', $item->id) }}" class="btn btn-danger">Xoá</button>
                             </td>
                         </tr>
                         @endforeach

@@ -664,6 +664,7 @@ other
         background: linear-gradient(to right, #0e84ee 0%, #19abd9 100%);
         color: #fff;
         width: 200px;
+        @include Noto-Sans();
     }
     textarea {
         width: 100%;
