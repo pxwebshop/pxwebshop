@@ -34,6 +34,10 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
     Route::get('/dashboard', 'Admin\DashboardController@index')->name('dashboard');
     Route::get('/logout', 'Admin\UserController@logout')->name('logout');
 
+    Route::get('/contact', 'Admin\ContactController@contact')->name('contact');
+    Route::get('/{id}/cancel-contact', 'Admin\ContactController@cancelApprove')->name('cancel_approve');
+    Route::get('/{id}/approve', 'Admin\ContactController@approve')->name('approve');
+
     Route::group(['prefix' => 'users'], function () {
         Route::get('/', 'Admin\UserController@users')->name('list_users');
         Route::post('/', 'Admin\UserController@postCreate');
