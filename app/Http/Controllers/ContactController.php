@@ -23,28 +23,28 @@ class ContactController extends Controller
             'email',
             function ($attribute, $value, $fail) use($request) {
                if (Contact::whereEmail($request->get('email'))->whereDate('created_at', Carbon::today())->exists()) {
-                  $fail($attribute.' đã đăng ký.');
+                  $fail($attribute.' ລົງທະບຽນສໍາເລັດແລ້ວ.');
                }
             },
          ],
          'phone' => 'required|numeric|min:10',
       ], [
-         'name.required'  => 'Vui lòng nhập họ tên',
-         'name.max'  => 'Họ tên của bạn quá dài',
-         'name.min'  => 'Họ tên bạn quá ngắn',
-         'email.required'  => 'Vui lòng nhập địa chỉ email',
-         'email.email'  => 'Địa chỉ email không hợp lệ',
-         'phone.required'  => 'Vui lòng nhập số điện thoại',
-         'phone.numeric'  => 'Số điện thoại không đúng',
-         'phone.min'  => 'Số điện thoại quá ngắn',
+         'name.required'  => 'ກະລຸນາໃສ່ຊື່ ແລະ ນາມສະກຸນ',
+         'name.max'  => 'ຊື່ ແລະ ນາມສະກຸນ ຂອງທ່ານຍາວເກີນໄປ',
+         'name.min'  => 'ຊື່ ແລະ ນາມສະກຸນ ຂອງທ່ານສັ້ນເກີນໄປ',
+         'email.required'  => 'ກະລຸນາໃສ່ທີ່ຢູ່ອີເມວ',
+         'email.email'  => 'ທີ່ຢູ່ອີເມວບໍ່ຖືກຕ້ອງ',
+         'phone.required'  => 'ກະລຸນາໃສ່ເບີ້ໂທລະສັບ',
+         'phone.numeric'  => 'ເບີ້ໂທລະສັບບໍ່ຖືກຕ້ອງ',
+         'phone.min'  => 'ເບີ້ໂທລະສັບສັ້ນເກີນໄປ',
       ]);
 
       try {
          Contact::create($request->all());
       } catch (\Exception $ex) {
-         return redirect()->back()->with('error', 'Vui lòng liên hệ PXwebshop để được hỗ trợ'. $ex->getMessage());
+         return redirect()->back()->with('error', 'ກະລຸນາຕິດຕໍ່ Lao Smart Tech ເພື່ອຮັບການຊ່ວຍເຫຼືອ'. $ex->getMessage());
       }
 
-      return redirect()->back()->with('success', 'Chúng tôi sẽ liên hệ đến bạn nhanh thôi!');   
+      return redirect()->back()->with('success', 'ພວກເຮົາຈະຕິດຕໍ່ຫາທ່ານໃນໄວໆນີ້!');   
    }
 }
