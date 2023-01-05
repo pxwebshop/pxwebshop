@@ -45,7 +45,7 @@
                                         @endif
             
                                         @if($item->status == 2)
-                                            <span class="badge rounded-pill bg-danger">Huỷ bỏ</span>
+                                            <span class="badge rounded-pill bg-danger">Đã huỷ bỏ</span>
                                         @endif
             
                                         @if($item->status == 0)
