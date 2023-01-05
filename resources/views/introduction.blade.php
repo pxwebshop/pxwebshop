@@ -6,13 +6,13 @@
     <div class="c-box13">
         <div class="c-box13__inner">
             <div class="l-container">
-                <h2 class="c-box13__tlt">Giới thiệu thành viên</h2>
+                <h2 class="c-box13__tlt">ກ່ຽວກັບທີມງານ</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
+                        <a class="c-breadcrumb__link" href="#home">ໜ້າຫຼັກ</a>
                     </li>
                     <li class="c-breadcrumb__item">
-                        <span class="c-breadcrumb__txt">Giới thiệu</span>
+                        <span class="c-breadcrumb__txt">ທີມງານ</span>
                     </li>
                 </ul>
             </div>
@@ -25,7 +25,7 @@
                    <span class="c-title2__color1">ທີມ​ງານ</span> ​ຂອງ​ພວກ​ເຮົາ
                 </span>
                 <span class="c-title2__text1">
-                ດ້ວຍປະສົບການຫຼາຍກວ່າ 7 ປີໃນດ້ານເຕັກໂນໂລຊີການສື່ສານ ແລະ ຂໍ້ມູນຂ່າວສານ ພວກເຮົາມີຄວາມມຸ່ງໝັ້ນທີ່ຈະນໍາເອົາສີ່ງທີ່ດີທີ່ສຸດໃຫ້ແກ່ລູກຄ້າຂອງພວກເຮົາ.
+                ດ້ວຍປະສົບການຫຼາຍກ່ວາ 7 ປີໃນດ້ານເຕັກໂນໂລຊີການສື່ສານ ແລະ ຂໍ້ມູນຂ່າວສານ ພວກເຮົາມີຄວາມມຸ່ງໝັ້ນທີ່ຈະນໍາເອົາສີ່ງທີ່ດີທີ່ສຸດໃຫ້ແກ່ລູກຄ້າຂອງພວກເຮົາ.
                 </span>
               </h2>
 

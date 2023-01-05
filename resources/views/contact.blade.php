@@ -6,13 +6,13 @@
     <div class="c-box13">
         <div class="c-box13__inner">
             <div class="l-container">
-                <h2 class="c-box13__tlt">Thông tin liên hệ</h2>
+                <h2 class="c-box13__tlt">ຂໍ້​ມູນ​ຕິດ​ຕໍ່</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
+                        <a class="c-breadcrumb__link" href="#home">ໜ້າຫຼັກ</a>
                     </li>
                     <li class="c-breadcrumb__item">
-                        <span class="c-breadcrumb__txt">Liên hệ</span>
+                        <span class="c-breadcrumb__txt">​ຕິດ​ຕໍ່</span>
                     </li>
                 </ul>
             </div>

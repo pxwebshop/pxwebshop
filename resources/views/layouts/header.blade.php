@@ -37,10 +37,10 @@
                             <a class="c-header__child__link" href="/contact">ຕິດຕໍ່ພວກເຮົາ</a>
                         </li>
                         <li class="c-header__child__item">
-                            <a class="c-header__child__link" href="/pay">ຊຳລະເງິນ</a>
+                            <a class="c-header__child__link" href="/pay">ການຊຳລະເງິນ</a>
                         </li>
                         <li class="c-header__child__item">
-                            <a class="c-header__child__link" href="/introduction">ແນະນຳ</a>
+                            <a class="c-header__child__link" href="/introduction">ແນະນຳທີມງານ</a>
                         </li>
                     </ul>
                 </li>

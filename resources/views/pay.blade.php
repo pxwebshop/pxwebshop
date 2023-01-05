@@ -6,13 +6,13 @@
     <div class="c-box13">
         <div class="c-box13__inner">
             <div class="l-container">
-                <h2 class="c-box13__tlt">Thông tin thanh toán</h2>
+                <h2 class="c-box13__tlt">ຂໍ້ມູນການຊຳລະເງິນ</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
+                        <a class="c-breadcrumb__link" href="#home">ໜ້າຫຼັກ</a>
                     </li>
                     <li class="c-breadcrumb__item">
-                        <span class="c-breadcrumb__txt">Thanh toán</span>
+                        <span class="c-breadcrumb__txt">ການຊຳລະເງິນ</span>
                     </li>
                 </ul>
             </div>
@@ -21,7 +21,7 @@
     <section class="p-pay1">
         <div class="l-container">
             <div class="p-pay1__box">
-                <p class="p-pay1__tlt">* Đối với chuyển khoản qua ngân hàng và Internet Banking:</p>
+                <p class="p-pay1__tlt">* Đối với chuyển khoản qua ທະນາຄານ và Internet Banking:</p>
                 <p class="p-pay1__txt">Khi Quý khách tiến hành chuyển khoản, vui lòng ghi rõ trong nội dung thanh toán bao gồm: Tên miền/ ID thành viên/Mã hợp đồng cần thanh toán để bộ phận kế toán tiến hành đăng ký hoặc gia hạn chính xác website của Quý khách.</p>
             </div>
             <div class="p-pay1__box">
@@ -38,7 +38,7 @@
             </p>
             <h2 class="c-title2">
                 <span class="c-title2__text">
-                   Thông tin <span class="c-title2__color1">thanh toán</span>
+                ຂໍ້ມູນ <span class="c-title2__color1">ການຊຳລະເງິນ</span>
                 </span>
             </h2>
 
@@ -46,78 +46,56 @@
                 <li class="c-list3__item">
                    <div class="c-list3__content">
                         <figure>
-                            <img src="https://web2s.vn/wp-content/uploads/2022/11/vietcombank.png" alt="" srcset="">
+                            <img src="/images/account/logo-bcel.png" alt="" srcset="">
                         </figure>
+                        <h2 class="c-title2">
+                             <span class="c-title2__text">ບັນຊີເງິນກິບ (LAK)</span></h2>
                         <ul class="c-list3__wrap">
                             <li class="c-list3__txt">
-                                <span>Ngân hàng</span>
-                                <span>Vietcombank</span>
+                                <span>ທະນາຄານ</span>
+                                <span>ການຄ້າຕ່າງປະເທດລາວ ມະຫາຊົນ</span>
                             </li>
                             <li class="c-list3__txt">
-                                <span>Chi nhánh</span>
-                                <span>Hồ Chí Minh</span>
+                                <span>ເຈົ້າຂອງບັນຊີ</span>
+                                <span>PHONEXAY NAMSAVANH</span>
                             </li>
                             <li class="c-list3__txt">
-                                <span>Chủ TK</span>
-                                <span>PHONEXAY</span>
+                                <span>ເລກບັນຊີ</span>
+                                <span>010-12-00-00087570-001</span>
                             </li>
-                            <li class="c-list3__txt">
-                                <span>Số TK</span>
-                                <span>0371 000 453 348</span>
-                            </li>
+                            <figure>
+                             <img src="/images/account/bcel-one-kip-qr.jpeg" alt="" srcset="">
+                            </figure>
                         </ul>
                    </div>
                 </li>
                 <li class="c-list3__item">
                     <div class="c-list3__content">
                          <figure>
-                             <img src="https://web2s.vn/wp-content/uploads/2022/11/vietcombank.png" alt="" srcset="">
+                             <img src="/images/account/logo-bcel.png" alt="" srcset="">
                          </figure>
+                        <h2 class="c-title2">
+                            <span class="c-title2__text">ບັນຊີເງິນໂດຣາ (USD)</span>
+                        </h2>
                          <ul class="c-list3__wrap">
                              <li class="c-list3__txt">
-                                 <span>Ngân hàng</span>
-                                 <span>Vietcombank</span>
+                                 <span>ທະນາຄານ</span>
+                                 <span>ການຄ້າຕ່າງປະເທດລາວ ມະຫາຊົນ</span>
                              </li>
                              <li class="c-list3__txt">
-                                 <span>Chi nhánh</span>
-                                 <span>Hồ Chí Minh</span>
+                                 <span>ເຈົ້າຂອງບັນຊີ</span>
+                                 <span>PHONEXAY NAMSAVANH</span>
                              </li>
                              <li class="c-list3__txt">
-                                 <span>Chủ TK</span>
-                                 <span>PHONEXAY</span>
+                                 <span>ເລກບັນຊີ</span>
+                                 <span>221-12-01-00087570-001</span>
                              </li>
-                             <li class="c-list3__txt">
-                                 <span>Số TK</span>
-                                 <span>0371 000 453 348</span>
-                             </li>
+                             <figure>
+                             <img src="/images/account/bcel-one-dollar-qr.jpeg" alt="" srcset="">
+                             </figure>
                          </ul>
                     </div>
                  </li>
-                <li class="c-list3__item">
-                    <div class="c-list3__content">
-                        <figure>
-                            <img src="https://web2s.vn/wp-content/uploads/2022/11/vietcombank.png" alt="" srcset="">
-                        </figure>
-                        <ul class="c-list3__wrap">
-                            <li class="c-list3__txt">
-                                <span>Ngân hàng</span>
-                                <span>Vietcombank</span>
-                            </li>
-                            <li class="c-list3__txt">
-                                <span>Chi nhánh</span>
-                                <span>Hồ Chí Minh</span>
-                            </li>
-                            <li class="c-list3__txt">
-                                <span>Chủ TK</span>
-                                <span>PHONEXAY</span>
-                            </li>
-                            <li class="c-list3__txt">
-                                <span>Số TK</span>
-                                <span>0371 000 453 348</span>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
             </ul>
         </div>
     </section>

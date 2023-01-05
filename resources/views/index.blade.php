@@ -613,7 +613,7 @@
                   <img src="{{ asset('images/certificate/HCIA-Access.jpg') }}" alt="huawei certification">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Huawei certification</h5>
+                  <h5 class="c-box3__tlt">sửa chỗ này nha </h5>
                   <p class="c-box3__txt">Viết ພາສາ lào</p>
                 </div>
               </div>
