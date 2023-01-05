@@ -2363,6 +2363,7 @@ other
   font-size: 1.6rem;
 }
 .c-box8__btn {
+  cursor: pointer;
   border-radius: 30px;
   border: none;
   font-size: 1.6rem;
@@ -2399,6 +2400,19 @@ other
 .c-box8__phone {
   color: black;
   text-decoration: none;
+}
+.c-box8__message {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  color: #0e9641;
+  font-weight: 600;
+}
+.c-box8__message--error {
+  color: red;
+}
+.c-box8 .text-danger {
+  color: #dc3545;
 }
 
 .c-box9__list {

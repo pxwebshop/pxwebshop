@@ -18,7 +18,6 @@ class CreateBlogCategoryTable extends Migration
             $table->increments('id', true);
             $table->integer('blog_id')->nullable()->unsigned();
             $table->integer('category_id')->nullable()->unsigned();
-            $table->boolean('outstanding')->default(0);
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });

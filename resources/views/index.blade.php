@@ -47,7 +47,7 @@
               <div class="c-box1__info">
                 <h5 class="c-box1__tlt">ຕິດຕໍ່ WhatsApp</h5>
                 <p class="c-box1__txt">ສຳພັດຄຸນສົມບັດໃນການຕອບໂຕ້ຂອງລະບົບເວັບໄຊ, ເຊີ່ງເປັນສີ່ງທີ່ລູກຄ້າຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
-                <a href="#" class="c-box1__btn">ຕິດຕໍ່ຕອນນີ້</a>
+                <a href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&app_absent=0" class="c-box1__btn">ຕິດຕໍ່ຕອນນີ້</a>
               </div>
             </div>
           </li>

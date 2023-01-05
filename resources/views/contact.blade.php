@@ -72,19 +72,29 @@
                         </div>
                     </li>
                     <li class="c-box8__item">
-                        <form action="" class="c-box8__form">
-                            <h5 class="c-box8__form__tlt">ສົ່ງຄວາມຕ້ອງການ ເພື່ອຂໍຄຳແນະນຳ
-                            </h5>
+                        <form action="" class="c-box8__form" method="POST">
+                            @csrf
+                            <h5 class="c-box8__form__tlt">ສົ່ງຄວາມຕ້ອງການ ເພື່ອຂໍຄຳແນະນຳ</h5>
+                            @if (\Session::has('success'))
+                                <p class="c-box8__message">{!! \Session::get('success') !!}</p>
+                            @endif
+                            @if (\Session::has('error'))
+                                <p class="c-box8__message c-box8__message--error">{!! \Session::get('error') !!}</p>
+                            @endif
+
                             <div class="c-box8__input">
-                                <input type="text" placeholder="ຊື່ ແລະ ນາມສະກຸນ">
+                                <input type="text" name="name" placeholder="ຊື່ ແລະ ນາມສະກຸນ">
+                                @include('_partials.alert', ['field' => 'name'])
                             </div>
                             <div class="c-box8__input">
-                                <input type="email" placeholder="ອີເມວ">
+                                <input type="email" name="email" placeholder="ອີເມວ">
+                                @include('_partials.alert', ['field' => 'email'])
                             </div>
                             <div class="c-box8__input">
-                                <input type="number" placeholder="ເບີ້ໂທລະສັບ">
+                                <input type="number" name="phone" placeholder="ເບີ້ໂທລະສັບ">
+                                @include('_partials.alert', ['field' => 'phone'])
                             </div>
-                            <textarea name="" rows="10"></textarea>
+                            <textarea name="description" rows="10"></textarea>
                             <button class="c-box8__btn" type="submit">ສົ່ງຄວາມຕ້ອງການ &nbsp;&nbsp;&nbsp; <i class="fa fa-angle-right"></i></button>
                         </form>
                     </li>

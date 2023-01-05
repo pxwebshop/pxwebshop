@@ -19,6 +19,7 @@ class CreateBlogTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->boolean('status')->default(0)->nullable();
             $table->string('title');
+            $table->boolean('outstanding')->default(0);
             $table->string('featured_image')->nullable();
             $table->text('content')->nullable();
             $table->timestamp('created_at')->useCurrent();

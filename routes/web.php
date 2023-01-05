@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@index')->name('home');
 Route::post('/', 'HomeController@postForm')->name('register');
 Route::get('/contact', 'ContactController@index')->name('contact');
+Route::post('/contact', 'ContactController@postContact');
 Route::get('/introduction', 'IntroductionController@index')->name('introduction');
 Route::get('/pay', 'PayController@index')->name('pay');
 Route::get('/privacy-policy', 'PrivacyPolicyController@index')->name('privacy-policy');
