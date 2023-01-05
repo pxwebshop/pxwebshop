@@ -442,7 +442,9 @@ list
 .c-list11 {
     border: 1px solid #ccc;
     padding: 0 20px 20px 20px;
-
+    @include sp() {
+        padding: 0 10px 10px 10px;
+    }
     &__inner {
         display: flex;
         flex-wrap: wrap;
@@ -473,6 +475,10 @@ list
         font-weight: 700;
         text-transform: capitalize;
         margin: 20px 0 30px 0;
+        @include sp() {
+            font-size: 2.0rem;
+            margin: 10px 0 20px 0;
+        }
         &::before {
             content: "";
             width: 50px;
