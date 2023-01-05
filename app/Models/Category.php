@@ -22,6 +22,13 @@ class Category extends Model
         'description',
     ];
 
+    public static function boot() {
+        parent::boot();
+
+        static::deleting(function($category) {
+            $category->blogs()->delete();
+        });
+    }
 
     public function blogs()
     {

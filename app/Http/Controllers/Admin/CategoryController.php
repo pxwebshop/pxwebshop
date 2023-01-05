@@ -84,12 +84,15 @@ class CategoryController extends Controller
 
    public function delete($id, Request $request)
    {
+        \DB::beginTransaction();
        try {
          $category = Category::find($id);
          $category->delete();
          Toastr::success("Xóa danh mục ". $category->name ." thành công!");
+         \DB::commit();
        } catch (\Exception $ex) {
          Toastr::error("Vui lòng bỏ cấp quyền. Xóa danh mục ". $category->name ." thất bại!". $ex->getMessage());
+         \DB::rollback();
        }
 
        return redirect()->route('categories');
