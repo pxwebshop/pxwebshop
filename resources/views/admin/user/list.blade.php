@@ -15,57 +15,59 @@
         <div class="col-lg-7">
             <div class="card">
                 <div class="card-body">
-                <h5 class="card-title">Danh sách mục</h5>
+                    <h5 class="card-title">Danh sách mục</h5>
 
-                <!-- Table with stripped rows -->
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Tên</th>
-                        <th scope="col">Username</th>
-                        <th scope="col">Trạng thái</th>
-                        <th scope="col">Ngày Tạo</th>
-
-                        <th scope="col" class="text-center">
-                            @if(\Request::route()->getName() == 'edit_account')
-                                <a href="{{route('list_users') }}" type="button" class="btn btn-primary">Thêm</a>
-                            @else
-                                Trạng Thái
-                            @endif
-                        </th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                        @foreach($users as $key => $item)
-                        <tr>
-                            <th scope="row">{{$key + 1}}</th>
-                            <td>{{$item->name}}</td>
-                            <td>{{$item->username}}</td>
-                            <td>
-                                @if ($item->status == 1)
-                                   <span class="badge rounded-pill bg-success">Đang hoạt động</span>
-                                @endif
-     
-                                @if($item->status == 2)
-                                   <span class="badge rounded-pill bg-danger">Không hoạt động</span>
-                                @endif
-     
-                                @if($item->status == 0)
-                                   <span class="badge rounded-pill bg-secondary">Chưa được duyệt</span>
-                                @endif
-                            </td>
-                            <td>{{date('d-m-Y', strtotime($item->created_at))}}</td>
-                            <td class="text-center">
-                                @if($item->username != \Auth::user()->username)
-                                    <a class="btn btn-warning text-white" href="{{route('edit_account', $item->id) }}">Sửa</a>
-                                    <a onclick="return confirm(`Bạn có muốn xóa nhân viên không?`);"  href="{{route('delete_account', $item->id) }}" class="btn btn-danger">Xoá</button>
-                                @endif
-                            </td>
-                        </tr>
-                        @endforeach
-                    </tbody>
-                </table>
+                    <!-- Table with stripped rows -->
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Tên</th>
+                                <th scope="col">Username</th>
+                                <th scope="col">Trạng thái</th>
+                                <th scope="col">Ngày Tạo</th>
+        
+                                <th scope="col" class="text-center">
+                                    @if(\Request::route()->getName() == 'edit_account')
+                                        <a href="{{route('list_users') }}" type="button" class="btn btn-primary">Thêm</a>
+                                    @else
+                                        Trạng Thái
+                                    @endif
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                @foreach($users as $key => $item)
+                                <tr>
+                                    <th scope="row">{{$key + 1}}</th>
+                                    <td>{{$item->name}}</td>
+                                    <td>{{$item->username}}</td>
+                                    <td>
+                                        @if ($item->status == 1)
+                                        <span class="badge rounded-pill bg-success">Đang hoạt động</span>
+                                        @endif
+            
+                                        @if($item->status == 2)
+                                        <span class="badge rounded-pill bg-danger">Không hoạt động</span>
+                                        @endif
+            
+                                        @if($item->status == 0)
+                                        <span class="badge rounded-pill bg-secondary">Chưa được duyệt</span>
+                                        @endif
+                                    </td>
+                                    <td>{{date('d-m-Y', strtotime($item->created_at))}}</td>
+                                    <td class="text-center">
+                                        @if($item->username != \Auth::user()->username)
+                                            <a class="btn btn-warning text-white" href="{{route('edit_account', $item->id) }}">Sửa</a>
+                                            <a onclick="return confirm(`Bạn có muốn xóa nhân viên không?`);"  href="{{route('delete_account', $item->id) }}" class="btn btn-danger">Xoá</button>
+                                        @endif
+                                    </td>
+                                </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

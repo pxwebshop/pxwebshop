@@ -15,42 +15,43 @@
         <div class="col-lg-7">
             <div class="card">
                 <div class="card-body">
-                <h5 class="card-title">Danh sách mục</h5>
-
-                <!-- Table with stripped rows -->
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Tên</th>
-                        <th scope="col">Slug</th>
-                        <th scope="col">Mô tả</th>
-                        <th scope="col">Ngày Tạo</th>
-                        <th scope="col" class="text-center">
-                            @if(\Request::route()->getName() == 'edit_category')
-                                <a href="{{route('add_category') }}" type="button" class="btn btn-primary">Thêm</a>
-                            @else
-                                Trạng Thái
-                            @endif
-                        </th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                        @foreach($categories as $key => $item)
-                        <tr>
-                            <th scope="row">{{$key + 1}}</th>
-                            <td>{{$item->name}}</td>
-                            <td><span class="badge rounded-pill bg-secondary">{{$item->slug}}</span></td>
-                            <td>{{$item->description}}</td>
-                            <td>{{date('d-m-Y', strtotime($item->created_at))}}</td>
-                            <td class="text-center">
-                                <a class="btn btn-warning text-white" href="{{route('edit_category', $item->id) }}">Sửa</a>
-                                <a onclick="return confirm(`Bạn có muốn xóa danh mục {{$item->name}} không?`);"  href="{{route('delete_category', $item->id) }}" class="btn btn-danger">Xoá</button>
-                            </td>
-                        </tr>
-                        @endforeach
-                    </tbody>
-                </table>
+                    <h5 class="card-title">Danh sách mục</h5>
+                    <!-- Table with stripped rows -->
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Tên</th>
+                                <th scope="col">Slug</th>
+                                <th scope="col">Mô tả</th>
+                                <th scope="col">Ngày Tạo</th>
+                                <th scope="col" class="text-center">
+                                    @if(\Request::route()->getName() == 'edit_category')
+                                        <a href="{{route('add_category') }}" type="button" class="btn btn-primary">Thêm</a>
+                                    @else
+                                        Trạng Thái
+                                    @endif
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                @foreach($categories as $key => $item)
+                                <tr>
+                                    <th scope="row">{{$key + 1}}</th>
+                                    <td>{{$item->name}}</td>
+                                    <td><span class="badge rounded-pill bg-secondary">{{$item->slug}}</span></td>
+                                    <td>{{$item->description}}</td>
+                                    <td>{{date('d-m-Y', strtotime($item->created_at))}}</td>
+                                    <td class="text-center">
+                                        <a class="btn btn-warning text-white" href="{{route('edit_category', $item->id) }}">Sửa</a>
+                                        <a onclick="return confirm(`Bạn có muốn xóa danh mục {{$item->name}} không?`);"  href="{{route('delete_category', $item->id) }}" class="btn btn-danger">Xoá</button>
+                                    </td>
+                                </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
