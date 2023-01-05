@@ -55,8 +55,8 @@
                                     <td>{{$item->description}}</td>
                                     <td>{{$item->created_at}}</td>
                                     <td class="text-center">
-                                        <a class="btn btn-warning text-white {{ $item->status != 0 ? 'disabled' : '' }}" href="{{route('approve', $item->id) }}">Approve</a>
-                                        <a onclick="return confirm(`Bạn có muốn huỷ bỏ liên hệ này không?`);"  href="{{route('cancel_approve', $item->id) }}" class="btn btn-danger {{ $item->status == 1 ? 'disabled' : '' }}">Cancel</button>
+                                        <a class="btn btn-warning text-white {{ $item->status != \App\Models\Contact::NOT_APPROVED_YET ? 'disabled' : '' }}" href="{{route('approve', $item->id) }}">Approve</a>
+                                        <a onclick="return confirm(`Bạn có muốn huỷ bỏ liên hệ này không?`);"  href="{{route('cancel_approve', $item->id) }}" class="btn btn-danger {{ ($item->status == \App\Models\Contact::APPROVED ||  $item->status == \App\Models\Contact::CANCEL) ? 'disabled' : '' }}">Cancel</button>
                                     </td>
                                 </tr>
                                 @endforeach
