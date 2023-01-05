@@ -607,6 +607,27 @@
           </h2>
 
           <ul class="c-box3__wrap">
+            <li class="c-box3__item c-box3__item--style1">
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="{{ asset('images/certificate/HCIA-Access.jpg') }}" alt="huawei certification">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Huawei certification</h5>
+                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                </div>
+              </div>
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="{{ asset('images/certificate/HCIP-Access.jpg') }}" alt="cisco ceftifications">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Cisco ceftifications</h5>
+                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                </div>
+              </div>
+            </li>
+
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
@@ -621,7 +642,7 @@
             <li class="c-box3__item c-box3__item--style1">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img1.jpg') }}" alt="huawei certification">
+                  <img src="{{ asset('images/certificate/CCNA_Security_rotated.jpg') }}" alt="huawei certification">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Huawei certification</h5>
@@ -645,6 +666,27 @@
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certificate course in advanced web technology</h5>
+                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="c-box3__item c-box3__item--style1">
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="{{ asset('images/certificate/HCIA-Datacom.jpg') }}" alt="huawei certification">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Huawei certification</h5>
+                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                </div>
+              </div>
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="{{ asset('images/certificate/BigDataAnalytics.jpg') }}" alt="cisco ceftifications">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Cisco ceftifications</h5>
                   <p class="c-box3__txt">Viết ພາສາ lào</p>
                 </div>
               </div>
