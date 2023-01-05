@@ -64,7 +64,7 @@
                                     <a href="https://www.facebook.com/pxwebshop" target="_blank" rel="noopener noreferrer nofollow">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
-                                    <a href="#" target="_blank" rel="noopener noreferrer nofollow">
+                                    <a href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer nofollow">
                                         <i class="fa fa-whatsapp" aria-hidden="true"></i>
                                     </a>
                                 </div>
