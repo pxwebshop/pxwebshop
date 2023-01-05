@@ -36,6 +36,14 @@ class Blog extends Model
         self::STOPPED => 'Đã dừng'
     ];
 
+    public static function boot() {
+        parent::boot();
+
+        static::deleting(function($blog) {
+            $blog->blog_category()->delete();
+        });
+    }
+
     public static function getStatus()
     {
         return self::STATUS;

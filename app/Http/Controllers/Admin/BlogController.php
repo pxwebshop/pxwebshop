@@ -140,11 +140,14 @@ class BlogController extends Controller
 
    public function delete($id, Request $request)
    {
+      \DB::beginTransaction();
        try {
          $blog = Blog::find($id);
          $blog->delete();
+         \DB::commit();
          Toastr::success("Xoá bài viết thành công!");
        } catch (\Exception $ex) {
+         \DB::rollback();
          Toastr::error("Xoá bài viết thất bại!". $ex->getMessage());
        }
 
