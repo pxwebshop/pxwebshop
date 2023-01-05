@@ -32,25 +32,25 @@ class HomeController extends Controller
                     'email',
                     function ($attribute, $value, $fail) use($request) {
                          if (Order::whereEmail($request->get('email'))->whereDate('created_at', Carbon::today())->exists()) {
-                             $fail($attribute.' đã đăng ký.');
+                             $fail($attribute.' ລົງທະບຽນສໍາເລັດແລ້ວ.');
                          }
                     },
                ],
                'phone'          => 'required|numeric|min:10',
                'service_pack'   => 'required|numeric|min:0|not_in:0'
           ], [
-               'name.required'  => 'Vui lòng nhập họ tên',
-               'name.max'  => 'Họ tên của bạn quá dài',
-               'name.min'  => 'Họ tên bạn quá ngắn',
-               'email.required'  => 'Vui lòng nhập địa chỉ email',
-               'email.email'  => 'Địa chỉ email không hợp lệ',
-               'phone.required'  => 'Vui lòng nhập số điện thoại',
-               'phone.numeric'  => 'Số điện thoại không đúng',
-               'phone.min'  => 'Số điện thoại quá ngắn',
-               'service_pack.required'  => 'Vui lòng chọn gói dịch vụ',
-               'service_pack.min'  => 'Vui lòng chọn gói dịch vụ',
-               'service_pack.not_in'  => 'Vui lòng chọn gói dịch vụ',
-               'service_pack.min'  => 'Vui lòng chọn gói dịch vụ',
+               'name.required'  => 'ກະລຸນາໃສ່ຊື່ ແລະ ນາມສະກຸນ',
+               'name.max'  => 'ຊື່ ແລະ ນາມສະກຸນ ຂອງທ່ານຍາວເກີນໄປ',
+               'name.min'  => 'ຊື່ ແລະ ນາມສະກຸນ ຂອງທ່ານສັ້ນເກີນໄປ',
+               'email.required'  => 'ກະລຸນາໃສ່ທີ່ຢູ່ອີເມວ',
+               'email.email'  => 'ທີ່ຢູ່ອີເມວບໍ່ຖືກຕ້ອງ',
+               'phone.required'  => 'ກະລຸນາໃສ່ເບີ້ໂທລະສັບ',
+               'phone.numeric'  => 'ເບີ້ໂທລະສັບບໍ່ຖືກຕ້ອງ',
+               'phone.min'  => 'ເບີ້ໂທລະສັບສັ້ນເກີນໄປ',
+               'service_pack.required'  => 'ກະລຸນາເລືອກແພັກເກັດບໍລິການ',
+               'service_pack.min'  => 'ກະລຸນາເລືອກແພັກເກັດບໍລິການ',
+               'service_pack.not_in'  => 'ກະລຸນາເລືອກແພັກເກັດບໍລິການ',
+               'service_pack.min'  => 'ກະລຸນາເລືອກແພັກເກັດບໍລິການ',
           ]);
 
           if ($validator->fails()) {
@@ -64,9 +64,9 @@ class HomeController extends Controller
                     'service_pack' => $request->get('service_pack'),
                ]);
           } catch (\Exception $ex) {
-               return response()->json(['error' => ['Vui lòng liên hệ PXwebshop để được hỗ trợ'. $ex->getMessage()]], 422);
+               return response()->json(['error' => ['ກະລຸນາຕິດຕໍ່ Lao Smart Tech ເພື່ອຮັບການຊ່ວຍເຫຼືອ'. $ex->getMessage()]], 422);
           }
 
-          return response()->json(['success'=>'Bạn đã đăng ký thàng công. Chúng tôi sẽ liên hệ đến bạn nhanh thôi!'], 201);
+          return response()->json(['success'=>'ທ່ານລົງທະບຽນສໍາເລັດແລ້ວ. ພວກເຮົາຈະຕິດຕໍ່ຫາທ່ານໃນໄວໆນີ້!'], 201);
      }
 }

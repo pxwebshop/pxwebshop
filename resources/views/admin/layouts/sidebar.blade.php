@@ -47,12 +47,12 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link {{ in_array( \Request()->route()->getPrefix(), array('admin/contact')) ? '' : 'collapsed' }}" data-bs-target="#components-nav2" data-bs-toggle="collapse" href="#">
+        <a class="nav-link {{ in_array( \Request()->route()->getName(), array('contact')) ? '' : 'collapsed' }}" data-bs-target="#components-nav2" data-bs-toggle="collapse" href="#">
           <i class="bi bi-file-earmark-text"></i><span>Liên hệ</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-        <ul id="components-nav2" class="nav-content collapse {{\Request::route()->getPrefix() == 'admin/contact' ? 'show' : '' }} {{\Request::route()->getPrefix() == 'admin/contact' ? 'show' : '' }}" data-bs-parent="#sidebar-nav">
+        <ul id="components-nav2" class="nav-content collapse {{\Request::route()->getName() == 'contact' ? 'show' : '' }} {{\Request::route()->getName() == 'contact' ? 'show' : '' }}" data-bs-parent="#sidebar-nav">
           <li>
-            <a href="/admin/contact" class="{{ \Request::route()->getName() == 'list_contact' ? 'active' : ''}}">
+            <a href="/admin/contact" class="{{ \Request::route()->getName() == 'contact' ? 'active' : ''}}">
               <i class="bi bi-circle"></i><span>Danh sách liên hệ</span>
             </a>
           </li>

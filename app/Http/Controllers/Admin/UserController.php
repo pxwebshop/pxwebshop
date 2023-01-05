@@ -18,6 +18,9 @@ class UserController extends Controller
 
      public function login(Request $request)
      {
+          if(\Auth::check()) {
+               return redirect()->route('dashboard');  
+          }
           return view('login');
      }
 
