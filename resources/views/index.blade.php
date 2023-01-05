@@ -702,6 +702,17 @@
                 </div>
               </div>
             </li>
+            <li class="c-box3__item">
+              <div class="c-box3__inner">
+                <figure>
+                  <img src="{{ asset('images/certificate/CCEHIS.jpg') }}" alt="certificate course in data communication and networking">
+                </figure>
+                <div class="c-box3__content">
+                  <h5 class="c-box3__tlt">Certificate course in data communication and networking</h5>
+                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
