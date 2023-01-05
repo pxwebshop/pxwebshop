@@ -37,6 +37,10 @@ Page blog
                     line-height: 1.3;
                     position: relative;
                     padding-left: 7px;
+                    margin: 20px 0;
+                    @include sp() {
+                        margin: 10px 0;
+                    }
                     &:before {
                         content: "";
                         left: -5px;
