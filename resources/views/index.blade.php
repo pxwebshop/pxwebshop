@@ -607,7 +607,7 @@
             <li class="c-box3__item c-box3__item--style1">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/HCIA-Access.jpg') }}" alt="huawei certification">
+                  <img loading="lazy" src="{{ asset('images/certificate/HCIA-Access.jpg') }}" alt="huawei certification">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">sửa chỗ này nha </h5>
@@ -616,7 +616,7 @@
               </div>
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/HCIP-Access.jpg') }}" alt="cisco ceftifications">
+                  <img loading="lazy" src="{{ asset('images/certificate/HCIP-Access.jpg') }}" alt="cisco ceftifications">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Cisco ceftifications</h5>
@@ -628,7 +628,7 @@
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img3.jpg') }}" alt="advaced diplona in fomation techology">
+                  <img loading="lazy" src="{{ asset('images/certificate/img3.jpg') }}" alt="advaced diplona in fomation techology">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Advaced diplona in fomation techology</h5>
@@ -639,7 +639,7 @@
             <li class="c-box3__item c-box3__item--style1">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/CCNA_Security_rotated.jpg') }}" alt="huawei certification">
+                  <img loading="lazy" src="{{ asset('images/certificate/CCNA_Security_rotated.jpg') }}" alt="huawei certification">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Huawei certification</h5>
@@ -648,7 +648,7 @@
               </div>
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img2.jpg') }}" alt="cisco ceftifications">
+                  <img loading="lazy" src="{{ asset('images/certificate/img2.jpg') }}" alt="cisco ceftifications">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Cisco ceftifications</h5>
@@ -659,7 +659,7 @@
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img4.jpg') }}" alt="certificate course in advanced web technology">
+                  <img loading="lazy" src="{{ asset('images/certificate/img4.jpg') }}" alt="certificate course in advanced web technology">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certificate course in advanced web technology</h5>
@@ -671,7 +671,7 @@
             <li class="c-box3__item c-box3__item--style1">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/HCIA-Datacom.jpg') }}" alt="huawei certification">
+                  <img loading="lazy" src="{{ asset('images/certificate/HCIA-Datacom.jpg') }}" alt="huawei certification">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Huawei certification</h5>
@@ -680,7 +680,7 @@
               </div>
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/BigDataAnalytics.jpg') }}" alt="cisco ceftifications">
+                  <img loading="lazy" src="{{ asset('images/certificate/BigDataAnalytics.jpg') }}" alt="cisco ceftifications">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Cisco ceftifications</h5>
@@ -691,7 +691,7 @@
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/img5.jpg') }}" alt="certificate course in data communication and networking">
+                  <img loading="lazy" src="{{ asset('images/certificate/img5.jpg') }}" alt="certificate course in data communication and networking">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certificate course in data communication and networking</h5>
@@ -702,7 +702,7 @@
             <li class="c-box3__item">
               <div class="c-box3__inner">
                 <figure>
-                  <img src="{{ asset('images/certificate/CCEHIS.jpg') }}" alt="certificate course in data communication and networking">
+                  <img loading="lazy" src="{{ asset('images/certificate/CCEHIS.jpg') }}" alt="certificate course in data communication and networking">
                 </figure>
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Certificate course in data communication and networking</h5>
@@ -784,37 +784,37 @@
           <ul class="c-box5__content is-list1">
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img1.png') }}" alt="">
+                <img loading="lazy" src="{{ asset('images/img1.png') }}" alt="">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img2.png') }}" alt="pxwebshop chuyên phân phối website">
+                <img loading="lazy" src="{{ asset('images/img2.png') }}" alt="pxwebshop chuyên phân phối website">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img3.png') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
+                <img loading="lazy" src="{{ asset('images/img3.png') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img4.png') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
+                <img loading="lazy" src="{{ asset('images/img4.png') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img5.png') }}" alt="pxwebshop cung cấp website giá rẻ">
+                <img loading="lazy" src="{{ asset('images/img5.png') }}" alt="pxwebshop cung cấp website giá rẻ">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img6.png') }}" alt="pxwebshop chất lượng sản phẩm cao">
+                <img loading="lazy" src="{{ asset('images/img6.png') }}" alt="pxwebshop chất lượng sản phẩm cao">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img src="{{ asset('images/img7.png') }}" alt="pxwebshop thông tin người dùng ຄວາມປອດໄພ">
+                <img loading="lazy" src="{{ asset('images/img7.png') }}" alt="pxwebshop thông tin người dùng ຄວາມປອດໄພ">
               </figure>
             </li>
           </ul>
@@ -837,7 +837,7 @@
             <li class="c-list10__item">
               <a href="{{route('blog_detail', $item->id)}}" class="c-list10__wrap">
                 <figure>
-                  <img src="{{url('storage/images/blog/feature/'.$item->featured_image.'')}}" alt="">
+                  <img loading="lazy" src="{{url('storage/images/blog/feature/'.$item->featured_image.'')}}" alt="">
                 </figure>
                 <div class="c-list10__info">
                   <h3 class="c-list10__tlt">{{$item->title}}</h3>
@@ -876,52 +876,52 @@
             <ul class="c-box6__list">
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img9.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+                  <img loading="lazy" src="{{ asset('images/img9.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </li>
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img11.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+                  <img loading="lazy" src="{{ asset('images/img11.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </li>
             </ul>
             <div class="c-box6__img">
               <div class="c-box6__img__item">
                 <figure>
-                  <img src="{{ asset('images/img10.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+                  <img loading="lazy" src="{{ asset('images/img10.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </div>
             </div>
           </li>
           <li class="c-box6__item c-box6__item--style1">
             <figure>
-              <img src="{{ asset('images/img12.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+              <img loading="lazy" src="{{ asset('images/img12.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
             </figure>
           </li>
           <li class="c-box6__item">
             <ul class="c-box6__list">
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img14.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+                  <img loading="lazy" src="{{ asset('images/img14.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </li>
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img15.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+                  <img loading="lazy" src="{{ asset('images/img15.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </li>
             </ul>
             <div class="c-box6__img">
               <div class="c-box6__img__item">
                 <figure>
-                  <img src="{{ asset('images/img16.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+                  <img loading="lazy" src="{{ asset('images/img16.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
                 </figure>
               </div>
             </div>
           </li>
           <li class="c-box6__item c-box6__item--style1">
             <figure>
-              <img src="{{ asset('images/img13.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+              <img loading="lazy" src="{{ asset('images/img13.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
             </figure>
           </li>
 
@@ -929,26 +929,26 @@
             <ul class="c-box6__list">
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img18.jpeg') }}" alt="">
+                  <img loading="lazy" src="{{ asset('images/img18.jpeg') }}" alt="">
                 </figure>
               </li>
               <li class="c-box6__list__item">
                 <figure>
-                  <img src="{{ asset('images/img19.jpeg') }}" alt="">
+                  <img loading="lazy" src="{{ asset('images/img19.jpeg') }}" alt="">
                 </figure>
               </li>
             </ul>
             <div class="c-box6__img">
               <div class="c-box6__img__item">
                 <figure>
-                  <img src="{{ asset('images/img20.jpeg') }}" alt="">
+                  <img loading="lazy" src="{{ asset('images/img20.jpeg') }}" alt="">
                 </figure>
               </div>
             </div>
           </li>
           <li class="c-box6__item c-box6__item--style1">
             <figure>
-              <img src="{{ asset('images/img17.jpeg') }}" alt="">
+              <img loading="lazy" src="{{ asset('images/img17.jpeg') }}" alt="">
             </figure>
           </li>
         </ul>
@@ -1003,7 +1003,7 @@
                 <button type="submit" class="c-box12__btn">ລົງທະບຽນ</button>
               </form>
               <figure>
-                <img src="https://placehold.jp/800x500.png" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+                <img loading="lazy" src="https://placehold.jp/800x500.png" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
               </figure>
             </div>
           </div>

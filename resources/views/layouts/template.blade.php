@@ -29,7 +29,6 @@
 
     <div class="c-box14">
         <div class="c-box14__inner">
-            <span><small>Hotline: 020 28266650</small></span>
             <a href="tel:02028266650">
                 <i class="fas fa-phone-alt"></i>
             </a>
