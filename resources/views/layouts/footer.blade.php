@@ -73,7 +73,7 @@
                         <a href="/terms-of-use">ເງື່ອນໄຂການນໍາໃຊ້</a>
                     </li>
                     <li class="c-footer__list1__item">
-                        <a href="">ຂໍ້ມູນການຊຳລະເງິນ</a>
+                        <a href="/pay">ຂໍ້ມູນການຊຳລະເງິນ</a>
                     </li>
                     {{-- <li class="c-footer__list1__item">
                         <a href="">ຄໍາຖາມທີ່ຖາມເລື້ອຍໆ</a>
