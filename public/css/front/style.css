@@ -2772,6 +2772,68 @@ other
   letter-spacing: 0.5px;
 }
 
+.c-box14 a {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  line-height: 17px;
+  bottom: 50px;
+  left: 15px;
+  background: rgb(216, 47, 47);
+  text-decoration: none;
+  z-index: 999999999;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.6rem;
+  border-radius: 50px;
+  padding: 3px 15px 3px 5px;
+  background-size: 32px;
+  background-position-x: 10px;
+  background-position-y: 8px;
+}
+.c-box14 a i {
+  position: relative;
+  color: #fff;
+  font-size: 22px;
+  padding-left: 2px;
+  background: rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  margin-right: 5px;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-name: calllink;
+          animation-name: calllink;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+.c-box14 a span {
+  line-height: 1.2;
+}
+
+@-webkit-keyframes calllink {
+  0% {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes calllink {
+  0% {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
 /*------------------------------------------------------------
 Page Top
 ------------------------------------------------------------*/
