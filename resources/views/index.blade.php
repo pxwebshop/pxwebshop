@@ -138,9 +138,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/05/vanphongphamfast-trangchu.jpg" alt="nest mart grocery">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex1" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex1" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex1" class="modal">
+              <div class="c-slider__modal modal" id="ex1">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/05/vanphongphamfast-trangchu.jpg" alt="elanna">
                 </figure>
@@ -153,9 +153,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/06/cleverfood-trangchu.jpg" alt="blogar">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex2" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex2" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex2" class="modal">
+              <div class="c-slider__modal modal" id="ex2">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/06/cleverfood-trangchu.jpg" alt="elanna">
                 </figure>
@@ -168,9 +168,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/05/dualeoshoes-trangchu.jpg" alt="elanna">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex3" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex3" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex3" class="modal">
+              <div class="c-slider__modal modal" id="ex3">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/05/dualeoshoes-trangchu.jpg" alt="elanna">
                 </figure>
@@ -183,9 +183,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/04/nuochoa-trangchu.jpg" alt="innivation architecture">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex4" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex4" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex4" class="modal">
+              <div class="c-slider__modal modal" id="ex4">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/04/nuochoa-trangchu.jpg" alt="elanna">
                 </figure>
@@ -198,9 +198,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/03/broshop-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex5" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex5" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex5" class="modal">
+              <div class="c-slider__modal modal" id="ex5">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/03/broshop-trangchu.jpg" alt="elanna">
                 </figure>
@@ -213,9 +213,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/maynenkhi-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex6" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex6" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex6" class="modal">
+              <div class="c-slider__modal modal" id="ex6">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/02/maynenkhi-trangchu.jpg" alt="elanna">
                 </figure>
@@ -228,9 +228,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/laptoppro.vn-trang-chu.png" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex7" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex7" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex7" class="modal">
+              <div class="c-slider__modal modal" id="ex7">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/02/laptoppro.vn-trang-chu.png" alt="elanna">
                 </figure>
@@ -243,9 +243,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/watch-mirora-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex8" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex8" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex8" class="modal">
+              <div class="c-slider__modal modal" id="ex8">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/02/watch-mirora-trangchu.jpg" alt="elanna">
                 </figure>
@@ -261,9 +261,9 @@
                 <img src="https://mona.media/wp-content/uploads/2020/06/FireShot-Capture-019-Yoko-Edu-mauweb.monamedia.net_.png" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex9" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex9" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex9" class="modal">
+              <div class="c-slider__modal modal" id="ex9">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2020/06/FireShot-Capture-019-Yoko-Edu-mauweb.monamedia.net_.png" alt="elanna">
                 </figure>
@@ -276,9 +276,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/03/fpt-hanoi-trangchu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex10" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex10" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex10" class="modal">
+              <div class="c-slider__modal modal" id="ex10">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/03/fpt-hanoi-trangchu.jpg" alt="elanna">
                 </figure>
@@ -291,9 +291,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/01/FireShot-Capture-482-Kids-World-http___mauweb.monamedia.net_kidsworld_.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex11" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex11" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex11" class="modal">
+              <div class="c-slider__modal modal" id="ex11">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/01/FireShot-Capture-482-Kids-World-http___mauweb.monamedia.net_kidsworld_.jpg" alt="elanna">
                 </figure>
@@ -306,9 +306,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/mlandmarkresidence-landingpage.jpg" alt="nest mart grocery">
               </figure>
               <div class="c-slider__btnWrap">
-                <a  href="#ex12" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a  href="#ex12" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex12" class="modal">
+              <div class="c-slider__modal modal" id="ex12">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/02/mlandmarkresidence-landingpage.jpg" alt="elanna">
                 </figure>
@@ -321,9 +321,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/01/phu-my-hung.jpg" alt="blogar">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex13" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex13" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex13" class="modal">
+              <div class="c-slider__modal modal" id="ex13">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/01/phu-my-hung.jpg" alt="elanna">
                 </figure>
@@ -336,9 +336,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/traveltime-trangchu.jpg" alt="elanna">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex14" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex14" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex14" class="modal">
+              <div class="c-slider__modal modal" id="ex14">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/02/traveltime-trangchu.jpg" alt="elanna">
                 </figure>
@@ -351,9 +351,9 @@
                 <img src="https://mona.media/wp-content/uploads/2019/02/trabble-trangchu.jpg" alt="innivation architecture">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex15" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex15" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex15" class="modal">
+              <div class="c-slider__modal modal" id="ex15">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2019/02/trabble-trangchu.jpg" alt="elanna">
                 </figure>
@@ -366,9 +366,9 @@
                 <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu-truot-tuyet.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex16" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex16" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex16" class="modal">
+              <div class="c-slider__modal modal" id="ex16">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu-truot-tuyet.jpg" alt="elanna">
                 </figure>
@@ -381,9 +381,9 @@
                 <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu.jpg" alt="digital solution">
               </figure>
               <div class="c-slider__btnWrap">
-                <a href="#ex17" rel="modal:open" class="c-slider__btn c-slider__btn--style1" href="#">ເບິ່ງ ຕົວຢ່າງ</a>
+                <a href="#ex17" rel="modal:open" class="c-slider__btn c-slider__btn--style1">ເບິ່ງ ຕົວຢ່າງ</a>
               </div>
-              <div class="c-slider__modal" id="ex17" class="modal">
+              <div class="c-slider__modal modal" id="ex17">
                 <figure>
                   <img src="https://mona.media/wp-content/uploads/2017/11/trang-chu.jpg" alt="elanna">
                 </figure>
@@ -959,7 +959,7 @@
       <div class="l-container">
           <div class="c-box12">
             <div class="c-box12__inner">
-              <form action="" method="POST">
+              <form action="/" method="POST">
                 @csrf
                 <h2 class="c-box12__tlt">ປ້ອນຂໍ້ມູນເພື່ອ ລົງທະບຽນ</h2>
                 <p class="c-box12__tlt__sub">Lao Smart Tech ໃຫ້ຄຳແນະນຳ ແລະ ຊ່ວຍເຫຼືອລູກຄ້າ 24/7</p>
