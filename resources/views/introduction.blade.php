@@ -18,6 +18,7 @@
             </div>
         </div>
     </div>
+
     <section class="p-introduction1">
         <div class="l-container">
             <h2 class="c-title2">
@@ -31,29 +32,30 @@
 
             <div class="c-list8">
                 <div class="c-list8__wrap wow slideInLeft">
-                <div class="c-list8__item">
-                    <figure class="c-list8__img">
-                        <img src="/images/team/phonexay.jpg" alt="">
-                    </figure>
+                    <div class="c-list8__item">
+                        <figure class="c-list8__img">
+                            <img src="/images/team/phonexay.jpg" alt="">
+                        </figure>
 
-                    <div class="c-list8__content">
-                        <span class="c-list8__name"><span class="c-list8__title">Founder</span> - Phonexay Namsavanh</span> <br>
-                        <span class="c-list8__position">Network Designer, Trainer</span>
-                        <ul class="c-list8__skill">
-                            <li><span>Cisco</span></li>
-                            <li><span>FortiGate</span></li>
-                            <li><span>Palo Alto</span></li>
-                            <li><span>Cloud</span></li>
-                            <li><span>Linux</span></li>
-                            <li><span>Sophos</span></li>
-                            <li><span>HP</span></li>
-                            <li><span>HTML</span></li>
-                            <li><span>CSS</span></li>
-                            <li><span>JavaScript</span></li>
-                            <li><span>PHP</span></li>
-                            <li><span>...</span></li>
-                        </ul>
-                        
+                        <div class="c-list8__content">
+                            <span class="c-list8__name"><span class="c-list8__title">Founder</span> - Phonexay Namsavanh</span> <br>
+                            <span class="c-list8__position">Network Designer, Trainer</span>
+                            <ul class="c-list8__skill">
+                                <li><span>Cisco</span></li>
+                                <li><span>FortiGate</span></li>
+                                <li><span>Palo Alto</span></li>
+                                <li><span>Cloud</span></li>
+                                <li><span>Linux</span></li>
+                                <li><span>Sophos</span></li>
+                                <li><span>HP</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>PHP</span></li>
+                                <li><span>...</span></li>
+                            </ul>
+                            
+                        </div>
                     </div>
                 </div>
             </div>

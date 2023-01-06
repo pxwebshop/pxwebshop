@@ -72,7 +72,7 @@
                         </div>
                     </li>
                     <li class="c-box8__item">
-                        <form action="" class="c-box8__form" method="POST">
+                        <form action="/" class="c-box8__form" method="POST">
                             @csrf
                             <h5 class="c-box8__form__tlt">ສົ່ງຄວາມຕ້ອງການ ເພື່ອຂໍຄຳແນະນຳ</h5>
                             @if (\Session::has('success'))
