@@ -703,6 +703,16 @@ other
     .text-danger {
         color: #dc3545;
     }
+    .captcha {
+        display: flex;
+        align-items: center;
+        input {
+            width: auto;
+        }
+        .btn-refresh {
+            margin: 0 5px;
+        }
+    }
 }
 
 .c-box9 {

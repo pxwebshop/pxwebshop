@@ -72,7 +72,7 @@
                         </div>
                     </li>
                     <li class="c-box8__item">
-                        <form action="/" class="c-box8__form" method="POST">
+                        <form action="/contact" class="c-box8__form" method="POST">
                             @csrf
                             <h5 class="c-box8__form__tlt">ສົ່ງຄວາມຕ້ອງການ ເພື່ອຂໍຄຳແນະນຳ</h5>
                             @if (\Session::has('success'))
@@ -95,6 +95,14 @@
                                 @include('_partials.alert', ['field' => 'phone'])
                             </div>
                             <textarea name="description" rows="10"></textarea>
+                            <div class="c-box8__input">
+                                <div class="captcha">
+                                    <span>{!! captcha_img() !!}</span>
+                                    <button type="button" class="btn-refresh"><i class="fa fa-refresh"></i></button>
+                                    <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha">
+                                  </div>
+                                @include('_partials.alert', ['field' => 'captcha'])
+                            </div>
                             <button class="c-box8__btn" type="submit">ສົ່ງຄວາມຕ້ອງການ &nbsp;&nbsp;&nbsp; <i class="fa fa-angle-right"></i></button>
                         </form>
                     </li>

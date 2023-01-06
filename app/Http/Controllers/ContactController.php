@@ -28,6 +28,7 @@ class ContactController extends Controller
             },
          ],
          'phone' => 'required|numeric|min:10',
+         'captcha'        => 'required|captcha'
       ], [
          'name.required'  => 'ກະລຸນາໃສ່ຊື່ ແລະ ນາມສະກຸນ',
          'name.max'  => 'ຊື່ ແລະ ນາມສະກຸນ ຂອງທ່ານຍາວເກີນໄປ',
@@ -37,6 +38,7 @@ class ContactController extends Controller
          'phone.required'  => 'ກະລຸນາໃສ່ເບີ້ໂທລະສັບ',
          'phone.numeric'  => 'ເບີ້ໂທລະສັບບໍ່ຖືກຕ້ອງ',
          'phone.min'  => 'ເບີ້ໂທລະສັບສັ້ນເກີນໄປ',
+         'captcha.captcha' => 'Invalid captcha code.'
       ]);
 
       try {

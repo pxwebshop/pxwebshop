@@ -2449,6 +2449,16 @@ other
 .c-box8 .text-danger {
   color: #dc3545;
 }
+.c-box8 .captcha {
+  display: flex;
+  align-items: center;
+}
+.c-box8 .captcha input {
+  width: auto;
+}
+.c-box8 .captcha .btn-refresh {
+  margin: 0 5px;
+}
 
 .c-box9__list {
   margin: 40px 0;
