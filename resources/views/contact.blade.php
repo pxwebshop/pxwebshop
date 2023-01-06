@@ -120,3 +120,20 @@
     </section>
 </main>
 @endsection
+
+@push('scripts')
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".btn-refresh").click(function(){
+            $.ajax({
+            type:'GET',
+            url:'/refresh_captcha',
+            success:function(data){
+                $(".captcha span").html(data.captcha);
+            }
+            });
+        });
+    });
+</script>
+@endpush
