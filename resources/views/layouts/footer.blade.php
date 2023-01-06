@@ -37,7 +37,7 @@
                     <span><i class="fa-solid fa-location-dot"></i> ບ້ານ ຂາມງອຍ,​ ເມືອງ ໄຊເສດຖາ, ນະຄອນຫຼວງວຽງຈັນ</span>
                 </address>
                 <figure class="c-footer__logo pc-only">
-                    <img src="https://placehold.jp/280x120.png" alt="" srcset="">
+                    <img src="https://placehold.jp/280x120.png" alt="laosmarttech@gmail.com">
                 </figure>
             </div>
             <div class="c-footer__item">

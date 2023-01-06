@@ -1250,10 +1250,12 @@ list
   border: 1px solid #ccc;
   padding: 30px 30px 0 30px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 767px) {
   .c-list3__wrap {
     padding: 10px;
+    margin-bottom: 15px;
   }
 }
 .c-list3__txt {

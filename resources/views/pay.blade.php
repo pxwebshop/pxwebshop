@@ -46,7 +46,7 @@
                 <li class="c-list3__item">
                    <div class="c-list3__content">
                         <figure class="c-list3__img">
-                            <img src="/images/account/logo-bcel.png" alt="" srcset="">
+                            <img src="/images/account/logo-bcel.png" alt="ບັນຊີເງິນກິບ (LAK)">
                         </figure>
                         <h2 class="c-title2">
                              <span class="c-title2__text">ບັນຊີເງິນກິບ (LAK)</span></h2>
@@ -63,16 +63,16 @@
                                 <span>ເລກບັນຊີ</span>
                                 <span>010-12-00-00087570-001</span>
                             </li>
-                            <figure>
-                             <img src="/images/account/bcel-one-kip-qr.jpeg" alt="" srcset="">
-                            </figure>
                         </ul>
+                        <figure>
+                            <img src="/images/account/bcel-one-kip-qr.jpeg" alt="010-12-00-00087570-001">
+                        </figure>
                    </div>
                 </li>
                 <li class="c-list3__item">
                     <div class="c-list3__content">
                         <figure class="c-list3__img">
-                             <img src="/images/account/logo-bcel.png" alt="" srcset="">
+                             <img src="/images/account/logo-bcel.png" alt="ບັນຊີເງິນໂດຣາ (USD)">
                          </figure>
                         <h2 class="c-title2">
                             <span class="c-title2__text">ບັນຊີເງິນໂດຣາ (USD)</span>
@@ -90,10 +90,10 @@
                                  <span>ເລກບັນຊີ</span>
                                  <span>221-12-01-00087570-001</span>
                              </li>
-                             <figure>
-                             <img src="/images/account/bcel-one-dollar-qr.jpeg" alt="" srcset="">
-                             </figure>
                          </ul>
+                         <figure>
+                            <img src="/images/account/bcel-one-dollar-qr.jpeg" alt="221-12-01-00087570-001">
+                        </figure>
                     </div>
                  </li>
             </ul>
