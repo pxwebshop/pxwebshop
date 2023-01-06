@@ -54,88 +54,86 @@
                                 <li><span>PHP</span></li>
                                 <li><span>...</span></li>
                             </ul>
-                            
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="c-list8__wrap wow slideInLeft">
-                <div class="c-list8__item">
-                    <figure class="c-list8__img">
-                        <img src="/images/team/dangquy.jpg" alt="">
-                    </figure>
+                <div class="c-list8__wrap wow slideInLeft">
+                    <div class="c-list8__item">
+                        <figure class="c-list8__img">
+                            <img src="/images/team/dangquy.jpg" alt="">
+                        </figure>
 
-                    <div class="c-list8__content">
-                        <span class="c-list8__name"><span class="c-list8__title">Founder</span> - Dang Quy</span> <br>
-                        <span class="c-list8__position">Developer</span>
-                        <ul class="c-list8__skill">
-                            <li><span>BlockChain</span></li>
-                            <li><span>AWS</span></li>
-                            <li><span>Laravel</span></li>
-                            <li><span>IOS</span></li>
-                            <li><span>Database</span></li>
-                            <li><span>HTML</span></li>
-                            <li><span>CSS</span></li>
-                            <li><span>JavaScript</span></li>
-                            <li><span>PHP</span></li>
-                            <li><span>NodeJs</span></li>
-                            <li><span>Vuejs</span></li>
-                            <li><span>...</span></li>
-                        </ul>
+                        <div class="c-list8__content">
+                            <span class="c-list8__name"><span class="c-list8__title">Founder</span> - Dang Quy</span> <br>
+                            <span class="c-list8__position">Developer</span>
+                            <ul class="c-list8__skill">
+                                <li><span>BlockChain</span></li>
+                                <li><span>AWS</span></li>
+                                <li><span>Laravel</span></li>
+                                <li><span>IOS</span></li>
+                                <li><span>Database</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>PHP</span></li>
+                                <li><span>NodeJs</span></li>
+                                <li><span>Vuejs</span></li>
+                                <li><span>...</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="c-list8__wrap wow slideInRight">
-                <div class="c-list8__item">
-                    <figure class="c-list8__img">
-                        <img src="/images/team/minchong.jpg" alt="">
-                    </figure>
+                <div class="c-list8__wrap wow slideInRight">
+                    <div class="c-list8__item">
+                        <figure class="c-list8__img">
+                            <img src="/images/team/minchong.jpg" alt="">
+                        </figure>
 
-                    <div class="c-list8__content">
-                        <span class="c-list8__name">Nguyen Minh Cong</span> <br>
-                        <span class="c-list8__position">Developer</span>
-                        <ul class="c-list8__skill">
-                            <li><span>Laravel</span></li>
-                            <li><span>HTML</span></li>
-                            <li><span>CSS</span></li>
-                            <li><span>JavaScript</span></li>
-                            <li><span>.NET</span></li>
-                            <li><span>Android</span></li>
-                            <li><span>Database</span></li>
-                            <li><span>Bootstrap</span></li>
-                            <li><span>Reactjs</span></li>
-                            <li><span>Wordpress</span></li>
-                            <li><span>...</span></li>
-                        </ul>
+                        <div class="c-list8__content">
+                            <span class="c-list8__name">Nguyen Minh Cong</span> <br>
+                            <span class="c-list8__position">Developer</span>
+                            <ul class="c-list8__skill">
+                                <li><span>Laravel</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>.NET</span></li>
+                                <li><span>Android</span></li>
+                                <li><span>Database</span></li>
+                                <li><span>Bootstrap</span></li>
+                                <li><span>Reactjs</span></li>
+                                <li><span>Wordpress</span></li>
+                                <li><span>...</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="c-list8__wrap wow slideInRight">
-                <div class="c-list8__item">
-                    <figure class="c-list8__img">
-                        <img src="/images/team/viananh.jpg" alt="">
-                    </figure>
-                    <div class="c-list8__content">
-                        <span class="c-list8__name">Viananh</span> <br>
-                        <span class="c-list8__position">Graphic Designer</span>
-                        <ul class="c-list8__skill">
-                            <li><span>UI-UX</span></li>
-                            <li><span>Figma</span></li>
-                            <li><span>Adobe XD</span></li>
-                            <li><span>Illustrator</span></li>
-                            <li><span>Sketch</span></li>
-                            <li><span>Photoshop</span></li>
-                            <li><span>Ai</span></li>
-                            <li><span>HTML</span></li>
-                            <li><span>CSS</span></li>
-                            <li><span>JavaScript</span></li>
-                            <li><span>...</span></li>
-                        </ul>
+                <div class="c-list8__wrap wow slideInRight">
+                    <div class="c-list8__item">
+                        <figure class="c-list8__img">
+                            <img src="/images/team/viananh.jpg" alt="">
+                        </figure>
+                        <div class="c-list8__content">
+                            <span class="c-list8__name">Viananh</span> <br>
+                            <span class="c-list8__position">Graphic Designer</span>
+                            <ul class="c-list8__skill">
+                                <li><span>UI-UX</span></li>
+                                <li><span>Figma</span></li>
+                                <li><span>Adobe XD</span></li>
+                                <li><span>Illustrator</span></li>
+                                <li><span>Sketch</span></li>
+                                <li><span>Photoshop</span></li>
+                                <li><span>Ai</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>...</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 </main>
 @endsection
