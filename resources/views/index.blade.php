@@ -1000,18 +1000,6 @@
           </div>
       </div>
     </section>
-
-    <div class="c-box14">
-      <div class="c-box14__inner">
-        <a href="tel:02028266650">
-          <i class="fas fa-phone-alt"></i>
-        <span>
-          <small>HOTLINE:</small>
-          <br>
-          020 28266650</span>
-        </a>
-      </div>
-    </div>
 </main>
 @endsection
 
