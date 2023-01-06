@@ -15,7 +15,7 @@
           </li>
           <li class="c-list1__item">
             <figure>
-              <img src="/images/banner.png" alt="thiết kế website giá rẻ">
+              <img src="/images/banner.png" alt="công ty lao smart tech thiết kế website">
             </figure>
           </li>
         </ul>
