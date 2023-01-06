@@ -1265,9 +1265,13 @@ list
   border-bottom-color: #e3e3e3;
   border-bottom-width: 1px;
 }
+.c-list3__img {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
 .c-list3 figure {
   text-align: center;
-  margin-bottom: 20px;
 }
 .c-list3__content {
   border-radius: 10px;

@@ -19,7 +19,7 @@
         </div>
     </div>
     <section class="p-pay1">
-        <div class="l-container">
+        <div class="l-content">
             <div class="p-pay1__box">
                 <p class="p-pay1__tlt">* Đối với chuyển khoản qua ທະນາຄານ và Internet Banking:</p>
                 <p class="p-pay1__txt">Khi Quý khách tiến hành chuyển khoản, vui lòng ghi rõ trong nội dung thanh toán bao gồm: Tên miền/ ID thành viên/Mã hợp đồng cần thanh toán để bộ phận kế toán tiến hành đăng ký hoặc gia hạn chính xác website của Quý khách.</p>
@@ -45,7 +45,7 @@
             <ul class="c-list3">
                 <li class="c-list3__item">
                    <div class="c-list3__content">
-                        <figure>
+                        <figure class="c-list3__img">
                             <img src="/images/account/logo-bcel.png" alt="" srcset="">
                         </figure>
                         <h2 class="c-title2">
@@ -71,7 +71,7 @@
                 </li>
                 <li class="c-list3__item">
                     <div class="c-list3__content">
-                         <figure>
+                        <figure class="c-list3__img">
                              <img src="/images/account/logo-bcel.png" alt="" srcset="">
                          </figure>
                         <h2 class="c-title2">

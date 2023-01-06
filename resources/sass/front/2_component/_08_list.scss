@@ -230,9 +230,13 @@ list
         border-bottom-color: #e3e3e3;
         border-bottom-width: 1px;
     }
-    figure {
-       text-align: center;
+    &__img {
+        width: 200px;
+        margin: auto;
         margin-bottom: 20px;
+    }
+    figure {
+        text-align: center;
     }
     &__content {
         border-radius: 10px;
