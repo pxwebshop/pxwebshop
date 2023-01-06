@@ -214,7 +214,8 @@ list
     &__wrap {
         border-radius: 10px;
         border: 1px solid #ccc;
-        padding: 30px;
+        padding: 30px 30px 0 30px;
+        margin-top: 10px;
         @include sp() {
             padding: 10px;
         }
