@@ -958,6 +958,16 @@ other
     button[disabled=disabled], button:disabled {
         background: #ccc;
     }
+    .captcha {
+        display: flex;
+        align-items: center;
+        input {
+            width: 130px;
+        }
+        .btn-refresh {
+            margin: 0 5px;
+        }
+    }
 }
 .loader {
     border: 2px solid #f3f3f3;
@@ -1005,9 +1015,6 @@ other
 }
 
 .c-box14 {
-    &__inner {
-
-    }
     a {
         display: flex;
         height: 50px;
@@ -1046,6 +1053,8 @@ other
         }
         span {
             line-height: 1.2;
+            @include Noto-Sans();
+            font-size: 1.6rem;
         }
     }
 }

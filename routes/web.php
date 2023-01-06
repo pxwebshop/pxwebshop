@@ -81,3 +81,5 @@ Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']
 Route::get('/component', function () {
     return view('component');
 });
+
+Route::get('refresh_captcha', 'HomeController@refreshCaptcha')->name('refresh_captcha');

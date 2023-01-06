@@ -2715,6 +2715,16 @@ other
 .c-box12 button[disabled=disabled], .c-box12 button:disabled {
   background: #ccc;
 }
+.c-box12 .captcha {
+  display: flex;
+  align-items: center;
+}
+.c-box12 .captcha input {
+  width: 130px;
+}
+.c-box12 .captcha .btn-refresh {
+  margin: 0 5px;
+}
 
 .loader {
   border: 2px solid #f3f3f3;
@@ -2815,6 +2825,8 @@ other
 }
 .c-box14 a span {
   line-height: 1.2;
+  font-family: "Noto Sans Lao", sans-serif;
+  font-size: 1.6rem;
 }
 
 @-webkit-keyframes calllink {

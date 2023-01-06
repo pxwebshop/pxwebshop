@@ -37,7 +37,8 @@ class HomeController extends Controller
                     },
                ],
                'phone'          => 'required|numeric|min:10',
-               'service_pack'   => 'required|numeric|min:0|not_in:0'
+               'service_pack'   => 'required|numeric|min:0|not_in:0',
+               'captcha'        => 'required|captcha'
           ], [
                'name.required'  => 'ກະລຸນາໃສ່ຊື່ ແລະ ນາມສະກຸນ',
                'name.max'  => 'ຊື່ ແລະ ນາມສະກຸນ ຂອງທ່ານຍາວເກີນໄປ',
@@ -51,6 +52,7 @@ class HomeController extends Controller
                'service_pack.min'  => 'ກະລຸນາເລືອກແພັກເກັດບໍລິການ',
                'service_pack.not_in'  => 'ກະລຸນາເລືອກແພັກເກັດບໍລິການ',
                'service_pack.min'  => 'ກະລຸນາເລືອກແພັກເກັດບໍລິການ',
+               'captcha.captcha' => 'Invalid captcha code.'
           ]);
 
           if ($validator->fails()) {
@@ -68,5 +70,10 @@ class HomeController extends Controller
           }
 
           return response()->json(['success'=>'ທ່ານລົງທະບຽນສໍາເລັດແລ້ວ. ພວກເຮົາຈະຕິດຕໍ່ຫາທ່ານໃນໄວໆນີ້!'], 201);
+     }
+
+     public function refreshCaptcha()
+     {
+         return response()->json(['captcha'=> captcha_img()]);
      }
 }

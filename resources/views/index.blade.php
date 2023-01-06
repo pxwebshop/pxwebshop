@@ -990,7 +990,16 @@
                       <option value="3">ບໍລິການອອກແບບເວັບໄຊ (Professional)</option>
                     </select>
                   </li>
+                  <li class="c-box12__item">
+                    <p class="c-box12__txt">Captcha</p>
+                    <div class="captcha">
+                      <span>{!! captcha_img() !!}</span>
+                      <button type="button" class="btn-refresh"><i class="fa fa-refresh"></i></button>
+                      <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha">
+                    </div>
+                  </li>
                 </ul>
+               
                 <button type="submit" class="c-box12__btn">ລົງທະບຽນ</button>
               </form>
               <figure>
@@ -1017,11 +1026,12 @@
         var email = $("input[name='email']").val();
         var phone = $("input[name='phone']").val();
         var service_pack = $("select[name='service_pack']").val();
+        var captcha = $("input[name='captcha']").val();
         let that = this;
         $.ajax({
             url: "/",
             type:'POST',
-            data: {_token:_token, name:name, email:email, phone:phone, service_pack:service_pack},
+            data: {_token:_token, name:name, email:email, phone:phone, service_pack:service_pack, captcha:captcha},
             success: function(data) {
               $('.loader').remove();
 
@@ -1045,6 +1055,16 @@
           $(".print-error-msg").find("ul").append('<li>'+value+'</li>');
         });
       }
+
+      $(".btn-refresh").click(function(){
+        $.ajax({
+          type:'GET',
+          url:'/refresh_captcha',
+          success:function(data){
+              $(".captcha span").html(data.captcha);
+          }
+        });
+      });
   });
 </script>
 
