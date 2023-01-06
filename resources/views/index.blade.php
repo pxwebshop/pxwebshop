@@ -419,7 +419,6 @@
                   <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຮູບແບບ Landing Page, ເວັບໄຊຂ່າວສານ, ເວັບໄຊແນະນຳທຸລະກິດ... ພ້ອມກັບຟັງຊັ່ນຕ່າງໆ ທີ່ຈຳເປັນໃນເວັບໄຊມາດຕະຖານ SEO.</p>
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐</strong>Source Code: Lao Smart Tech Core</li>
-                    <li class="c-list2__boxItem"><strong>⭐</strong>ພາສາ: Code PHP 100%</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>ແບບເວັບໄຊ: ອອກແບບເວັບໄຊຕາມຕົວຢ່າງທີ່ມີຢູ່ແລ້ວ</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>ສົ່ງມອບ: Source Code ທັງໝົດ</li>
@@ -453,7 +452,6 @@
                   <p class="c-list2__txt">Phù hợp với các website bán hàng, website thương mại nhỏ, website bất động sản, web nông nghiệp,... với đầy đủ các tính năng cao cấp về đặt hàng, thanh toán.</p>
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> ພາສາ: Code PHP 100%</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ສົ່ງມອບ: Source Code ທັງໝົດ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ບໍາລຸງຮັກສາ: 1 ປີ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
@@ -486,7 +484,6 @@
                   <p class="c-list2__txt">Phù hợp với các website thương mại điện tử lớn, website có thuật toán thoạt toán truy xuất khó (phong thuỷ, toán học,...), website có traffic cao, cần độ ຄວາມປອດໄພ và SEO cao cấp.</p>
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> ພາສາ: Code PHP 100%</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ແບບເວັບໄຊ: Thiết kế ແບບເວັບໄຊ riêng theo yêu cầu khách hàng</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ສົ່ງມອບ: Source Code ທັງໝົດ</li>
