@@ -99,7 +99,7 @@
                                 <div class="captcha">
                                     <span>{!! captcha_img() !!}</span>
                                     <button type="button" class="btn-refresh"><i class="fa fa-refresh"></i></button>
-                                    <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha">
+                                    <input id="captcha" type="text" class="form-control" placeholder="ປ້ອນ Captcha" name="captcha">
                                   </div>
                                 @include('_partials.alert', ['field' => 'captcha'])
                             </div>
