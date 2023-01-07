@@ -7,13 +7,13 @@
     <div class="c-box13">
         <div class="c-box13__inner">
             <div class="l-container">
-                <h2 class="c-box13__tlt">Bài Viết</h2>
+                <h2 class="c-box13__tlt">ບົດຄວາມ</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
+                        <a class="c-breadcrumb__link" href="#home">ໜ້າຫຼັກ</a>
                     </li>
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#blog">Bài Viết</a>
+                        <a class="c-breadcrumb__link" href="#blog">ບົດຄວາມ</a>
                     </li>
                     <li class="c-breadcrumb__item">
                         <span class="c-breadcrumb__txt">{{$blog->title}}</span>
@@ -31,7 +31,7 @@
             </div>
             <div class="l-container1__slidebar">
                 <div class="c-list11">
-                    <h3 class="c-list11__title">Bài viết mới nhất</h3>
+                    <h3 class="c-list11__title">ບົດຄວາມຫຼ້າສຸດ</h3>
                     <ul class="c-list11__inner">
                         @foreach($blogs as $item)
                         <li class="c-list11__item">

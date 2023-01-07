@@ -11,11 +11,11 @@
               <span class="c-title1__txt">ເປັນຜູ້ນຳ</span>
               <span class="c-title1__color1">ໃນດ້ານເຕັກໂນໂລຊີ</span>
             </h1>
-            <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນດ້ານ SEO, ອອກແບບເວັບໄຊ, ອອກແບບໂປຣແກຣມ, ອອກແບບລະບົບເຄືອຂ່າຍ, ອອກແບບລະບົບບ້ານອັດສະລິຍະ ແລະ ຝຶກອົບຮົມ. ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ແລະ ມີທີມງານມືອາຊີບທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
+            <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນການ SEO, ອອກແບບເວັບໄຊ, ອອກແບບໂປຣແກຣມ, ອອກແບບລະບົບເຄືອຂ່າຍ ແລະ ຝຶກອົບຮົມ. ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ແລະ ມີທີມງານມືອາຊີບທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
           </li>
           <li class="c-list1__item">
             <figure>
-              <img src="/images/banner.webp" alt="công ty lao smart tech thiết kế website">
+              <img src="/images/banner.webp" alt="ບໍລິສັດ lao smart tech ອອກແບບເວັບໄຊ">
             </figure>
           </li>
         </ul>
@@ -46,7 +46,7 @@
               </div>
               <div class="c-box1__info">
                 <h5 class="c-box1__tlt">ຕິດຕໍ່ WhatsApp</h5>
-                <p class="c-box1__txt">ສຳພັດຄຸນສົມບັດໃນການຕອບໂຕ້ຂອງລະບົບເວັບໄຊ, ເຊີ່ງເປັນສີ່ງທີ່ລູກຄ້າຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
+                <p class="c-box1__txt">ສຳພັດຄຸນສົມບັດໃນການຕອບໂຕ້ຂອງລະບົບເວັບໄຊ ເຊີ່ງເປັນສີ່ງທີ່ລູກຄ້າຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
                 <a target="_blank" rel="noopener" href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&app_absent=0" class="c-box1__btn">ຕິດຕໍ່ຕອນນີ້</a>
               </div>
             </div>
@@ -59,7 +59,7 @@
               <div class="c-box1__info">
                 <h5 class="c-box1__tlt">ຂໍຄຳປຶກສາ</h5>
                 <p class="c-box1__txt">ເຂົ້າໃຈຜະລິດຕະພັນ, ສັນຍາ ແລະ ຜົນປະໂຫຍດຂອງລູກຄ້າທີ່ຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
-                <a class="c-box1__btn" href="tel:+02028266650"><i class="fa fa-phone"></i> 020 28266650</a>
+                <a class="c-box1__btn" href="tel:02028266650"><i class="fa fa-phone"></i> 020 28266650</a>
               </div>
             </div>
           </li>
@@ -75,7 +75,7 @@
             ບໍລິການ <span class="c-title2__color1">ທີ່ໂດດເດັ່ນ</span> ຂອງ <span class="c-title2__color1">Lao Smart Tech</span>
             </span>
             <span class="c-title2__text1">
-            Lao Smart Tech ຊ່ຽວຊານໃນການສະໜອງຊ່ອງທາງໃນການເພີ່ມມູນຄ່າສໍາຫຼັບທຸລະກິດຂະໜາດນ້ອຍ ແລະ ຂະໜາດກາງ, ດ້ວຍພະນັກງານທີ່ມີປະສົບການຕົວຈີງ, ເຮັດວຽກຕາມມາດຕະຖານຍີ່ປຸ່ນ.<br> ເພື່ອຮັບປະກັນວ່າລະບົບຂອງທ່ານເຮັດວຽກໄດ້ດີ ແລະ ມີປະສິດທິພາບສູງສຸດ.
+            Lao Smart Tech ຊ່ຽວຊານໃນການສະໜອງຊ່ອງທາງໃນການເພີ່ມມູນຄ່າສໍາຫຼັບທຸລະກິດຂະໜາດນ້ອຍ ແລະ ຂະໜາດກາງຫ ດ້ວຍພະນັກງານທີ່ມີປະສົບການຕົວຈີງ, ເຮັດວຽກຕາມມາດຕະຖານຍີ່ປຸ່ນ.<br> ເພື່ອຮັບປະກັນວ່າລະບົບຂອງທ່ານເຮັດວຽກໄດ້ດີ ແລະ ມີປະສິດທິພາບສູງສຸດ.
             </span>
           </h2>
 
@@ -128,7 +128,7 @@
              <span class="c-title2__color1">ຕົວຢ່າງ</span> Website
           </span>
           <span class="c-title2__text1">
-            ມີຕົວຢ່າງເວັບໄຊທີ່ຫຼາກຫຼາຍບໍ່ວ່າຈະເປັນເວັບໄຊ ອີຄອມເມິດສ, ຂາຍສີນຄ້າ, ຂ່າວສານ, ແນະນຳທຸລະກິດ  <br/> ໂດຍຄວບຄຸມທຸກສາຂາອາຊີບ ໃຫ້ທ່ານເລືອກໄດ້ຕາມໃຈມັກ.
+            ມີຕົວຢ່າງເວັບໄຊທີ່ຫຼາກຫຼາຍບໍ່ວ່າຈະເປັນເວັບໄຊ ອີຄອມເມິດສ, ຂາຍສີນຄ້າ, ຂ່າວສານ, ແນະນຳທຸລະກິດ...  <br/> ໂດຍຄວບຄຸມທຸກສາຂາອາຊີບ ໃຫ້ທ່ານເລືອກໄດ້ຕາມໃຈມັກ.
           </span>
         </h2>
         <div class="c-slider__list">
@@ -403,7 +403,7 @@
             ລາຄາແພັກເກັດ <span class="c-title2__color1">ບໍລິການອອກແບບເວັບໄຊ</span> ຂອງ Lao Smart Tech
             </span>
             <span class="c-title2__text1">
-            ລາຄາແພັກເກັດອອກແບບເວັບໄຊ ໄດ້ລະບຸລາຍລະອຽດຕ່າງໆໄວ້ຢ່າງຊັດເຈນ ແລະ ຄົບຖ້ວນ, ທ່ານສາມາດເລືອກຕາມຄວາມເຫມາະສົມ ຂອງຈຸດປະສົງ ແລະ ປະເພດທຸລະກິດຂອງທ່ານ. 
+            ລາຄາແພັກເກັດອອກແບບເວັບໄຊ ໄດ້ລະບຸລາຍລະອຽດຕ່າງໆ ໄວ້ຢ່າງຊັດເຈນ ແລະ ຄົບຖ້ວນ, ທ່ານສາມາດເລືອກຕາມຄວາມເຫມາະສົມ ຂອງຈຸດປະສົງ ແລະ ປະເພດທຸລະກິດຂອງທ່ານ. 
             </span>
           </h2>
           <ul class="c-list2__inner">
@@ -420,20 +420,19 @@
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐</strong>Source Code: Lao Smart Tech Core</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
-                    <li class="c-list2__boxItem"><strong>⭐</strong>ແບບເວັບໄຊ: ອອກແບບເວັບໄຊຕາມຕົວຢ່າງທີ່ມີຢູ່ແລ້ວ</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>ແບບເວັບໄຊ: ອອກແບບຕາມຕົວຢ່າງທີ່ມີຢູ່ແລ້ວ</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>ສົ່ງມອບ: Source Code ທັງໝົດ</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>ຮັບປະກັນ: ຕະຫຼອດການໃຊ້ງານ</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>ບໍາລຸງຮັກສາ: 1 ປີ</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>ແບນວິດ: ບໍ່ຈຳກັດ</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: Có</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ຮັບປະກັນ: Hỗ trợ ບໍາລຸງຮັກສາ, sửa lỗi, website miễn phí trọn đời</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 ປີ domain quốc tế (.com, .net, .org)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 ປີ dùng hosting lên đến 3GB</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Không</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Đa ພາສາ: Không</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Không</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: ມີ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 3GB</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ຫຼາຍພາສາ: ພາສາລາວ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ບໍ່ມີ</li>
                   </ul>
                 </div>
                 <a href="#register" rel="modal:open" class="c-btn1">ລົງທະບຽນ</a>
@@ -449,24 +448,23 @@
                   <p class="c-list2__hot">ໂດດເດັ່ນ</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">Phù hợp với các website bán hàng, website thương mại nhỏ, website bất động sản, web nông nghiệp,... với đầy đủ các tính năng cao cấp về đặt hàng, thanh toán.</p>
+                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຂາຍສີນຄ້າ, ເວັບໄຊອີຄອມເມິດສຂະໜາດນ້ອຍ, ເວັບໄຊອະສັງຫາລິມະສັບ, ເວັບໄຊການກະເສດ... ພ້ອມກັບຄຸນສົມບັດໃນການສັ່ງຊື້ ແລະ ການຊຳລະເງິນ.</p>
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ສົ່ງມອບ: Source Code ທັງໝົດ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ບໍາລຸງຮັກສາ: 1 ປີ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> ແບບເວັບໄຊ: Thiết kế ແບບເວັບໄຊ riêng theo yêu cầu khách hàng</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ແບບເວັບໄຊ: ອອກແບບຕາມຄວາມຕ້ອງການຂອງລູກຄ້າ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ແບນວິດ: ບໍ່ຈຳກັດ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: Có</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ຮັບປະກັນ: Hỗ trợ ບໍາລຸງຮັກສາ, sửa lỗi, website miễn phí trọn đời</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ SEO: Cam kết ມາດຕະຖານ SEO 100%</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 ປີ domain Lào (.la, .com)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 ປີ dùng hosting lên đến 5GB</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Không</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Đa ພາສາ: Tiếng Lào</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Giảm 10% phí dịch vụ chăm sóc Website + Fanpage</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: ມີ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.la, .com, .org)</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 5GB</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ຫຼາຍພາສາ: ພາສາລາວ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ​ ເວັບໄຊ</li>
                   </ul>
                 </div>
                 <a href="#register" rel="modal:open" class="c-btn1">ລົງທະບຽນ</a>
@@ -481,26 +479,25 @@
                   <p class="c-list2__price">ຕິດຕໍ່ (VIP)</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">Phù hợp với các website thương mại điện tử lớn, website có thuật toán thoạt toán truy xuất khó (phong thuỷ, toán học,...), website có traffic cao, cần độ ຄວາມປອດໄພ và SEO cao cấp.</p>
+                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊອີຄອມເມິດສຂະໜາດໃຫຍ່, ເວັບໄຊທີ່ມີການຄຳນວນທາງຄະນິດສາດຊັບຊ້ອນ, ເວັບໄຊທີ່ມີ traffic ສູງ, ຕ້ອງການຄວາມປອດໄພ ແລະ SEO ລະດັບສູງ.</p>
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
-                    <li class="c-list2__boxItem"><strong>⭐ </strong> ແບບເວັບໄຊ: Thiết kế ແບບເວັບໄຊ riêng theo yêu cầu khách hàng</li>
+                    <li class="c-list2__boxItem"><strong>⭐ </strong> ແບບເວັບໄຊ: ອອກແບບຕາມຄວາມຕ້ອງການຂອງລູກຄ້າ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ສົ່ງມອບ: Source Code ທັງໝົດ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ຮັບປະກັນ: ຕະຫຼອດການໃຊ້ງານ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ບໍາລຸງຮັກສາ: 2 ປີ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ແບນວິດ: ບໍ່ຈຳກັດ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: Có</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ SEO: Cam kết ມາດຕະຖານ SEO 100%</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hỗ trợ thay đổi theo xu hướnghướng SEO mới nhất của Google theo thời gian ບໍາລຸງຮັກສາ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ຮັບປະກັນ: Hỗ trợ ບໍາລຸງຮັກສາ, sửa lỗi, website miễn phí trọn đời</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: Tặng miễn phí 1 ປີ domain quốc tế (.com, .net, .org)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: Tặng miễn phí 1 ປີ dùng hosting lên đến 10GB</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Giỏ hàng, thanh toán: Có</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Đa ພາສາ: Tiếng Việt, Tiếng Anh, Tiếng Lào, Tiếng Nhật</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Tặng voucher: Giảm 10% phí dịch vụ chăm sóc Website + Fanpage</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: ມີ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ຊ່ວຍເຫຼືອປ່ຽນແປງ SEO ຕາມເທນຫຼ້າສຸດຂອງ Google</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 10GB</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ມີ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ຫຼາຍພາສາ: ພາສາລາວ, ອັງກິດ, ຫວຽດນາມ, ຈີນ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ ​ເວັບໄຊ</li>
                   </ul>
                 </div>
                 <a href="#register" rel="modal:open" class="c-btn1">ລົງທະບຽນ</a>
@@ -519,7 +516,7 @@
               ຂັ້ນຕອນດຳເນີນງານສ້າງ website  <span class="c-title2__color1">ແບບມືອາຊີບຂອງ Lao Smart Tech </span>
             </span>
             <span class="c-title2__text1">
-            Lao Smart Tech ຢຶດຖືເອົາລູກຄ້າເປັນສູນກາງ ໂດຍເນັ້ນໃນການຊ່ວຍເຫຼືອ, ໃຫ້ຄຳປຶກສາ ແລະ ແກ້ໄຂບັນຫາຂອງລູກຄ້າ ໃນການອອກແບບເວັບໄຊ.<br> ພວກເຮົາມີຂະບວນການເຮັດວຽກທີ່ຈະແຈ້ງ ແລະ ຊັດເຈນ ເພື່ອຮັບໃຊ້ທ່ານຢ່າງເປັນມືອາຊີບ.
+            Lao Smart Tech ຖືເອົາລູກຄ້າເປັນສູນກາງ ໂດຍເນັ້ນໃນການຊ່ວຍເຫຼືອ, ໃຫ້ຄຳປຶກສາ ແລະ ແກ້ໄຂບັນຫາຂອງລູກຄ້າ ໃນການອອກແບບເວັບໄຊ<br> ພວກເຮົາມີຂະບວນການເຮັດວຽກທີ່ຈະແຈ້ງ ແລະ ຊັດເຈນ ເພື່ອຮັບໃຊ້ທ່ານຢ່າງເປັນມືອາຊີບ.
             </span>
           </h2>
 
@@ -530,10 +527,7 @@
                   ຂັ້ນຕອນ 1
                 </div>
                 <h4 class="c-box2__tlt">ເຂົ້າໃຈລູກຄ້າ</h4>
-                <p class="c-box2__txt">Đội ngũ nhân
-                  viên giàu kinh nghiệm của Lao Smart Tech gặp gỡ khách hàng, lắng nghe ý tưởng thiết kế, thảo luận về tính năng mà bạn
-                  mong muốn trong thiết kế web. Sau khi tư vấn giải pháp và tính năng phù hợp với mục đích và nhu cầu của bạn,
-                  chúng tôi lên kế hoạch thiết kế.</p>
+                <p class="c-box2__txt">ພະນັກງານທີ່ມີປະສົບການຂອງ Lao Smart Tech ພົບປະໂອ້ລົມກັບລູກຄ້າ, ຮັບຟັງແນວຄວາມຄິດໃນການອອກແບບ ແລະ ສົນທະນາກ່ຽວກັບຄຸນສົມບັດທີ່ລູກຄ້າຕ້ອງການໃນເວັບໄຊ. ຫຼັງຈາກປຶກສາຫາລືກ່ຽວກັບວິທີແກ້ໄຂ ແລະ ຄຸນສົມບັດທີ່ເຫມາະສົມກັບຈຸດປະສົງ ແລະ ຄວາມຕ້ອງການຂອງລູກຄ້າ, ພວກເຮົາຈະເລີ່ມວາງແຜນໃນການອອກແບບເວັບໄຊ.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -563,9 +557,9 @@
                 <div class="c-box2__icon">
                   ຂັ້ນຕອນ 4
                 </div>
-                <h4 class="c-box2__tlt">Lập trình</h4>
+                <h4 class="c-box2__tlt">ຂຽນເວັບໄຊ</h4>
                 <p class="c-box2__txt">Dựa trên ý
-                  Từ thiết kế đã có và những kinh nghiệm đúc kết trong nhiều ປີ làm việc, đội ngũ lập trình viên sẽ lên kế hoạch lập trình ມາດຕະຖານ UX (trải nghiệm người dùng), thực hiện lập trình web, đảm bảo đầy đủ các tính năng hữu ích và tiện lợi cho website của bạn.</p>
+                  Từ thiết kế đã ມີ và những kinh nghiệm đúc kết trong nhiều ປີ làm việc, đội ngũ lập trình viên sẽ lên kế hoạch lập trình ມາດຕະຖານ UX (trải nghiệm người dùng), thực hiện lập trình web, đảm bảo đầy đủ các tính năng hữu ích và tiện lợi cho website của bạn.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -573,7 +567,7 @@
                 <div class="c-box2__icon">
                   ຂັ້ນຕອນ 5
                 </div>
-                <h4 class="c-box2__tlt">Thử nghiệm và chỉnh sửa</h4>
+                <h4 class="c-box2__tlt">​ທົດ​ສອບ ​ແລະ ​ການ​ແກ້​ໄຂ​</h4>
                 <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹ thuật Lao Smart Tech sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
               </div>
             </li>
@@ -582,7 +576,7 @@
                 <div class="c-box2__icon">
                   ຂັ້ນຕອນ 6
                 </div>
-                <h4 class="c-box2__tlt">ສົ່ງມອບ toàn diện</h4>
+                <h4 class="c-box2__tlt">ສົ່ງມອບເວັບໄຊ</h4>
                 <p class="c-box2__txt">ສົ່ງມອບ toàn diện là trách nhiệm của toàn thể đội ngũ Lao Smart Tech. Đội ngũ Lao Smart Tech sẽ hướng dẫn bạn quản trị web tận tình và chu đáo. Dù đã hoàn thành dự án, đội ngũ Lao Smart Tech luôn trong tâm thế sẵn sàng hỗ trợ bạn trong quá trình bạn vận hành và quản trị website.</p>
               </div>
             </li>
