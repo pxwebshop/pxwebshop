@@ -554,7 +554,7 @@
                   ຂັ້ນຕອນ 3
                 </div>
                 <h4 class="c-box2__tlt">ອອກແບບ</h4>
-                <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹthuật Lao Smart Tech sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
+                <p class="c-box2__txt">Dựa trên ý tưởng của bạn, đội ngũ thiết kế website Lao Smart Tech sở hữu những bộ óc sáng tạo và nhạy bén sẽ tạo ra những thiết kế website demo đẹp mắt, thu hút và chuẩn UI/UX. Sau khi bạn xem xét bản demo, đội ngũ thiết kế sẽ tiến hành chỉnh sửa để bạn chốt bản thiết kế chi tiết.</p>
               </div>
             </li>
 
@@ -564,8 +564,7 @@
                   ຂັ້ນຕອນ 4
                 </div>
                 <h4 class="c-box2__tlt">Lập trình</h4>
-                <p class="c-box2__txt">Dựa trên ý
-                  Từ thiết kế đã có và những kinh nghiệm đúc kết trong nhiều ປີ làm việc, đội ngũ lập trình viên sẽ lên kế hoạch lập trình ມາດຕະຖານ UX (trải nghiệm người dùng), thực hiện lập trình web, đảm bảo đầy đủ các tính năng hữu ích và tiện lợi cho website của bạn.</p>
+                <p class="c-box2__txt">Từ thiết kế đã có và những kinh nghiệm đúc kết trong nhiều năm làm việc, đội ngũ lập trình viên sẽ lên kế hoạch lập trình chuẩn UX (trải nghiệm người dùng), thực hiện lập trình web, đảm bảo đầy đủ các tính năng hữu ích và tiện lợi cho website của bạn.</p>
               </div>
             </li>
             <li class="c-box2__item">
