@@ -15,7 +15,7 @@
           </li>
           <li class="c-list1__item">
             <figure>
-              <img src="/images/banner.png" alt="công ty lao smart tech thiết kế website">
+              <img src="/images/banner.webp" alt="công ty lao smart tech thiết kế website">
             </figure>
           </li>
         </ul>
@@ -784,37 +784,37 @@
           <ul class="c-box5__content is-list1">
             <li class="c-box5__item">
               <figure>
-                <img loading="lazy" src="{{ asset('images/img1.png') }}" alt="">
+                <img loading="lazy" src="{{ asset('images/img1.webp') }}" alt="">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img loading="lazy" src="{{ asset('images/img2.png') }}" alt="pxwebshop chuyên phân phối website">
+                <img loading="lazy" src="{{ asset('images/img2.webp') }}" alt="pxwebshop chuyên phân phối website">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img loading="lazy" src="{{ asset('images/img3.png') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
+                <img loading="lazy" src="{{ asset('images/img3.webp') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img loading="lazy" src="{{ asset('images/img4.png') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
+                <img loading="lazy" src="{{ asset('images/img4.webp') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img loading="lazy" src="{{ asset('images/img5.png') }}" alt="pxwebshop cung cấp website giá rẻ">
+                <img loading="lazy" src="{{ asset('images/img5.webp') }}" alt="pxwebshop cung cấp website giá rẻ">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img loading="lazy" src="{{ asset('images/img6.png') }}" alt="pxwebshop chất lượng sản phẩm cao">
+                <img loading="lazy" src="{{ asset('images/img6.webp') }}" alt="pxwebshop chất lượng sản phẩm cao">
               </figure>
             </li>
             <li class="c-box5__item">
               <figure>
-                <img loading="lazy" src="{{ asset('images/img7.png') }}" alt="pxwebshop thông tin người dùng ຄວາມປອດໄພ">
+                <img loading="lazy" src="{{ asset('images/img7.webp') }}" alt="pxwebshop thông tin người dùng ຄວາມປອດໄພ">
               </figure>
             </li>
           </ul>
