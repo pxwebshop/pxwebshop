@@ -919,6 +919,7 @@ other
         font-weight: 600;
     }
     &__btn {
+        @include Noto-Sans();
         font-size: 1.6rem;
         line-height: 1.5;
         display: block;

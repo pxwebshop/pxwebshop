@@ -2668,6 +2668,7 @@ other
   font-weight: 600;
 }
 .c-box12__btn {
+  font-family: "Noto Sans Lao", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
   display: block;
