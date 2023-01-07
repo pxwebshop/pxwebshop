@@ -52,7 +52,8 @@ class HomeController extends Controller
                'service_pack.min'  => 'ກະລຸນາເລືອກແພັກເກັດບໍລິການ',
                'service_pack.not_in'  => 'ກະລຸນາເລືອກແພັກເກັດບໍລິການ',
                'service_pack.min'  => 'ກະລຸນາເລືອກແພັກເກັດບໍລິການ',
-               'captcha.captcha' => 'Invalid captcha code.'
+               'captcha.required' => 'ຕ້ອງປ້ອນລະຫັດ captcha',
+               'captcha.captcha' => 'ລະຫັດ captcha ບໍ່ຖືກຕ້ອງ.'
           ]);
 
           if ($validator->fails()) {

@@ -38,7 +38,8 @@ class ContactController extends Controller
          'phone.required'  => 'ກະລຸນາໃສ່ເບີ້ໂທລະສັບ',
          'phone.numeric'  => 'ເບີ້ໂທລະສັບບໍ່ຖືກຕ້ອງ',
          'phone.min'  => 'ເບີ້ໂທລະສັບສັ້ນເກີນໄປ',
-         'captcha.captcha' => 'Invalid captcha code.'
+         'captcha.required' => 'ຕ້ອງປ້ອນລະຫັດ captcha',
+         'captcha.captcha' => 'ລະຫັດ captcha ບໍ່ຖືກຕ້ອງ'
       ]);
 
       try {
