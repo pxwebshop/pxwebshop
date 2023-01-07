@@ -119,6 +119,11 @@ $(document).ready(function() {
 		]
 	});
 
+	$(".c-box14").click(function() {
+		$("html, body").animate({ scrollTop: 0 }, "slow");
+		return false;
+	});
+
 	$('.is-list2').slick({
 		dots: false,
 		infinite: true,

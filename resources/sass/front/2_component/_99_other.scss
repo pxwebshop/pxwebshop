@@ -1023,3 +1023,16 @@ other
         letter-spacing: 0.5px;
     }
 }
+
+.c-box14 {
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    cursor: pointer;
+    &__inner {
+        border-radius: 5px;
+        padding: 10px 15px;
+        background: linear-gradient(90deg, rgb(71, 178, 233) 0%, rgb(50, 140, 255) 48%, rgb(34, 28, 237) 100%);
+        color: #fff;
+    } 
+}

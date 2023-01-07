@@ -27,6 +27,12 @@
 
     @include('layouts.footer')
 
+    <div class="c-box14">
+        <div class="c-box14__inner">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+
     <script src="{{ asset('js/jquery.min.js')}} "></script>
 
     <script src="{{ asset('js/jquery-ui.min.js')}} "></script>
