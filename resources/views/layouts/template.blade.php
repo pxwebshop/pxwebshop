@@ -27,14 +27,6 @@
 
     @include('layouts.footer')
 
-    <div class="c-box14">
-        <div class="c-box14__inner">
-            <a href="tel:02028266650">
-                <i class="fas fa-phone-alt"></i>
-            </a>
-        </div>
-    </div>
-
     <script src="{{ asset('js/jquery.min.js')}} "></script>
 
     <script src="{{ asset('js/jquery-ui.min.js')}} "></script>
