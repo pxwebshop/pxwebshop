@@ -50,7 +50,7 @@
                     <li class="c-footer__item1">
                         <span class="c-footer__item1__tlt">Hotline:</span>
                         <span class="c-footer__item1__txt">
-                            <a href="tel:+02028266650">020 28266650 </a>
+                            <a href="tel:02028266650">020 28266650 </a>
                         </span>
                     </li>
                     <li class="c-footer__item1">
