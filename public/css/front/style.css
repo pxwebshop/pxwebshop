@@ -2453,8 +2453,12 @@ other
   display: flex;
   align-items: center;
 }
+.c-box8 .captcha span {
+  display: flex;
+  flex-shrink: 0;
+}
 .c-box8 .captcha input {
-  width: auto;
+  width: 100%;
 }
 .c-box8 .captcha .btn-refresh {
   margin: 0 5px;
@@ -2731,10 +2735,14 @@ other
   align-items: center;
 }
 .c-box12 .captcha input {
-  width: 130px;
+  width: 100%;
 }
 .c-box12 .captcha .btn-refresh {
   margin: 0 5px;
+}
+.c-box12 .captcha span {
+  display: flex;
+  flex-shrink: 0;
 }
 
 .loader {

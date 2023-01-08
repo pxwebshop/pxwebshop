@@ -706,8 +706,12 @@ other
     .captcha {
         display: flex;
         align-items: center;
+        span {
+            display: flex;
+            flex-shrink: 0;
+        }
         input {
-            width: auto;
+            width: 100%;
         }
         .btn-refresh {
             margin: 0 5px;
@@ -973,10 +977,14 @@ other
         display: flex;
         align-items: center;
         input {
-            width: 130px;
+            width: 100%;
         }
         .btn-refresh {
             margin: 0 5px;
+        }
+        span {
+            display: flex;
+            flex-shrink: 0;
         }
     }
 }
