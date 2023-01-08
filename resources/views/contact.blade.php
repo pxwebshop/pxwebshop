@@ -83,18 +83,18 @@
                             @endif
 
                             <div class="c-box8__input">
-                                <input type="text" name="name" placeholder="ຊື່ ແລະ ນາມສະກຸນ">
+                                <input type="text" name="{{ old('name') }}" placeholder="ຊື່ ແລະ ນາມສະກຸນ">
                                 @include('_partials.alert', ['field' => 'name'])
                             </div>
                             <div class="c-box8__input">
-                                <input type="email" name="email" placeholder="ອີເມວ">
+                                <input type="email" name="{{ old('email') }}" placeholder="ອີເມວ">
                                 @include('_partials.alert', ['field' => 'email'])
                             </div>
                             <div class="c-box8__input">
-                                <input type="number" name="phone" placeholder="ເບີ້ໂທລະສັບ">
+                                <input type="number" name="{{ old('phone') }}" placeholder="ເບີ້ໂທລະສັບ">
                                 @include('_partials.alert', ['field' => 'phone'])
                             </div>
-                            <textarea name="description" rows="10"></textarea>
+                            <textarea name="description" rows="10">{{ old('description') }}</textarea>
                             <div class="c-box8__input">
                                 <div class="captcha">
                                     <span>{!! captcha_img() !!}</span>
