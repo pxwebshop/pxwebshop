@@ -745,6 +745,7 @@ other
         }
         input {
             width: 100%;
+            border: 0.4px solid #6b6a7b;
         }
         .btn-refresh {
             margin: 0 5px;
@@ -1018,7 +1019,6 @@ other
         }
     }
     figure {
-        max-height: 400px;
         overflow: hidden;
         width: 60%;
         @include sp() {
@@ -1027,17 +1027,11 @@ other
         }
         img {
             width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
-    .print-error-msg {
-        margin: 20px 0 -20px 0;
-        @include sp() {
-            margin: 20px 0;
-        }
-        li {
-            color: red;
-        }
-    }
+   
     button[disabled=disabled], button:disabled {
         background: #ccc;
     }
@@ -1046,6 +1040,7 @@ other
         align-items: center;
         input {
             width: 100%;
+            border: 0.4px solid #6b6a7b;
         }
         .btn-refresh {
             margin: 0 5px;
@@ -1054,6 +1049,9 @@ other
             display: flex;
             flex-shrink: 0;
         }
+    }
+    .error_msg {
+        color: #E93154;
     }
 }
 .loader {
