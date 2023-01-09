@@ -1,4 +1,4 @@
-@section('title','Trang giới thiệu')
+@section('title','Giới thiệu')
 @extends('layouts.template')
 
 @section('content')
