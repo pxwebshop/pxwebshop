@@ -1741,7 +1741,7 @@ other
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
-  background-color: rgb(216, 47, 47);
+  background-color: #25D366;
   border-radius: 10px;
 }
 .c-box1__icon i {
@@ -1778,13 +1778,45 @@ other
 .c-box1__btn {
   padding: 5px 20px;
   color: white;
-  background-color: rgb(216, 47, 47);
+  background-color: #25D366;
   border-radius: 20px;
   border: none;
   font-size: 1.6rem;
   font-weight: 600;
   display: inline-block;
   text-decoration: none;
+  position: relative;
+}
+.c-box1__btn:before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  transform: skewX(-25deg);
+}
+@media screen and (min-width: 768px) {
+  .c-box1__btn:hover {
+    opacity: 1;
+  }
+  .c-box1__btn:hover:before {
+    -webkit-animation: shine 0.75s;
+            animation: shine 0.75s;
+  }
+  @-webkit-keyframes shine {
+    100% {
+      left: 125%;
+    }
+  }
+  @keyframes shine {
+    100% {
+      left: 125%;
+    }
+  }
 }
 
 .c-box2__list {
