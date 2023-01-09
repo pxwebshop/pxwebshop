@@ -2662,10 +2662,22 @@ other
   }
 }
 .c-modal__close {
-  display: block;
   text-align: right;
+  position: absolute;
+  right: -8px;
+  top: -15px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #E93154 0%, #FF342D 100%);
+  color: #fff;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .c-modal__content {
+  position: relative;
   border-radius: 10px;
   background-color: #fefefe;
   margin: auto;

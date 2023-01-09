@@ -173,7 +173,7 @@ $(document).ready(function() {
 
 	var modal = $('.c-modal');
 	var btn = $('.js-btn-modal');
-	var span = $('.close');
+	var span = $('.c-modal__close');
 
 	btn.click(function () {
 		modal.show();
