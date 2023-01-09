@@ -45,7 +45,9 @@
                 <ul class="c-footer__list">
                     <li class="c-footer__item1">
                         <span class="c-footer__item1__tlt">Email:</span>
-                        <span class="c-footer__item1__txt">laosmarttech@gmail.com</span>
+                        <a class="c-footer__item1__txt" href="mailto:laosmarttech@gmail.com">
+                            laosmarttech@gmail.com
+                        </a>
                     </li>
                     <li class="c-footer__item1">
                         <span class="c-footer__item1__tlt">Hotline:</span>
@@ -54,11 +56,11 @@
                         </span>
                     </li>
                     <li class="c-footer__item1">
-                        <a class="c-footer__item1__link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pxwebshop">
+                        <a class="c-footer__item1__link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/laosmarttech">
                             <span class="c-footer__icon">
                                 <i aria-hidden="true" class="fab fa-facebook"></i>
                             </span>
-                            <span class="c-footer__icon__txt">Fanpage Laosmarttech</span>
+                            <span class="c-footer__icon__txt">Fanpage LaoSmartTech</span>
                         </a>
                     </li>
                 </ul>
