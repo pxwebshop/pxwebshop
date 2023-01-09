@@ -176,22 +176,29 @@ $(document).ready(function() {
 	var span = $('.c-modal__close');
 
 	btn.click(function () {
-		modal.show();
+		let id = $(this).data('service');
+		$("select[name='service_pack'] option").each(function(index){
+			if (id == index) {
+				$(`select[name='service_pack'] option[value='${index}']`).attr("selected", "selected");
+			} else {
+				$(`select[name='service_pack'] option[value='${index}']`).removeAttr("selected");
+			}
+		});
+		modal.fadeIn(500);
 		bodyFix();
 	});
 
 	span.click(function () {
-		modal.hide();
+		modal.fadeOut(500);
 		bodyFixReset();
-		// $('body').css('overflow', 'visible');
 	});
 
 	$(window).on('click', function (e) {
 		if ($(e.target).is('.c-modal')) {
-			modal.hide();
+			modal.fadeOut(500);
+			bodyFixReset();
 		}
 	});
-	
 });
 
 $(window).scroll(function(){
