@@ -66,7 +66,7 @@ $(document).ready(function() {
 	
 	
 	$('.c-box3__wrap').slick({
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 300,
 		slidesToShow: 3,
@@ -209,7 +209,9 @@ $(document).ready(function() {
 $(window).scroll(function(){
 	if ($(this).scrollTop() > 250) {
 		$('.c-header').addClass('fixed');
+		$('.c-box14').fadeIn(800);
 	} else {
 		$('.c-header').removeClass('fixed');
+		$('.c-box14').fadeOut(800);
 	}
 });
