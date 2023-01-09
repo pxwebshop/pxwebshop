@@ -1,4 +1,4 @@
-@section('title','Trang chủ Lao Smart Tech')
+@section('title','Lao Smart Tech')
 @extends('layouts.template')
 
 @section('content')
@@ -20,10 +20,6 @@
           </li>
         </ul>
       </div>
-      {{-- <div class="l-container">
-        <h3 class="c-title1">ລາຄາບໍລິການ <span class="c-title1--color1">ອອກແບບ WEBSITE</span> TẠI PXWEBSHOP</h3>
-        <p class="c-text1">Giá thiết kế web trọn gói được Pxwebshop công khai rõ ràng và minh bạch. Tuỳ theo mục đích và lĩnh vực <br/>kinh doanh mà khách hàng lựa chọn gói dịc vụ phù hợp</p>
-      </div> --}}
       <div class="p-home1__box">
         <div class="p-home1__svg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 19.6" preserveAspectRatio="none">
@@ -46,7 +42,7 @@
               </div>
               <div class="c-box1__info">
                 <h5 class="c-box1__tlt">ຕິດຕໍ່ WhatsApp</h5>
-                <p class="c-box1__txt">ສຳພັດຄຸນສົມບັດໃນການຕອບໂຕ້ຂອງລະບົບເວັບໄຊ ເຊີ່ງເປັນສີ່ງທີ່ລູກຄ້າຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
+                <p class="c-box1__txt">ສຳພັດຄຸນສົມບັດໃນການຕອບໂຕ້ຂອງລະບົບເວັບໄຊ ເຊິ່ງເປັນສີ່ງທີ່ລູກຄ້າຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
                 <a target="_blank" rel="noopener" href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&app_absent=0" class="c-box1__btn">ຕິດຕໍ່ຕອນນີ້</a>
               </div>
             </div>
@@ -75,7 +71,7 @@
             ບໍລິການ <span class="c-title2__color1">ທີ່ໂດດເດັ່ນ</span> ຂອງ <span class="c-title2__color1">Lao Smart Tech</span>
             </span>
             <span class="c-title2__text1">
-            Lao Smart Tech ຊ່ຽວຊານໃນການສະໜອງຊ່ອງທາງໃນການເພີ່ມມູນຄ່າສໍາຫຼັບທຸລະກິດຂະໜາດນ້ອຍ ແລະ ຂະໜາດກາງຫ ດ້ວຍພະນັກງານທີ່ມີປະສົບການຕົວຈີງ, ເຮັດວຽກຕາມມາດຕະຖານຍີ່ປຸ່ນ.<br> ເພື່ອຮັບປະກັນວ່າລະບົບຂອງທ່ານເຮັດວຽກໄດ້ດີ ແລະ ມີປະສິດທິພາບສູງສຸດ.
+            Lao Smart Tech ຊ່ຽວຊານໃນການສະໜອງຊ່ອງທາງໃນການເພີ່ມມູນຄ່າສໍາຫຼັບທຸລະກິດຂະໜາດນ້ອຍ ແລະ ຂະໜາດກາງ ດ້ວຍພະນັກງານທີ່ມີປະສົບການຕົວຈີງ ແລະ ເຮັດວຽກຕາມມາດຕະຖານຍີ່ປຸ່ນ<br> ເພື່ອຮັບປະກັນວ່າລະບົບຂອງທ່ານເຮັດວຽກໄດ້ດີ ແລະ ມີປະສິດທິພາບສູງສຸດ.
             </span>
           </h2>
 
@@ -85,7 +81,7 @@
                 <div class="c-box2__icon">
                   <i class="fa fa-computer"></i>
                 </div>
-                <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Website</h4>
+                <h4 class="c-box2__tlt">ອອກແບບ ເວັບໄຊ</h4>
                 <p class="c-box2__txt">ຕາມຄວາມຕ້ອງການຊັບພະຍາກອນທາງທຸລະກິດໃນປັດຈຸບັນ Lao Smart Tech ມຸ່ງໝັ້ນທີ່ຈະສ້າງເວັບໄຊທີ່ດີທີ່ສຸດ ເພື່ອໂຄສະນາທຸລະກິດ ແລະ ສ້າງຜົນກຳໄລສູງສຸດ.</p>
               </div>
             </li>
@@ -94,7 +90,7 @@
                 <div class="c-box2__icon">
                   <i class="fa-solid fa-code"></i>
                 </div>
-                <h4 class="c-box2__tlt">ຂຽນໂປຣແກຣມ</h4>
+                <h4 class="c-box2__tlt">ພັດທະນາ ໂປຣແກຣມ</h4>
                 <p class="c-box2__txt">ພວກເຮົາມີຄວາມຊຳນານໃນການພັດທະນາໂປຣແກຣມຄຸ້ມຄອງ ແລະ ຈັດການລະບົບ ເພື່ອຊ່ວຍໃຫ້ທຸລະກິດຂອງທ່ານດໍາເນີນການໄດ້ຢ່າງມີປະສິດທິພາບ ແລະ ງ່າຍໃນການບໍລິຫານຈັດການ.</p>
               </div>
             </li>
@@ -103,7 +99,7 @@
                 <div class="c-box2__icon">
                   <i class="fa fa-network-wired"></i>
                 </div>
-                <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Network</h4>
+                <h4 class="c-box2__tlt">ອອກແບບ ເຄືອຂ່າຍ</h4>
                 <p class="c-box2__txt">ຫຼາຍໆອົງກອນຍັງມີຂໍ້ຈຳກັດທາງດ້ານລະບົບເຄືອຂ່າຍ ທີ່ບໍ່ໄດ້ມາດຕະຖານ, ດັ່ງນັ້ນພວກເຮົາພ້ອມທີ່ຈະໃຫ້ບໍລິການເພື່ອ ອອກແບບ, ຕິດຕັ້ງ, ປັບປຸງ ແລະ ບຳລຸງຮັກສາລະບົບເຄືອຂ່າຍຂອງທ່ານ ໃຫ້ມີປະສິດທິພາບສູງສຸດ.</p>
               </div>
             </li>
@@ -112,7 +108,7 @@
                 <div class="c-box2__icon">
                   <i class="fa fa-computer"></i>
                 </div>
-                <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Logo,..</h4>
+                <h4 class="c-box2__tlt">ອອກແບບ ໂລໂກ...</h4>
                 <p class="c-box2__txt">ບໍລິການອອກແບບ Logo, Banner... ໂດຍທີມງານອອກແບບທີ່ເປັນມືອາຊີບ, ພວກເຮົາໝັ້ນໃຈທີ່ຈະມອບຜະລິດຕະພັນທີ່ດີທີ່ສຸດໃຫ້ກັບທ່ານ.</p>
               </div>
             </li>
@@ -400,7 +396,7 @@
         <div class="c-list2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-            ລາຄາແພັກເກັດ <span class="c-title2__color1">ບໍລິການອອກແບບເວັບໄຊ</span> ຂອງ Lao Smart Tech
+            ລາຄາແພັກເກັດ <span class="c-title2__color1">ອອກແບບເວັບໄຊ</span> ຂອງ Lao Smart Tech
             </span>
             <span class="c-title2__text1">
             ລາຄາແພັກເກັດອອກແບບເວັບໄຊ ໄດ້ລະບຸລາຍລະອຽດຕ່າງໆ ໄວ້ຢ່າງຊັດເຈນ ແລະ ຄົບຖ້ວນ, ທ່ານສາມາດເລືອກຕາມຄວາມເຫມາະສົມ ຂອງຈຸດປະສົງ ແລະ ປະເພດທຸລະກິດຂອງທ່ານ. 
@@ -431,7 +427,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 3GB</li>
                     <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ຫຼາຍພາສາ: ພາສາລາວ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ພາສາ: ພາສາລາວ</li>
                     <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ບໍ່ມີ</li>
                   </ul>
                 </div>
@@ -448,7 +444,7 @@
                   <p class="c-list2__hot">ໂດດເດັ່ນ</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຂາຍສີນຄ້າ, ເວັບໄຊອີຄອມເມິດສຂະໜາດນ້ອຍ, ເວັບໄຊອະສັງຫາລິມະສັບ, ເວັບໄຊການກະເສດ... với đầy đủ các tính năng cao cấp</p>
+                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຂາຍສີນຄ້າ, ເວັບໄຊອີຄອມເມິດສຂະໜາດນ້ອຍ, ເວັບໄຊອະສັງຫາລິມະສັບ, ເວັບໄຊການກະເສດ... ພ້ອມຄຸນສົມບັດລະດັບສູງເຕັມຮູບແບບ</p>
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ສົ່ງມອບ: Source Code ທັງໝົດ</li>
@@ -463,7 +459,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.la, .com, .org)</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 5GB</li>
                     <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ຫຼາຍພາສາ: ພາສາລາວ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ພາສາ: ພາສາລາວ</li>
                     <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ​ ເວັບໄຊ</li>
                   </ul>
                 </div>
@@ -496,7 +492,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
                     <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 10GB</li>
                     <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ຫຼາຍພາສາ: ພາສາລາວ, ອັງກິດ, ຫວຽດນາມ, ຈີນ</li>
+                    <li class="c-list2__boxItem">✅ &nbsp;ພາສາ: ພາສາລາວ, ອັງກິດ, ຫວຽດນາມ, ຈີນ</li>
                     <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ ​ເວັບໄຊ</li>
                   </ul>
                 </div>
@@ -513,7 +509,7 @@
         <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              ຂັ້ນຕອນດຳເນີນງານສ້າງ website  <span class="c-title2__color1">ແບບມືອາຊີບຂອງ Lao Smart Tech </span>
+              ຂັ້ນຕອນສ້າງ website  <span class="c-title2__color1">ແບບມືອາຊີບຂອງ Lao Smart Tech </span>
             </span>
             <span class="c-title2__text1">
             Lao Smart Tech ຖືເອົາລູກຄ້າເປັນສູນກາງ ໂດຍເນັ້ນໃນການຊ່ວຍເຫຼືອ, ໃຫ້ຄຳປຶກສາ ແລະ ແກ້ໄຂບັນຫາຂອງລູກຄ້າ ໃນການອອກແບບເວັບໄຊ<br> ພວກເຮົາມີຂະບວນການເຮັດວຽກທີ່ຈະແຈ້ງ ແລະ ຊັດເຈນ ເພື່ອຮັບໃຊ້ທ່ານຢ່າງເປັນມືອາຊີບ.
@@ -565,8 +561,8 @@
                 <div class="c-box2__icon">
                   ຂັ້ນຕອນ 5
                 </div>
-                <h4 class="c-box2__tlt">​ທົດ​ສອບ ​ແລະ ​ການ​ແກ້​ໄຂ​</h4>
-                <p class="c-box2__txt">ໃນຂັ້ນຕອນນີ້, ການອອກແບບເວັບໄຊທ໌ຂອງທ່ານແມ່ນເກືອບສົມບູນ. ຢ່າງໃດກໍ່ຕາມ, ດ້ວຍຄວາມປາຖະຫນາທີ່ຈະສ້າງຜະລິດຕະພັນທີ່ດີທີ່ສຸດ, ແລະເພື່ອຮັບປະກັນວ່າເວັບໄຊທ໌ເຮັດວຽກໄດ້ອຍ່າງລຽບງ່າຍແລະມີປະສິດທິພາບ, ທີມງານວິຊາການຂອງ Lao Smart Tech ຈະກວດສອບແລະປັບຕົວກ່ອນທີ່ຈະປະຕິບັດຕົວຈິງ.</p>
+                <h4 class="c-box2__tlt">​ທົດ​ສອບ ​ແລະ ​​ແກ້​ໄຂ​</h4>
+                <p class="c-box2__txt">ຂັ້ນຕອນນີ້ການອອກແບບເວັບໄຊຂອງລູກຄ້າເກືອບຈະສຳເລັດສົມບູນ 100%,  ຢ່າງໃດກໍ່ຕາມ ດ້ວຍຄວາມມຸ່ງໝັ້ນທີ່ຈະສ້າງຜະລິດຕະພັນຄຸນນະພາບທີ່ດີທີ່ສຸດ ແລະ ເພື່ອຮັບປະກັນວ່າເວັບໄຊເຮັດວຽກໄດ້ຍ່າງເລືອນໄຫລ ແລະ ມີປະສິດທິພາບ, ທາງທີມງານເຕັກນິກ Lao Smart Tech ຈະກວດສອບ ແລະ ປັບທຽບມາດຕະຖານກ່ອນທີ່ຈະນຳໄປໃຊ້ງານຈິງ.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -575,7 +571,7 @@
                   ຂັ້ນຕອນ 6
                 </div>
                 <h4 class="c-box2__tlt">ສົ່ງມອບເວັບໄຊ</h4>
-                <p class="c-box2__txt">ການມອບມອບໃຫ້ສົມບູນແມ່ນຄວາມຮັບຜິດຊອບຂອງທີມງານ Lao Smart Tech ທັງໝົດ. ທີມງານ Lao Smart Tech ຈະນຳພາທ່ານຜູ້ດູແລເວັບທີ່ອຸທິດຕົນ ແລະຄິດ. ເຖິງວ່າໂຄງການດັ່ງກ່າວໄດ້ສຳເລັດແລ້ວ, ແຕ່ທີມງານ Lao Smart Tech ພ້ອມສະເໝີທີ່ຈະສະໜັບສະໜູນທ່ານໃນຂະບວນການດຳເນີນງານ ແລະ ຄຸ້ມຄອງເວັບໄຊ.</p>
+                <p class="c-box2__txt">ສົ່ງມອບເວັບໄຊທີ່ສົມບູນໃຫ້ແກ່ລູກຄ້າ ແມ່ນຄວາມຮັບຜິດຊອບຂອງທີມງານ Lao Smart Tech ທັງຫມົດ,  ທີມງານຈະແນະນຳທ່ານກຽ່ວກັບວິທີຄຸ້ມຄອງ ແລະ ຮັກສາເວັບໄຊ ດ້ວຍຄວາມເອົາໃຈໃສ່.  ເຖິງແມ່ນວ່າຂະບວນການສ້າງເວັບໄຊໄດ້ສຳເລັດແລ້ວ ແຕ່ທີມງານ Lao Smart Tech ພ້ອມສະເໝີທີ່ຈະສະໜັບສະໜູນທ່ານ ໃນຂະບວນການດຳເນີນງານ ແລະ ຄຸ້ມຄອງເວັບໄຊ.</p>
               </div>
             </li>
           </ul>
@@ -599,20 +595,20 @@
             <li class="c-box3__item c-box3__item--style1">
               <div class="c-box3__inner">
                 <figure>
-                  <img loading="lazy" src="{{ asset('images/certificate/HCIA-Access.jpg') }}" alt="huawei certification">
+                  <img loading="lazy" src="{{ asset('images/certificate/HCIA-Access.jpg') }}" alt="huawei certification hcia">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">sửa chỗ này nha </h5>
-                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                  <h5 class="c-box3__tlt">Huawei Certification</h5>
+                  <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດສາກົນ HCIA Access</p>
                 </div>
               </div>
               <div class="c-box3__inner">
                 <figure>
-                  <img loading="lazy" src="{{ asset('images/certificate/HCIP-Access.jpg') }}" alt="cisco ceftifications">
+                  <img loading="lazy" src="{{ asset('images/certificate/HCIP-Access.jpg') }}" alt="huawei certification hcip">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Cisco ceftifications</h5>
-                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                  <h5 class="c-box3__tlt">Huawei Certifications</h5>
+                  <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດສາກົນ HCIP Access</p>
                 </div>
               </div>
             </li>
@@ -623,8 +619,8 @@
                   <img loading="lazy" src="{{ asset('images/certificate/img3.jpg') }}" alt="advaced diplona in fomation techology">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Advaced diplona in fomation techology</h5>
-                  <p class="c-box3__txt">(example: Chứng chỉ chuyên gia ຄວາມປອດໄພ của ICSI cấp)Viết ພາສາ lào</p>
+                  <h5 class="c-box3__tlt">Advanced Diploma in Information Technology</h5>
+                  <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດ ເຕັກໂນໂລຊີຂໍ້ມູນຂ່າວສານຂັ້ນສູງ</p>
                 </div>
               </div>
             </li>
@@ -634,8 +630,8 @@
                   <img loading="lazy" src="{{ asset('images/certificate/CCNA_Security_rotated.jpg') }}" alt="huawei certification">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Huawei certification</h5>
-                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                  <h5 class="c-box3__tlt">Cisco Certification</h5>
+                  <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດ ຄວາມປອດໄພທາງເຄືອຂ່າຍ</p>
                 </div>
               </div>
               <div class="c-box3__inner">
@@ -643,8 +639,8 @@
                   <img loading="lazy" src="{{ asset('images/certificate/img2.jpg') }}" alt="cisco ceftifications">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Cisco ceftifications</h5>
-                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                  <h5 class="c-box3__tlt">Cisco Certification</h5>
+                  <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດສາກົນ CCNA Routing & Switching </p>
                 </div>
               </div>
             </li>
@@ -654,8 +650,8 @@
                   <img loading="lazy" src="{{ asset('images/certificate/img4.jpg') }}" alt="certificate course in advanced web technology">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Certificate course in advanced web technology</h5>
-                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                  <h5 class="c-box3__tlt">Certificate Course in Advanced Web Technology</h5>
+                  <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດ ເວັບເຕັກໂນໂລຊີຂັ້ນສູງ</p>
                 </div>
               </div>
             </li>
@@ -666,17 +662,16 @@
                   <img loading="lazy" src="{{ asset('images/certificate/HCIA-Datacom.jpg') }}" alt="huawei certification">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Huawei certification</h5>
-                  <p class="c-box3__txt">Viết ພາສາ lào</p>
-                </div>
+                  <h5 class="c-box3__tlt">Huawei Certification</h5>
+                  <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດສາກົນ HCIA Datacom
               </div>
               <div class="c-box3__inner">
                 <figure>
                   <img loading="lazy" src="{{ asset('images/certificate/BigDataAnalytics.jpg') }}" alt="cisco ceftifications">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Cisco ceftifications</h5>
-                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                  <h5 class="c-box3__tlt">Big Data Analytics</h5>
+                  <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດ ການວິເຄາະຖານຂໍ້ມູນໃຫ່ຍ</p>
                 </div>
               </div>
             </li>
@@ -686,8 +681,8 @@
                   <img loading="lazy" src="{{ asset('images/certificate/img5.jpg') }}" alt="certificate course in data communication and networking">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Certificate course in data communication and networking</h5>
-                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                  <h5 class="c-box3__tlt">Certificate Course in Data Communication and Networking</h5>
+                  <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດ ການສື່ສານຂໍ້ມູນ ແລະ ເຄືອຂ່າຍຄອມພິວເຕີ</p>
                 </div>
               </div>
             </li>
@@ -697,8 +692,8 @@
                   <img loading="lazy" src="{{ asset('images/certificate/CCEHIS.jpg') }}" alt="certificate course in data communication and networking">
                 </figure>
                 <div class="c-box3__content">
-                  <h5 class="c-box3__tlt">Certificate course in data communication and networking</h5>
-                  <p class="c-box3__txt">Viết ພາສາ lào</p>
+                  <h5 class="c-box3__tlt">Certificate Course in Ethical Hacking and Information Security</h5>
+                  <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດ ການແຮັກຢ່າງມີຈັນຍາບັນ ແລະ ຄວາມປອດໄພຂໍ້ມູນຂ່າວສານ</p>
                 </div>
               </div>
             </li>
