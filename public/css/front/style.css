@@ -2411,6 +2411,11 @@ other
   width: 200px;
   font-family: "Noto Sans Lao", sans-serif;
 }
+@media screen and (max-width: 767px) {
+  .c-box8__btn {
+    padding: 6px 10px;
+  }
+}
 .c-box8 textarea {
   width: 100%;
   border: 1px solid #6b6a7b;

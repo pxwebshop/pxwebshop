@@ -666,6 +666,9 @@ other
         color: #fff;
         width: 200px;
         @include Noto-Sans();
+        @include sp() {
+            padding: 6px 10px;
+        }
     }
     textarea {
         width: 100%;
