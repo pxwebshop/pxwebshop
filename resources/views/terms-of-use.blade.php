@@ -1,4 +1,4 @@
-@section('title','Pxwebshop terms of use')
+@section('title','Điều khoản sử dụng')
 @extends('layouts.template')
 
 @section('content')

@@ -1,4 +1,4 @@
-@section('title','Pxwebshop Blog')
+@section('title','Bài viết')
 @extends('layouts.template')
 
 @section('content')

@@ -1,4 +1,4 @@
-@section('title','Pxwebshop privacy policy')
+@section('title','Chính sách bảo mật')
 @extends('layouts.template')
 
 @section('content')

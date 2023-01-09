@@ -1,4 +1,4 @@
-@section('title','Pxwebshop pay')
+@section('title','Thanh toán')
 @extends('layouts.template')
 
 @section('content')
