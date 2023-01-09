@@ -527,7 +527,7 @@
                   ຂັ້ນຕອນ 1
                 </div>
                 <h4 class="c-box2__tlt">ເຂົ້າໃຈລູກຄ້າ</h4>
-                <p class="c-box2__txt">ພະນັກງານທີ່ມີປະສົບການຂອງ Lao Smart Tech ພົບປະໂອ້ລົມກັບລູກຄ້າ, ຮັບຟັງແນວຄວາມຄິດໃນການອອກແບບ ແລະ ສົນທະນາກ່ຽວກັບຄຸນສົມບັດທີ່ລູກຄ້າຕ້ອງການໃນເວັບໄຊ. ຫຼັງຈາກປຶກສາຫາລືກ່ຽວກັບວິທີແກ້ໄຂ ແລະ ຄຸນສົມບັດທີ່ເຫມາະສົມກັບຈຸດປະສົງ ແລະ ຄວາມຕ້ອງການຂອງລູກຄ້າ, ພວກເຮົາຈະເລີ່ມວາງແຜນໃນການອອກແບບເວັບໄຊ.</p>
+                <p class="c-box2__txt">ພະນັກງານຂອງ Lao Smart Tech ພົບປະໂອ້ລົມກັບລູກຄ້າ, ຮັບຟັງແນວຄວາມຄິດໃນການອອກແບບ ແລະ ສົນທະນາກ່ຽວກັບຄຸນສົມບັດທີ່ລູກຄ້າຕ້ອງການໃນເວັບໄຊ. ຫຼັງຈາກປຶກສາຫາລືກ່ຽວກັບວິທີແກ້ໄຂ ແລະ ຄຸນສົມບັດທີ່ເຫມາະສົມກັບຈຸດປະສົງ ແລະ ຄວາມຕ້ອງການຂອງລູກຄ້າ, ພວກເຮົາຈະເລີ່ມວາງແຜນໃນການອອກແບບເວັບໄຊ.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -536,10 +536,8 @@
                   ຂັ້ນຕອນ 2
                 </div>
                 <h4 class="c-box2__tlt">ລົງ​ນາມ ​ແລະ ​ຮ່ວມ​ມື​</h4>
-                <p class="c-box2__txt">Để đảm bảo quyền lợi cho bạn,
-                  chúng ta cùng nhau ghi nhận bằng văn bản
-                  pháp lý. Cái bắt tay nhỏ thể hiện tinh thần lớn, Lao Smart Tech sẽ là người đồng hành cùng bạn, giúp bạn xây dựng
-                  giải pháp thiết kế website phù hợp và nâng tầm thương hiệu của bạn trên thị trường.</p>
+                <p class="c-box2__txt">ເພື່ອປົກປ້ອງຜົນປະໂຫຍດຂອງລູກຄ້າ,
+                ພວກເຮົາຮ່ວມກັນບັນທຶກເອກະສານທາງດ້ານກົດຫມາຍ. ການຈັບມືທັກທາຍນ້ອຍໆສະແດງໃຫ້ເຫັນເຖິງຄວາມຈິງໃຈ, Lao Smart Tech  ຈະເປັນຄູ່ຮ່ວມມືຂອງທ່ານ, ຊ່ວຍໃຫ້ທ່ານສ້າງໂຊລູຊັ່ນການອອກແບບເວັບໄຊທີ່ເໝາະສົມ ແລະ ຍົກລະດັບແບນຂອງທ່ານໃນຕະຫຼາດໃຫ້ສູງຂື້ນ.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -548,7 +546,7 @@
                   ຂັ້ນຕອນ 3
                 </div>
                 <h4 class="c-box2__tlt">ອອກແບບ</h4>
-                <p class="c-box2__txt">Dựa trên ý tưởng của bạn, đội ngũ thiết kế website Lao Smart Tech sở hữu những bộ óc sáng tạo và nhạy bén sẽ tạo ra những thiết kế website demo đẹp mắt, thu hút và chuẩn UI/UX. Sau khi bạn xem xét bản demo, đội ngũ thiết kế sẽ tiến hành chỉnh sửa để bạn chốt bản thiết kế chi tiết.</p>
+                <p class="c-box2__txt"> ອີງຕາມແນວຄວາມຄິດຂອງລູກຄ້າ, ທີມງານອອກແບບເວັບໄຊ Lao Smart Tech ພ້ອມຄວາມຄິດສ້າງສັນ ແລະ ສະໜອງສ້າງເວັບໄຊຕົວຢ່າງທີ່ສວຍງາມ, ໜ້າດຶງດູດ ແລະ ມາດຕະຖານ UX/UI. ຫຼັງ​ຈາກ​ທີ່​ລູກຄ້າກວດສອບ​ການ​ສາ​ທິດເວັບໄຊຕົວຢ່າງ​, ທີມ​ງານ​ອອກ​ແບບ​ຈະທຳ​ການ​ແກ້​ໄຂ​​ເພື່ອ​ໃຫ້ລາຍລະອຽດການອອກແບບ ສໍາ​ເລັດ​ຢ່າງສົມບູນ​.</p>
               </div>
             </li>
 
@@ -557,8 +555,9 @@
                 <div class="c-box2__icon">
                   ຂັ້ນຕອນ 4
                 </div>
-                <h4 class="c-box2__tlt">Lập trình</h4>
-                <p class="c-box2__txt">Từ thiết kế đã có và những kinh nghiệm đúc kết trong nhiều năm làm việc, đội ngũ lập trình viên sẽ lên kế hoạch lập trình chuẩn UX (trải nghiệm người dùng), thực hiện lập trình web, đảm bảo đầy đủ các tính năng hữu ích và tiện lợi cho website của bạn.</p>
+                <h4 class="c-box2__tlt">ສ້າງເວັບໄຊ
+                </h4>
+                <p class="c-box2__txt">ຈາກການອອກແບບທີ່ພວກເຮົາມີ ແລະ ປະສົບການທີ່ສະສົມໃນໄລຍະຫຼາຍປີຂອງການເຮັດວຽກ, ທີມງານໂປຣແກຣມເມີຈະວາງແຜນໃນການຂຽນ UX (ປະສົບການຂອງຜູ້ໃຊ້), ດຳເນີນການການຂຽນໂປຣແກຣມເວັບ, ຮັບປະກັນຄຸນສົມບັດທີ່ເປັນປະໂຫຍດ ແລະ ສະດວກສໍາລັບເວັບໄຊຂອງທ່ານ.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -567,7 +566,7 @@
                   ຂັ້ນຕອນ 5
                 </div>
                 <h4 class="c-box2__tlt">​ທົດ​ສອບ ​ແລະ ​ການ​ແກ້​ໄຂ​</h4>
-                <p class="c-box2__txt">Đến giai đoạn này thiết kế website của bạn gần như được hoàn thiện. Tuy nhiên với mong muốn tạo ra sản phẩm tốt nhất, và để đảm bảo website hoạt động trơn tru và hiệu quả, đội ngũ kỹ thuật Lao Smart Tech sẽ kiểm tra và hiệu chỉnh trước khi thực sự đưa vào hoạt động.</p>
+                <p class="c-box2__txt">ໃນຂັ້ນຕອນນີ້, ການອອກແບບເວັບໄຊທ໌ຂອງທ່ານແມ່ນເກືອບສົມບູນ. ຢ່າງໃດກໍ່ຕາມ, ດ້ວຍຄວາມປາຖະຫນາທີ່ຈະສ້າງຜະລິດຕະພັນທີ່ດີທີ່ສຸດ, ແລະເພື່ອຮັບປະກັນວ່າເວັບໄຊທ໌ເຮັດວຽກໄດ້ອຍ່າງລຽບງ່າຍແລະມີປະສິດທິພາບ, ທີມງານວິຊາການຂອງ Lao Smart Tech ຈະກວດສອບແລະປັບຕົວກ່ອນທີ່ຈະປະຕິບັດຕົວຈິງ.</p>
               </div>
             </li>
             <li class="c-box2__item">
@@ -576,7 +575,7 @@
                   ຂັ້ນຕອນ 6
                 </div>
                 <h4 class="c-box2__tlt">ສົ່ງມອບເວັບໄຊ</h4>
-                <p class="c-box2__txt">ສົ່ງມອບ toàn diện là trách nhiệm của toàn thể đội ngũ Lao Smart Tech. Đội ngũ Lao Smart Tech sẽ hướng dẫn bạn quản trị web tận tình và chu đáo. Dù đã hoàn thành dự án, đội ngũ Lao Smart Tech luôn trong tâm thế sẵn sàng hỗ trợ bạn trong quá trình bạn vận hành và quản trị website.</p>
+                <p class="c-box2__txt">ການມອບມອບໃຫ້ສົມບູນແມ່ນຄວາມຮັບຜິດຊອບຂອງທີມງານ Lao Smart Tech ທັງໝົດ. ທີມງານ Lao Smart Tech ຈະນຳພາທ່ານຜູ້ດູແລເວັບທີ່ອຸທິດຕົນ ແລະຄິດ. ເຖິງວ່າໂຄງການດັ່ງກ່າວໄດ້ສຳເລັດແລ້ວ, ແຕ່ທີມງານ Lao Smart Tech ພ້ອມສະເໝີທີ່ຈະສະໜັບສະໜູນທ່ານໃນຂະບວນການດຳເນີນງານ ແລະ ຄຸ້ມຄອງເວັບໄຊ.</p>
               </div>
             </li>
           </ul>
