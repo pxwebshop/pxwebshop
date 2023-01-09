@@ -1,4 +1,4 @@
-@section('title','Thanh toán')
+@section('title','ການຊຳລະເງິນ')
 @extends('layouts.template')
 
 @section('content')
@@ -21,12 +21,8 @@
     <section class="p-pay1">
         <div class="l-content">
             <div class="p-pay1__box">
-                <p class="p-pay1__tlt">* Đối với chuyển khoản qua ທະນາຄານ và Internet Banking:</p>
-                <p class="p-pay1__txt">Khi Quý khách tiến hành chuyển khoản, vui lòng ghi rõ trong nội dung thanh toán bao gồm: Tên miền/ ID thành viên/Mã hợp đồng cần thanh toán để bộ phận kế toán tiến hành đăng ký hoặc gia hạn chính xác website của Quý khách.</p>
-            </div>
-            <div class="p-pay1__box">
-                <p class="p-pay1__tlt">* Đối với chuyển khoản qua ATM:</p>
-                <p class="p-pay1__txt">Sau khi Quý khách chuyển khoản, vui lòng gọi điện hoặc gửi tin nhắn cho chuyên viên tư vấn để chúng tôi xác nhận thông tin.</p>
+                <p class="p-pay1__tlt">ສຳຫຼັບການຊຳລະເງິນຜ່ານທະນາຄານ ແລະ Internet Banking:</p>
+                <p class="p-pay1__txt">ລູກຄ້າກະລຸນາລະບຸລາຍລະອຽດການຊຳລະເງິນເຊັ່ນ: ຊື່ໂດເມນເວັບໄຊ/ລະຫັດລູກຄ້າ/ເລກທີສັນຍາ, ເພື່ອຊ່ວຍໃຫ້ພະແນກບັນຊີສາມາດດຳເນີນການລົງທະບຽນ ຫຼື ຕໍ່ອາຍຸສັນຍາຂອງບໍລິການໄດ້ຢ່າງຖືກຕ້ອງ. ຫຼັງຈາກທີ່ທ່ານຊຳລະເງິນສຳເລັດແລ້ວ, ກະລຸນາໂທຕິດຕໍ່ ຫຼື ສົ່ງຂໍ້ຄວາມແຈ້ງຫາພວກເຮົາເພື່ອຢືນຢັນຂໍ້ມູນການຊຳລະ:</p>
             </div>
             <p class="p-pay1__contact">Hotline: 
                 <span>
@@ -34,7 +30,7 @@
                 </span>
             </p>
             <p class="p-pay1__contact">Email: 
-                <span>pxwebshop@gmail.com</span>
+                <span>laosmarttech@gmail.com</span>
             </p>
             <h2 class="c-title2">
                 <span class="c-title2__text">
