@@ -954,22 +954,21 @@
                 <h2 class="c-modal__tlt">ປ້ອນຂໍ້ມູນເພື່ອ ລົງທະບຽນ</h2>
                 <p class="c-modal__tlt__sub">Lao Smart Tech ໃຫ້ຄຳແນະນຳ ແລະ ຊ່ວຍເຫຼືອລູກຄ້າ 24/7</p>
 
-                <div class="print-error-msg" style="display:none">
-                  <ul></ul>
-                </div>
-          
                 <ul class="c-modal__list">
                   <li class="c-modal__item">
                     <p class="c-modal__txt">ຊື່ ແລະ ນາມສະກຸນ</p>
                     <input name="name" type="text" placeholder="ຊື່ ແລະ ນາມສະກຸນ">
+                    <p class="error_msg" id="name"></p>
                   </li>
                   <li class="c-modal__item">
                     <p class="c-modal__txt">ອີເມວ</p>
                     <input name="email" type="email" placeholder="ອີເມວ">
+                    <p class="error_msg" id="email"></p>
                   </li>
                   <li class="c-modal__item">
                     <p class="c-modal__txt">ເບີ້ໂທລະສັບ</p>
                     <input name="phone" type="number" placeholder="ເບີ້ໂທລະສັບ">
+                    <p class="error_msg" id="phone"></p>
                   </li>
                   <li class="c-modal__item">
                     <p class="c-modal__txt">ເລືອກປະເພດບໍລິການ</p>
@@ -979,21 +978,23 @@
                       <option value="2">ບໍລິການອອກແບບເວັບໄຊ (Advanced) </option>
                       <option value="3">ບໍລິການອອກແບບເວັບໄຊ (Professional)</option>
                     </select>
+                    <p class="error_msg" id="service_pack"></p>
                   </li>
                   <li class="c-modal__item">
                     <p class="c-modal__txt">Captcha</p>
                     <div class="captcha">
                       <span>{!! captcha_img() !!}</span>
                       <button type="button" class="btn-refresh"><i class="fa fa-refresh"></i></button>
-                      <input id="captcha" type="text" class="form-control" placeholder="ປ້ອນ Captcha" name="captcha">
+                      <input type="text" class="form-control" placeholder="ປ້ອນ Captcha" name="captcha">
                     </div>
+                    <p class="error_msg" id="captcha"></p>
                   </li>
                 </ul>
                
                 <button type="submit" class="c-modal__btn">ລົງທະບຽນ</button>
               </form>
               <figure>
-                <img loading="lazy" src="https://placehold.jp/800x500.png" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
+                <img loading="lazy" src="/images/background-modal.png" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
               </figure>
             </div>
           </div>
@@ -1006,7 +1007,7 @@
 
 <script type="text/javascript">
   $(document).ready(function() {
-      $(".c-box12__btn").click(function(e){
+      $(".c-modal__btn").click(function(e){
         e.preventDefault();
         $(this).prop('disabled', true);
         $(this).append(`<span class="loader"></span>`);
@@ -1019,32 +1020,28 @@
         var captcha = $("input[name='captcha']").val();
         let that = this;
         $.ajax({
-            url: "/",
-            type:'POST',
-            data: {_token:_token, name:name, email:email, phone:phone, service_pack:service_pack, captcha:captcha},
-            success: function(data) {
-              $('.loader').remove();
+          url: "/",
+          type:'POST',
+          data: {_token:_token, name:name, email:email, phone:phone, service_pack:service_pack, captcha:captcha},
+          success: function(data) {
+            $('.loader').remove();
 
-              setTimeout(() => {
-                alert(data.success);
-                location.reload();
-              }, 200);
-            },
-            error: function(errors) {
-              printErrorMsg(errors.responseJSON.error);
-              $(that).prop('disabled', false);
-              $('.loader').remove();
-            },
+            setTimeout(() => {
+              alert(data.success);
+              location.reload();
+            }, 200);
+          },
+          error: function(errors) {
+            let resp = errors.responseJSON.error;
+            for (index in resp) {
+              $("#" + index).html(resp[index]);
+            }
+            
+            $(that).prop('disabled', false);
+            $('.loader').remove();
+          },
         });
       }); 
-
-      function printErrorMsg (msg) {
-        $(".print-error-msg").find("ul").html('');
-        $(".print-error-msg").css('display','block');
-        $.each( msg, function( key, value ) {
-          $(".print-error-msg").find("ul").append('<li>'+value+'</li>');
-        });
-      }
 
       $(".btn-refresh").click(function(){
         $.ajax({
