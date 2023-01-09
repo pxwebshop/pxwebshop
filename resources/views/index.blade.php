@@ -92,6 +92,15 @@
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <h4 class="c-box2__tlt">ຂຽນໂປຣແກຣມ</h4>
+                <p class="c-box2__txt">ພວກເຮົາມີຄວາມຊຳນານໃນການພັດທະນາໂປຣແກຣມຄຸ້ມຄອງ ແລະ ຈັດການລະບົບ ເພື່ອຊ່ວຍໃຫ້ທຸລະກິດຂອງທ່ານດໍາເນີນການໄດ້ຢ່າງມີປະສິດທິພາບ ແລະ ງ່າຍໃນການບໍລິຫານຈັດການ.</p>
+              </div>
+            </li>
+            <li class="c-box2__item">
+              <div class="c-box2__inner">
+                <div class="c-box2__icon">
                   <i class="fa fa-network-wired"></i>
                 </div>
                 <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Network</h4>
@@ -105,15 +114,6 @@
                 </div>
                 <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Logo,..</h4>
                 <p class="c-box2__txt">ບໍລິການອອກແບບ Logo, Banner... ໂດຍທີມງານອອກແບບທີ່ເປັນມືອາຊີບ, ພວກເຮົາໝັ້ນໃຈທີ່ຈະມອບຜະລິດຕະພັນທີ່ດີທີ່ສຸດໃຫ້ກັບທ່ານ.</p>
-              </div>
-            </li>
-            <li class="c-box2__item">
-              <div class="c-box2__inner">
-                <div class="c-box2__icon">
-                  <i class="fa-solid fa-code"></i>
-                </div>
-                <h4 class="c-box2__tlt">ຂຽນໂປຣແກຣມ</h4>
-                <p class="c-box2__txt">ພວກເຮົາມີຄວາມຊຳນານໃນການພັດທະນາໂປຣແກຣມຄຸ້ມຄອງ ແລະ ຈັດການລະບົບ ເພື່ອຊ່ວຍໃຫ້ທຸລະກິດຂອງທ່ານດໍາເນີນການໄດ້ຢ່າງມີປະສິດທິພາບ ແລະ ງ່າຍໃນການບໍລິຫານຈັດການ.</p>
               </div>
             </li>
           </ul>
@@ -448,7 +448,7 @@
                   <p class="c-list2__hot">ໂດດເດັ່ນ</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຂາຍສີນຄ້າ, ເວັບໄຊອີຄອມເມິດສຂະໜາດນ້ອຍ, ເວັບໄຊອະສັງຫາລິມະສັບ, ເວັບໄຊການກະເສດ... ພ້ອມກັບຄຸນສົມບັດໃນການສັ່ງຊື້ ແລະ ການຊຳລະເງິນ.</p>
+                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຂາຍສີນຄ້າ, ເວັບໄຊອີຄອມເມິດສຂະໜາດນ້ອຍ, ເວັບໄຊອະສັງຫາລິມະສັບ, ເວັບໄຊການກະເສດ... với đầy đủ các tính năng cao cấp</p>
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ສົ່ງມອບ: Source Code ທັງໝົດ</li>
