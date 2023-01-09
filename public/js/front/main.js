@@ -177,16 +177,17 @@ $(document).ready(function() {
 
 	btn.click(function () {
 		modal.show();
-		$('body').css('overflow', 'hidden');
+		bodyFix();
 	});
 
 	span.click(function () {
 		modal.hide();
-		$('body').css('overflow', 'visible');
+		bodyFixReset();
+		// $('body').css('overflow', 'visible');
 	});
 
 	$(window).on('click', function (e) {
-		if ($(e.target).is('.modal')) {
+		if ($(e.target).is('.c-modal')) {
 			modal.hide();
 		}
 	});
