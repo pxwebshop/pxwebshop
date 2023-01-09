@@ -2643,40 +2643,62 @@ other
   border: 1px solid red;
 }
 
-.c-box12 {
-  padding: 50px 0;
+.c-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 @media screen and (max-width: 767px) {
-  .c-box12 {
+  .c-modal {
     padding: 20px 0;
   }
 }
-.c-box12__inner {
+.c-modal__close {
+  display: block;
+  text-align: right;
+}
+.c-modal__content {
+  border-radius: 10px;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+}
+.c-modal__inner {
   display: flex;
   text-align: left;
 }
 @media screen and (max-width: 767px) {
-  .c-box12__inner {
+  .c-modal__inner {
     flex-direction: column-reverse;
   }
 }
-.c-box12__list {
+.c-modal__list {
   margin-top: 30px;
 }
 @media screen and (max-width: 767px) {
-  .c-box12__list {
+  .c-modal__list {
     margin-top: 20px;
   }
 }
-.c-box12__item {
+.c-modal__item {
   margin-bottom: 15px;
 }
 @media screen and (max-width: 767px) {
-  .c-box12__item {
+  .c-modal__item {
     margin-bottom: 10px;
   }
 }
-.c-box12__item input, .c-box12__item select {
+.c-modal__item input, .c-modal__item select {
   font-size: 1.6rem;
   line-height: 1.5;
   display: block;
@@ -2687,28 +2709,28 @@ other
   border-radius: 3px;
 }
 @media screen and (max-width: 767px) {
-  .c-box12__item input, .c-box12__item select {
+  .c-modal__item input, .c-modal__item select {
     padding: 5px 10px;
   }
 }
-.c-box12__tlt {
+.c-modal__tlt {
   font-size: 2.5rem;
   text-transform: capitalize;
   text-align: center;
 }
 @media screen and (max-width: 767px) {
-  .c-box12__tlt {
+  .c-modal__tlt {
     font-size: 2.3rem;
   }
 }
-.c-box12__tlt__sub {
+.c-modal__tlt__sub {
   text-align: center;
 }
-.c-box12__txt {
+.c-modal__txt {
   font-size: 1.6rem;
   font-weight: 600;
 }
-.c-box12__btn {
+.c-modal__btn {
   font-family: "Noto Sans Lao", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -2725,59 +2747,59 @@ other
   justify-content: space-between;
 }
 @media screen and (max-width: 767px) {
-  .c-box12__btn {
+  .c-modal__btn {
     padding: 8px 20px;
   }
 }
-.c-box12 form {
+.c-modal form {
   width: 40%;
   padding-right: 30px;
 }
 @media screen and (max-width: 767px) {
-  .c-box12 form {
+  .c-modal form {
     width: 100%;
     padding-right: 0;
   }
 }
-.c-box12 figure {
+.c-modal figure {
   max-height: 400px;
   overflow: hidden;
   width: 60%;
 }
 @media screen and (max-width: 767px) {
-  .c-box12 figure {
+  .c-modal figure {
     width: 100%;
     margin-bottom: 30px;
   }
 }
-.c-box12 figure img {
+.c-modal figure img {
   width: 100%;
 }
-.c-box12 .print-error-msg {
+.c-modal .print-error-msg {
   margin: 20px 0 -20px 0;
 }
 @media screen and (max-width: 767px) {
-  .c-box12 .print-error-msg {
+  .c-modal .print-error-msg {
     margin: 20px 0;
   }
 }
-.c-box12 .print-error-msg li {
+.c-modal .print-error-msg li {
   color: red;
 }
-.c-box12 button[disabled=disabled], .c-box12 button:disabled {
+.c-modal button[disabled=disabled], .c-modal button:disabled {
   background: #ccc;
 }
-.c-box12 .captcha {
+.c-modal .captcha {
   display: flex;
   align-items: center;
 }
-.c-box12 .captcha input {
+.c-modal .captcha input {
   width: 100%;
 }
-.c-box12 .captcha .btn-refresh {
+.c-modal .captcha .btn-refresh {
   margin: 0 5px;
 }
-.c-box12 .captcha span {
+.c-modal .captcha span {
   display: flex;
   flex-shrink: 0;
 }
@@ -3001,19 +3023,6 @@ Page Top
     padding-top: 40px;
   }
 }
-.p-home11 {
-  display: none;
-}
-.p-home11.modal {
-  width: auto;
-  max-width: none;
-}
-@media screen and (max-width: 767px) {
-  .p-home11.modal {
-    padding: 0px;
-  }
-}
-
 .p-contact1__area {
   width: 100%;
   height: 500px;
