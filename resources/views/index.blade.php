@@ -1,4 +1,4 @@
-@section('title','Pxwebshop Home')
+@section('title','Trang chủ Lao Smart Tech')
 @extends('layouts.template')
 
 @section('content')
@@ -92,6 +92,15 @@
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <h4 class="c-box2__tlt">ຂຽນໂປຣແກຣມ</h4>
+                <p class="c-box2__txt">ພວກເຮົາມີຄວາມຊຳນານໃນການພັດທະນາໂປຣແກຣມຄຸ້ມຄອງ ແລະ ຈັດການລະບົບ ເພື່ອຊ່ວຍໃຫ້ທຸລະກິດຂອງທ່ານດໍາເນີນການໄດ້ຢ່າງມີປະສິດທິພາບ ແລະ ງ່າຍໃນການບໍລິຫານຈັດການ.</p>
+              </div>
+            </li>
+            <li class="c-box2__item">
+              <div class="c-box2__inner">
+                <div class="c-box2__icon">
                   <i class="fa fa-network-wired"></i>
                 </div>
                 <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Network</h4>
@@ -105,15 +114,6 @@
                 </div>
                 <h4 class="c-box2__tlt">ບໍລິການອອກແບບ Logo,..</h4>
                 <p class="c-box2__txt">ບໍລິການອອກແບບ Logo, Banner... ໂດຍທີມງານອອກແບບທີ່ເປັນມືອາຊີບ, ພວກເຮົາໝັ້ນໃຈທີ່ຈະມອບຜະລິດຕະພັນທີ່ດີທີ່ສຸດໃຫ້ກັບທ່ານ.</p>
-              </div>
-            </li>
-            <li class="c-box2__item">
-              <div class="c-box2__inner">
-                <div class="c-box2__icon">
-                  <i class="fa-solid fa-code"></i>
-                </div>
-                <h4 class="c-box2__tlt">ຂຽນໂປຣແກຣມ</h4>
-                <p class="c-box2__txt">ພວກເຮົາມີຄວາມຊຳນານໃນການພັດທະນາໂປຣແກຣມຄຸ້ມຄອງ ແລະ ຈັດການລະບົບ ເພື່ອຊ່ວຍໃຫ້ທຸລະກິດຂອງທ່ານດໍາເນີນການໄດ້ຢ່າງມີປະສິດທິພາບ ແລະ ງ່າຍໃນການບໍລິຫານຈັດການ.</p>
               </div>
             </li>
           </ul>
@@ -435,7 +435,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ບໍ່ມີ</li>
                   </ul>
                 </div>
-                <a href="#register" rel="modal:open" class="c-btn1">ລົງທະບຽນ</a>
+                <a href="#" data-service="1" class="c-btn1 js-btn-modal">ລົງທະບຽນ</a>
               </div>
             </li>
             <li class="c-list2__item">
@@ -448,7 +448,7 @@
                   <p class="c-list2__hot">ໂດດເດັ່ນ</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຂາຍສີນຄ້າ, ເວັບໄຊອີຄອມເມິດສຂະໜາດນ້ອຍ, ເວັບໄຊອະສັງຫາລິມະສັບ, ເວັບໄຊການກະເສດ... ພ້ອມກັບຄຸນສົມບັດໃນການສັ່ງຊື້ ແລະ ການຊຳລະເງິນ.</p>
+                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຂາຍສີນຄ້າ, ເວັບໄຊອີຄອມເມິດສຂະໜາດນ້ອຍ, ເວັບໄຊອະສັງຫາລິມະສັບ, ເວັບໄຊການກະເສດ... với đầy đủ các tính năng cao cấp</p>
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ສົ່ງມອບ: Source Code ທັງໝົດ</li>
@@ -467,7 +467,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ​ ເວັບໄຊ</li>
                   </ul>
                 </div>
-                <a href="#register" rel="modal:open" class="c-btn1">ລົງທະບຽນ</a>
+                <a href="#" data-service="2" class="c-btn1 js-btn-modal">ລົງທະບຽນ</a>
               </div>
             </li>
             <li class="c-list2__item">
@@ -500,7 +500,7 @@
                     <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ ​ເວັບໄຊ</li>
                   </ul>
                 </div>
-                <a href="#register" rel="modal:open" class="c-btn1">ລົງທະບຽນ</a>
+                <a href="#" data-service="3" class="c-btn1 js-btn-modal">ລົງທະບຽນ</a>
               </div>
             </li>
           </ul>
@@ -947,34 +947,37 @@
       </div>
     </section>
 
-    <section id="register" class="p-home11 modal">
+    <div class="c-modal">
       <div class="l-container">
-          <div class="c-box12">
-            <div class="c-box12__inner">
+          <div class="c-modal__content">
+            <div class="c-modal__close">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div class="c-modal__inner">
               <form action="/" method="POST">
                 @csrf
-                <h2 class="c-box12__tlt">ປ້ອນຂໍ້ມູນເພື່ອ ລົງທະບຽນ</h2>
-                <p class="c-box12__tlt__sub">Lao Smart Tech ໃຫ້ຄຳແນະນຳ ແລະ ຊ່ວຍເຫຼືອລູກຄ້າ 24/7</p>
+                <h2 class="c-modal__tlt">ປ້ອນຂໍ້ມູນເພື່ອ ລົງທະບຽນ</h2>
+                <p class="c-modal__tlt__sub">Lao Smart Tech ໃຫ້ຄຳແນະນຳ ແລະ ຊ່ວຍເຫຼືອລູກຄ້າ 24/7</p>
 
                 <div class="print-error-msg" style="display:none">
                   <ul></ul>
                 </div>
           
-                <ul class="c-box12__list">
-                  <li class="c-box12__item">
-                    <p class="c-box12__txt">ຊື່ ແລະ ນາມສະກຸນ</p>
+                <ul class="c-modal__list">
+                  <li class="c-modal__item">
+                    <p class="c-modal__txt">ຊື່ ແລະ ນາມສະກຸນ</p>
                     <input name="name" type="text" placeholder="ຊື່ ແລະ ນາມສະກຸນ">
                   </li>
-                  <li class="c-box12__item">
-                    <p class="c-box12__txt">ອີເມວ</p>
+                  <li class="c-modal__item">
+                    <p class="c-modal__txt">ອີເມວ</p>
                     <input name="email" type="email" placeholder="ອີເມວ">
                   </li>
-                  <li class="c-box12__item">
-                    <p class="c-box12__txt">ເບີ້ໂທລະສັບ</p>
+                  <li class="c-modal__item">
+                    <p class="c-modal__txt">ເບີ້ໂທລະສັບ</p>
                     <input name="phone" type="number" placeholder="ເບີ້ໂທລະສັບ">
                   </li>
-                  <li class="c-box12__item">
-                    <p class="c-box12__txt">ເລືອກປະເພດບໍລິການ</p>
+                  <li class="c-modal__item">
+                    <p class="c-modal__txt">ເລືອກປະເພດບໍລິການ</p>
                     <select name="service_pack">
                       <option value="0">ເລືອກປະເພດບໍລິການ</option>
                       <option value="1">ບໍລິການອອກແບບເວັບໄຊ (Basic)</option>
@@ -982,8 +985,8 @@
                       <option value="3">ບໍລິການອອກແບບເວັບໄຊ (Professional)</option>
                     </select>
                   </li>
-                  <li class="c-box12__item">
-                    <p class="c-box12__txt">Captcha</p>
+                  <li class="c-modal__item">
+                    <p class="c-modal__txt">Captcha</p>
                     <div class="captcha">
                       <span>{!! captcha_img() !!}</span>
                       <button type="button" class="btn-refresh"><i class="fa fa-refresh"></i></button>
@@ -992,7 +995,7 @@
                   </li>
                 </ul>
                
-                <button type="submit" class="c-box12__btn">ລົງທະບຽນ</button>
+                <button type="submit" class="c-modal__btn">ລົງທະບຽນ</button>
               </form>
               <figure>
                 <img loading="lazy" src="https://placehold.jp/800x500.png" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
@@ -1000,7 +1003,7 @@
             </div>
           </div>
       </div>
-    </section>
+    </div>
 </main>
 @endsection
 

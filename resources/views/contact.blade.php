@@ -1,4 +1,4 @@
-@section('title','Pxwebshop contact')
+@section('title','Trang liên hệ')
 @extends('layouts.template')
 
 @section('content')
@@ -61,7 +61,7 @@
                             <div class="c-box8__icon">
                                 <h5 class="c-box8__titleSocial">ຕິດຕາມພວກເຮົາ: &nbsp; </h5>
                                 <div class="c-box8__socialIcons">
-                                    <a href="https://www.facebook.com/pxwebshop" target="_blank" rel="noopener noreferrer nofollow">
+                                    <a href="https://www.facebook.com/laosmarttech" target="_blank" rel="noopener noreferrer nofollow">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer nofollow">
@@ -83,18 +83,18 @@
                             @endif
 
                             <div class="c-box8__input">
-                                <input type="text" name="name" placeholder="ຊື່ ແລະ ນາມສະກຸນ">
+                                <input type="text" name="name" value="{{ old('name') }}" placeholder="ຊື່ ແລະ ນາມສະກຸນ">
                                 @include('_partials.alert', ['field' => 'name'])
                             </div>
                             <div class="c-box8__input">
-                                <input type="email" name="email" placeholder="ອີເມວ">
+                                <input type="email" name="email" value="{{ old('email') }}" placeholder="ອີເມວ">
                                 @include('_partials.alert', ['field' => 'email'])
                             </div>
                             <div class="c-box8__input">
-                                <input type="number" name="phone" placeholder="ເບີ້ໂທລະສັບ">
+                                <input type="number" name="phone" value="{{ old('phone') }}" placeholder="ເບີ້ໂທລະສັບ">
                                 @include('_partials.alert', ['field' => 'phone'])
                             </div>
-                            <textarea name="description" rows="10"></textarea>
+                            <textarea name="description" rows="10">{{ old('description') }}</textarea>
                             <div class="c-box8__input">
                                 <div class="captcha">
                                     <span>{!! captcha_img() !!}</span>
