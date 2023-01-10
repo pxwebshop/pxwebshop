@@ -34,7 +34,7 @@
                 <div class="c-list8__wrap wow slideInLeft">
                     <div class="c-list8__item">
                         <figure class="c-list8__img">
-                            <img src="/images/team/phonexay.jpeg" alt="">
+                            <img src="/images/team/phonexay.jpg" alt="">
                         </figure>
 
                         <div class="c-list8__content">
