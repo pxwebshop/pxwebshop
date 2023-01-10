@@ -1055,10 +1055,13 @@ list
 @media screen and (max-width: 767px) {
   .c-list1 figure {
     margin-top: 20px;
+    height: 300px;
   }
 }
 .c-list1 figure img {
   height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media screen and (max-width: 767px) {
   .c-list1 figure img {
