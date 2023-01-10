@@ -21,10 +21,12 @@ list
         }
     }
     figure {
+        height: 400px;
         @include sp() {
             margin-top: 20px;
         }
         img {
+            height: 100%;
             @include sp() {
                 width: 100%;
             }

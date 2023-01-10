@@ -1049,10 +1049,16 @@ list
     width: 100%;
   }
 }
+.c-list1 figure {
+  height: 400px;
+}
 @media screen and (max-width: 767px) {
   .c-list1 figure {
     margin-top: 20px;
   }
+}
+.c-list1 figure img {
+  height: 100%;
 }
 @media screen and (max-width: 767px) {
   .c-list1 figure img {
