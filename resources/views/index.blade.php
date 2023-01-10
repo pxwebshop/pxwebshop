@@ -664,6 +664,7 @@
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Huawei Certification</h5>
                   <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດສາກົນ HCIA Datacom
+                </div>
               </div>
               <div class="c-box3__inner">
                 <figure>
