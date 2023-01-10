@@ -364,7 +364,7 @@ side
 /*
 ------------------------------------------------------------*/
 .c-footer {
-  padding: 80px 0 20px 0;
+  padding: 40px 0 20px 0;
   background: linear-gradient(105deg, #6e99e6, #093c94);
 }
 @media screen and (max-width: 767px) {

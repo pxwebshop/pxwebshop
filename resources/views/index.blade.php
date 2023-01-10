@@ -106,7 +106,7 @@
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
-                  <i class="fa fa-computer"></i>
+                  <i class="fa fa-drafting-compass"></i>
                 </div>
                 <h4 class="c-box2__tlt">ອອກແບບ ໂລໂກ...</h4>
                 <p class="c-box2__txt">ບໍລິການອອກແບບ Logo, Banner... ໂດຍທີມງານອອກແບບທີ່ເປັນມືອາຊີບ, ພວກເຮົາໝັ້ນໃຈທີ່ຈະມອບຜະລິດຕະພັນທີ່ດີທີ່ສຸດໃຫ້ກັບທ່ານ.</p>
