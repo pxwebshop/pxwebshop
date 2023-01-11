@@ -1270,13 +1270,18 @@ list
   border: 1px solid #ccc;
   padding: 30px 30px 0 30px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 767px) {
   .c-list3__wrap {
     padding: 10px;
     margin-bottom: 15px;
   }
+}
+.c-list3__wrap + figure {
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 .c-list3__txt {
   font-size: 1.6rem;
@@ -3113,6 +3118,14 @@ Page Top
 }
 .p-pay1__box:first-child {
   margin-bottom: 20px;
+}
+.p-pay1 .c-title2 {
+  margin-top: 40px;
+}
+@media screen and (max-width: 767px) {
+  .p-pay1 .c-title2 {
+    margin-top: 20px;
+  }
 }
 
 /*------------------------------------------------------------
