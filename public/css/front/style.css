@@ -3127,6 +3127,11 @@ Page Top
   text-decoration: none;
   color: black;
 }
+.p-pay1__contact__link i {
+  font-size: 2rem;
+  color: green;
+  margin-left: 3px;
+}
 .p-pay1__box:first-child {
   margin-bottom: 20px;
 }

@@ -32,6 +32,12 @@
             <p class="p-pay1__contact">Email: 
                 <span>laosmarttech@gmail.com</span>
             </p>
+            <p class="p-pay1__contact">WhatSapp: 
+                <a class="p-pay1__contact__link" href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer nofollow">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+            </p>
+
             <h2 class="c-title2">
                 <span class="c-title2__text">
                 ຂໍ້ມູນ <span class="c-title2__color1">ການຊຳລະເງິນ</span>
