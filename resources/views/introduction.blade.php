@@ -9,7 +9,7 @@
                 <h2 class="c-box13__tlt">ກ່ຽວກັບທີມງານ</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">ໜ້າຫຼັກ</a>
+                        <a class="c-breadcrumb__link" href="/#home">ໜ້າຫຼັກ</a>
                     </li>
                     <li class="c-breadcrumb__item">
                         <span class="c-breadcrumb__txt">ທີມງານ</span>

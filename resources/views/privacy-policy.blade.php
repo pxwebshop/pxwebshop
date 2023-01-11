@@ -9,7 +9,7 @@
                 <h2 class="c-box13__tlt">Chính sách bảo mật</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
+                        <a class="c-breadcrumb__link" href="/#home">Trang chủ</a>
                     </li>
                     <li class="c-breadcrumb__item">
                         <span class="c-breadcrumb__txt">Bảo mật</span>
