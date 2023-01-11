@@ -2730,6 +2730,8 @@ other
 }
 .c-modal__item {
   margin-bottom: 15px;
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
 }
 @media screen and (max-width: 767px) {
   .c-modal__item {
@@ -2751,6 +2753,14 @@ other
   .c-modal__item input, .c-modal__item select {
     padding: 5px 10px;
   }
+}
+.c-modal__item input::-webkit-outer-spin-button,
+.c-modal__item input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.c-modal__item input[type=number] {
+  -moz-appearance: textfield;
 }
 .c-modal__tlt {
   font-size: 2.5rem;
