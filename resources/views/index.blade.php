@@ -423,12 +423,12 @@
                     <li class="c-list2__boxItem"><strong>⭐</strong>ແບນວິດ: ບໍ່ຈຳກັດ</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 3GB</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ພາສາ: ພາສາລາວ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ບໍ່ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ Mobile: ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 3GB</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ພາສາ: ພາສາລາວ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ສ່ວນຫຼຸດ: ບໍ່ມີ</li>
                   </ul>
                 </div>
                 <a href="#" data-service="1" class="c-btn1 js-btn-modal">ລົງທະບຽນ</a>
@@ -454,13 +454,13 @@
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ແບນວິດ: ບໍ່ຈຳກັດ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.la, .com, .org)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 5GB</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ພາສາ: ພາສາລາວ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ​ ເວັບໄຊ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ Mobile: ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Domain: ຟຣີ 1 ປີ (.la, .com, .org)</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 5GB</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ພາສາ: ພາສາລາວ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ​ ເວັບໄຊ</li>
                   </ul>
                 </div>
                 <a href="#" data-service="2" class="c-btn1 js-btn-modal">ລົງທະບຽນ</a>
@@ -486,14 +486,14 @@
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ແບນວິດ: ບໍ່ຈຳກັດ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ຊ່ວຍເຫຼືອປ່ຽນແປງ SEO ຕາມເທນຫຼ້າສຸດຂອງ Google</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 10GB</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ພາສາ: ພາສາລາວ, ອັງກິດ, ຫວຽດນາມ, ຈີນ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ ​ເວັບໄຊ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ Mobile: ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ຊ່ວຍເຫຼືອປ່ຽນແປງ SEO ຕາມເທນຫຼ້າສຸດຂອງ Google</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 10GB</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ພາສາ: ພາສາລາວ, ອັງກິດ, ຫວຽດນາມ, ຈີນ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ ​ເວັບໄຊ</li>
                   </ul>
                 </div>
                 <a href="#" data-service="3" class="c-btn1 js-btn-modal">ລົງທະບຽນ</a>
