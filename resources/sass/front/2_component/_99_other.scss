@@ -971,6 +971,7 @@ other
             padding: 5px 15px;
             border: 1px solid #6b6a7b;
             border-radius: 3px;
+            -webkit-appearance: none;
             @include sp() {
                 padding: 5px 10px;
             }

@@ -2745,6 +2745,7 @@ other
   padding: 5px 15px;
   border: 1px solid #6b6a7b;
   border-radius: 3px;
+  -webkit-appearance: none;
 }
 @media screen and (max-width: 767px) {
   .c-modal__item input, .c-modal__item select {
