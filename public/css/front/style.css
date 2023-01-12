@@ -919,6 +919,12 @@ btn
   bottom: 0px;
   display: block;
 }
+@media screen and (max-width: 767px) {
+  .c-btn2__inner {
+    width: 80px;
+    height: 80px;
+  }
+}
 .c-btn2__icon {
   display: flex;
   align-items: center;
@@ -936,6 +942,12 @@ btn
   -webkit-animation: 1s ease-in-out 0s infinite normal none running c-btn2__fill;
           animation: 1s ease-in-out 0s infinite normal none running c-btn2__fill;
 }
+@media screen and (max-width: 767px) {
+  .c-btn2__icon {
+    top: 20px;
+    left: 20px;
+  }
+}
 .c-btn2__fill {
   width: 65px;
   height: 65px;
@@ -950,6 +962,12 @@ btn
           animation: 1.3s ease 0s infinite normal none running zoom;
   box-shadow: rgb(17, 172, 89) 0px 0px 0px 0px;
   background-color: rgba(17, 172, 89, 0.7);
+}
+@media screen and (max-width: 767px) {
+  .c-btn2__fill {
+    width: 55px;
+    height: 55px;
+  }
 }
 .c-btn2 i {
   font-size: 3rem;
@@ -3065,6 +3083,13 @@ other
   position: fixed;
   top: 40%;
   left: 20px;
+}
+@media screen and (max-width: 767px) {
+  .c-box15 {
+    top: auto;
+    bottom: 50px;
+    left: 10px;
+  }
 }
 
 /*------------------------------------------------------------

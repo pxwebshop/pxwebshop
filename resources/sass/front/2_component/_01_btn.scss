@@ -46,6 +46,10 @@ btn
         left: 0px;
         bottom: 0px;
         display: block;
+        @include sp() {
+            width: 80px;
+            height: 80px;
+        }
     }
     &__icon {
         display: flex;
@@ -62,6 +66,10 @@ btn
         display: flex;
         justify-content: center;
         animation: 1s ease-in-out 0s infinite normal none running c-btn2__fill;
+        @include sp(){
+            top: 20px;
+            left: 20px;
+        }
     }
     &__fill {
         width: 65px;
@@ -76,6 +84,10 @@ btn
         animation: 1.3s ease 0s infinite normal none running zoom;
         box-shadow: rgba(17, 172, 89) 0px 0px 0px 0px;
         background-color: rgba(17, 172, 89, 0.7);
+        @include sp() {
+            width: 55px;
+            height: 55px;
+        }
     }
     i {
         font-size: 3rem;

@@ -1128,4 +1128,9 @@ other
     position: fixed;
     top: 40%;
     left: 20px;
+    @include sp() {
+        top: auto;
+        bottom: 50px;
+        left: 10px;
+    }
 }
