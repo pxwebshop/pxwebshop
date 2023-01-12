@@ -28,10 +28,6 @@ $(document).ready(function() {
 		bodyHtml.scrollTop(scrollPosi);
 	}
 
-	$('.c-btn1').click(function() {
-		
-	});
-
 	$("a.c-header__link").click(function(e) {
 		let headerHeight = $('header').innerHeight();
 		if ($(window).outerWidth() < 768) {
@@ -63,7 +59,6 @@ $(document).ready(function() {
 	$('.c-box2__item').matchHeight();
 	$('.c-list2__wrap').matchHeight();
 	$('.c-list10__wrap').matchHeight();
-	
 	
 	$('.c-box3__wrap').slick({
 		dots: false,
