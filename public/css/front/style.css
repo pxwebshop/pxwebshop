@@ -3092,8 +3092,11 @@ other
   }
 }
 
-#fb-root iframe {
-  right: auto;
+@media screen and (max-width: 767px) {
+  #fb-root iframe {
+    right: auto !important;
+    margin-left: 20px !important;
+  }
 }
 
 /*------------------------------------------------------------

@@ -1136,5 +1136,8 @@ other
 }
 
 #fb-root iframe {
-    right: auto;
+    @include sp() {
+        right: auto !important;
+        margin-left: 20px !important;
+    }
 }
