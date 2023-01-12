@@ -31,37 +31,6 @@
         </div>
       </div>
     </section>
- 
-    <section class="p-home2">
-      <div class="l-container">
-        <ul class="c-box1 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
-          <li class="c-box1__item">
-            <div class="c-box1__inner">
-              <div class="c-box1__icon">
-                <i class="fa fa-whatsapp"></i>
-              </div>
-              <div class="c-box1__info">
-                <h5 class="c-box1__tlt">ຕິດຕໍ່ WhatsApp</h5>
-                <p class="c-box1__txt">ສຳພັດຄຸນສົມບັດໃນການຕອບໂຕ້ຂອງລະບົບເວັບໄຊ ເຊິ່ງເປັນສີ່ງທີ່ລູກຄ້າຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
-                <a target="_blank" rel="noopener" href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&app_absent=0" class="c-box1__btn">ຕິດຕໍ່ຕອນນີ້</a>
-              </div>
-            </div>
-          </li>
-          <li class="c-box1__item">
-            <div class="c-box1__inner">
-              <div class="c-box1__icon">
-                <i class="fa fa-users"></i>
-              </div>
-              <div class="c-box1__info">
-                <h5 class="c-box1__tlt">ຂໍຄຳປຶກສາ</h5>
-                <p class="c-box1__txt">ເຂົ້າໃຈຜະລິດຕະພັນ, ສັນຍາ ແລະ ຜົນປະໂຫຍດຂອງລູກຄ້າທີ່ຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
-                <a class="c-box1__btn" href="tel:02028266650"><i class="fa fa-phone"></i> 020 28266650</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
 
     <section class="p-home3" id="service">
       <div class="l-container">
@@ -466,6 +435,7 @@
                 <a href="#" data-service="2" class="c-btn1 js-btn-modal">ລົງທະບຽນ</a>
               </div>
             </li>
+
             <li class="c-list2__item">
               <div class="c-list2__wrap">
                 <div class="c-list2__heading">

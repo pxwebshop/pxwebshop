@@ -33,6 +33,40 @@
         </div>
     </div>
 
+    {{-- <div class="c-btn2">
+        <div class="c-btn2__inner">
+            <div class="c-btn2__fill"></div>
+            <div class="c-btn2__icon">
+               
+            </div>
+        </div>
+    </div> --}}
+
+    <div class="c-box15">
+        <div class="c-btn2">
+            <div class="c-btn2__inner">
+                <div class="c-btn2__fill"></div>
+                <div class="c-btn2__icon">
+                    <a target="_blank" rel="noopener" href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&amp;app_absent=0">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="c-btn2 c-btn2--style1">
+            <div class="c-btn2__inner">
+                <div class="c-btn2__fill"></div>
+                <div class="c-btn2__icon">
+                    <a href="tel:02028266650">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        {{-- 020 28266650 --}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="{{ asset('js/jquery.min.js')}} "></script>
 
     <script src="{{ asset('js/jquery-ui.min.js')}} "></script>
