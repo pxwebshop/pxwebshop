@@ -3087,9 +3087,13 @@ other
 @media screen and (max-width: 767px) {
   .c-box15 {
     top: auto;
-    bottom: 50px;
+    bottom: 90px;
     left: 10px;
   }
+}
+
+#fb-root iframe {
+  right: auto;
 }
 
 /*------------------------------------------------------------

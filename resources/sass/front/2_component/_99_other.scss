@@ -1130,7 +1130,11 @@ other
     left: 20px;
     @include sp() {
         top: auto;
-        bottom: 50px;
+        bottom: 90px;
         left: 10px;
     }
+}
+
+#fb-root iframe {
+    right: auto;
 }
