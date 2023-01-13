@@ -27,10 +27,6 @@
 
     @include('layouts.footer')
 
-    @if($isShowMessenger ?? false)
-        @include('_partials.messenger')
-    @endif
-
     <div class="c-box14">
         <div class="c-box14__inner">
             <i class="fa-solid fa-arrow-up"></i>
