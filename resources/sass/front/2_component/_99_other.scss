@@ -1142,3 +1142,8 @@ other
         z-index: -1 !important;
     }
 }
+.fb_dialog {
+    @include sp() {
+        z-index: 1 !important;
+    }
+}
