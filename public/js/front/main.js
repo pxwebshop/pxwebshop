@@ -52,6 +52,8 @@ $(document).ready(function() {
 				e.preventDefault();
 				$('html,body').animate({scrollTop: $(aid).offset().top - headerHeight +'px'},'slow');
 			}
+		} else {
+			bodyFixReset();
 		}
 	});
 
