@@ -1445,6 +1445,11 @@ list
   border: 1px solid #ccc;
   border-radius: 10px;
 }
+@media screen and (max-width: 767px) {
+  .c-list3__wrap + figure {
+    padding: 20px;
+  }
+}
 .c-list3__txt {
   font-size: 1.6rem;
   display: flex;

@@ -230,6 +230,9 @@ list
             padding: 50px;
             border: 1px solid #ccc;
             border-radius: 10px;
+            @include sp() {
+                padding:20px;
+            }
         }
     }
     &__txt {

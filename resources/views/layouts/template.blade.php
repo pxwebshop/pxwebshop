@@ -28,7 +28,7 @@
     @include('layouts.footer')
 
     @if($isShowMessenger ?? false)
-        @include('_partials.messenger');
+        @include('_partials.messenger')
     @endif
 
     <div class="c-box14">
