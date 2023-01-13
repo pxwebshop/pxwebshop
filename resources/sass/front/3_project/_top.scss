@@ -13,31 +13,9 @@ Page Top
             }
         }
         background: linear-gradient(90deg, rgba(50,255,198,1) 0%, rgba(50,154,255,1) 45%, rgba(63,140,232,1) 100%);
-        &__box {
-            position: relative;
-            transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-            padding: 0 0px 165px 0px;
-        }
-        &__svg {
-            transform: rotate(180deg);
-            overflow: hidden;
-            position: absolute;
-            left: 0;
-            width: 100%;
-            .elementor-shape-fill {
-                fill: #fff;
-                transform-origin: center;
-                transform: rotateY(0deg);
-            }
-        }
-        svg {
-            z-index: -1;
-            height: 165px;
-            display: block;
-            width: calc(100% + 1.3px);
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
+        padding-bottom: 50px;
+        @include sp() {
+            padding-bottom: 20px;
         }
     }
  
