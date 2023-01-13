@@ -14,9 +14,10 @@
             <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນການ SEO, ອອກແບບເວັບໄຊ, ອອກແບບໂປຣແກຣມ, ອອກແບບລະບົບເຄືອຂ່າຍ ແລະ ຝຶກອົບຮົມ. ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ແລະ ມີທີມງານມືອາຊີບທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
           </li>
           <li class="c-list1__item">
-            <figure>
-              <img src="{{ asset('images/banner.webp')}}" alt="ບໍລິສັດ lao smart tech ອອກແບບເວັບໄຊ">
-            </figure>
+            <picture>
+              <source type="image/webp" srcset="{{ asset('images/banner.webp') }}"> 
+              <img src="{{ asset('images/banner.webp') }}" alt="ບໍລິສັດ lao smart tech ອອກແບບເວັບໄຊ">
+            </picture>
           </li>
         </ul>
       </div>
@@ -741,39 +742,46 @@
           </h2>
           <ul class="c-box5__content is-list1">
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img1.webp') }}" alt="">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img1.webp') }}"> 
+                <img src="{{ asset('images/img1.jpg') }}" alt="">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img2.webp') }}" alt="pxwebshop chuyên phân phối website">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img2.webp') }}"> 
+                <img src="{{ asset('images/img2.jpg') }}" alt="">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img3.webp') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img3.webp') }}"> 
+                <img src="{{ asset('images/img3.jpg') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img4.webp') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img4.webp') }}"> 
+                <img src="{{ asset('images/img4.jpg') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img5.webp') }}" alt="pxwebshop cung cấp website giá rẻ">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img5.webp') }}"> 
+                <img src="{{ asset('images/img5.jpg') }}" alt="pxwebshop cung cấp website giá rẻ">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img6.webp') }}" alt="pxwebshop chất lượng sản phẩm cao">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img6.webp') }}"> 
+                <img src="{{ asset('images/img6.jpg') }}" alt="pxwebshop chất lượng sản phẩm cao">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img7.webp') }}" alt="pxwebshop thông tin người dùng ຄວາມປອດໄພ">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img7.webp') }}"> 
+                <img src="{{ asset('images/img7.jpg') }}" alt="pxwebshop thông tin người dùng ຄວາມປອດໄພ">
+              </picture>
             </li>
           </ul>
         </div>
