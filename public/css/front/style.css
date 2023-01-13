@@ -1791,19 +1791,17 @@ video
   cursor: pointer;
   position: relative;
 }
-@media screen and (min-width: 768px) {
-  .c-slider__inner:hover:after {
-    opacity: 0.6;
-    transition: 0.4s ease-in-out;
-  }
-  .c-slider__inner:hover .c-slider__btn {
-    opacity: 1;
-    transition: 0.4s ease-in-out;
-  }
-  .c-slider__inner:hover img {
-    -o-object-position: bottom center;
-       object-position: bottom center;
-  }
+.c-slider__inner:hover:after {
+  opacity: 0.6;
+  transition: 0.4s ease-in-out;
+}
+.c-slider__inner:hover .c-slider__btn {
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+.c-slider__inner:hover img {
+  -o-object-position: bottom center;
+     object-position: bottom center;
 }
 .c-slider__btnWrap {
   display: flex;
