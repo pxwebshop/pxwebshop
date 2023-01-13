@@ -13,7 +13,7 @@ $(document).ready(function() {
 		body.css({
 			position: "fixed",
 			width: "100%",
-			"z-index": "999",
+			"z-index": "1",
 			top: -scrollPosi,
 			"overflow-y": 'scroll'
 		});
