@@ -3092,20 +3092,6 @@ other
   }
 }
 
-@media screen and (max-width: 767px) {
-  #fb-root iframe {
-    right: auto !important;
-    margin-left: 20px !important;
-    z-index: 1 !important;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .fb_dialog {
-    z-index: 1 !important;
-  }
-}
-
 /*------------------------------------------------------------
 Page Top
 ------------------------------------------------------------*/
