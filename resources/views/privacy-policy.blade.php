@@ -2,6 +2,10 @@
 @extends('layouts.template')
 
 @section('content')
+@php
+    $isShowMessenger = true;
+@endphp
+
 <main class="p-privacyPolicy" id="privacy-policy">
     <div class="c-box13">
         <div class="c-box13__inner">
