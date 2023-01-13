@@ -1801,8 +1801,8 @@ video
     transition: 0.4s ease-in-out;
   }
   .c-slider__inner:hover img {
-    transform: translateY(calc(-100% + 500px));
-    transition: 3s ease-in-out;
+    -o-object-position: bottom center;
+       object-position: bottom center;
   }
 }
 .c-slider__inner:after {
@@ -1870,6 +1870,7 @@ video
 .c-slider figure {
   display: block;
   height: 500px;
+  overflow: hidden;
 }
 .c-slider figure::before {
   content: "";
@@ -1881,6 +1882,12 @@ video
 }
 .c-slider figure img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+  transition: all 3s ease-in-out;
 }
 
 /*------------------------------------------------------------
