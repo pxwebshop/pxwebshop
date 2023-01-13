@@ -15,7 +15,7 @@
           </li>
           <li class="c-list1__item">
             <figure>
-              <img src="/images/banner.webp" alt="ບໍລິສັດ lao smart tech ອອກແບບເວັບໄຊ">
+              <img src="{{ asset('images/banner.webp')}}" alt="ບໍລິສັດ lao smart tech ອອກແບບເວັບໄຊ">
             </figure>
           </li>
         </ul>
