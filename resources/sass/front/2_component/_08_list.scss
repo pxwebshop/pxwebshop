@@ -219,7 +219,7 @@ list
     &__wrap {
         border-radius: 10px;
         border: 1px solid #ccc;
-        padding: 30px 30px 0 30px;
+        padding: 0px 30px 0 30px;
         margin-top: 10px;
         margin-bottom: 10px;
         @include sp() {
@@ -227,7 +227,7 @@ list
             margin-bottom: 15px;
         }
         & + figure {
-            padding: 30px;
+            padding: 50px;
             border: 1px solid #ccc;
             border-radius: 10px;
         }
