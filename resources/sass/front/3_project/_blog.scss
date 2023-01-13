@@ -65,8 +65,10 @@ Page blog
                 p {
                     line-height: 1.8;
                     text-align: justify;
+                    margin-bottom: 10px;
                     @include sp() {
                         line-height: 1.5;
+                        margin-bottom: 5px;
                     }
                 }
             }

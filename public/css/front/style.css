@@ -3370,9 +3370,11 @@ Page blog
 .p-blog1 .l-container1__content p {
   line-height: 1.8;
   text-align: justify;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 767px) {
   .p-blog1 .l-container1__content p {
     line-height: 1.5;
+    margin-bottom: 5px;
   }
 }

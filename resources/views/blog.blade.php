@@ -27,6 +27,8 @@
         <div class="l-container1">
             <div class="l-container1__content">
                 <h1>{{$blog->title}}</h1>
+                {!! $blog->description !!}
+
                 {!! $blog->content !!}
             </div>
             <div class="l-container1__slidebar">

@@ -14,13 +14,23 @@
     <form action="" method="post" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="row">
-            <div class="col-lg-12 mb-4">
+            <div class="col-lg-12 mb-2">
                 <label class="form-label">Tiêu đề bài viết:</label>
-                <textarea name="title" class="form-control" rows="2">{{old('title', @$blog->title)}}</textarea>
+                <textarea name="title" class="form-control" rows="1">{{old('title', @$blog->title)}}</textarea>
                 @include('_partials.alert', ['field' => 'title'])
             </div>
         </div>
-        
+        <div class="row">
+            <div class="col-lg-12 mb-3">
+                <div class="card mb-0">
+                    <div class="card-body">
+                      <h5 class="card-title">Mô tả:</h5>
+                        <textarea name="description" class="form-control" id="mytextarea" rows="3">{{old('description', @$blog->description)}}</textarea>
+                        @include('_partials.alert', ['field' => 'description'])
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-9">
                 <div class="card mb-3">
@@ -173,5 +183,9 @@
 
   tinymce.init(editor_config);
 </script>
-
+<script>
+    tinymce.init({
+      selector: '#mytextarea'
+    });
+</script>
 @endpush
