@@ -2,6 +2,10 @@
 @extends('layouts.template')
 
 @section('content')
+@php
+    $isShowMessenger = true;
+@endphp
+
 <main class="p-introduction" id="introduction">
     <div class="c-box13">
         <div class="c-box13__inner">
@@ -136,4 +140,5 @@
         </div>
     </section>
 </main>
+
 @endsection

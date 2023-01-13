@@ -27,20 +27,15 @@
 
     @include('layouts.footer')
 
+    @if($isShowMessenger ?? false)
+        @include('_partials.messenger');
+    @endif
+
     <div class="c-box14">
         <div class="c-box14__inner">
             <i class="fa-solid fa-arrow-up"></i>
         </div>
     </div>
-
-    {{-- <div class="c-btn2">
-        <div class="c-btn2__inner">
-            <div class="c-btn2__fill"></div>
-            <div class="c-btn2__icon">
-               
-            </div>
-        </div>
-    </div> --}}
 
     <div class="c-box15">
         <div class="c-btn2">
@@ -60,7 +55,6 @@
                 <div class="c-btn2__icon">
                     <a href="tel:02028266650">
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        {{-- 020 28266650 --}}
                     </a>
                 </div>
             </div>
