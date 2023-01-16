@@ -3040,7 +3040,7 @@ other
   }
 }
 .c-box13__inner {
-  background: url("/images/background.webp") center no-repeat;
+  background: url("/images/background.jpg") center no-repeat;
   padding-top: 80px;
   padding-bottom: 30px;
   position: relative;
@@ -3377,4 +3377,9 @@ Page blog
     line-height: 1.5;
     margin-bottom: 5px;
   }
+}
+.p-blog1 .l-container1__content blockquote {
+  border-left: 6px solid #ccc;
+  font-style: italic;
+  padding-left: 10px;
 }

@@ -71,6 +71,11 @@ Page blog
                         margin-bottom: 5px;
                     }
                 }
+                blockquote {
+                    border-left: 6px solid #ccc;
+                    font-style: italic;
+                    padding-left: 10px;
+                }
             }
         }
     }
