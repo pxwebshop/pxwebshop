@@ -428,6 +428,7 @@ list
     &__info {
         padding: 20px 10px 10px 10px;
         position: relative;
+        height: calc(100% - 240px);
     }
     &__date {
         margin-top: 15px;
@@ -437,6 +438,11 @@ list
         font-size: 1.8rem;
         text-align: right;
         font-weight: 700;
+        width: calc(100% - 20px);
+        position: absolute;
+        bottom: 0;
+        display: block;
+        padding-bottom: 10px;
         span {
             font-size: 1.6rem;
         }
