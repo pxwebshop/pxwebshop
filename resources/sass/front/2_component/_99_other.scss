@@ -1147,3 +1147,47 @@ other
 //         z-index: 1 !important;
 //     }
 // }
+.c-toc {
+    ul {
+        & > li {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            &::before {
+                content: ">>";
+                display: block;
+                position: absolute;
+                left: -30px;
+                top: 0;
+                color: rgb(216, 47, 47);
+                font-weight: bold;
+            }
+            .menu_level_2 {
+                padding-left: 15px;
+                li {
+                    display: flex;
+                    &::before {
+                        content: ">";
+                        left: -15px;
+                        color: rgb(216, 47, 47);
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    & > ul {
+        padding-left: 30px;
+        li {
+            a {
+                color: #2d2d2d;
+                @include hover() {
+                    text-decoration: none;
+                }
+            }
+        }
+        & > li {
+            margin-bottom: 10px;
+        }
+    }
+}

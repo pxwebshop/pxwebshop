@@ -29,9 +29,18 @@
                 <h1>{{$blog->title}}</h1>
                 {!! $blog->description !!}
 
-                {!! $blog->content !!}
+                <div class="js-content">
+                    {!! $blog->content !!}
+                </div>
             </div>
             <div class="l-container1__slidebar">
+                <div class="c-list11">
+                    <h3 class="c-list11__title">Tóm tắt</h3>
+                   
+                    <div class="c-toc">
+                        {!! $toc !!}
+                    </div>
+                </div>
                 <div class="c-list11">
                     <h3 class="c-list11__title">ບົດຄວາມຫຼ້າສຸດ</h3>
                     <ul class="c-list11__inner">
