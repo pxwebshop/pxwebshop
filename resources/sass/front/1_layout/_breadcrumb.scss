@@ -15,6 +15,9 @@ breadcrumb
         padding: 0 20px;
         position: relative;
         font-weight: 500;
+        &:first-child {
+            padding-left: 0;
+        }
         &:not(:last-child) {
             &::after {
                 content: "›";
@@ -25,13 +28,6 @@ breadcrumb
                 line-height: 0.8;
                 color: #fff;
             }
-        }
-        &:last-child {
-            display: inline-block;
-            max-width: 280px;
-            white-space: nowrap;
-            overflow: hidden !important;
-            text-overflow: ellipsis;
         }
     }
     &__link {
