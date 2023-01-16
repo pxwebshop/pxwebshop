@@ -240,16 +240,19 @@ breadcrumb
 ------------------------------------------------------------*/
 .c-breadcrumb {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5px;
+  align-items: baseline;
+  justify-content: left;
+  margin-top: 10px;
 }
 .c-breadcrumb__item {
-  display: block;
+  display: inline-block;
   padding: 0 20px;
   position: relative;
   font-weight: 500;
+  flex-shrink: 0;
+}
+.c-breadcrumb__item:first-child {
+  padding-left: 0;
 }
 .c-breadcrumb__item:not(:last-child)::after {
   content: "›";
@@ -261,14 +264,10 @@ breadcrumb
   color: #fff;
 }
 .c-breadcrumb__item:last-child {
-  display: inline-block;
-  max-width: 280px;
-  white-space: nowrap;
-  overflow: hidden !important;
-  text-overflow: ellipsis;
+  flex-shrink: initial;
 }
 .c-breadcrumb__link {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   text-transform: capitalize;
@@ -3057,7 +3056,7 @@ other
   opacity: 0.85;
 }
 .c-box13__tlt {
-  text-align: center;
+  text-align: left;
   color: #fff;
   font-size: 2.5rem;
   font-weight: 700;
@@ -3345,7 +3344,7 @@ Page blog
 }
 .p-blog1 .l-container1__content h2:before {
   content: "";
-  left: -5px;
+  left: 0px;
   top: 0;
   display: block;
   width: 5px;
@@ -3361,6 +3360,7 @@ Page blog
 }
 .p-blog1 .l-container1__content h3 {
   font-size: 1.9rem;
+  color: #1E1666;
 }
 @media screen and (max-width: 767px) {
   .p-blog1 .l-container1__content h3 {
