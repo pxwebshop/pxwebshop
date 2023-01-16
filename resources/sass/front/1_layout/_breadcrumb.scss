@@ -9,6 +9,7 @@ breadcrumb
     align-items: baseline;
     justify-content: left;
     margin-top: 10px;
+    flex-wrap: wrap;
     &__item {
         display: inline-block;
         padding: 0 20px;
@@ -31,6 +32,11 @@ breadcrumb
         }
         &:last-child {
             flex-shrink: initial;
+            padding: 0;
+        }
+        &:not(:last-child), &:not(:first-child) {
+            margin-right: 20px;
+            padding-left: 0;
         }
     }
     &__link {

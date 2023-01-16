@@ -243,6 +243,7 @@ breadcrumb
   align-items: baseline;
   justify-content: left;
   margin-top: 10px;
+  flex-wrap: wrap;
 }
 .c-breadcrumb__item {
   display: inline-block;
@@ -265,6 +266,11 @@ breadcrumb
 }
 .c-breadcrumb__item:last-child {
   flex-shrink: initial;
+  padding: 0;
+}
+.c-breadcrumb__item:not(:last-child), .c-breadcrumb__item:not(:first-child) {
+  margin-right: 20px;
+  padding-left: 0;
 }
 .c-breadcrumb__link {
   display: inline-block;
