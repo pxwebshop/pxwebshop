@@ -16,7 +16,7 @@ class BlogController extends Controller
    {
       $tocGenerator = new \TOC\TocGenerator();
 
-      $blog = Blog::find($id);
+      $blog = Blog::active($id)->first();
       $blogs = Blog::where('id', '!=', $id)->get();
 
       $markupFixer  = new \TOC\MarkupFixer();
