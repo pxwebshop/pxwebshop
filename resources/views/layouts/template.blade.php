@@ -9,8 +9,8 @@
     <meta charset="UTF-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="Đây là trang lao smat tech chuyên cung cấp giải pháp công nghệ thông tin và thiết kế website, phần mềm, logo, banner, network và đào tạo sinh viên">
-    <meta name="keywords" content="lao smart tech, thiết kế website, xây dựng phần mềm, thiết kế logo, banner, thiết kế hệ thống network">
+    <meta name="description" content="@yield('description')">
+    <meta name="keywords" content="@yield('keywords')">
 
 	<link href="{{ asset('css/front/slick/slick.css')}}" rel="stylesheet" media="all">
 	<link href="{{ asset('css/front/slick/slick-theme.css')}}" rel="stylesheet" media="all">

@@ -1,4 +1,6 @@
 @section('title','Chính sách bảo mật')
+@section('description','Chính sách bảo mật luôn luôn quan trọng trong dịch vụ công ty lao smart tech')
+@section('keywords','privacy policy, thiết kế website, logo, banner, phần mềm')
 @extends('layouts.template')
 
 @section('content')

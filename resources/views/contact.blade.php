@@ -1,4 +1,6 @@
 @section('title','Liên hệ')
+@section('description', 'Liên hệ lao smart tech để biết thêm thông tin và có nhiều ưu đãi hấp dẫn')
+@section('keywords','liên hệ lao smart tech, thiết kế website, đăng ký dịch vụ')
 @extends('layouts.template')
 
 @section('content')

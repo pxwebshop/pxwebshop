@@ -1,4 +1,6 @@
 @section('title','ການຊຳລະເງິນ')
+@section('description','Trang thanh toán cho người dùng xem chi tiết thông tin để thanh toán sản phẩm dịch vụ')
+@section('keywords','chuyển khoản, dịch vụ, thiết kế website, logo')
 @extends('layouts.template')
 
 @section('content')

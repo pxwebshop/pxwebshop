@@ -1,4 +1,6 @@
 @section('title','Giới thiệu')
+@section('description','Thành viên lao smart tech với nhiều năm kinh nghiệm trong lĩnh vực công nghệ thông tin luôn đem giải pháp tiện ích đến cho người dùng')
+@section('keywords','network, trainer, developer, designer, công ty công nghệ')
 @extends('layouts.template')
 
 @section('content')
