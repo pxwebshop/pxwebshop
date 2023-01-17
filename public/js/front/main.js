@@ -206,9 +206,9 @@ $(document).ready(function() {
 		let aid = $(this).attr('href');
 		let headerHeight = $('header').innerHeight();
 		if ($(window).outerWidth() < 768) {
-			headerHeight = headerHeight*2;
-		} else {
 			headerHeight = headerHeight/2;
+		} else {
+			headerHeight = headerHeight*2;
 		}
 		$('html,body').animate({scrollTop: $(aid).offset().top - headerHeight +'px'},'slow');
 	});

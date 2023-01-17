@@ -138,7 +138,6 @@ class BlogController extends Controller
       return back();
    }
 
-
    public function delete($id, Request $request)
    {
       \DB::beginTransaction();
@@ -147,12 +146,12 @@ class BlogController extends Controller
          $blog->delete();
          \DB::commit();
          Toastr::success("Xoá bài viết thành công!");
-       } catch (\Exception $ex) {
+      } catch (\Exception $ex) {
          \DB::rollback();
          Toastr::error("Xoá bài viết thất bại!". $ex->getMessage());
-       }
+      }
 
-       return redirect()->route('list_blog');
+      return redirect()->route('list_blog');
    }
 
    public function outstanding(Request $request)
