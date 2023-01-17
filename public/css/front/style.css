@@ -1635,9 +1635,19 @@ list
   text-decoration: underline;
   font-size: 1.8rem;
 }
+@media screen and (max-width: 767px) {
+  .c-list10__tlt {
+    font-size: 1.7rem;
+  }
+}
 .c-list10 figure {
   height: 240px;
   overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  .c-list10 figure {
+    height: 170px;
+  }
 }
 .c-list10 figure img {
   transform: scale(1);
@@ -1653,6 +1663,11 @@ list
   padding: 20px 10px 10px 10px;
   position: relative;
   height: calc(100% - 240px);
+}
+@media screen and (max-width: 767px) {
+  .c-list10__info {
+    padding: 10px 10px 5px 10px;
+  }
 }
 .c-list10__date {
   margin-top: 15px;
