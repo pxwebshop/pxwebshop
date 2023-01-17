@@ -1191,3 +1191,8 @@ other
         }
     }
 }
+.fb_dialog {
+    @include sp() {
+        z-index: 9 !important;
+    }
+}
