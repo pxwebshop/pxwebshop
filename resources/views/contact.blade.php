@@ -1,4 +1,4 @@
-@section('title','Liên hệ')
+@section('title','ຕິດຕໍ່')
 @extends('layouts.template')
 
 @section('content')
