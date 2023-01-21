@@ -3,9 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <link href="{{ asset('css/front/style.css')}}" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="@yield('description')">
+    <meta name="keywords" content="@yield('keywords')">
 
 	<link href="{{ asset('css/front/slick/slick.css')}}" rel="stylesheet" media="all">
 	<link href="{{ asset('css/front/slick/slick-theme.css')}}" rel="stylesheet" media="all">
@@ -30,6 +35,30 @@
     <div class="c-box14">
         <div class="c-box14__inner">
             <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+
+    <div class="c-box15">
+        <div class="c-btn2">
+            <div class="c-btn2__inner">
+                <div class="c-btn2__fill"></div>
+                <div class="c-btn2__icon">
+                    <a target="_blank" rel="noopener" href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&amp;app_absent=0">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="c-btn2 c-btn2--style1">
+            <div class="c-btn2__inner">
+                <div class="c-btn2__fill"></div>
+                <div class="c-btn2__icon">
+                    <a href="tel:02028266650">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 

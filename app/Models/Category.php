@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Blog;
 
 class Category extends Model
 {
@@ -26,7 +27,9 @@ class Category extends Model
         parent::boot();
 
         static::deleting(function($category) {
-            $category->blogs()->delete();
+            $category->blogs()->update([
+                'status' => Blog::STOPPED
+            ]);
         });
     }
 

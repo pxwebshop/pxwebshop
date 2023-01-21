@@ -13,50 +13,22 @@ Page Top
             }
         }
         background: linear-gradient(90deg, rgba(50,255,198,1) 0%, rgba(50,154,255,1) 45%, rgba(63,140,232,1) 100%);
-        &__box {
-            position: relative;
-            transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-            padding: 0 0px 165px 0px;
-        }
-        &__svg {
-            transform: rotate(180deg);
-            overflow: hidden;
-            position: absolute;
-            left: 0;
-            width: 100%;
-            .elementor-shape-fill {
-                fill: #fff;
-                transform-origin: center;
-                transform: rotateY(0deg);
-            }
-        }
-        svg {
-            z-index: -1;
-            height: 165px;
-            display: block;
-            width: calc(100% + 1.3px);
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
-    &2 {
-        margin-top: -160px;
+        padding-bottom: 50px;
         @include sp() {
-            margin-top: -135px;
+            padding-bottom: 20px;
         }
     }
+ 
     &3 {
-        padding-top: 85px;
+        padding-top: 50px;
         @include sp() {
             padding-top: 40px;
         }
     }
     &4 {
-        padding-top: 85px;
         background-color: rgb(243, 249, 255);
         padding-bottom: 50px;
-        padding: 85px 30px 50px 30px;
+        padding: 50px 30px 50px 30px;
 
         @include sp() {
             padding: 40px 15px 20px;
@@ -78,7 +50,7 @@ Page Top
         }
     }
     &5 {
-        padding-top: 85px;
+        padding-top: 50px;
         margin-bottom: 30px;
         @include sp() {
             padding-top: 40px;
@@ -86,14 +58,14 @@ Page Top
         }
     }
     &6 {
-        padding-top: 85px;
+        padding-top: 50px;
         background-color: #F3F9FF;
         @include sp() {
             padding-top: 40px;
         }
     }
     &7 {
-        padding-top: 85px;
+        padding-top: 50px;
         margin-bottom: 70px;
         @include sp() {
             padding-top: 40px;
@@ -101,7 +73,7 @@ Page Top
         }
     }
     &8 {
-        padding-top:85px;
+        padding-top:50px;
         padding-bottom: 50px;
         background: linear-gradient(270deg, rgb(103, 178, 111), rgb(76, 162, 205));
         @include sp() {
@@ -127,7 +99,7 @@ Page Top
         }
     }
     &9 {
-        padding-top: 85px;
+        padding-top: 50px;
         @include sp() {
             padding-top: 40px;
         }
@@ -137,7 +109,7 @@ Page Top
         }
     }
     &10 {
-        padding-top: 85px;
+        padding-top: 50px;
         @include sp() {
             padding-top: 40px;
         }

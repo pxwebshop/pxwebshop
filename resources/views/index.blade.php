@@ -1,4 +1,7 @@
-@section('title','Lao Smart Tech')
+@section('title','Lao Smart Tech công ty thiết kế website, phần mềm, logo')
+@section('description','Đây là trang lao smat tech chuyên cung cấp giải pháp công nghệ thông tin và thiết kế website, phần mềm, logo, banner, network và đào tạo sinh viên')
+@section('keywords','lao smart tech, thiết kế website, xây dựng phần mềm, thiết kế logo, banner, thiết kế hệ thống network')
+
 @extends('layouts.template')
 
 @section('content')
@@ -14,50 +17,10 @@
             <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນການ SEO, ອອກແບບເວັບໄຊ, ອອກແບບໂປຣແກຣມ, ອອກແບບລະບົບເຄືອຂ່າຍ ແລະ ຝຶກອົບຮົມ. ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ແລະ ມີທີມງານມືອາຊີບທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
           </li>
           <li class="c-list1__item">
-            <figure>
-              <img src="/images/banner.webp" alt="ບໍລິສັດ lao smart tech ອອກແບບເວັບໄຊ">
-            </figure>
-          </li>
-        </ul>
-      </div>
-      <div class="p-home1__box">
-        <div class="p-home1__svg">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 19.6" preserveAspectRatio="none">
-            <path class="elementor-shape-fill" style="opacity:0.33" d="M0 0L0 18.8 141.8 4.1 283.5 18.8 283.5 0z"></path>
-            <path class="elementor-shape-fill" style="opacity:0.33" d="M0 0L0 12.6 141.8 4 283.5 12.6 283.5 0z"></path>
-            <path class="elementor-shape-fill" style="opacity:0.33" d="M0 0L0 6.4 141.8 4 283.5 6.4 283.5 0z"></path>
-            <path class="elementor-shape-fill" d="M0 0L0 1.2 141.8 4 283.5 1.2 283.5 0z"></path>
-          </svg>
-        </div>
-      </div>
-    </section>
- 
-    <section class="p-home2">
-      <div class="l-container">
-        <ul class="c-box1 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
-          <li class="c-box1__item">
-            <div class="c-box1__inner">
-              <div class="c-box1__icon">
-                <i class="fa fa-whatsapp"></i>
-              </div>
-              <div class="c-box1__info">
-                <h5 class="c-box1__tlt">ຕິດຕໍ່ WhatsApp</h5>
-                <p class="c-box1__txt">ສຳພັດຄຸນສົມບັດໃນການຕອບໂຕ້ຂອງລະບົບເວັບໄຊ ເຊິ່ງເປັນສີ່ງທີ່ລູກຄ້າຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
-                <a target="_blank" rel="noopener" href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&app_absent=0" class="c-box1__btn">ຕິດຕໍ່ຕອນນີ້</a>
-              </div>
-            </div>
-          </li>
-          <li class="c-box1__item">
-            <div class="c-box1__inner">
-              <div class="c-box1__icon">
-                <i class="fa fa-users"></i>
-              </div>
-              <div class="c-box1__info">
-                <h5 class="c-box1__tlt">ຂໍຄຳປຶກສາ</h5>
-                <p class="c-box1__txt">ເຂົ້າໃຈຜະລິດຕະພັນ, ສັນຍາ ແລະ ຜົນປະໂຫຍດຂອງລູກຄ້າທີ່ຈະໄດ້ຮັບເມື່ອໃຊ້ບໍລິການ.</p>
-                <a class="c-box1__btn" href="tel:02028266650"><i class="fa fa-phone"></i> 020 28266650</a>
-              </div>
-            </div>
+            <picture>
+              <source type="image/webp" srcset="{{ asset('images/banner.webp') }}"> 
+              <img src="{{ asset('images/banner.webp') }}" alt="ບໍລິສັດ lao smart tech ອອກແບບເວັບໄຊ">
+            </picture>
           </li>
         </ul>
       </div>
@@ -106,7 +69,7 @@
             <li class="c-box2__item">
               <div class="c-box2__inner">
                 <div class="c-box2__icon">
-                  <i class="fa fa-computer"></i>
+                  <i class="fa fa-drafting-compass"></i>
                 </div>
                 <h4 class="c-box2__tlt">ອອກແບບ ໂລໂກ...</h4>
                 <p class="c-box2__txt">ບໍລິການອອກແບບ Logo, Banner... ໂດຍທີມງານອອກແບບທີ່ເປັນມືອາຊີບ, ພວກເຮົາໝັ້ນໃຈທີ່ຈະມອບຜະລິດຕະພັນທີ່ດີທີ່ສຸດໃຫ້ກັບທ່ານ.</p>
@@ -423,12 +386,12 @@
                     <li class="c-list2__boxItem"><strong>⭐</strong>ແບນວິດ: ບໍ່ຈຳກັດ</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 3GB</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ພາສາ: ພາສາລາວ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ບໍ່ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ Mobile: ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 3GB</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ພາສາ: ພາສາລາວ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ສ່ວນຫຼຸດ: ບໍ່ມີ</li>
                   </ul>
                 </div>
                 <a href="#" data-service="1" class="c-btn1 js-btn-modal">ລົງທະບຽນ</a>
@@ -454,18 +417,19 @@
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ແບນວິດ: ບໍ່ຈຳກັດ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.la, .com, .org)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 5GB</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ພາສາ: ພາສາລາວ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ​ ເວັບໄຊ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ Mobile: ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Domain: ຟຣີ 1 ປີ (.la, .com, .org)</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 5GB</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ພາສາ: ພາສາລາວ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ​ ເວັບໄຊ</li>
                   </ul>
                 </div>
                 <a href="#" data-service="2" class="c-btn1 js-btn-modal">ລົງທະບຽນ</a>
               </div>
             </li>
+
             <li class="c-list2__item">
               <div class="c-list2__wrap">
                 <div class="c-list2__heading">
@@ -486,14 +450,14 @@
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ແບນວິດ: ບໍ່ຈຳກັດ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ຄວາມປອດໄພ: SSL</li>
 
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ Mobile: ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ຊ່ວຍເຫຼືອປ່ຽນແປງ SEO ຕາມເທນຫຼ້າສຸດຂອງ Google</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 10GB</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ມີ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ພາສາ: ພາສາລາວ, ອັງກິດ, ຫວຽດນາມ, ຈີນ</li>
-                    <li class="c-list2__boxItem">✅ &nbsp;ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ ​ເວັບໄຊ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ Mobile: ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ຊ່ວຍເຫຼືອປ່ຽນແປງ SEO ຕາມເທນຫຼ້າສຸດຂອງ Google</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 10GB</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ມີ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ພາສາ: ພາສາລາວ, ອັງກິດ, ຫວຽດນາມ, ຈີນ</li>
+                    <li class="c-list2__boxItem"><strong>✅ </strong>ສ່ວນຫຼຸດ: ຫຼຸດ 10% ຄ່າ​ບໍ​ລິ​ການບໍາລຸງຮັກສາ ​ເວັບໄຊ</li>
                   </ul>
                 </div>
                 <a href="#" data-service="3" class="c-btn1 js-btn-modal">ລົງທະບຽນ</a>
@@ -664,6 +628,7 @@
                 <div class="c-box3__content">
                   <h5 class="c-box3__tlt">Huawei Certification</h5>
                   <p class="c-box3__txt">ໃບຢັ້ງຢືນຫຼັກສູດສາກົນ HCIA Datacom
+                </div>
               </div>
               <div class="c-box3__inner">
                 <figure>
@@ -770,39 +735,46 @@
           </h2>
           <ul class="c-box5__content is-list1">
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img1.webp') }}" alt="">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img1.webp') }}"> 
+                <img src="{{ asset('images/img1.jpg') }}" alt="">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img2.webp') }}" alt="pxwebshop chuyên phân phối website">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img2.webp') }}"> 
+                <img src="{{ asset('images/img2.jpg') }}" alt="">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img3.webp') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img3.webp') }}"> 
+                <img src="{{ asset('images/img3.jpg') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img4.webp') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img4.webp') }}"> 
+                <img src="{{ asset('images/img4.jpg') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img5.webp') }}" alt="pxwebshop cung cấp website giá rẻ">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img5.webp') }}"> 
+                <img src="{{ asset('images/img5.jpg') }}" alt="pxwebshop cung cấp website giá rẻ">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img6.webp') }}" alt="pxwebshop chất lượng sản phẩm cao">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img6.webp') }}"> 
+                <img src="{{ asset('images/img6.jpg') }}" alt="pxwebshop chất lượng sản phẩm cao">
+              </picture>
             </li>
             <li class="c-box5__item">
-              <figure>
-                <img loading="lazy" src="{{ asset('images/img7.webp') }}" alt="pxwebshop thông tin người dùng ຄວາມປອດໄພ">
-              </figure>
+              <picture>
+                <source type="image/webp" srcset="{{ asset('images/img7.webp') }}"> 
+                <img src="{{ asset('images/img7.jpg') }}" alt="pxwebshop thông tin người dùng ຄວາມປອດໄພ">
+              </picture>
             </li>
           </ul>
         </div>
@@ -828,7 +800,8 @@
                 </figure>
                 <div class="c-list10__info">
                   <h3 class="c-list10__tlt">{{$item->title}}</h3>
-                  <p class="c-list10__date"><span>Ngày đăng: </span>{{ date('d-m-Y', strtotime($item->created_at)); }}</p>
+                  <p class="c-list10__date">
+                    <i class="fa fa-calendar" aria-hidden="true"></i> {{ date('d-m-Y', strtotime($item->created_at)); }}</p>
                   <ul class="c-list10__category">
                     @foreach($item->blog_category()->get() as $key => $value)
                       @if($key == 0)

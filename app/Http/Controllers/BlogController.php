@@ -14,9 +14,18 @@ class BlogController extends Controller
 
    public function detail($id, Request $request)
    {
-      $blog = Blog::find($id);
+      $tocGenerator = new \TOC\TocGenerator();
+
+      $blog = Blog::where('id',$id)->active()->first();
+      if (empty($blog)) {
+         abort(404);
+      }
       $blogs = Blog::where('id', '!=', $id)->get();
 
-      return view('blog', compact('blog', 'blogs'));
+      $markupFixer  = new \TOC\MarkupFixer();
+      $blog->content = $markupFixer->fix($blog->content);
+      $toc = $tocGenerator->getHtmlMenu($blog->content, 1,3);
+
+      return view('blog', compact('blog', 'blogs', 'toc'));
    }
 }

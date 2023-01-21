@@ -53,6 +53,7 @@ class BlogController extends Controller
          'status'             => $request->input('status'),
          'title'              => $request->input('title'),
          'content'            => $request->input('content'),
+         'description'        => $request->input('description'),
       ];
 
       $result = array_merge($data, $data1);
@@ -92,7 +93,7 @@ class BlogController extends Controller
       $blog->title = $request->get('title');
       $blog->content = $request->get('content');
       $blog->status = $request->get('status');
-      $blog->user_id = \Auth::user()->id;
+      $blog->description = $request->get('description');
       $fileOld = $blog->featured_image;
 
       \DB::beginTransaction();
@@ -137,7 +138,6 @@ class BlogController extends Controller
       return back();
    }
 
-
    public function delete($id, Request $request)
    {
       \DB::beginTransaction();
@@ -146,12 +146,12 @@ class BlogController extends Controller
          $blog->delete();
          \DB::commit();
          Toastr::success("Xoá bài viết thành công!");
-       } catch (\Exception $ex) {
+      } catch (\Exception $ex) {
          \DB::rollback();
          Toastr::error("Xoá bài viết thất bại!". $ex->getMessage());
-       }
+      }
 
-       return redirect()->route('list_blog');
+      return redirect()->route('list_blog');
    }
 
    public function outstanding(Request $request)

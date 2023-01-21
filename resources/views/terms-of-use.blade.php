@@ -1,7 +1,10 @@
 @section('title','Điều khoản sử dụng')
+@section('description','Những qui định khi sử dụng dịch vụ công ty lao smart tech cần biết để khách hàng sử dụng tốt nhất.')
+@section('keywords','lao smart tech, thiết kế website, phần mềm, seo, content marketing')
 @extends('layouts.template')
 
 @section('content')
+
 <main class="p-termsOfUse" id="term-of-use">
     <div class="c-box13">
         <div class="c-box13__inner">
@@ -9,7 +12,7 @@
                 <h2 class="c-box13__tlt">Điều khoản sử dụng</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
+                        <a class="c-breadcrumb__link" href="/#home">Trang chủ</a>
                     </li>
                     <li class="c-breadcrumb__item">
                         <span class="c-breadcrumb__txt">điều khoản</span>
@@ -88,4 +91,5 @@ Pxwebshop.com sẽ hoàn lại tiền trong trường hợp không cung cấp v�
         </div>
     </section>
 </main>
+
 @endsection

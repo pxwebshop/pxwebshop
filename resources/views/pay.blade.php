@@ -1,4 +1,6 @@
 @section('title','ການຊຳລະເງິນ')
+@section('description','Trang thanh toán cho người dùng xem chi tiết thông tin để thanh toán sản phẩm dịch vụ')
+@section('keywords','chuyển khoản, dịch vụ, thiết kế website, logo')
 @extends('layouts.template')
 
 @section('content')
@@ -9,7 +11,7 @@
                 <h2 class="c-box13__tlt">ຂໍ້ມູນການຊຳລະເງິນ</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">ໜ້າຫຼັກ</a>
+                        <a class="c-breadcrumb__link" href="/#home">ໜ້າຫຼັກ</a>
                     </li>
                     <li class="c-breadcrumb__item">
                         <span class="c-breadcrumb__txt">ການຊຳລະເງິນ</span>
@@ -32,6 +34,12 @@
             <p class="p-pay1__contact">Email: 
                 <span>laosmarttech@gmail.com</span>
             </p>
+            <p class="p-pay1__contact">WhatSapp: 
+                <a class="p-pay1__contact__link" href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer nofollow">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+            </p>
+
             <h2 class="c-title2">
                 <span class="c-title2__text">
                 ຂໍ້ມູນ <span class="c-title2__color1">ການຊຳລະເງິນ</span>
@@ -96,4 +104,5 @@
         </div>
     </section>
 </main>
+
 @endsection

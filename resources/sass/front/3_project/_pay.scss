@@ -24,11 +24,24 @@
                 text-decoration: none;
                 color: black;
             }
+            &__link {
+                i {
+                    font-size: 2.0rem;
+                    color: green;
+                    margin-left: 3px;
+                }
+            }
         }
         &__box {
             &:first-child {
                 margin-bottom: 20px;
             }
         }
+        .c-title2 {
+            margin-top: 40px;
+            @include sp() {
+                margin-top: 20px;
+            }
+        }
     }
-  }
+}

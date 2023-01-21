@@ -1,4 +1,6 @@
-@section('title','ຕິດຕໍ່')
+@section('title','Liên hệ')
+@section('description', 'Liên hệ lao smart tech để biết thêm thông tin và có nhiều ưu đãi hấp dẫn')
+@section('keywords','liên hệ lao smart tech, thiết kế website, đăng ký dịch vụ')
 @extends('layouts.template')
 
 @section('content')
@@ -9,7 +11,7 @@
                 <h2 class="c-box13__tlt">ຂໍ້​ມູນ​ຕິດ​ຕໍ່</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">ໜ້າຫຼັກ</a>
+                        <a class="c-breadcrumb__link" href="/#home">ໜ້າຫຼັກ</a>
                     </li>
                     <li class="c-breadcrumb__item">
                         <span class="c-breadcrumb__txt">​ຕິດ​ຕໍ່</span>
@@ -55,6 +57,7 @@
                                     <div class="c-box8__address__text">
                                         <h5>Email</h5>						
                                         <p>laosmarttech@gmail.com</p>
+                                        
                                     </div>
                                 </li>
                             </ul>

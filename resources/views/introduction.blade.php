@@ -1,4 +1,6 @@
-@section('title','ແນະນຳ')
+@section('title','Giới thiệu')
+@section('description','Thành viên lao smart tech với nhiều năm kinh nghiệm trong lĩnh vực công nghệ thông tin luôn đem giải pháp tiện ích đến cho người dùng')
+@section('keywords','network, trainer, developer, designer, công ty công nghệ')
 @extends('layouts.template')
 
 @section('content')
@@ -9,7 +11,7 @@
                 <h2 class="c-box13__tlt">ກ່ຽວກັບທີມງານ</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">ໜ້າຫຼັກ</a>
+                        <a class="c-breadcrumb__link" href="/#home">ໜ້າຫຼັກ</a>
                     </li>
                     <li class="c-breadcrumb__item">
                         <span class="c-breadcrumb__txt">ທີມງານ</span>
@@ -136,4 +138,5 @@
         </div>
     </section>
 </main>
+
 @endsection

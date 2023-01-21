@@ -28,6 +28,7 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
+
 <div class="c-footer wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
     <div class="l-container">
         <div class="c-footer__inner">

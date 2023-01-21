@@ -1,7 +1,10 @@
 @section('title','Chính sách bảo mật')
+@section('description','Chính sách bảo mật luôn luôn quan trọng trong dịch vụ công ty lao smart tech')
+@section('keywords','privacy policy, thiết kế website, logo, banner, phần mềm')
 @extends('layouts.template')
 
 @section('content')
+
 <main class="p-privacyPolicy" id="privacy-policy">
     <div class="c-box13">
         <div class="c-box13__inner">
@@ -9,7 +12,7 @@
                 <h2 class="c-box13__tlt">Chính sách bảo mật</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="#home">Trang chủ</a>
+                        <a class="c-breadcrumb__link" href="/#home">Trang chủ</a>
                     </li>
                     <li class="c-breadcrumb__item">
                         <span class="c-breadcrumb__txt">Bảo mật</span>
@@ -94,4 +97,5 @@
         </div>
     </section>
 </main>
+
 @endsection

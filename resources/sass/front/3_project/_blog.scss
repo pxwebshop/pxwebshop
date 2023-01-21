@@ -43,7 +43,7 @@ Page blog
                     }
                     &:before {
                         content: "";
-                        left: -5px;
+                        left: 0px;
                         top: 0;
                         display: block;
                         width: 5px;
@@ -58,6 +58,7 @@ Page blog
                 }
                 h3 {
                     font-size: 1.9rem;
+                    color: #1E1666;
                     @include sp() {
                         font-size: 1.7rem;
                     }
@@ -65,9 +66,16 @@ Page blog
                 p {
                     line-height: 1.8;
                     text-align: justify;
+                    margin-bottom: 10px;
                     @include sp() {
                         line-height: 1.5;
+                        margin-bottom: 5px;
                     }
+                }
+                blockquote {
+                    border-left: 6px solid #ccc;
+                    font-style: italic;
+                    padding-left: 10px;
                 }
             }
         }
