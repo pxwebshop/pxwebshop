@@ -34,33 +34,26 @@
                     <li class="c-box9__item">
                         <p class="c-box9__tlt">1. ຂໍ້ມູນທີ່ພວກເຮົາເກັບກໍາ</p>
                         <p class="c-box9__txt">
-    Để có thể sử dụng đầy đủ các tiện ích trên laosmarttech.com , bạn cần phải đăng ký thành viên và cung cấp các thông tin cá nhân của mình. Chúng tôi có thể thu thập các thông tin sau về bạn:
-    Tên công ty, cửa hàng, lĩnh vực kinh doanh
-    Họ tên, tuổi, địa chỉ cư trú
-    Email, số điện thoại di động, số điện thoại bàn
-    Địa chỉ IP (Internet Protocol), loại trình duyệt web (Browser), tốc độ đường truyền, số trang bạn xem, thời gian bạn viếng thăm, những địa chỉ mà Browser này truy xuất đến.
+                            ເພື່ອໃຫ້ສາມາດນຳໃຊ້ບັນດາຄຸນສົມບັດຂອງ laosmarttech.com ໄດ້ຢ່າງຄົບຖ້ວນ, ທ່ານຕ້ອງລົງທະບຽນເປັນສະມາຊິກ ແລະ ສະໜອງຂໍ້ມູນສ່ວນຕົວຂອງທ່ານ. ພວກ​ເຮົາ​ອາດ​ຈະ​ເກັບ​ກໍາ​ຂໍ້​ມູນ​ດັ່ງ​ຕໍ່​ໄປ​ນີ້​ກ່ຽວ​ກັບ​ທ່ານ​: 
+                            ຊື່​ບໍ​ລິ​ສັດ​, ຮ້ານ​ຄ້າ​​, ອາ​ຍຸ​, ທີ່​ຢູ່​ອາ​ໄສ​, ອີ​ເມວ​, ເບີ​ໂທລະ​ສັບ​​, ຄວາມ​ໄວໃນ​ການ​ເຊື່ອມ​ຕໍ່​, ຈໍາ​ນວນ​ຂອງ​ຫນ້າ​​ ແລະ ເວ​ລາ​ທີ່​ທ່ານເຂົ້າ​ຊົມເວບໄຊ​.
                         </p>
                     </li>
                     <li class="c-box9__item">
                         <p class="c-box9__tlt">2. ການເກັບຮັກສາຂໍ້ມູນສ່ວນຕົວ</p>
                         <p class="c-box9__txt">
-                            Chúng tôi lưu trữ và xử lý thông tin cá nhân của bạn trên máy chủ, chúng tôi bảo vệ nó bằng các biện pháp bảo vệ vật lý, điện tử bao gồm: tường lửa, mã hóa dữ liệu và thủ tục áp dụng theo quy định của luật bảo mật thông tin. laosmarttech.com thực thi kiểm soát truy cập vật lý vào các thông tin, và chúng tôi chỉ cho phép truy cập thông tin cá nhân đối với những nhân viên cần nó để hoàn thành trách nhiệm công việc của họ trong hệ thống laosmarttech.com .
+                            ພວກ​ເຮົາ​ເກັບ​ຮັກ​ສາ ​ແລະ ຈັດການ​ຂໍ້​ມູນ​ສ່ວນ​ຕົວ​ຂອງ​ທ່ານເທີ່ງເຄື່ອງເຊີບເວີ ໂດຍມີກົນໄກໃນການປົກປ້ອງທາງກາຍະພາບ ແລະ ເອ​ເລັກ​ໂຕຣ​ນິກ ເຊັ່ນ: ແຟຣ​ວໍ, ການ​ເຂົ້າ​ລະ​ຫັດ​ຂໍ້​ມູນ ແລະ​ ປະຕິບັດຕາມ​ກົດ​ຫມາຍວ່າດ້ວຍການຮັກສາ​ຄວາມ​ປອດ​ໄພຂອງ​ຂໍ້​ມູນ​ຂ່າວ​ສານ​.
+                            laosmarttech.com ບັງຄັບໃຊ້ການຄວບຄຸມການເຂົ້າເຖິງຂໍ້ມູນທາງກາຍະພາບ ແລະ ອະນຸຍາດໃຫ້ເຂົ້າເຖິງຂໍ້ມູນສ່ວນຕົວແກ່ພະນັກງານເພື່ອດຳເນີນການຕາມໜ້າທີ່ຮັບຜິດຊອບໃນລະບົບ laosmarttech.com ເທົ່ານັ້ນ.
                         </p>
                     </li>
                     <li class="c-box9__item">
                         <p class="c-box9__tlt">3. ການ​ນໍາ​ໃຊ້​ຂໍ້​ມູນ​ຂອງ​ທ່ານ​</p>
                         <p class="c-box9__txt">
-                            Mục tiêu của laosmarttech.com là mang lại cho doanh nghiệp, người dùng một hạ tầng dịch vụ phục vụ quảng bá và phát triển thương hiệu, mở rộng kinh doanh trên Internet một cách hiệu quả, tối ưu về chi phí và thời gian. Vì vậy, chúng tôi sử dụng thông tin cá nhân của bạn nhằm:
-    Cung cấp thông tin, các dịch vụ và hỗ trợ theo yêu cầu của bạn
-    Gửi email thông báo các chương trình khuyến mãi, gia hạn dịch vụ, sự kiện tiêu biểu của chúng tôi
-    Giải quyết các tranh chấp, các vấn đề phát sinh liên quan đến việc sử dụng website
-    Ngăn chặn các hoạt động phạm pháp hoặc bị cấm được nếu trong Quy định sử dụng
-    Đo lường và cải thiện các dịch vụ của chúng tôi
-    So sánh, đối chiếu tính chính xác của thông tin mà bạn cung cấp với bên thứ ba
-                        </p>
+                            ເປົ້າໝາຍຂອງ laosmarttech.com ແມ່ນເພື່ອນຳເອົາທຸລະກິດ ແລະ ຜູ້ຊົມໃຊ້ສູ່ພື້ນຖານໂຄງລ່າງການບໍລິການເພື່ອສົ່ງເສີມ ແລະ ພັດທະນາແບນ, ຂະຫຍາຍທຸລະກິດໃນອິນເຕີເນັດຢ່າງມີປະສິດທິພາບ ດ້ວຍລາຄາ ແລະ ເວລາທີ່ເໝາະສົມ.
+                        </p>ດັ່ງນັ້ນ, ພວກເຮົານຳໃຊ້ຂໍ້ມູນສ່ວນຕົວຂອງທ່ານເພື່ອ: ສະຫນອງຂໍ້ມູນ ບັນດາບໍລິການ ແລະ ການສະຫນັບສະຫນູນຕາມຄໍາຮ້ອງຂໍຂອງທ່ານ ອີເມວແຈ້ງການກ່ຽວກັບໂປໂມຊັ່ນ, ການຕໍ່ອາຍຸການບໍລິການ, ເຫດການປົກກະຕິຂອງພວກເຮົາແກ້ໄຂຂໍ້ຂັດແຍ້ງ, 
+                            ບັນຫາທີ່ເກີດຂື້ນທີ່ກ່ຽວຂ້ອງກັບການນໍາໃຊ້ເວັບໄຊທ໌ປ້ອງກັນກິດຈະກໍາທີ່ຜິດກົດຫມາຍຫຼືຖືກຫ້າມຖ້າຢູ່ໃນ ເງື່ອນໄຂການນໍາໃຊ້ ວັດແທກ ແລະປັບປຸງການບໍລິການຂອງພວກເຮົາ ປຽບທຽບ ປຽບທຽບ ແລະກົງກັນຂ້າມກັບຄວາມຖືກຕ້ອງຂອງຂໍ້ມູນທີ່ທ່ານສະໜອງໃຫ້ກັບພາກສ່ວນທີສາມ
                     </li>
                     <li class="c-box9__item">
-                        <p class="c-box9__tlt">4. ເປີດ​ເຜີຍ​ຂໍ້​ມູນ​ຂອງ​ທ່ານ​</p>
+                        <p class="c-box9__tlt">4. ການເປີດ​ເຜີຍ​ຂໍ້​ມູນ​ຂອງ​ທ່ານ​</p>
                         <p class="c-box9__txt">
                             Chúng tôi cam kết không cung cấp thông tin cá nhân của bạn cho bất kỳ bên thứ ba nào. Tuy nhiên, chúng tôi có thể tiết lộ thông tin cá nhân của bạn trong một số trường hợp dưới đây:
     Chúng tôi được bạn đồng ý tiết lộ những thông tin này
@@ -88,7 +81,7 @@
                     <li class="c-box9__item">
                         <p class="c-box9__tlt">7. ຕິດຕໍ່ ແລະ ແລກປ່ຽນຂໍ້ມູນ</p>
                         <p class="c-box9__txt">
-                            ພວກເຮົາຈະຕິດຕໍ່ ແລະ ແລກປ່ຽນຂໍ້ມູນ ຜ່ານທີ່ຢູ່ອີເມວທີ່ທ່ານໃຫ້ໄວ້ເມື່ອເວລາລົງທະບຽນໃຊ້ບໍລິການ ໃນ​ກໍ​ລະ​ນີ​ທີ່​ມີ​ການ​ປ່ຽນ​ແປງ ​ຫຼື ​​ພົບເຫັນ​ການ​ນໍາ​ໃຊ້ທີ່​ຢູ່​ອີ​ເມວຂອງ​ທ່ານ​ທີ່​ບໍ່ຖືກຕ້ອງ ກະ​ລຸ​ນາ​ແຈ້ງຫາ​ພວກ​ເຮົາ​ທັນ​ທີເພື່ອຫາວິທີແກ້ໄຂໄດ້ຢ່າງ​​ທັນ​ເວ​ລາ​.
+                            ພວກເຮົາຈະຕິດຕໍ່ ແລະ ແລກປ່ຽນຂໍ້ມູນ ຜ່ານທີ່ຢູ່ອີເມວທີ່ທ່ານໃຫ້ໄວ້ເມື່ອເວລາລົງທະບຽນໃຊ້ບໍລິການ ໃນ​ກໍ​ລະ​ນີ​ທີ່​ມີ​ການ​ປ່ຽນ​ແປງ ​ຫຼື ​​ພົບເຫັນ​ການ​ນໍາ​ໃຊ້ທີ່​ຢູ່​ອີ​ເມວຂອງ​ທ່ານ​ຢ່າງບໍ່ຖືກຕ້ອງ ກະ​ລຸ​ນາ​ແຈ້ງຫາ​ພວກ​ເຮົາ​ທັນ​ທີເພື່ອຫາວິທີແກ້ໄຂໄດ້ຢ່າງ​​ທັນ​ເວ​ລາ​.
                         </p>
                     </li>
                 </ul>
