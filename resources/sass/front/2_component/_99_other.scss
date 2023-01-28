@@ -1197,3 +1197,10 @@ other
         z-index: 9 !important;
     }
 }
+#fb-root {
+    .container {
+        @include sp() {
+            z-index: -1 !important;
+        }
+    }
+}
