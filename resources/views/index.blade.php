@@ -14,7 +14,7 @@
               <span class="c-title1__txt">ເປັນຜູ້ນຳ</span>
               <span class="c-title1__color1">ໃນດ້ານເຕັກໂນໂລຊີ</span>
             </h1>
-            <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນການ SEO, ອອກແບບເວັບໄຊ, ພັດທະນາໂປຣແກຣມ, ອອກແບບລະບົບເຄືອຂ່າຍ ແລະ ຈັດຝຶກອົບຮົມ. ໂດຍທີມງານມືອາຊີບ ແລະ ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
+            <p class="c-title1__description">Lao Smart Tech ເປັນຜູ້ນຳໃນການ ອອກແບບເວັບໄຊ, ພັດທະນາໂປຣແກຣມ, ອອກແບບລະບົບເຄືອຂ່າຍ ແລະ ຈັດຝຶກອົບຮົມ. ໂດຍທີມງານມືອາຊີບ ແລະ ມີປະສົບການຫຼາຍກວ່າ 7 ປີ ທີ່ໄດ້ຮັບການຝຶກອົບຮົມສະເພາະດ້ານ.</p>
           </li>
           <li class="c-list1__item">
             <picture>
@@ -411,6 +411,7 @@
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ສົ່ງມອບ: Source Code ທັງໝົດ</li>
+                    <li class="c-list2__boxItem"><strong>⭐</strong>ຮັບປະກັນ: ຕະຫຼອດການໃຊ້ງານ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ບໍາລຸງຮັກສາ: 1 ປີ</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ແບບເວັບໄຊ: ອອກແບບຕາມຄວາມຕ້ອງການຂອງລູກຄ້າ</li>
