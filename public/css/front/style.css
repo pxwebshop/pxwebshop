@@ -2182,6 +2182,7 @@ other
   width: 100%;
   transition: 0.3s ease-in-out;
   transform: translate(0px, -100%);
+  z-index: -1;
 }
 .c-box3__item--style1 .c-box3__content {
   transform: translate(-100%, 0%);
@@ -2196,6 +2197,7 @@ other
 }
 @media screen and (min-width: 768px) {
   .c-box3__inner:hover .c-box3__content {
+    z-index: 999;
     opacity: 1;
     transform: translate(0px, 0%);
   }

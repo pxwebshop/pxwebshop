@@ -252,7 +252,7 @@ other
         width: 100%;
         transition: 0.3s ease-in-out;
         transform: translate(0px, -100%);
-
+        z-index: -1;
         #{$root}__item--style1 & {
             transform: translate(-100%, 0%);
         }
@@ -266,6 +266,7 @@ other
         position: relative;
         @include hover() {
             #{$root}__content {
+                z-index: 999;
                 opacity: 1;
                 transform: translate(0px, 0%);
             }
