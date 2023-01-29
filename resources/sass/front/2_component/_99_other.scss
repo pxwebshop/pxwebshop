@@ -325,8 +325,11 @@ other
     &__inner {
         background-color: #FFFFFF26;
         border-radius: 15px;
-        padding: 40px 20px;
+        padding: 30px 20px;
         transition: 0.2s;
+        @include sp() {
+            padding: 20px 20px;
+        }
         @include hover() {
             transform: translateY(-10px);
         }

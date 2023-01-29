@@ -2251,8 +2251,13 @@ other
 .c-box4__inner {
   background-color: rgba(255, 255, 255, 0.1490196078);
   border-radius: 15px;
-  padding: 40px 20px;
+  padding: 30px 20px;
   transition: 0.2s;
+}
+@media screen and (max-width: 767px) {
+  .c-box4__inner {
+    padding: 20px 20px;
+  }
 }
 @media screen and (min-width: 768px) {
   .c-box4__inner:hover {
@@ -3258,11 +3263,6 @@ Page Top
   .p-home8 {
     padding-top: 40px;
     padding-bottom: 30px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .p-home8 .c-title2__text {
-    font-size: 1.8rem;
   }
 }
 .p-home8 .c-box4 .c-title2__text, .p-home8 .c-box4 .c-title2__text1 {

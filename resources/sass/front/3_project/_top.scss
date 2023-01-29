@@ -80,13 +80,7 @@ Page Top
             padding-top: 40px;
             padding-bottom: 30px;
         }
-        .c-title2 {
-            &__text {
-                @include sp() {
-                    font-size: 1.8rem;
-                }
-            }
-        }
+       
         .c-box4 {
             .c-title2 {
                 &__text,&__text1 {
