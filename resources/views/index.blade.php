@@ -737,44 +737,32 @@
           <ul class="c-box5__content is-list1">
             <li class="c-box5__item">
               <picture>
-                <source type="image/webp" srcset="{{ asset('images/img1.webp') }}"> 
-                <img src="{{ asset('images/img1.jpg') }}" alt="">
+                <source type="image/webp" srcset="{{ asset('images/partner/img1.webp') }}"> 
+                <img src="{{ asset('images/partner/img1.png') }}" alt="">
               </picture>
             </li>
             <li class="c-box5__item">
               <picture>
-                <source type="image/webp" srcset="{{ asset('images/img2.webp') }}"> 
-                <img src="{{ asset('images/img2.jpg') }}" alt="">
+                <source type="image/webp" srcset="{{ asset('images/partner/img2.webp') }}"> 
+                <img src="{{ asset('images/partner/img2.png') }}" alt="">
               </picture>
             </li>
             <li class="c-box5__item">
               <picture>
-                <source type="image/webp" srcset="{{ asset('images/img3.webp') }}"> 
-                <img src="{{ asset('images/img3.jpg') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
+                <source type="image/webp" srcset="{{ asset('images/partner/img3.webp') }}"> 
+                <img src="{{ asset('images/partner/img3.png') }}" alt="pxwebshop đi đầu trong lĩnh vực phần mềm quản lý">
               </picture>
             </li>
             <li class="c-box5__item">
               <picture>
-                <source type="image/webp" srcset="{{ asset('images/img4.webp') }}"> 
-                <img src="{{ asset('images/img4.jpg') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
+                <source type="image/webp" srcset="{{ asset('images/partner/img4.webp') }}"> 
+                <img src="{{ asset('images/partner/img4.png') }}" alt="pxwebshop chuyển quảng cáo sản phẩm">
               </picture>
             </li>
             <li class="c-box5__item">
               <picture>
-                <source type="image/webp" srcset="{{ asset('images/img5.webp') }}"> 
-                <img src="{{ asset('images/img5.jpg') }}" alt="pxwebshop cung cấp website giá rẻ">
-              </picture>
-            </li>
-            <li class="c-box5__item">
-              <picture>
-                <source type="image/webp" srcset="{{ asset('images/img6.webp') }}"> 
-                <img src="{{ asset('images/img6.jpg') }}" alt="pxwebshop chất lượng sản phẩm cao">
-              </picture>
-            </li>
-            <li class="c-box5__item">
-              <picture>
-                <source type="image/webp" srcset="{{ asset('images/img7.webp') }}"> 
-                <img src="{{ asset('images/img7.jpg') }}" alt="pxwebshop thông tin người dùng ຄວາມປອດໄພ">
+                <source type="image/webp" srcset="{{ asset('images/partner/img5.webp') }}"> 
+                <img src="{{ asset('images/partner/img5.png') }}" alt="pxwebshop cung cấp website giá rẻ">
               </picture>
             </li>
           </ul>

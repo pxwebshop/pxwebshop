@@ -389,6 +389,8 @@ other
     &__item {
         width: 20%;
         padding: 0 10px;
+        display: flex !important;
+        align-items: center;
     }
 }
 

@@ -38,9 +38,8 @@
             }
         }
         .c-title2 {
-            margin-top: 40px;
             @include sp() {
-                margin-top: 20px;
+                margin-top: 10px;
             }
         }
     }
