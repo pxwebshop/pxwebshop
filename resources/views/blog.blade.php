@@ -1,6 +1,6 @@
-@section('title','Bài viết')
-@section('description','Đây là trang lao smat tech chuyên cung cấp giải pháp công nghệ thông tin và thiết kế website, phần mềm, logo, banner, network và đào tạo sinh viên')
-@section('keywords','lao smart tech, thiết kế website, xây dựng phần mềm, thiết kế logo, banner, thiết kế hệ thống network')
+@section('title','ບົດຄວາມ')
+@section('description','lao smart tech ມີຄວາມຊ່ຽວຊານໃນການສະຫນອງການແກ້ໄຂເຕັກໂນໂລຢີຂໍ້ມູນຂ່າວສານ ແລະ ການອອກແບບເວັບໄຊ, ໂປຣແກຣມ, ໂລໂກ, ແບນເນີ, ເຄືອຂ່າຍ ແລະ ຈັດຝຶກອົບຮົມ')
+@section('keywords','lao smart tech, ອອກແບບເວັບໄຊ, ອອກແບບເວັບໄຊ, ສ້າງເວັບໄຊ, ຂຽນເວັບໄຊ, ພັດທະນາເວັບໄຊ, ອອກແບບໂປຣແກຣມ, ຂຽນໂປຣແກຣມ, ພັດທະນາໂປຣແກຣມ ອອກແບບໂລໂກ, banner, ອອກແບບລະບົບເຄືອຂ່າຍ, ຝຶກອົບຮົມ')
 @extends('layouts.template')
 
 @section('content')

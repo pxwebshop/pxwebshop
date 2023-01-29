@@ -1,6 +1,6 @@
-@section('title','Giới thiệu')
-@section('description','Thành viên lao smart tech với nhiều năm kinh nghiệm trong lĩnh vực công nghệ thông tin luôn đem giải pháp tiện ích đến cho người dùng')
-@section('keywords','network, trainer, developer, designer, công ty công nghệ')
+@section('title','ທີມງານ')
+@section('description','ທີມງານ lao smart tech ດ້ວຍປະສົບການຫຼາຍກ່ວາ 7 ປີໃນດ້ານເຕັກໂນໂລຊີການສື່ສານ ແລະ ຂໍ້ມູນຂ່າວສານ ພວກເຮົາມີຄວາມມຸ່ງໝັ້ນທີ່ຈະນໍາເອົາສີ່ງທີ່ດີທີ່ສຸດໃຫ້ແກ່ລູກຄ້າຂອງພວກເຮົາ.')
+@section('keywords','network, trainer, developer, designer, ບໍລິສັດ ເຕັກໂນໂລຊີ,​ ບ້ານອັດສະລິຍະ')
 @extends('layouts.template')
 
 @section('content')

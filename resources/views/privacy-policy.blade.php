@@ -1,6 +1,6 @@
 @section('title','ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ')
-@section('description','Chính sách bảo mật luôn luôn quan trọng trong dịch vụ công ty lao smart tech')
-@section('keywords','privacy policy, thiết kế website, logo, banner, phần mềm')
+@section('description','ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວສຳຄັນທີ່ສຸດສຳລັບ lao smart tech')
+@section('keywords','privacy policy, ອອກແບບເວັບໄຊ, logo, banner, ໂປແກມ')
 @extends('layouts.template')
 
 @section('content')

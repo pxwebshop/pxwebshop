@@ -1,6 +1,6 @@
-@section('title','Liên hệ')
-@section('description', 'Liên hệ lao smart tech để biết thêm thông tin và có nhiều ưu đãi hấp dẫn')
-@section('keywords','liên hệ lao smart tech, thiết kế website, đăng ký dịch vụ')
+@section('title','ຕິດຕໍ່')
+@section('description', 'ຕິດຕໍ່ lao smart tech ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ')
+@section('keywords','ຕິດຕໍ່ lao smart tech, ອອກແບບເວັບໄຊ, ລົງທະບຽນໃຊ້ບໍລິການ')
 @extends('layouts.template')
 
 @section('content')

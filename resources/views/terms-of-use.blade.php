@@ -1,6 +1,6 @@
-@section('title','Điều khoản sử dụng')
-@section('description','Những qui định khi sử dụng dịch vụ công ty lao smart tech cần biết để khách hàng sử dụng tốt nhất.')
-@section('keywords','lao smart tech, thiết kế website, phần mềm, seo, content marketing')
+@section('title','ເງື່ອນໄຂການນໍາໃຊ້')
+@section('description','ບັນດາເງືອນໄຂການນຳໃຊ້ບໍລິການຂອງ lao smart tech.')
+@section('keywords','lao smart tech, ອອກແບບເວັບໄຊ, ໂປຣແກຣມ, seo, content marketing')
 @extends('layouts.template')
 
 @section('content')
