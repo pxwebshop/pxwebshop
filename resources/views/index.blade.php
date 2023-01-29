@@ -25,7 +25,6 @@
         </ul>
       </div>
     </section>
-
     <section class="p-home3" id="service">
       <div class="l-container">
         <div class="c-box2 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
