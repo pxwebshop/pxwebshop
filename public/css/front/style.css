@@ -2301,13 +2301,12 @@ other
 .c-box5 {
   margin-top: 70px;
   background-color: #fff;
-  padding: 40px 10px;
+  padding: 20px 10px;
   border-radius: 20px;
 }
 @media screen and (max-width: 767px) {
   .c-box5 {
     margin-top: 20px;
-    padding: 20px 10px;
   }
 }
 .c-box5__content {
@@ -2324,8 +2323,6 @@ other
 .c-box5__item {
   width: 20%;
   padding: 0 10px;
-  display: flex !important;
-  align-items: center;
 }
 
 .c-box6 {

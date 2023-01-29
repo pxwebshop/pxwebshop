@@ -371,11 +371,10 @@ other
 .c-box5 {
     margin-top: 70px;
     background-color: #fff;
-    padding: 40px 10px;
+    padding: 20px 10px;
     border-radius: 20px;
     @include sp() {
         margin-top: 20px;
-        padding: 20px 10px;
     }
     &__content {
         width: 100%;
@@ -389,8 +388,6 @@ other
     &__item {
         width: 20%;
         padding: 0 10px;
-        display: flex !important;
-        align-items: center;
     }
 }
 
