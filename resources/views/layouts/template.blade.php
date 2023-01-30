@@ -58,7 +58,7 @@
                     </a>
                 </li>
                 <li class="c-list12__data">
-                    <a target="_blank" rel="noopener" href="https://m.me/105912482337654">
+                    <a target="_blank" rel="noopener" href="https://m.me/117009914627010">
                         <div class="c-list12__icon">
                             <i class="fab fa-facebook-messenger" aria-hidden="true"></i>
                         </div>
