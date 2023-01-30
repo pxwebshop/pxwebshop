@@ -38,17 +38,63 @@
         </div>
     </div>
 
-    <div class="c-box15">
+    <div class="c-list12">
+        <div class="is-content">
+            <ul class="c-list12__content">
+                <li class="c-list12__data">
+                    <a target="_blank" rel="noopener" href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&amp;app_absent=0">
+                        <div class="c-list12__icon">
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        </div>
+                        <p>Whatsapp</p>
+                    </a>
+                </li>
+                <li class="c-list12__data">
+                    <a href="tel:02028266650">
+                        <div class="c-list12__icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <p>Callback request</p>
+                    </a>
+                </li>
+                <li class="c-list12__data">
+                    <a target="_blank" rel="noopener" href="https://m.me/105912482337654">
+                        <div class="c-list12__icon">
+                            <i class="fab fa-facebook-messenger" aria-hidden="true"></i>
+                        </div>
+                        <p>Messenger</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <ul class="c-list12__inner">
+            <li class="c-list12__item">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            </li>
+            <li class="c-list12__item">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+            </li>
+            <li class="c-list12__item">
+                <div class="c-list12__item__svg">
+                    <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Canvas" transform="translate(-825 -308)"><g id="Vector"><use xlink:href="#path0_fill0123" transform="translate(825 308)" fill="currentColor"></use></g></g><defs><path id="path0_fill0123" d="M 19 4L 17 4L 17 13L 4 13L 4 15C 4 15.55 4.45 16 5 16L 16 16L 20 20L 20 5C 20 4.45 19.55 4 19 4ZM 15 10L 15 1C 15 0.45 14.55 0 14 0L 1 0C 0.45 0 0 0.45 0 1L 0 15L 4 11L 14 11C 14.55 11 15 10.55 15 10Z"></path></defs></svg>
+                    <p>ຕິດ​ຕໍ່​ພວກ​ເຮົາ</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    {{-- <div class="c-box15">
         <div class="c-btn2">
             <div class="c-btn2__inner">
                 <div class="c-btn2__fill"></div>
                 <div class="c-btn2__icon">
                     <a target="_blank" rel="noopener" href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&amp;app_absent=0">
-                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                       
                     </a>
                 </div>
             </div>
         </div>
+
 
         <div class="c-btn2 c-btn2--style1">
             <div class="c-btn2__inner">
@@ -60,7 +106,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <script src="{{ asset('js/jquery.min.js')}} "></script>
 
