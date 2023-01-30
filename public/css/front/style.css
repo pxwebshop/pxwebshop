@@ -3236,19 +3236,6 @@ other
   color: #fff;
 }
 
-.c-box15 {
-  position: fixed;
-  top: 40%;
-  left: 20px;
-}
-@media screen and (max-width: 767px) {
-  .c-box15 {
-    top: auto;
-    bottom: 90px;
-    left: 10px;
-  }
-}
-
 .c-toc ul > li {
   position: relative;
   display: flex;
