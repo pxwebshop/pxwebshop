@@ -6,16 +6,16 @@ Page Top
 ------------------------------------------------------------*/
 .p-home {
     &1 {
-        .c-title1 {
-            color: #1E1666;
-            &__description {
-                color: #242d4c;
-            }
-        }
-        background: linear-gradient(90deg, rgba(50,255,198,1) 0%, rgba(50,154,255,1) 45%, rgba(63,140,232,1) 100%);
+        background: linear-gradient(105deg, rgb(110, 153, 230), rgb(9, 60, 148));
         padding-bottom: 50px;
         @include sp() {
             padding-bottom: 20px;
+        }
+        .c-title1 {
+            color: #fff;
+            &__description {
+                color: #fff;
+            }
         }
     }
  

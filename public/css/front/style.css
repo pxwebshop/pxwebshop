@@ -547,7 +547,7 @@ header
   opacity: 0.6;
 }
 .c-header--style1 {
-  background: linear-gradient(90deg, rgb(50, 255, 198) 0%, rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
+  background: linear-gradient(105deg, rgb(110, 153, 230), rgb(9, 60, 148));
 }
 .c-header--style1 .c-header__link {
   color: #fff;
@@ -3180,19 +3180,19 @@ Page Top
 /*
 ------------------------------------------------------------*/
 .p-home1 {
-  background: linear-gradient(90deg, rgb(50, 255, 198) 0%, rgb(50, 154, 255) 45%, rgb(63, 140, 232) 100%);
+  background: linear-gradient(105deg, rgb(110, 153, 230), rgb(9, 60, 148));
   padding-bottom: 50px;
-}
-.p-home1 .c-title1 {
-  color: #1E1666;
-}
-.p-home1 .c-title1__description {
-  color: #242d4c;
 }
 @media screen and (max-width: 767px) {
   .p-home1 {
     padding-bottom: 20px;
   }
+}
+.p-home1 .c-title1 {
+  color: #fff;
+}
+.p-home1 .c-title1__description {
+  color: #fff;
 }
 .p-home3 {
   padding-top: 50px;
