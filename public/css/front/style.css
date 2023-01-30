@@ -2304,7 +2304,7 @@ other
 }
 
 .c-box5 {
-  margin-top: 70px;
+  margin-top: 40px;
   background-color: #fff;
   padding: 20px 10px;
   border-radius: 20px;
@@ -3009,6 +3009,7 @@ other
   .c-modal figure {
     width: 100%;
     margin-bottom: 30px;
+    display: none;
   }
 }
 .c-modal figure img {
@@ -3257,7 +3258,7 @@ Page Top
 .p-home8 {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(270deg, rgb(103, 178, 111), rgb(76, 162, 205));
+  background: linear-gradient(105deg, #6e99e6, #093c94);
 }
 @media screen and (max-width: 767px) {
   .p-home8 {

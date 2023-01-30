@@ -8,7 +8,7 @@ Page Top
     &1 {
         background: linear-gradient(105deg, rgb(110, 153, 230), rgb(9, 60, 148));
         padding-bottom: 50px;
-        
+
         @include sp() {
             padding-bottom: 20px;
         }
@@ -76,7 +76,7 @@ Page Top
     &8 {
         padding-top:50px;
         padding-bottom: 50px;
-        background: linear-gradient(270deg, rgb(103, 178, 111), rgb(76, 162, 205));
+        background: linear-gradient(105deg, #6e99e6, #093c94);
         @include sp() {
             padding-top: 40px;
             padding-bottom: 30px;
