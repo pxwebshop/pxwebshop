@@ -1760,8 +1760,9 @@ list
   display: flex;
   position: fixed;
   flex-direction: column;
+  align-items: flex-end;
   bottom: 10px;
-  left: 10px;
+  right: 25px;
   z-index: 998;
 }
 .c-list12 .is-active {
@@ -1842,7 +1843,7 @@ list
   border-top: 10px solid #ffffff;
   position: absolute;
   bottom: -10px;
-  left: 20px;
+  right: 20px;
 }
 .c-list12 .is-content {
   display: none;
