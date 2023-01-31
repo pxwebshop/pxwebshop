@@ -421,6 +421,41 @@ other
             padding-left: 0;
         }
     }
+    &__wrap {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        &:hover {
+            #{$root}__info {
+                z-index: 999;
+                opacity: 1;
+                transform: translate(0px, 0%);
+            }
+        }
+    }
+    &__info {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+        transform: translate(0px, -100%);
+        position: absolute;
+    }
+    &__category {
+        background: linear-gradient(105deg, #6e99e6, #093c94);
+        padding: 3px 10px;
+        line-height: 1.3;
+        color: #ffff;
+        margin-bottom: 5px;
+        text-transform: capitalize;
+    }
+    &__tlt {
+        line-height: 1.3;
+        text-transform: capitalize;
+        color: #262932;
+    }
+
     .slick-prev:before, .slick-next:before {
         color: #093c94;
     }
