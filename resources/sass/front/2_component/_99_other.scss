@@ -430,6 +430,13 @@ other
                 transform: translate(0px, 0%);
             }
         }
+        figure {
+            height: 100%;
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
     }
     &__info {
         position: absolute;
