@@ -62,7 +62,7 @@
                   <h5 class="card-title">{{ \Request::route()->getName() == 'edit_category' ? 'Sửa' : 'Thêm'}} danh mục</h5>
     
                   <!-- Multi Columns Form -->
-                  <form class="row g-3" method="post">
+                  <form class="row g-3" method="post" action="{{\Request::getRequestUri()}}" >
                     @csrf
                     <div class="col-md-12">
                       <label for="inputName5" class="form-label">Tên danh mục</label>

@@ -24,23 +24,41 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link {{ in_array( \Request()->route()->getPrefix(), array('admin/blog', 'admin/categories')) ? '' : 'collapsed' }}" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+        <a class="nav-link {{ in_array( \Request::getRequestUri(), array('/admin/blog', '/admin/categories?type=blog')) ? '' : 'collapsed' }}" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
           <i class="bi bi-menu-button-wide"></i><span>Bài viết</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-        <ul id="components-nav" class="nav-content collapse {{\Request::route()->getPrefix() == 'admin/categories' ? 'show' : '' }} {{\Request::route()->getPrefix() == 'admin/blog' ? 'show' : '' }}" data-bs-parent="#sidebar-nav">
+        <ul id="components-nav" class="nav-content collapse {{\Request::getRequestUri() == '/admin/categories?type=blog' ? 'show' : '' }} {{\Request::route()->getPrefix() == 'admin/blog' ? 'show' : '' }}" data-bs-parent="#sidebar-nav">
           <li>
             <a href="/admin/blog" class="{{ \Request::route()->getName() == 'list_blog' ? 'active' : ''}}">
               <i class="bi bi-circle"></i><span>Danh sách bài viết</span>
             </a>
           </li>
           <li>
-            <a class="{{ \Request::route()->getName() == 'categories' ? 'active' : ''}}" href="/admin/categories">
+            <a class="{{ \Request::getRequestUri() == '/admin/categories?type=blog' ? 'active' : ''}}" href="/admin/categories?type=blog">
               <i class="bi bi-circle"></i><span>Danh mục</span>
             </a>
           </li>
           <li>
             <a class="{{ \Request::route()->getName() == 'outstanding' ? 'active' : ''}}" href="/admin/blog/outstanding">
               <i class="bi bi-circle"></i><span>Bài viết nổi bật</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link {{ in_array( \Request::getRequestUri(), array('admin/training', 'admin/categories?type=training')) ? '' : 'collapsed' }}" data-bs-target="#components-nav3" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Training</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav3" class="nav-content collapse {{\Request::getRequestUri() == '/admin/categories?type=training' ? 'show' : '' }} {{\Request::route()->getPrefix() == 'admin/training' ? 'show' : '' }}" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="/admin/training" class="{{ \Request::route()->getName() == 'list_training' ? 'active' : ''}}">
+              <i class="bi bi-circle"></i><span>Danh sách bài viết</span>
+            </a>
+          </li>
+          <li>
+            <a class="{{ \Request::getRequestUri() == '/admin/categories?type=training' ? 'active' : ''}}" href="/admin/categories?type=training">
+              <i class="bi bi-circle"></i><span>Danh mục</span>
             </a>
           </li>
         </ul>

@@ -809,7 +809,7 @@
     </section>
     @endif
       
-    <section id="train" class="p-home10 wow bounceInUp">
+    <section id="train" class="p-home10 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
       <div class="l-container">
         <div class="c-box6">
           <h2 class="c-title2">
@@ -840,7 +840,7 @@
                 </figure>
                 <div class="c-box6__info">
                   <p class="c-box6__category">category</p>
-                  <h4 class="c-box6__tlt">title</h4>
+                  <h4 class="c-box6__tlt">SEO ແມ່ນຫຍັງ? ຄວາມສໍາຄັນຂອງ SEO ໃນຂະບວນການຈັດອັນດັບເວັບໄຊ</h4>
                 </div>
               </a>
             </li>
@@ -851,7 +851,7 @@
                 </figure>
                 <div class="c-box6__info">
                   <p class="c-box6__category">category</p>
-                  <h4 class="c-box6__tlt">title</h4>
+                  <h4 class="c-box6__tlt">SEO ແມ່ນຫຍັງ? ຄວາມສໍາຄັນຂອງ SEO ໃນຂະບວນການຈັດອັນດັບເວັບໄຊ</h4>
                 </div>
               </a>
             </li>

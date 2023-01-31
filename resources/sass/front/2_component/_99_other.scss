@@ -438,19 +438,22 @@ other
         transition: 0.3s ease-in-out;
         transform: translate(0px, -100%);
         position: absolute;
+        padding-right: 10px;
     }
     &__category {
         background: linear-gradient(105deg, #6e99e6, #093c94);
         padding: 3px 10px;
         line-height: 1.3;
         color: #ffff;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         text-transform: capitalize;
+        display: inline-flex;
     }
     &__tlt {
         line-height: 1.3;
         text-transform: capitalize;
         color: #262932;
+        font-size: 1.6rem;
     }
 
     .slick-prev:before, .slick-next:before {

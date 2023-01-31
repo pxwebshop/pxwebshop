@@ -59,7 +59,17 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
 
         Route::get('/outstanding', 'Admin\BlogController@outstanding')->name('outstanding');
         Route::post('/outstanding', 'Admin\BlogController@postOutstanding');
-        
+    });
+
+
+    Route::group(['prefix' => 'training'], function () {
+        Route::get('/', 'Admin\TrainingController@index')->name('list_training');
+        Route::get('/add', 'Admin\TrainingController@add')->name('add_training');
+        Route::post('/add', 'Admin\TrainingController@postAdd');
+        Route::get('/{id}/edit', 'Admin\TrainingController@edit')->name('edit_training');
+        Route::post('/{id}/edit', 'Admin\TrainingController@postEdit');
+        Route::get('/{id}/delete', 'Admin\TrainingController@delete')->name('delete_training');
+
     });
 
     Route::group(['prefix' => 'categories'], function () {

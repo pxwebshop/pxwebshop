@@ -21,7 +21,11 @@ class Category extends Model
         'name',
         'slug',
         'description',
+        'type',
     ];
+
+    const TYPE_TRAINING = 'training';
+    const TYPE_BLOG = 'blog';
 
     public static function boot() {
         parent::boot();
@@ -36,5 +40,15 @@ class Category extends Model
     public function blogs()
     {
         return $this->belongsToMany('App\Models\Blog');
+    }
+
+    public function scopeTypeBlog($query)
+    {
+        return $query->where('type', self::TYPE_BLOG);
+    }
+
+    public function scopeTypeTraining($query)
+    {
+        return $query->where('type', self::TYPE_TRAINING);
     }
 }
