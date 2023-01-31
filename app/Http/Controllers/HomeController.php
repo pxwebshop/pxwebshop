@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Validator;
 use App\Models\Order;
 use App\Models\Blog;
+use App\Models\Training;
 use Carbon\Carbon;
 use Brian2694\Toastr\Facades\Toastr;
 class HomeController extends Controller
@@ -14,8 +15,9 @@ class HomeController extends Controller
      public function index(Request $request)
      {
           $blogs = Blog::with('user')->outstanding()->orderBy('created_at', 'desc')->take(3)->get();
+          $training = Training::with('user')->orderBy('created_at', 'desc')->take(5)->get();
           
-          return view('index', compact('blogs'));
+          return view('index', compact('blogs', 'training'));
      }
 
      public function contact(Request $request)

@@ -822,18 +822,28 @@
           </h2>
 
           <ul class="c-box6__inner js-slider">
+            @foreach($training as $key => $item)
             <li class="c-box6__item">
-             <a href="#" class="c-box6__wrap">
+             <a href="{{route('training_detail', $item->id)}}" class="c-box6__wrap">
               <figure>
-                <img src="https://placehold.jp/400x300.png" alt="">
+                @if($item->featured_image)
+                  <img src=" {{url('storage/images/training/feature/'.$item->featured_image.'')}}" alt="">
+                @else
+                  <img src="https://placehold.jp/400x300.png" alt="{{$item->title}}">
+                @endif
               </figure>
               <div class="c-box6__info">
-                <p class="c-box6__category">category</p>
-                <h4 class="c-box6__tlt">title</h4>
+                @foreach($item->training_category()->get() as $key => $value)
+                  @if($key == 0)
+                  <p class="c-box6__category">{{$value->name}}</p>
+                  @endif
+                @endforeach
+                <h4 class="c-box6__tlt">{{$item->title}}</h4>
               </div>
              </a>
             </li>
-            <li class="c-box6__item">
+            @endforeach
+            {{-- <li class="c-box6__item">
               <a href="#" class="c-box6__wrap">
                 <figure>
                   <img src="https://placehold.jp/400x300.png" alt="">
@@ -865,7 +875,7 @@
                   <h4 class="c-box6__tlt">title</h4>
                 </div>
               </a>
-            </li>
+            </li> --}}
           </ul>
         </div>
       </div>

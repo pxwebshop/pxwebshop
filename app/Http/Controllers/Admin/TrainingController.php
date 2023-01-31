@@ -37,7 +37,7 @@ class TrainingController extends Controller
          $fileName   = time() . '.' . $image->getClientOriginalExtension();
 
          $img = \Image::make($image->getRealPath());
-         $img->resize(420, 240, function ($constraint) {
+         $img->resize(400, 300, function ($constraint) {
              $constraint->aspectRatio();                 
          });
 
@@ -102,32 +102,32 @@ class TrainingController extends Controller
          $fileName   = time() . '.' . $image->getClientOriginalExtension();
 
          $img = \Image::make($image->getRealPath());
-         $img->resize(320, 320, function ($constraint) {
+         $img->resize(400, 300, function ($constraint) {
              $constraint->aspectRatio();                 
          });
 
          $img->stream();
 
-         $blog->featured_image = $fileName;
+         $training->featured_image = $fileName;
       }
 
       $categories = $request->get('categories') ?: [];
 
-      $blog->blog_category()->sync($categories);
+      $training->training_category()->sync($categories);
       
       try {
-         if($blog->isDirty()) {
+         if($training->isDirty()) {
             Toastr::success('Cập nhật bài viết thành công!');
          } else {
             Toastr::warning('Dữ liệu chưa được thay đổi. Ngoại trừ danh mục');
          }
-         $blog->save();
+         $training->save();
 
          \DB::commit();
          
          if ($request->hasFile('featured_image')) {
-            \Storage::disk('local')->put('public/images/blog/feature/'.$fileName, $img);
-            \Storage::delete('public/images/blog/feature/'. $fileOld);
+            \Storage::disk('local')->put('public/images/training/feature/'.$fileName, $img);
+            \Storage::delete('public/images/training/feature/'. $fileOld);
          }
       } catch(\Exception $e) {
          Toastr::error('Cập nhật bài viết thất bại!'. $e->getMessage());
@@ -141,8 +141,8 @@ class TrainingController extends Controller
    {
       \DB::beginTransaction();
        try {
-         $blog = Blog::find($id);
-         $blog->delete();
+         $training = Training::find($id);
+         $training->delete();
          \DB::commit();
          Toastr::success("Xoá bài viết thành công!");
       } catch (\Exception $ex) {
@@ -150,7 +150,7 @@ class TrainingController extends Controller
          Toastr::error("Xoá bài viết thất bại!". $ex->getMessage());
       }
 
-      return redirect()->route('list_blog');
+      return redirect()->route('list_training');
    }
 
    public function outstanding(Request $request)
