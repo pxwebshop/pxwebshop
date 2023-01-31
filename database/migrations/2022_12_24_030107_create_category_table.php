@@ -15,8 +15,8 @@ class CreateCategoryTable extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->increments('id', true);
-            $table->string('name')->unique()->nullable();
-            $table->string('slug')->unique()->nullable();
+            $table->string('name')->nullable();
+            $table->string('slug')->nullable();
             $table->string('description')->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();

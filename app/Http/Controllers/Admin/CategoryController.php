@@ -8,12 +8,11 @@ use App\Models\Category;
 use Illuminate\Support\Str;
 use Brian2694\Toastr\Facades\Toastr;
 use Illuminate\Validation\Rule;
-
 class CategoryController extends Controller
 {
     public function index(Request $request)
     {
-        $categories = Category::all();
+        $categories = Category::where('type', $request->get('type'))->get();
 
         return view('admin.category.list', compact('categories'));
     }
@@ -21,26 +20,33 @@ class CategoryController extends Controller
     public function addCategory(Request $request)
     {
         $request->validate([
-            'name' => 'required|unique:categories|min:2',
-            'slug' => 'required|alpha_dash|unique:categories,slug'
+            'name' => ['required', Rule::unique('categories')->where(function ($query) use ($request) {
+                return $query->where('type', $request->get('type'))->where('name', Str::slug($request->get('name')));
+            })],
+            'slug' => ['required', 'alpha_dash', Rule::unique('categories')->where(function ($query) use ($request) {
+                return $query->where('type', $request->get('type'))->where('slug', Str::slug($request->get('slug')));
+            })],
         ]);
 
         $data = [
             'name' => $request->get('name'),
             'slug' => Str::slug($request->get('slug')),
             'description' => $request->get('description'),
+            'type' => $request->get('type'),
         ];
 
-
-        $category = Category::create($data);
-
-        if ($category) {
-            Toastr::success("Tạo danh mục ". $request->get('name') ." thành công!");
-        } else {
-            Toastr::error("Tạo danh mục ". $request->get('name') ." thất bại!");
+        try {
+            $category = Category::create($data);
+            if ($category) {
+                Toastr::success("Tạo danh mục ". $request->get('name') ." thành công!");
+            } else {
+                Toastr::error("Tạo danh mục ". $request->get('name') ." thất bại!");
+            }
+        } catch (\Exception $ex) {
+            Toastr::error("Tạo danh mục ". $request->get('name') ." thất bại! ". $ex->getMessage());
         }
 
-        return redirect()->route('categories');
+        return redirect()->back();
     }
 
 
@@ -79,7 +85,7 @@ class CategoryController extends Controller
             Toastr::error('Có lỗi khi lưu dữ liệu '. $ex->getMessage());
         }
 
-        return redirect()->route('categories');
+        return redirect()->back();
    }
 
    public function delete($id, Request $request)
@@ -95,6 +101,6 @@ class CategoryController extends Controller
          \DB::rollback();
        }
 
-       return redirect()->route('categories');
+       return redirect()->back();
    }
 }
