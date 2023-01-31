@@ -37,7 +37,7 @@
                     @foreach($training as $key => $item)
                       <tr>
                         <th scope="row">{{$key + 1 }}</th>
-                        <td><a href="/blog/{{ $item->id }}" target="_blank" rel="noopener noreferrer">{{ $item->title }}</a></td>
+                        <td><a href="/training/{{ $item->id }}" target="_blank" rel="noopener noreferrer">{{ $item->title }}</a></td>
                         <td>
                           @foreach( $item->category as $category)
                             <span class="badge bg-primary">{{$category->name;}}</span>
@@ -59,8 +59,8 @@
                         <td>{{ $item->created_at }}</td>
                         <td>{{ $item->user->name ?: $item->user->username }}</td>
                         <td class="text-center">
-                            <a class="btn btn-warning text-white" href="{{route('edit_blog', $item->id) }}">Sửa</a>
-                            <a onclick="return confirm(`Bạn có muốn xóa bài viết {{$item->title}} không?`);"  href="{{route('delete_blog', $item->id) }}" class="btn btn-danger">Xoá</button>
+                            <a class="btn btn-warning text-white" href="{{route('edit_training', $item->id) }}">Sửa</a>
+                            <a onclick="return confirm(`Bạn có muốn xóa bài viết {{$item->title}} không?`);"  href="{{route('delete_training', $item->id) }}" class="btn btn-danger">Xoá</button>
                         </td>
                       </tr>
                     @endforeach

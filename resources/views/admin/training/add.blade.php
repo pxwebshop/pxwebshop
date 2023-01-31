@@ -4,7 +4,7 @@
 
 @section('breadcrumb')
 
-   {{ Breadcrumbs::render('add_blog') }}
+   {{ Breadcrumbs::render('add_training') }}
 
 @endsection
 
@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-lg-12 mb-2">
                 <label class="form-label">Tiêu đề bài viết:</label>
-                <textarea name="title" class="form-control" rows="1">{{old('title', @$blog->title)}}</textarea>
+                <textarea name="title" class="form-control" rows="1">{{old('title', @$training->title)}}</textarea>
                 @include('_partials.alert', ['field' => 'title'])
             </div>
         </div>
@@ -25,7 +25,7 @@
                 <div class="card mb-0">
                     <div class="card-body">
                       <h5 class="card-title">Mô tả:</h5>
-                        <textarea name="description" class="form-control" id="mytextarea" rows="3">{{old('description', @$blog->description)}}</textarea>
+                        <textarea name="description" class="form-control" id="mytextarea" rows="3">{{old('description', @$training->description)}}</textarea>
                         @include('_partials.alert', ['field' => 'description'])
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                 <div class="card mb-3">
                     <div class="card-body">
                         <h5 class="card-title">Nội dung bài viết:</h5>
-                        <textarea name="content" class="form-control my-editor">{!! old('content', @$blog->content) !!}</textarea>
+                        <textarea name="content" class="form-control my-editor">{!! old('content', @$training->content) !!}</textarea>
                         @include('_partials.alert', ['field' => 'content'])
                     </div>
                 </div>
@@ -64,9 +64,9 @@
                                                     @foreach(@$categories as $key => $item)
                                                     <li class="list-group-item">
                                                         <div class="form-check">
-                                                            @if( \Request::route()->getName() == 'edit_blog')
+                                                            @if( \Request::route()->getName() == 'edit_training')
                                                                 @php $i = 0; @endphp
-                                                                @foreach(@$blog->blog_category()->get() as $key => $data)
+                                                                @foreach(@$training->training_category()->get() as $key => $data)
                                                                     @if( $item->id == $data->pivot->category_id)
                                                                         @php $i ++; @endphp
                                                                         <input checked class="form-check-input" name="categories[]" value="{{$item->id}}" type="checkbox" id="gridCheck{{$item->id}}">
@@ -109,7 +109,7 @@
                                 <div id="flush-collapseOne1" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample1" style="">
                                     <div class="accordion-body pb-0">
                                         <label for="formFile" class="form-label">Chọn hình ảnh làm mặc định</label>
-                                        <img id="frame" src="{{ @$blog->featured_image ? asset('storage/images/blog/feature/'. @$blog->featured_image) : '' }}" class="img-fluid mb-2" />
+                                        <img id="frame" src="{{ @$training->featured_image ? asset('storage/images/training/feature/'. @$training->featured_image) : '' }}" class="img-fluid mb-2" />
                                         <input class="form-control" type="file" onchange="preview()" name="featured_image" accept="image/*" id="formFile">
                                     </div>
                                 </div>
@@ -120,14 +120,14 @@
 
                 <label for="inputState" class="form-label">Trạng thái</label>
                 <select name="status" id="inputState" class="form-select">
-                    @foreach(App\Models\Blog::getStatus() as $key => $status)
-                        <option {{ ((old("status") == $key || $key == @$blog->status ) ? "selected":"") }} value="{{ $key }}">{{ $status }}</option>
+                    @foreach(App\Models\Training::getStatus() as $key => $status)
+                        <option {{ ((old("status") == $key || $key == @$training->status ) ? "selected":"") }} value="{{ $key }}">{{ $status }}</option>
                     @endforeach
                 </select>
                 @include('_partials.alert', ['field' => 'status'])
                 
                 <div class="mt-2 text-end">
-                    <button type="submit" class="btn btn-primary">{{ \Request::route()->getName() == 'edit_blog' ? 'Cập nhật' : 'Lưu'}} bài viết</button>
+                    <button type="submit" class="btn btn-primary">{{ \Request::route()->getName() == 'edit_training' ? 'Cập nhật' : 'Lưu'}} bài viết</button>
                 </div>
             </div>
         </div>

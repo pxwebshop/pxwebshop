@@ -57,10 +57,10 @@ class TrainingController extends Controller
 
       $result = array_merge($data, $data1);
 
-      $blog = Blog::create($result);
+      $training = Training::create($result);
      
       foreach ($categories as $id) {
-         $blog->blog_category()->attach([ $id ]);
+         $training->training_category()->attach([ $id ]);
       }
 
       try {
@@ -68,32 +68,32 @@ class TrainingController extends Controller
          \DB::commit();
 
          if ($request->hasFile('featured_image')) {
-            \Storage::disk('local')->put('public/images/blog/feature/'.$fileName, $img);
+            \Storage::disk('local')->put('public/images/training/feature/'.$fileName, $img);
          }
       } catch(\Exception $e) {
          Toastr::error('Tạo bài viết thất bại!'. $e->getMessage());
          \DB::rollback();
       }
 
-      return redirect()->route('list_blog');
+      return redirect()->route('list_training');
    }
 
    public function edit($id, Request $request)
    {
-      $blog = Blog::find($id);
-      $categories = Category::all();
-
-      return view('admin.blog.add', compact('categories', 'blog'));
+      $training = Training::find($id);
+      $categories = Category::typeTraining()->get();
+      
+      return view('admin.training.add', compact('categories', 'training'));
    }
 
    public function postEdit($id, CreateBlogRequest $request)
    {
-      $blog = Blog::find($id);
-      $blog->title = $request->get('title');
-      $blog->content = $request->get('content');
-      $blog->status = $request->get('status');
-      $blog->description = $request->get('description');
-      $fileOld = $blog->featured_image;
+      $training = Training::find($id);
+      $training->title = $request->get('title');
+      $training->content = $request->get('content');
+      $training->status = $request->get('status');
+      $training->description = $request->get('description');
+      $fileOld = $training->featured_image;
 
       \DB::beginTransaction();
 
