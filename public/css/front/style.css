@@ -2490,6 +2490,7 @@ other
   cursor: pointer;
   display: block;
   position: relative;
+  height: 300px;
 }
 .c-box6__wrap:hover .c-box6__info {
   z-index: 999;

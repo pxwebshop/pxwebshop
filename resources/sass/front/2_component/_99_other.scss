@@ -422,6 +422,7 @@ other
         cursor: pointer;
         display: block;
         position: relative;
+        height: 300px;
         &:hover {
             #{$root}__info {
                 z-index: 999;
