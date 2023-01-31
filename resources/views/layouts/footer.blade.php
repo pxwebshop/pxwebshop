@@ -26,7 +26,7 @@
                         </span>
                     </li>
                     <li class="c-footer__item1">
-                        <a class="c-footer__item1__link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/laosmarttech">
+                        <a class="c-footer__item1__link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100090027365370">
                             <span class="c-footer__icon">
                                 <i aria-hidden="true" class="fab fa-facebook"></i>
                             </span>

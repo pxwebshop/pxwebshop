@@ -397,63 +397,32 @@ other
 // ------------------------------------------------------------*/
 .c-box6 {
     $root:&;
-    max-width: 3000px;
-    width: 100%;
-    margin: auto;
-    .c-title2 {
-        @include sp() {
-            padding: 0 20px;
-        }
+    @include sp() {
+        padding: 0 20px;
     }
     &__inner {
+        margin-top: 30px;
         display: flex;
         flex-wrap: wrap;
-        margin-top: 40px;
+        margin-left: -20px;
         @include sp() {
+            margin-left: 0;
             margin-top: 20px;
+        }
+        img {
+            width: 100%;
         }
     }
     &__item {
-        width: 50%;
+        width: 33.33%;
+        padding-left: 20px;
         @include sp() {
             width: 100%;
-        }
-        figure {
-            display: flex;
-            height: 100%;
-            img {
-                width: 100%;
-                object-fit: cover;
-            }
-        }
-        &--style1 {
-            figure {
-                height: 570px;
-                @include sp() {
-                    height: 330px;
-                }
-            }
+            padding-left: 0;
         }
     }
-    &__list {
-        display: flex;
-        flex-wrap: wrap;
-        &__item {
-            height: 250px;
-            width: 50%;
-            @include sp() {
-                height: 130px;
-            }
-        }
-    }
-    &__img {
-        display: block;
-        &__item {
-            height: 320px;
-            @include sp() {
-                height: 200px;
-            }
-        }
+    .slick-prev:before, .slick-next:before {
+        color: #093c94;
     }
 }
 

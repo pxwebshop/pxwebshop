@@ -808,99 +808,44 @@
       </div>
     </section>
     @endif
+      
+    <section id="train" class="p-home10 wow bounceInUp">
+      <div class="l-container">
+        <div class="c-box6">
+          <h2 class="c-title2">
+            <span class="c-title2__text">
+              <span class="c-title2__color1">ຝຶກອົບຮົມ</span> ພະນັກງານລະດັບສູງ
+            </span>
+            <span class="c-title2__text1">
+             ດ້ວຍ​ຄວາມ​ຮູ້ ແລະ ຄວາມສາມາດ ​ໃນ​ການ​ເຮັດ​ວຽກ​ກ່ຽວກັບດ້ານເຕັກໂນໂລຊີການສື່ສານ ແລະ ຂໍ້ມູນຂ່າວສານ Lao Smart Tech ​ໄດ້​ສະໜອງ​ການ​ຝຶກ​ອົບຮົມໃຫ້ແກ່​ພະນັກງານລະດັບສູງ.
+            </span>
+          </h2>
 
-    <section id="train" class="p-home10 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
-      <div class="c-box6">
-        <h2 class="c-title2">
-          <span class="c-title2__text">
-            <span class="c-title2__color1">ຝຶກອົບຮົມ</span> ພະນັກງານລະດັບສູງ
-          </span>
-          <span class="c-title2__text1">
-           ດ້ວຍ​ຄວາມ​ຮູ້ ແລະ ຄວາມສາມາດ ​ໃນ​ການ​ເຮັດ​ວຽກ​ກ່ຽວກັບດ້ານເຕັກໂນໂລຊີການສື່ສານ ແລະ ຂໍ້ມູນຂ່າວສານ Lao Smart Tech ​ໄດ້​ສະໜອງ​ການ​ຝຶກ​ອົບຮົມໃຫ້ແກ່​ພະນັກງານລະດັບສູງ.
-          </span>
-        </h2>
-        <ul class="c-box6__inner is-list2">
-          <li class="c-box6__item">
-            <ul class="c-box6__list">
-              <li class="c-box6__list__item">
-                <figure>
-                  <img loading="lazy" src="{{ asset('images/img9.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
-                </figure>
-              </li>
-              <li class="c-box6__list__item">
-                <figure>
-                  <img loading="lazy" src="{{ asset('images/img11.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
-                </figure>
-              </li>
-            </ul>
-            <div class="c-box6__img">
-              <div class="c-box6__img__item">
-                <figure>
-                  <img loading="lazy" src="{{ asset('images/img10.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
-                </figure>
-              </div>
-            </div>
-          </li>
-          <li class="c-box6__item c-box6__item--style1">
-            <figure>
-              <img loading="lazy" src="{{ asset('images/img12.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
-            </figure>
-          </li>
-          <li class="c-box6__item">
-            <ul class="c-box6__list">
-              <li class="c-box6__list__item">
-                <figure>
-                  <img loading="lazy" src="{{ asset('images/img14.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
-                </figure>
-              </li>
-              <li class="c-box6__list__item">
-                <figure>
-                  <img loading="lazy" src="{{ asset('images/img15.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
-                </figure>
-              </li>
-            </ul>
-            <div class="c-box6__img">
-              <div class="c-box6__img__item">
-                <figure>
-                  <img loading="lazy" src="{{ asset('images/img16.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
-                </figure>
-              </div>
-            </div>
-          </li>
-          <li class="c-box6__item c-box6__item--style1">
-            <figure>
-              <img loading="lazy" src="{{ asset('images/img13.jpeg') }}" alt="Hãy viết mô tả hình ảnh đào tạo(vd: đào tạo ở đâu gì đó ở seo cho tốt nha...)">
-            </figure>
-          </li>
-
-          <li class="c-box6__item">
-            <ul class="c-box6__list">
-              <li class="c-box6__list__item">
-                <figure>
-                  <img loading="lazy" src="{{ asset('images/img18.jpeg') }}" alt="">
-                </figure>
-              </li>
-              <li class="c-box6__list__item">
-                <figure>
-                  <img loading="lazy" src="{{ asset('images/img19.jpeg') }}" alt="">
-                </figure>
-              </li>
-            </ul>
-            <div class="c-box6__img">
-              <div class="c-box6__img__item">
-                <figure>
-                  <img loading="lazy" src="{{ asset('images/img20.jpeg') }}" alt="">
-                </figure>
-              </div>
-            </div>
-          </li>
-          <li class="c-box6__item c-box6__item--style1">
-            <figure>
-              <img loading="lazy" src="{{ asset('images/img17.jpeg') }}" alt="">
-            </figure>
-          </li>
-        </ul>
+          <ul class="c-box6__inner js-slider">
+            <li class="c-box6__item">
+              <figure>
+                <img src="https://placehold.jp/400x300.png" alt="">
+              </figure>
+            </li>
+            <li class="c-box6__item">
+              <figure>
+                <img src="https://placehold.jp/400x300.png" alt="">
+              </figure>
+            </li>
+            <li class="c-box6__item">
+              <figure>
+                <img src="https://placehold.jp/400x300.png" alt="">
+              </figure>
+            </li>
+            <li class="c-box6__item">
+              <figure>
+                <img src="https://placehold.jp/400x300.png" alt="">
+              </figure>
+            </li>
+          </ul>
+        </div>
       </div>
+
     </section>
 
     <div class="c-modal">

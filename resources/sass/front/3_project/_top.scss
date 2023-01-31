@@ -105,8 +105,10 @@ Page Top
     }
     &10 {
         padding-top: 50px;
+        padding-bottom: 50px;
         @include sp() {
             padding-top: 40px;
+            padding-bottom: 50px;
         }
     }
     &11 {
