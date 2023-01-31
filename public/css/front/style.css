@@ -2467,11 +2467,9 @@ other
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -20px;
 }
 @media screen and (max-width: 767px) {
   .c-box6__inner {
-    margin-left: 0;
     margin-top: 20px;
   }
 }
@@ -2479,13 +2477,12 @@ other
   width: 100%;
 }
 .c-box6__item {
-  width: 33.33%;
-  padding-left: 20px;
+  padding: 0 10px;
 }
 @media screen and (max-width: 767px) {
   .c-box6__item {
     width: 100%;
-    padding-left: 0;
+    padding: 0;
   }
 }
 .c-box6__wrap {

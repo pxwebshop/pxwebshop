@@ -144,7 +144,7 @@ $(document).ready(function() {
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		centerMode: true,
-		centerPadding: '80px',
+		centerPadding: '50px',
 		autoplay: true,
 		autoplaySpeed: 2000,
 		arrows: true,
