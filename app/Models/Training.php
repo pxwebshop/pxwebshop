@@ -60,4 +60,9 @@ class Training extends Model
     {
         return $query->where('status', self::ACTIVE);
     }
+
+    public function image()
+    {
+        return $this->morphMany('App\Models\Image', 'imageable');
+    }
 }

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
 use App\Models\Training;
+use App\Models\Image;
 use Brian2694\Toastr\Facades\Toastr;
 use App\Http\Requests\Blog\CreateBlogRequest;
 use Auth;
@@ -15,7 +16,7 @@ class TrainingController extends Controller
    public function index(Request $request)
    {
       $training = Training::with(['category', 'user'])->orderBy('created_at', 'desc')->get();
-
+      
       return view('admin.training.list', compact('training'));
    }
 
@@ -68,6 +69,22 @@ class TrainingController extends Controller
 
          if ($request->hasFile('featured_image')) {
             \Storage::disk('local')->put('public/images/training/feature/'.$fileName, $img);
+         }
+
+         if($files = $request->file('images')) {
+            foreach($files as $image) {
+               $fileName = time() . '.' . $image->getClientOriginalExtension();
+
+               $img = \Image::make($image->getRealPath());
+               $img->resize(600, 400, function ($constraint) {
+                  $constraint->aspectRatio();                 
+               });
+
+               $img->stream(); // <-- Key point
+               \Storage::disk('local')->put('public/images/training/slide/'.$fileName, $img);
+
+               $training->image()->create(['name' => $fileName ]);
+            }
          }
       } catch(\Exception $e) {
          Toastr::error('Tạo bài viết thất bại!'. $e->getMessage());
