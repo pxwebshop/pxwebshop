@@ -47,7 +47,7 @@ class TrainingController extends Controller
             'featured_image'     => $fileName
          ];
       }
-
+      
       $data1 = [
          'user_id'            => \Auth::user()->id,
          'status'             => $request->input('status'),
@@ -73,7 +73,8 @@ class TrainingController extends Controller
 
          if($files = $request->file('images')) {
             foreach($files as $image) {
-               $fileName = time() . '.' . $image->getClientOriginalExtension();
+               $extention = $image->getClientOriginalExtension();
+               $fileName = time().rand(1, 50). '.' . $extention;
 
                $img = \Image::make($image->getRealPath());
                $img->resize(600, 400, function ($constraint) {
