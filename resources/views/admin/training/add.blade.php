@@ -21,17 +21,6 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12 mb-3">
-                <div class="card mb-0">
-                    <div class="card-body">
-                      <h5 class="card-title">Mô tả:</h5>
-                        <textarea name="description" class="form-control" id="mytextarea" rows="3">{{old('description', @$training->description)}}</textarea>
-                        @include('_partials.alert', ['field' => 'description'])
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-lg-9">
                 <div class="card mb-3">
                     <div class="card-body">

@@ -52,7 +52,6 @@ class TrainingController extends Controller
          'status'             => $request->input('status'),
          'title'              => $request->input('title'),
          'content'            => $request->input('content'),
-         'description'        => $request->input('description'),
       ];
 
       $result = array_merge($data, $data1);
@@ -92,7 +91,6 @@ class TrainingController extends Controller
       $training->title = $request->get('title');
       $training->content = $request->get('content');
       $training->status = $request->get('status');
-      $training->description = $request->get('description');
       $fileOld = $training->featured_image;
 
       \DB::beginTransaction();
