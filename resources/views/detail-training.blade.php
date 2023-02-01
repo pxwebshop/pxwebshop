@@ -24,7 +24,7 @@
     
     <section class="p-training1">
         <div class="l-container">
-            <h1 class="p-training1__tlt">Hacking Masterclass Course</h1>
+            <h1 class="p-training1__tlt"> {{ $training->title }}</h1>
 
             <div class="p-training1__content">
                 <div class="tabs">
