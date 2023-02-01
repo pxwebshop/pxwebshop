@@ -20,7 +20,7 @@ class TrainingController extends Controller
          abort(404);
       }
       $sliders = $training->image()->get();
-      $trainings = Training::with('user')->orderBy('created_at', 'desc')->take(5)->get();
+      $trainings = Training::with('user')->where('id', '!=', $id)->orderBy('created_at', 'desc')->take(5)->get();
 
       return view('detail-training', compact('training', 'sliders', 'trainings'));
    }
