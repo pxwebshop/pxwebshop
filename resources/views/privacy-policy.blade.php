@@ -49,33 +49,24 @@
                         <p class="c-box9__tlt">3. ການ​ນໍາ​ໃຊ້​ຂໍ້​ມູນ​ຂອງ​ທ່ານ​</p>
                         <p class="c-box9__txt">
                             ເປົ້າໝາຍຂອງ laosmarttech.com ແມ່ນເພື່ອນຳເອົາທຸລະກິດ ແລະ ຜູ້ຊົມໃຊ້ສູ່ພື້ນຖານໂຄງລ່າງການບໍລິການເພື່ອສົ່ງເສີມ ແລະ ພັດທະນາແບນ, ຂະຫຍາຍທຸລະກິດໃນອິນເຕີເນັດຢ່າງມີປະສິດທິພາບ ດ້ວຍລາຄາ ແລະ ເວລາທີ່ເໝາະສົມ.
-                        </p>ດັ່ງນັ້ນ, ພວກເຮົານຳໃຊ້ຂໍ້ມູນສ່ວນຕົວຂອງທ່ານເພື່ອ: ສະຫນອງຂໍ້ມູນ ບັນດາບໍລິການ ແລະ ການສະຫນັບສະຫນູນຕາມຄໍາຮ້ອງຂໍຂອງທ່ານ ອີເມວແຈ້ງການກ່ຽວກັບໂປໂມຊັ່ນ, ການຕໍ່ອາຍຸການບໍລິການ, ເຫດການປົກກະຕິຂອງພວກເຮົາແກ້ໄຂຂໍ້ຂັດແຍ້ງ, 
-                            ບັນຫາທີ່ເກີດຂື້ນທີ່ກ່ຽວຂ້ອງກັບການນໍາໃຊ້ເວັບໄຊທ໌ປ້ອງກັນກິດຈະກໍາທີ່ຜິດກົດຫມາຍຫຼືຖືກຫ້າມຖ້າຢູ່ໃນ ເງື່ອນໄຂການນໍາໃຊ້ ວັດແທກ ແລະປັບປຸງການບໍລິການຂອງພວກເຮົາ ປຽບທຽບ ປຽບທຽບ ແລະກົງກັນຂ້າມກັບຄວາມຖືກຕ້ອງຂອງຂໍ້ມູນທີ່ທ່ານສະໜອງໃຫ້ກັບພາກສ່ວນທີສາມ
+                            ດັ່ງນັ້ນ, ພວກເຮົານຳໃຊ້ຂໍ້ມູນສ່ວນຕົວຂອງທ່ານເພື່ອ: ສະຫນອງຂໍ້ມູນ ບັນດາບໍລິການ, ແຈ້ງການກ່ຽວກັບໂປໂມຊັ່ນ ແລະ ການຕໍ່ອາຍຸການໃຊ້ບໍລິການ.  
                     </li>
                     <li class="c-box9__item">
                         <p class="c-box9__tlt">4. ການເປີດ​ເຜີຍ​ຂໍ້​ມູນ​ຂອງ​ທ່ານ​</p>
                         <p class="c-box9__txt">
-                            Chúng tôi cam kết không cung cấp thông tin cá nhân của bạn cho bất kỳ bên thứ ba nào. Tuy nhiên, chúng tôi có thể tiết lộ thông tin cá nhân của bạn trong một số trường hợp dưới đây:
-    Chúng tôi được bạn đồng ý tiết lộ những thông tin này
-    Bên thứ ba mà bạn ủy quyền hoặc cho phép có yêu cầu chúng tôi cung cấp thông tin cá nhân của bạn
-    Theo yêu cầu pháp lý hay từ một cơ quan chính phủ hoặc nếu chúng tôi tin rằng hành động đó là cần thiết nhằm tuân theo các yêu cầu pháp lý hoặc chiếu theo luật pháp
-    Bảo vệ quyền, lợi ích, tài sản, sự an toàn của một ai khác
-    Cho các bên thứ ba khác mà chúng tôi có liên doanh, liên kết để cung cấp các dịch vụ trên laosmarttech.com hoặc các dịch vụ mới có liên quan đến laosmarttech.com
-    Ngoài những trường hợp nêu trên nhưng không giới hạn, chúng tôi sẽ không công bố thông tin cá nhân của bạn cho bên thứ ba nào khác trừ khi chúng tôi hoàn toàn tin rằng, sự công bố này là cần thiết nhằm ngăn chặn những thiệt hại vật chất hoặc tài chính do các yếu tố có dấu hiệu phạm pháp có thể gây ra.
+                        ພວກເຮົາສັນຍາວ່າ ຈະເກັບຮັກສາ ແລະ ບໍ່ເປິດເຜີຍຂໍ້ມູນສວນຕົວຂອງທ່ານຕໍ່ມືທີ່ສາມ, ເຖິງຢ່າງໃດກໍ່ຕາມພວກເຮົາຈະເປິດເຜີຍຂໍ້ມູນ ກໍ່ຕໍ່ເມື່ອໄດ້ຮັບຄວາມຍີນຍອມຈາກທ່ານ.
                         </p>
                     </li>
                     <li class="c-box9__item">
-                        <p class="c-box9__tlt">5. ການປັບປ່ຽນຂໍ້ມູນສ່ວນຕົວ</p>
+                        <p class="c-box9__tlt">5. ການແກ້ໄຂຂໍ້ມູນສ່ວນຕົວ</p>
                         <p class="c-box9__txt">
-    Bạn có thể truy cập, sửa chữa và cập nhật thông tin cá nhân trên website của mình bằng cách đăng nhập và sử dụng các tính năng quản trị. Khi cập nhật thông tin cá nhân của bạn, chúng tôi có thể yêu cầu bạn xác minh danh tính của mình trước khi chúng tôi xử lý yêu cầu của bạn
-    Chúng tôi cũng có thể sẽ chủ động hoặc theo yêu cầu của bạn bổ sung, hiệu chỉnh hay tẩy xóa các dữ liệu thông tin cá nhân không chính xác, không đầy đủ hoặc không cập nhật khi bạn còn liên kết với hoạt động của chúng tôi.
+                            ທ່ານສາມາດເຂົ້າເຖິງ, ແກ້ໄຂ ແລະ ອັບເດດຂໍ້ມູນສ່ວນຕົວຂອງທ່ານເທິງເວບໄຊຂອງພວກເຮົາ ໂດຍການລອກອິນເຂົ້າສູ່ລະບົບ ແລະ ນຳໃຊ້ຟັ່ງຊັ່ນໃນການຄຸ້ມຄອງຂໍ້ມູນສ່ວນບຸກຄົນ ເພື່ອແກ້ໄຂ ແລະ ອັບເດດຂໍ້ມູນ..
                         </p>
                     </li>
                     <li class="c-box9__item">
                         <p class="c-box9__tlt">6. ການບັນ​ທຶກ​ຂໍ້​ມູນເຂົ້າຊົມ​ເວັບໄຊ (COOKIE)</p>
                         <p class="c-box9__txt">
-                            Cookie là một file dữ liệu được đặt trên đĩa cứng của bạn bởi máy chủ của laosmarttech.com . Chúng tôi sử dụng Cookie để cá nhân hóa và nâng cao hiệu quả sử dụng thời gian trực tuyến của bạn.
-                            Cookie sẽ giúp chúng tôi nhận ra bạn nếu bạn truy cập vào nhiều trang trên trang web của chúng tôi trong cùng một phiên, do đó chúng tôi không cần phải hỏi mật khẩu của bạn trên mỗi trang. Sau khi bạn đăng xuất hoặc đóng trình duyệt, cookie này sẽ hết hạn và không còn có bất kỳ tác dụng nào. Bạn có thể chấp nhận hoặc từ chối dùng cookie. Hầu hết những Browser tự động chấp nhận cookie, nhưng bạn có thể thay đổi cài đặt để từ chối tất cả những cookie nếu bạn thích. Tuy nhiên, nếu bạn chọn từ chối cookie, điều đó có thể gây cản trở và ảnh hưởng đến một số dịch vụ và tính năng phụ thuộc vào cookie tạ laosmarttech.com .
+                           ຄຸກກີ້ເປັນຟາຍຂະໜາດນ້ອຍທີ່ບັນທຶກຂໍ້ມູນການເຄືອນໄຫວ ທີ່ເກິດຂຶ້ນບົນໜ້າເວັບໄຊ, ພວກເຮົາຈະນຳໃຊ້ຂໍ້ມູນເຫຼົ່ານີ້ໃນການປັບປຸງ ແລະ ເພີ່ມປະສິດທິພາບການເຂົ້າຊົມເວັບໄຊ.
                         </p>
                     </li>
                     <li class="c-box9__item">

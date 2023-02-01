@@ -9,13 +9,13 @@
     <div class="c-box13">
         <div class="c-box13__inner">
             <div class="l-container">
-                <h2 class="c-box13__tlt">Điều khoản sử dụng</h2>
+                <h2 class="c-box13__tlt">ເງື່ອນ​ໄຂ​ການ​ນໍາ​ໃຊ້</h2>
                 <ul class="c-breadcrumb">
                     <li class="c-breadcrumb__item">
-                        <a class="c-breadcrumb__link" href="/#home">Trang chủ</a>
+                        <a class="c-breadcrumb__link" href="/#home">ໜ້າຫຼັກ</a>
                     </li>
                     <li class="c-breadcrumb__item">
-                        <span class="c-breadcrumb__txt">điều khoản</span>
+                        <span class="c-breadcrumb__txt">ເງື່ອນໄຂ</span>
                     </li>
                 </ul>
             </div>
@@ -27,64 +27,60 @@
                 <ul class="c-box9__list">
                     <li class="c-box9__item">
                         <p class="c-box9__txt">
-                            Pxwebshop.com thiết lập những quy định sử dụng này với mục đích bảo đảm tài nguyên hệ thống luôn sẵn sàng ở mức cao cũng như tính minh bạch về mặt pháp lý nhằm đem lại chất lượng dịch vụ cao nhất cho tất cả khách hàng. Bạn vui lòng đọc kỹ những điều khoản của quy định sử dụng này trước khi sử dụng dịch vụ của chúng tôi.
+                        Lao Smart Tech ສ້າງກົດລະບຽບເຫລົ່ານີ້ເພື່ອຮັບປະກັນສິດທິ, ຜົນປະໂຫຍດຂອງທ່ານ ແລະ ສະໜອງການບໍລິການທີ່ມີຄຸນນະພາບສູງສຸດ.
+                        ກະລຸນາອ່ານກົດລະບຽບເຫຼົ່ານີ້ຢ່າງລະອຽດກ່ອນໃຊ້ບໍລິການ.
                         </p>
                     </li>
                     <li class="c-box9__item">
-                        <p class="c-box9__tlt">ĐIỀU 1: QUY ĐỊNH SỬ DỤNG</p>
+                        <p class="c-box9__tlt">ມາດຕາ 1: ກົດລະບຽບການນໍາໃຊ້</p>
                         <p class="c-box9__txt">
-                            Là các quy định liên quan đến việc sử dụng dịch vụ trên Pxwebshop.com . Người dùng khi đăng kývà sau khi đi đăng ký đều phải tuân thủ những quy định này.
+                    ເມື່ອທ່ານລົງທະບຽນ ແລະ ຫລັງຈາກລົງທະບຽນນຳໃຊ້ຕ້ອງປະຕິບັດຕາມກົດລະບຽບ ທີ່ກຽ່ວຂອ້ງກັບການໃຊ້ບໍລິການຂອງ Lao Smart Tech.                        </p>
+                    </li>
+                    <li class="c-box9__item">
+                        <p class="c-box9__tlt">ມາດຕາ 2: ການປ່ຽນແປງກົດລະບຽບ</p>
+                        <p class="c-box9__txt">
+                        Lao Smart Tech ອາດຈະມີການປ່ຽນແປງກົດລະບຽບຕາມນະໂຍບາຍຂອງບໍລິສັດ ເມື່ອມີການປ່ຽນແປງ ພວກເຮົາຈະອັບເດດເທິງເວັບໄຊ laosmarttech.com ກົດລະບຽບທີ່ແກ້ໄຂຈະມີຜົນບັງຄັບໃຊ້ທັນທີເມື່ອອັບເດດເທິງເວັບໄຊ
+                        ເມື່ອທ່ານເຫັນດີທີ່ຈະໃຊ້ການບໍລິການຂອງ Lao Smart Tech ພວກເຮົາຖືວ່າທ່ານຍອມຮັບກົດລະບຽບໃໝ່ທັງໝົດ.
+                    </p>
+                    </li>
+                    <li class="c-box9__item">
+                        <p class="c-box9__tlt">ມາດຕາ 3: ໃຊ້ການບໍລິການ</p>
+                        <p class="c-box9__txt">
+                        ຜູ້ໃຊ້ທີ່ລົງທະບຽນບັນຊີ ແລະ ໃຊ້ບໍລິການຂອງ Lao Smart Tech ແມ່ນຜູ້ທີ່ໄດ້ລົງທະບຽນນຳໃຊ້ ແລະ ຍອມຮັບຕາມເງື່ອນໄຂທີ່ໄດ້ກຳນົດໄວ້.
                         </p>
                     </li>
                     <li class="c-box9__item">
-                        <p class="c-box9__tlt">ĐIỀU 2: THAY ĐỔI QUY ĐỊNH</p>
+                        <p class="c-box9__tlt">ມາດຕາ 4: ການຢຸດໃຫ້ບໍລິການຊົ່ວຄາວ</p>
                         <p class="c-box9__txt">
-                            Pxwebshop.com có thể thay đổi quy định theo các chính sách của công ty. Khi có thay đổi, chúng tôi sẽ đăng tải một phiên bản lênPxwebshop.com , phiên bản sửa đổi sẽ có hiệu lực tại thời điểm được đăng. Sau khi quy định thay đổi, nếu thành viên sử dụngPxwebshop.com , chúng tôi coi thành viên đã chấp nhận tất cả các quy định mới.
+                        Lao Smart Tech ຈະຢຸດເຊົາການໃຫ້ບໍລິການໂດຍບໍ່ມີການຄືນເງິນຄ່າໃຊ້ຈ່າຍໃດໆໃນກໍລະນີຕໍ່ໄປນີ້:<br/>
+– ຜູ້​ໃຊ້​​ນຳໃຊ້ເວັບ​ໄຊ​ / ໂປຣແກຣມ ​ເພື່ອ​ຈຸດ​ປະ​ສົງ / ຮູບ​ແບບ​ທີ່​ລະ​ເມີດ​ກົດ​ໝາຍຂອງ ສປປ ລາວ, ໂດຍ​ສະ​ເພາະ​ແມ່ນ​ກ່ຽວ​ກັບ​ບັນ​ຫາ​ລິ​ຂະ​ສິດໂປຣແກຣມ ແລະ ອື່ນໆ.<br/>
+– ຜູ້ໃຊ້ເຊື່ອມຕໍ່ ຫຼື ສົ່ງຂໍ້ມູນເວັບໄຊ, ຂົ່ມຂູ່, ຫຼອກລວງ, ກຽດຊັງ, ໝິ່ນປະໝາດ, ດູຖູກ ແລະ ອື່ນໆ ທີ່ຜິດຕໍ່ກົດລະບຽບຂອງ ສປປ ລາວ.<br/>
+– ຜູ້ໃຊ້ນຳໃຊ້ເວັບໄຊໃນການທຳລາຍ ຫຼື ໂຈມຕີເວັບໄຊອື່ນ.<br/>
+– ຜູ້ໃຊ້ນຳໃຊ້ເວັບໄຊ ຫຼື ບັນຊີເພື່ອເຂົ້າໄປໃນເວັບໄຊອື່ນຢ່າງຜິດກົດໝາຍ ຫຼື ສົ່ງຜົນກະທົບຕໍ່ກັບລູກຄ້າຂອງ Lao Smart Tech.<br/>
+– ຜູ້ໃຊ້ ບໍ່ຊຳລະຄ່າບໍລິການຕາມເວລາທີ່ກຳນົດໄວ້.
                         </p>
                     </li>
                     <li class="c-box9__item">
-                        <p class="c-box9__tlt">ĐIỀU 3: SỬ DỤNG DỊCH VỤ</p>
+                        <p class="c-box9__tlt">ມາດຕາ 5: ການ​ຄຸ້ມ​ຄອງ​ບັນ​ຊີ​ແອັດມິນ​</p>
                         <p class="c-box9__txt">
-                            Người dùng đăng ký tài khoản và khởi tạo dịch vụ trên Pxwebshop.com là người đã đăng ký sử dụng dịch vụ theo quy định của Pxwebshop.com và được chấp nhận sự đăng ký đó.
+                        ຜູ້ໃຊ້ຕ້ອງເກັບຮັກສາຊື່ຜູ້ໃຊ້, ລະຫັດຜ່ານ ຫຼື ຂໍ້ມູນອື່ນໆທີ່ກ່ຽວຂ້ອງກັບບັນຊີຂອງທ່ານໃຫ້ປອດໄພ ໃນກໍລະນີພົບເຫັນການນຳໃຊ້ບັນຊີໂດຍທີ່ບໍ່ໄດ້ຮັບອະນຸຍາດ ກະລຸນາແຈ້ງ Lao Smart Tech.                        </p>
+                    </li>
+                    <li class="c-box9__item">
+                        <p class="c-box9__tlt">ມາດຕາ 6: ກົດ​ລະ​ບຽບກ່ຽວກັບ Footer ເວັບໄຊ</p>
+                        <p class="c-box9__txt">
+                        ບັນດາເວັບໄຊທີ່ເສັດສົມບູນ ແລະ ສົ່ງມອບໃຫ້ລູກຄ້າຈະຖືກບັນທຶກປະໂຫຍກ "ອອກແບບ ແລະ ພັດທະນາໂດຍ Lao Smart Tech ຢູ່ໃນສວ່ນຂອງ footer.                        </p>
+                    </li>
+                    <li class="c-box9__item">
+                        <p class="c-box9__tlt">ມາດຕາ 7: ນະໂຍບາຍການຄືນເງິນ</p>
+                        <p class="c-box9__txt">
+                            ລູກຄ້າສາມາດຂໍຍົກເລີກການໃຊ້ບໍລິການພາຍໃນ 15 ວັນນັບຈາກມື້ທີ່ລົງທະບຽນໃຊ້ບໍລິການ ໃຊ້ໃນກໍລະນີທີ່ Lao Smart Tech ບໍ່ສາມາດຕອບສະໜອງ ຫຼື ໃຫ້ບໍລິການບໍ່ຖືກຕາມການຮ້ອງຂໍຂອງລູກຄ້າ
                         </p>
                     </li>
                     <li class="c-box9__item">
-                        <p class="c-box9__tlt">ĐIỀU 4: TẠM NGƯNG CUNG CẤP DỊCH VỤ</p>
+                        <p class="c-box9__tlt">ມາດຕາ 8: ການ​ແກ້​ໄຂ​ຂໍ້​ຂັດ​ແຍ່ງ​, ກົດລະບຽບ​ການ​ນໍາ​ໃຊ້​</p>
                         <p class="c-box9__txt">
-                            Pxwebshop.com có quyền ngưng cung cấp dịch vụ mà không hoàn lại bất kỳ một chi phí nào trong các trường hợp sau:
-Người dùng sử dụng website/phần mềm vào bất kỳ mục đích/hình thức nào vi phạm pháp luật Việt Nam, đặc biệt về vấn đề bản quyền phần mềm, ca khúc…<br/>
-– Người dùng gửi, tạo liên kết hoặc trung chuyển cho các dữ liệu mang tính chất bất hợp pháp, đe doạ, lừa dối, thù hằn, xuyên tạc, nói xấu, tục tĩu, khiêu dâm, xúc phạm… hay các hình thức bị pháp luật Việt Nam ngăn cấm khác dưới bất kỳ cách thức nào.<br/>
-– Người dùng lưu trữ, truyền bá các dữ liệu nào mà cấu thành hoặc khuyến khích các hình thức phạm tội hoặc các dữ liệu mangtính vi phạm luật sáng chế, nhãn hiệu, quyền thiết kế, bản quyền hay bất kỳ quyền sỡ hữu trí tuệ hoặc các quyền hạn của bất kỳ cá nhânnào.<br/>
-– Người dùng sử dụng website để phá hoại một website khác.<br/>
-– Người dùng sử dụng các chương trình có khả năng làm tắc nghẽn hoặc đình trệ hệ thống, như gây cạn kiệt tài nguyên hệ thống, làm quá tải bộ vi xử lý và bộ nhớ.<br/>
-– Người dùng sử dụng website hoặc tài khoản của mình để xâm nhập trái phép vào website khác hoặc gây ảnh hưởng đến khách hàng khác củaPxwebshop.com .<br/>
-– Người dùng không thanh toán các chi phí đúng hạn.
-                        </p>
-                    </li>
-                    <li class="c-box9__item">
-                        <p class="c-box9__tlt">ĐIỀU 5: QUẢN LÝ TÀI KHOẢN QUẢN TRỊ</p>
-                        <p class="c-box9__txt">
-                            Người dùng giữ một cách an toàn các thông tin nhận biết, mật khẩu hay những thông tin ,mặt khác liên quan đến tài khoản của mình và lập tức thông báo cho Pxwebshop.com khi phát hiện các hình thức truy cập trái phép bằng tài khoản của mình hoặc các sơ hở về bảo mật, bao gồm việc mất mát, đánh cắp hoặc để lộ các thông tin về mật khẩu và các thông tin bảo mật khác.
-                        </p>
-                    </li>
-                    <li class="c-box9__item">
-                        <p class="c-box9__tlt">ĐIỀU 6: QUY ĐỊNH VỀ CHÂN TRANG WEBSITE</p>
-                        <p class="c-box9__txt">
-                            Các website sau khi hoàn thiện và bàn giao cho Khách hàng đều được xác nhận bởi dòng chữ “Thiết kế và duy trì bởi Pxwebshop.com ” có gắn link về trang chủ Pxwebshop.com và để chế độ nofollow tại vị trí chân trang website. Tương tự như tem bảo hành đối với các sản phẩm khác, điều này xác nhận trách nhiệm của Pxwebshop.com cũng như đảm bảo quyền lợi sử dụng các dịch vụ hỗ trợ sau bán hàng đối với website.
-                        </p>
-                    </li>
-                    <li class="c-box9__item">
-                        <p class="c-box9__tlt">ĐIỀU 7: CHÍNH SÁCH ĐẢM BẢO HOÀN TIỀN</p>
-                        <p class="c-box9__txt">
-                            Khách hàng yêu cầu hủy dịch vụ trong thời hạn 15 ngày kể từ lúc bắt đầu đăng ký sử dụng dịch vụ, áp dụng trong trường hợpPxwebshop.com không đáp ứng được nhu cầu của khách hàng đúng như cam kết dịch vụ hoặc lỗi dịch vụ phát sinh từ phía nhà cung cấp dịch vụ Pxwebshop.com
-Pxwebshop.com sẽ hoàn lại tiền trong trường hợp không cung cấp vì ngưng hoạt động.
-                        </p>
-                    </li>
-                    <li class="c-box9__item">
-                        <p class="c-box9__tlt">ĐIỀU 8: GIẢI QUYẾT TRANH CHẤP, LUẬT ÁP DỤNG</p>
-                        <p class="c-box9__txt">
-                            Trong quá trình sử dụng nếu xảy ra tranh chấp giữa người sử dụng và Pxwebshop.com , hai bên sẽ tiến hành đàm phán hòa giải với tinh thần hữu nghị. Trong trường hợp không giải quyết được bằng hòa giải sẽ đưa ra toà án kinh tế Hồ Chí Minh giải quyết.
-                        </p>
+                        ໃນ​ລະ​ຫວ່າງ​ການ​ນໍາ​ໃຊ້ ຖ້າ​ຫາກ​ວ່າເກິດ​ມີ​ຂໍ້​ຂັດ​ແຍ່ງ​ລະ​ຫວ່າງ​ຜູ້​ໃຊ້ ​ແລະ Lao Smart Tech, ທັງສອງ​ຝ່າຍ​ຈະ​ເຈລະ​ຈາ ແລະ ປະນີປະນອມກັນ. ​ໃນ​ກໍລະນີ​ທີ່​ບໍ່​ສາມາດ​ແກ້​ໄຂໄດ້ແມ່ນຈະວ່າຕາມກົດໝາຍຂອງ ສປປ ລາວ.
+                    </p>
                     </li>
                 </ul>
             </div>
