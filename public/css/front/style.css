@@ -2513,7 +2513,10 @@ other
   transition: 0.3s ease-in-out;
   transform: translate(0px, -100%);
   position: absolute;
-  padding-right: 10px;
+  padding: 10px;
+  background: #6e99e6;
+  right: 10px;
+  text-align: right;
 }
 .c-box6__category {
   background: linear-gradient(105deg, #6e99e6, #093c94);
@@ -2527,8 +2530,9 @@ other
 .c-box6__tlt {
   line-height: 1.3;
   text-transform: capitalize;
-  color: #262932;
   font-size: 1.6rem;
+  text-align: left;
+  color: #fff;
 }
 .c-box6 .slick-prev:before, .c-box6 .slick-next:before {
   color: #093c94;
