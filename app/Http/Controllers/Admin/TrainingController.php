@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
 use App\Models\Training;
+use App\Models\Image;
 use Brian2694\Toastr\Facades\Toastr;
 use App\Http\Requests\Blog\CreateBlogRequest;
 use Auth;
@@ -15,7 +16,7 @@ class TrainingController extends Controller
    public function index(Request $request)
    {
       $training = Training::with(['category', 'user'])->orderBy('created_at', 'desc')->get();
-
+      
       return view('admin.training.list', compact('training'));
    }
 
@@ -46,13 +47,12 @@ class TrainingController extends Controller
             'featured_image'     => $fileName
          ];
       }
-
+      
       $data1 = [
          'user_id'            => \Auth::user()->id,
          'status'             => $request->input('status'),
          'title'              => $request->input('title'),
          'content'            => $request->input('content'),
-         'description'        => $request->input('description'),
       ];
 
       $result = array_merge($data, $data1);
@@ -69,6 +69,23 @@ class TrainingController extends Controller
 
          if ($request->hasFile('featured_image')) {
             \Storage::disk('local')->put('public/images/training/feature/'.$fileName, $img);
+         }
+
+         if($files = $request->file('images')) {
+            foreach($files as $image) {
+               $extention = $image->getClientOriginalExtension();
+               $fileName = time().rand(1, 50). '.' . $extention;
+
+               $img = \Image::make($image->getRealPath());
+               $img->resize(600, 400, function ($constraint) {
+                  $constraint->aspectRatio();                 
+               });
+
+               $img->stream(); // <-- Key point
+               \Storage::disk('local')->put('public/images/training/slide/'.$fileName, $img);
+
+               $training->image()->create(['name' => $fileName ]);
+            }
          }
       } catch(\Exception $e) {
          Toastr::error('Tạo bài viết thất bại!'. $e->getMessage());
@@ -92,7 +109,6 @@ class TrainingController extends Controller
       $training->title = $request->get('title');
       $training->content = $request->get('content');
       $training->status = $request->get('status');
-      $training->description = $request->get('description');
       $fileOld = $training->featured_image;
 
       \DB::beginTransaction();

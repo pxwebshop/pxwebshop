@@ -159,6 +159,26 @@ $(document).ready(function() {
 		]
 	});
 
+	$('.c-box15__inner').slick({
+		dots: false,
+		infinite: true,
+		speed: 1000,
+		slidesToShow: 2,
+		slidesToScroll: 2,
+		autoplay: true,
+		autoplaySpeed: 2000,
+		arrows: true,
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					centerMode: false
+			  	}
+			}
+		]
+	});
+
 	$('.is-list1').slick({
 		dots: false,
 		infinite: true,

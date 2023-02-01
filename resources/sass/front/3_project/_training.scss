@@ -1,0 +1,49 @@
+
+/*------------------------------------------------------------
+Page training
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.p-training {
+    &1 {
+        &__tlt {
+            font-size: 3.0rem;
+            margin: 20px 0;
+        }
+
+        .tabs div.active[data-tab] {
+            border: 1px solid #2e3440;
+            border-bottom: 0;
+            margin-bottom: -1px;
+            font-size: 2.0rem;
+            font-weight: bold;
+        }
+        .tabs div[data-tab] {
+            background: white;
+            color: #2e3440;
+            display: inline-block;
+            border: 1px solid #6d6e71;
+            border-bottom: none;
+            margin: 0;
+            padding: 5px 20px;
+            border-radius: 5px 5px 0px 0px;
+        }
+        .tabs div.active:not([data-tab]) {
+            display: block;
+        }
+        .tabs div:not([data-tab]) {
+            margin: 0;
+            display: none; 
+            border: 1px solid #2e3440;
+            padding: 50px 30px;
+        }
+        .tabs {
+            margin: 20px 0;
+            i {
+                margin-right: 3px;
+            }
+        }
+    }
+}
+  
