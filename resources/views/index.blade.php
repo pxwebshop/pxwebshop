@@ -548,7 +548,7 @@
         <div class="c-box3 wow bounceInUp" data-wow-duration="0.7s" data-wow-delay="0.5s">
           <h2 class="c-title2">
             <span class="c-title2__text">
-              ບັນດາ <span class="c-title2__color1">ໃບຢັ້ງຢືນ</span> ວິຊາຊີບ
+              ບັນດາ <span class="c-title2__color1">ໃບຢັ້ງຢືນ</span> ວິຊາເພາະ
             </span>
             <span class="c-title2__text1">
              Lao Smart Tech ຮຽນຮູ້ເຕັກໂນໂລຊີໃໝ່ໆຢູ່ຕະຫຼອດເວລາ ເພື່ອນຳເອົາມູນຄ່າທີ່ດີທີ່ສຸດໃຫ້ແກ່ລູກຄ້າ.
