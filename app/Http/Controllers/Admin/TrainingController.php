@@ -153,9 +153,18 @@ class TrainingController extends Controller
          $fileRemove = $request->get('remove_file');
          $arrayFile = explode(",", $fileRemove);
          
+         foreach($training->image()->get() as $image) {
+            if (!in_array($image->name, $arrayFile )) {
+               $training->image()->where([
+                  'name' => $image->name
+               ])->delete();
+               \Storage::delete('public/images/training/feature/'. $image->name);
+            }
+         }
+
          if($files = $request->file('images')) {
             foreach($files as $image) {
-               if (in_array( $image->getClientOriginalName() ,$arrayFile )) {
+               if (in_array( $image->getClientOriginalName(), $arrayFile )) {
                   $extention = $image->getClientOriginalExtension();
                   $fileName = time().rand(1, 50). '.' . $extention;
    
@@ -169,14 +178,6 @@ class TrainingController extends Controller
    
                   $training->image()->create(['name' => $fileName ]);
                }
-            }
-         }
-         foreach($training->image()->get() as $image) {
-            if (!in_array($image->name, $arrayFile )) {
-               $training->image()->where([
-                  'name' => $image->name
-               ])->delete();
-               \Storage::delete('public/images/training/feature/'. $image->name);
             }
          }
 
