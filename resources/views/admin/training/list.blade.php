@@ -59,7 +59,7 @@
                         <td>{{ $item->created_at }}</td>
                         <td>{{ $item->user->name ?: $item->user->username }}</td>
                         <td class="text-center">
-                            {{-- <a class="btn btn-warning text-white" href="{{route('edit_training', $item->id) }}">Sửa</a> --}}
+                            <a class="btn btn-warning text-white" href="{{route('edit_training', $item->id) }}">Sửa</a>
                             <a onclick="return confirm(`Bạn có muốn xóa bài viết {{$item->title}} không?`);"  href="{{route('delete_training', $item->id) }}" class="btn btn-danger">Xoá</button>
                         </td>
                       </tr>

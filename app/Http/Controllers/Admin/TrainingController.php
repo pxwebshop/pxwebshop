@@ -71,20 +71,25 @@ class TrainingController extends Controller
             \Storage::disk('local')->put('public/images/training/feature/'.$fileName, $img);
          }
 
+         $fileRemove = $request->get('remove_file');
+         $arrayFile = explode(",", $fileRemove);
+         
          if($files = $request->file('images')) {
             foreach($files as $image) {
-               $extention = $image->getClientOriginalExtension();
-               $fileName = time().rand(1, 50). '.' . $extention;
-
-               $img = \Image::make($image->getRealPath());
-               $img->resize(600, 400, function ($constraint) {
-                  $constraint->aspectRatio();                 
-               });
-
-               $img->stream(); // <-- Key point
-               \Storage::disk('local')->put('public/images/training/slide/'.$fileName, $img);
-
-               $training->image()->create(['name' => $fileName ]);
+               if (in_array( $image->getClientOriginalName() ,$arrayFile )) {
+                  $extention = $image->getClientOriginalExtension();
+                  $fileName = time().rand(1, 50). '.' . $extention;
+   
+                  $img = \Image::make($image->getRealPath());
+                  $img->resize(600, 400, function ($constraint) {
+                     $constraint->aspectRatio();                 
+                  });
+   
+                  $img->stream(); // <-- Key point
+                  \Storage::disk('local')->put('public/images/training/slide/'.$fileName, $img);
+   
+                  $training->image()->create(['name' => $fileName ]);
+               }
             }
          }
       } catch(\Exception $e) {
@@ -128,7 +133,6 @@ class TrainingController extends Controller
       }
 
       $categories = $request->get('categories') ?: [];
-
       $training->training_category()->sync($categories);
       
       try {
@@ -145,6 +149,37 @@ class TrainingController extends Controller
             \Storage::disk('local')->put('public/images/training/feature/'.$fileName, $img);
             \Storage::delete('public/images/training/feature/'. $fileOld);
          }
+
+         $fileRemove = $request->get('remove_file');
+         $arrayFile = explode(",", $fileRemove);
+         
+         if($files = $request->file('images')) {
+            foreach($files as $image) {
+               if (in_array( $image->getClientOriginalName() ,$arrayFile )) {
+                  $extention = $image->getClientOriginalExtension();
+                  $fileName = time().rand(1, 50). '.' . $extention;
+   
+                  $img = \Image::make($image->getRealPath());
+                  $img->resize(600, 400, function ($constraint) {
+                     $constraint->aspectRatio();                 
+                  });
+   
+                  $img->stream(); // <-- Key point
+                  \Storage::disk('local')->put('public/images/training/slide/'.$fileName, $img);
+   
+                  $training->image()->create(['name' => $fileName ]);
+               }
+            }
+         }
+         foreach($training->image()->get() as $image) {
+            if (!in_array($image->name, $arrayFile )) {
+               $training->image()->where([
+                  'name' => $image->name
+               ])->delete();
+               \Storage::delete('public/images/training/feature/'. $image->name);
+            }
+         }
+
       } catch(\Exception $e) {
          Toastr::error('Cập nhật bài viết thất bại!'. $e->getMessage());
          \DB::rollback();

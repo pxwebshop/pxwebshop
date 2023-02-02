@@ -11,7 +11,7 @@
 @section('content')
 
 <section class="section">
-    <form action="" method="post" method="POST" enctype="multipart/form-data">
+    <form action="" method="POST" id="formId" enctype="multipart/form-data">
         @csrf
         <div class="row">
             <div class="col-lg-12 mb-2">
@@ -116,7 +116,7 @@
                 @include('_partials.alert', ['field' => 'status'])
                 
                 <div class="mt-2 text-end">
-                    <button type="submit" class="btn btn-primary">{{ \Request::route()->getName() == 'edit_training' ? 'Cập nhật' : 'Lưu'}} bài viết</button>
+                    <button type="submit" id="submit" class="btn btn-primary">{{ \Request::route()->getName() == 'edit_training' ? 'Cập nhật' : 'Lưu'}} bài viết</button>
                 </div>
             </div>
 
@@ -131,7 +131,19 @@
                                 <input type="file" name="images[]" accept="image/png, image/gif, image/jpeg"  multiple="" data-max_length="20" class="upload__inputfile">
                               </label>
                             </div>
-                            <div class="upload__img-wrap"></div>
+
+                            <div class="upload__img-wrap">
+                                @if(@$training && $training->image())
+                                    @foreach(@$training->image()->get() as $item)
+                                        <div class="upload__img-box">
+                                            <div data-file="{{$item->name}}" class="img-bg" style='background-image: url("{{ url('storage/images/training/slide/'.$item->name) }}")'>
+                                                <div class="upload__img-close"></div>
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                @endif
+                            </div>
+                            <input type="hidden" name="remove_file" id="remove_file">
                         </div>
                     </div>
                 </div>
@@ -218,72 +230,88 @@
 @push('scripts')
 
 <script>
+    // function submitDetailsForm() {
+       
+    //     return;
+    //     // $("#form").submit();
+    // }
+
     jQuery(document).ready(function () {
         ImgUpload();
     });
 
     function ImgUpload() {
-    var imgWrap = "";
-    var imgArray = [];
+        var imgWrap = "";
+        var imgArray = [];
 
-    $('.upload__inputfile').each(function () {
-        $(this).on('change', function (e) {
-        imgWrap = $(this).closest('.upload__box').find('.upload__img-wrap');
-        var maxLength = $(this).attr('data-max_length');
+        $('.upload__inputfile').each(function () {
+            $(this).on('change', function (e) {
+            imgWrap = $(this).closest('.upload__box').find('.upload__img-wrap');
+            var maxLength = $(this).attr('data-max_length');
 
-        var files = e.target.files;
-        var filesArr = Array.prototype.slice.call(files);
-        var iterator = 0;
-        filesArr.forEach(function (f, index) {
+            var files = e.target.files;
+            var filesArr = Array.prototype.slice.call(files);
+            var iterator = 0;
+            filesArr.forEach(function (f, index) {
 
-            if (!f.type.match('image.*')) {
-            return;
-            }
+                if (!f.type.match('image.*')) {
+                    return;
+                }
 
-            if (imgArray.length > maxLength) {
-            return false
-            } else {
-            var len = 0;
+                if (imgArray.length > maxLength) {
+                    return false
+                } else {
+                    var len = 0;
+                    for (var i = 0; i < imgArray.length; i++) {
+                        if (imgArray[i] !== undefined) {
+                            len++;
+                        }
+                    }
+                    if (len > maxLength) {
+                        return false;
+                    } else {
+                        imgArray.push(f);
+
+                        var reader = new FileReader();
+                        reader.onload = function (e) {
+                            var html = "<div class='upload__img-box'><div style='background-image: url(" + e.target.result + ")' data-number='" + $(".upload__img-close").length + "' data-file='" + f.name + "' class='img-bg'><div class='upload__img-close'></div></div></div>";
+                            imgWrap.append(html);
+                            iterator++;
+                        }
+                        reader.readAsDataURL(f);
+                        }
+                    }
+                });
+            });
+        });
+
+        $('body').on('click', ".upload__img-close", function (e) {
+            var file = $(this).parent().data("file");
             for (var i = 0; i < imgArray.length; i++) {
-                if (imgArray[i] !== undefined) {
-                len++;
+                if (imgArray[i].name === file) {
+                    imgArray.splice(i, 1);
+                        break;
                 }
             }
-            if (len > maxLength) {
-                return false;
-            } else {
-                imgArray.push(f);
-
-                var reader = new FileReader();
-                reader.onload = function (e) {
-                var html = "<div class='upload__img-box'><div style='background-image: url(" + e.target.result + ")' data-number='" + $(".upload__img-close").length + "' data-file='" + f.name + "' class='img-bg'><div class='upload__img-close'></div></div></div>";
-                imgWrap.append(html);
-                iterator++;
-                }
-                reader.readAsDataURL(f);
-            }
-            }
+            $(this).parent().parent().remove();
         });
-        });
-    });
-
-    $('body').on('click', ".upload__img-close", function (e) {
-        var file = $(this).parent().data("file");
-        for (var i = 0; i < imgArray.length; i++) {
-        if (imgArray[i].name === file) {
-            imgArray.splice(i, 1);
-            break;
-        }
-        }
-        $(this).parent().parent().remove();
-    });
     }
+
+    $("#formId").submit(function (e) {
+        let file = "";
+        $('.upload__img-box').each(function() {
+            file = file + ',' + $(this).children().data('file');
+        });
+        $("#remove_file").val(file);
+    });
 
     function preview() {
         frame.src = URL.createObjectURL(event.target.files[0]);
     }
-</script>    
+</script>
+
 <script src="https://cdn.tiny.cloud/1/lhwxyg149qglgnunbgvfenwshs508ivnyvqzb9uby3n59ean/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
 <script>
   var editor_config = {
     path_absolute : "/",
