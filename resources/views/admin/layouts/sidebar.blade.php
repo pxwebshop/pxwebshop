@@ -63,7 +63,7 @@
           </li>
           <li>
             <a class="{{ \Request::route()->getName() == 'training_outstanding' ? 'active' : ''}}" href="/admin/training/outstanding">
-              <i class="bi bi-circle"></i><span>Bài viết nổi bật</span>
+              <i class="bi bi-circle"></i><span>Hiển thị training</span>
             </a>
           </li>
         </ul>
