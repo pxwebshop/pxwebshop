@@ -207,13 +207,13 @@ class TrainingController extends Controller
 
    public function outstanding(Request $request)
    {
-      $data = Blog::select('id', 'title')->active()->notOutstanding()->get();
+      $data = Training::select('id', 'title')->active()->notOutstanding()->get();
       $categories = Category::select('name', 'id')->get();
-      $outstanding = Blog::select('id', 'title')->active()->outstanding()->get();
+      $outstanding = Training::select('id', 'title')->active()->outstanding()->get();
 
       $ids = $outstanding->pluck('id')->toArray();
 
-      return view('admin.blog.outstanding', compact('data', 'categories', 'outstanding','ids'));
+      return view('admin.training.outstanding', compact('data', 'categories', 'outstanding','ids'));
    }
 
    public function postOutstanding(Request $request)
@@ -222,14 +222,14 @@ class TrainingController extends Controller
       
       try {
 
-         Blog::whereIn('id', json_decode($request->get('blog-outstanding-choose'), true))
+         Training::whereIn('id', json_decode($request->get('training-outstanding-choose'), true))
          ->update(array('outstanding' => 0));
 
-         $ids = json_decode($request->get('blog-outstanding'), true);
+         $ids = json_decode($request->get('training-outstanding'), true);
          foreach($ids as $id) {
-            $blog = Blog::find($id);
-            $blog->outstanding = Blog::OUTSTANDING;
-            $blog->save();
+            $training = Training::find($id);
+            $training->outstanding = Training::OUTSTANDING;
+            $training->save();
          }
          \DB::commit();
          Toastr::success("Cập nhật thành công!");
@@ -238,6 +238,6 @@ class TrainingController extends Controller
          \DB::rollback();
       }
 
-      return redirect()->route('outstanding');
+      return redirect()->route('training_outstanding');
    }
 }

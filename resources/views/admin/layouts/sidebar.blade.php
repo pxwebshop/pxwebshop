@@ -61,6 +61,11 @@
               <i class="bi bi-circle"></i><span>Danh mục</span>
             </a>
           </li>
+          <li>
+            <a class="{{ \Request::route()->getName() == 'training_outstanding' ? 'active' : ''}}" href="/admin/training/outstanding">
+              <i class="bi bi-circle"></i><span>Bài viết nổi bật</span>
+            </a>
+          </li>
         </ul>
       </li>
 

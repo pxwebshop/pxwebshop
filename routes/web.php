@@ -73,6 +73,8 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
         Route::post('/{id}/edit', 'Admin\TrainingController@postEdit');
         Route::get('/{id}/delete', 'Admin\TrainingController@delete')->name('delete_training');
 
+        Route::get('/outstanding', 'Admin\TrainingController@outstanding')->name('training_outstanding');
+        Route::post('/outstanding', 'Admin\TrainingController@postOutstanding');
     });
 
     Route::group(['prefix' => 'categories'], function () {

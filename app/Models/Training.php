@@ -65,4 +65,14 @@ class Training extends Model
     {
         return $this->morphMany('App\Models\Image', 'imageable');
     }
+
+    public function scopeNotOutstanding($query)
+    {
+        return $query->where('outstanding', '!=', self::OUTSTANDING);
+    }
+
+    public function scopeOutstanding($query)
+    {
+        return $query->where('outstanding', self::OUTSTANDING);
+    }
 }

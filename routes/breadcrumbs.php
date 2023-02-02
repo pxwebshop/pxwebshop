@@ -42,6 +42,11 @@ Breadcrumbs::for('outstanding', function ($trail) {
     $trail->push('Bài viết nổi bật', route('outstanding'));
 });
 
+Breadcrumbs::for('training_outstanding', function ($trail) {
+    $trail->parent('home');
+    $trail->push('Bài viết nổi bật', route('training_outstanding'));
+});
+
 Breadcrumbs::for('add_training', function ($trail) {
     $trail->parent('home');
     $trail->push('Bài viết', route('list_training'));

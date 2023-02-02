@@ -15,7 +15,7 @@ class HomeController extends Controller
      public function index(Request $request)
      {
           $blogs = Blog::with('user')->outstanding()->orderBy('created_at', 'desc')->take(3)->get();
-          $training = Training::with('user')->orderBy('created_at', 'desc')->take(5)->get();
+          $training = Training::with('user')->outstanding()->orderBy('created_at', 'desc')->take(5)->get();
           
           return view('index', compact('blogs', 'training'));
      }
