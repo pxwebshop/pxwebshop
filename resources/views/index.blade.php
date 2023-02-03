@@ -374,7 +374,7 @@
                   <p class="c-list2__price">24,999,000 LAK</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຮູບແບບ Landing Page, ເວັບໄຊຂ່າວສານ, ເວັບໄຊແນະນຳທຸລະກິດ... ພ້ອມກັບຟັງຊັ່ນຕ່າງໆ ທີ່ຈຳເປັນໃນເວັບໄຊມາດຕະຖານ SEO.</p>
+                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊຮູບແບບ Landing Page, ເວັບໄຊຂ່າວສານ, ເວັບໄຊແນະນຳທຸລະກິດ... ພ້ອມກັບຟັງຊັ່ນຕ່າງໆ ທີ່ຈຳເປັນໃນເວັບໄຊມາດຕະຖານ.</p>
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐</strong>Source Code: Lao Smart Tech Core</li>
                     <li class="c-list2__boxItem"><strong>⭐</strong>Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
@@ -418,7 +418,7 @@
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ຄວາມປອດໄພ: SSL</li>
 
                     <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ Mobile: ມີ</li>
-                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
+                    {{-- <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li> --}}
                     <li class="c-list2__boxItem"><strong>✅ </strong>Domain: ຟຣີ 1 ປີ (.la, .com, .org)</li>
                     <li class="c-list2__boxItem"><strong>✅ </strong>Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 5GB</li>
                     <li class="c-list2__boxItem"><strong>✅ </strong>ກະຕ່າສີນຄ້າ, ລະບົບຊຳລະເງິນ: ບໍ່ມີ</li>
@@ -439,7 +439,7 @@
                   <p class="c-list2__price">ຕິດຕໍ່ (VIP)</p>
                 </div>
                 <div class="c-list2__body">
-                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊອີຄອມເມິດສຂະໜາດໃຫຍ່, ເວັບໄຊທີ່ມີການຄຳນວນທາງຄະນິດສາດຊັບຊ້ອນ, ເວັບໄຊທີ່ມີ traffic ສູງ, ຕ້ອງການຄວາມປອດໄພ ແລະ SEO ລະດັບສູງ.</p>
+                  <p class="c-list2__txt">ເໝາະສຳຫຼັບເວັບໄຊອີຄອມເມິດສຂະໜາດໃຫຍ່, ເວັບໄຊທີ່ມີການຄຳນວນທາງຄະນິດສາດຊັບຊ້ອນ, ເວັບໄຊທີ່ມີ traffic ສູງ, ຕ້ອງການຄວາມປອດໄພ.</p>
                   <ul class="c-list2__box">
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Source Code: Lao Smart Tech Core</li>
                     <li class="c-list2__boxItem"><strong>⭐ </strong> Framework (ຖ້າລູກຄ້າຕ້ອງການ): Laravel</li>
@@ -451,7 +451,7 @@
                     <li class="c-list2__boxItem"><strong>⭐ </strong> ຄວາມປອດໄພ: SSL</li>
 
                     <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ Mobile: ມີ</li>
-                    <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li>
+                    {{-- <li class="c-list2__boxItem"><strong>✅ </strong>ມາດຕະຖານ SEO: ຮັບປະກັນມາດຕະຖານ SEO 100%</li> --}}
                     <li class="c-list2__boxItem"><strong>✅ </strong>ຊ່ວຍເຫຼືອປ່ຽນແປງ SEO ຕາມເທນຫຼ້າສຸດຂອງ Google</li>
                     <li class="c-list2__boxItem"><strong>✅ </strong>Domain: ຟຣີ 1 ປີ (.com, .net, .org)</li>
                     <li class="c-list2__boxItem"><strong>✅ </strong>Hosting: ຟຣີ 1 ປີ, ເນື້ອທີ່ຈັດເກັບສູງເຖິງ 10GB</li>
