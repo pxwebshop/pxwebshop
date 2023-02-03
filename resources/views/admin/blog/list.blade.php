@@ -37,7 +37,7 @@
                     @foreach($blogs as $key => $item)
                       <tr>
                         <th scope="row">{{$key + 1 }}</th>
-                        <td><a href="/blog/{{ $item->id }}" target="_blank" rel="noopener noreferrer">{{ $item->title }}</a></td>
+                        <td><a href="/blog/{{ $item->slug }}" target="_blank" rel="noopener noreferrer">{{ $item->title }}</a></td>
                         <td>
                           @foreach( $item->category as $category)
                             <span class="badge bg-primary">{{$category->name;}}</span>

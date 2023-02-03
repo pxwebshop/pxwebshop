@@ -2,6 +2,9 @@
 @section('description','lao smart tech ມີຄວາມຊ່ຽວຊານໃນການສະຫນອງການແກ້ໄຂເຕັກໂນໂລຢີຂໍ້ມູນຂ່າວສານ ແລະ ການອອກແບບເວັບໄຊ, ໂປຣແກຣມ, ໂລໂກ, ແບນເນີ, ເຄືອຂ່າຍ ແລະ ຈັດຝຶກອົບຮົມ')
 @section('keywords','lao smart tech, ອອກແບບເວັບໄຊ, ອອກແບບເວັບໄຊ, ສ້າງເວັບໄຊ, ຂຽນເວັບໄຊ, ພັດທະນາເວັບໄຊ, ອອກແບບໂປຣແກຣມ, ຂຽນໂປຣແກຣມ, ພັດທະນາໂປຣແກຣມ ອອກແບບໂລໂກ, banner, ອອກແບບລະບົບເຄືອຂ່າຍ, ຝຶກອົບຮົມ')
 @extends('layouts.template')
+@push('css')
+    <link rel="stylesheet" href="{{ asset('css/front/jquery.fancybox.min.css')}}" />
+@endpush
 
 @section('content')
 
@@ -37,13 +40,17 @@
 
             <div class="c-box15">
                 <h4 class="c-title3">Hình ảnh đào tạo</h4>
-                <ul class="c-box15__inner">
+                <ul class="c-box15__inner container">
                     @foreach($sliders as $item)
-                    <li class="c-box15__item">
-                        <figure>
-                            <img src="{{url('storage/images/training/slide/'.$item->name)}}" alt="">
-                        </figure>
-                    </li>
+                        <li class="c-box15__item">
+                            <div class="grid-item">
+                                <a data-fancybox="gallery" href="{{url('storage/images/training/slide/'.$item->name)}}">
+                                    <figure>
+                                        <img src="{{url('storage/images/training/slide/'.$item->name)}}" alt="">
+                                    </figure>
+                                </a>
+                            </div>
+                        </li>
                     @endforeach
                 </ul>
             </div>
@@ -79,3 +86,13 @@
 </main>
 
 @endsection
+
+@push('scripts')
+    <script>
+        jQuery(document).ready(function() {
+            jQuery.fancybox.defaults.thumbs.autoStart = true;
+        });
+    </script>
+
+    <script src="{{ asset('js/front/jquery.fancybox.min.js')}}"></script>
+@endpush

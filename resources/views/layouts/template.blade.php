@@ -15,13 +15,13 @@
 	<link href="{{ asset('css/front/slick/slick.css')}}" rel="stylesheet" media="all">
 	<link href="{{ asset('css/front/slick/slick-theme.css')}}" rel="stylesheet" media="all">
 
-	{{-- <link href="{{ asset('css/front/aos.css')}}" rel="stylesheet"> --}}
-
 	<link rel="stylesheet" href="{{ asset('css/front/animate.min.css')}}">
 
     <link href="https://fonts.gstatic.com" rel="preconnect">
     
     <link rel="stylesheet" href="{{ asset('css/front/jquery.modal.min.css')}}" />
+    
+    @stack('css')
 </head>
 
 <body>
