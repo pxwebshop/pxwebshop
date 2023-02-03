@@ -161,21 +161,18 @@ $(document).ready(function() {
 
 	$('.c-box15__inner').slick({
 		dots: false,
-		infinite: true,
+		infinite: false,
 		speed: 1000,
-		slidesToShow: 2,
-		slidesToScroll: 2,
+		slidesToShow: 3,
+		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2000,
-		centerMode: true,
-		centerPadding: '50px',
-		arrows: true,
+		arrows: false,
 		responsive: [{
 			breakpoint: 768,
 			settings: {
 					slidesToShow: 2,
 					slidesToScroll: 1,
-					centerMode: false,
 					centerPadding: 0,
 			  	}
 			}
