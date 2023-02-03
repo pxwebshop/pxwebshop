@@ -3228,6 +3228,11 @@ other
   padding-bottom: 30px;
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .c-box13__inner {
+    padding-top: 30px;
+  }
+}
 .c-box13__inner::before {
   content: "";
   position: absolute;

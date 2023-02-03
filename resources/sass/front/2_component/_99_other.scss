@@ -1108,6 +1108,9 @@ other
         padding-top: 80px;
         padding-bottom: 30px;
         position: relative;
+        @include sp() {
+            padding-top: 30px;
+        }
         &::before {
             content: '';
             position: absolute;
