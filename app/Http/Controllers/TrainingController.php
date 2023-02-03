@@ -13,14 +13,14 @@ class TrainingController extends Controller
       return view('training');
    }
 
-   public function detail($id, Request $request)
+   public function detail($slug, Request $request)
    {
-      $training = Training::where('id',$id)->active()->first();
+      $training = Training::where('slug',$slug)->active()->first();
       if (empty($training)) {
          abort(404);
       }
       $sliders = $training->image()->get();
-      $trainings = Training::with('user')->where('id', '!=', $id)->orderBy('created_at', 'desc')->take(5)->get();
+      $trainings = Training::with('user')->where('slug', '!=', $slug)->orderBy('created_at', 'desc')->take(5)->get();
 
       return view('detail-training', compact('training', 'sliders', 'trainings'));
    }

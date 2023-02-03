@@ -30,7 +30,7 @@ Route::group(['prefix' => 'blog'], function () {
     Route::get('/{slug}', 'BlogController@detail')->name('blog_detail');
 });
 Route::group(['prefix' => 'training'], function () {
-    Route::get('/{id}', 'TrainingController@detail')->name('training_detail');
+    Route::get('/{slug}', 'TrainingController@detail')->name('training_detail');
 });
 
 Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {

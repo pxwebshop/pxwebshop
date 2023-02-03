@@ -824,7 +824,7 @@
           <ul class="c-box6__inner js-slider">
             @foreach($training as $key => $item)
             <li class="c-box6__item">
-             <a href="{{route('training_detail', $item->id)}}" class="c-box6__wrap">
+             <a href="{{route('training_detail', $item->slug)}}" class="c-box6__wrap">
               <figure>
                 @if($item->featured_image)
                   <img src=" {{url('storage/images/training/feature/'.$item->featured_image.'')}}" alt="">

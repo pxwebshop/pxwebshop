@@ -10,7 +10,7 @@ use App\Models\Image;
 use Brian2694\Toastr\Facades\Toastr;
 use App\Http\Requests\Blog\CreateBlogRequest;
 use Auth;
-
+use Illuminate\Support\Str;
 class TrainingController extends Controller
 {
    public function index(Request $request)
@@ -58,7 +58,9 @@ class TrainingController extends Controller
       $result = array_merge($data, $data1);
 
       $training = Training::create($result);
-     
+      $training->slug = Str::slug($training->title .'-'. $training->id. '.html');
+      $training->save();
+
       foreach ($categories as $id) {
          $training->training_category()->attach([ $id ]);
       }
@@ -115,6 +117,7 @@ class TrainingController extends Controller
       $training->content = $request->get('content');
       $training->status = $request->get('status');
       $fileOld = $training->featured_image;
+      $training->slug = Str::slug($training->title .'-'. $training->id. '.html');
 
       \DB::beginTransaction();
 
