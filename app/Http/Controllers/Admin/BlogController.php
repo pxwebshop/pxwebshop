@@ -60,7 +60,7 @@ class BlogController extends Controller
       $result = array_merge($data, $data1);
 
       $blog = Blog::create($result);
-      $blog->slug = Str::slug($blog->title .'-'. $blog->id. '.html');
+      $blog->slug = Str::slug($blog->title .'-'. $blog->id. '.html', '-', null);
       $blog->save();
 
       foreach ($categories as $id) {

@@ -58,7 +58,7 @@ class TrainingController extends Controller
       $result = array_merge($data, $data1);
 
       $training = Training::create($result);
-      $training->slug = Str::slug($training->title .'-'. $training->id. '.html');
+      $training->slug = Str::slug($training->title .'-'. $training->id. '.html', '-', null);
       $training->save();
 
       foreach ($categories as $id) {
@@ -117,7 +117,7 @@ class TrainingController extends Controller
       $training->content = $request->get('content');
       $training->status = $request->get('status');
       $fileOld = $training->featured_image;
-      $training->slug = Str::slug($training->title .'-'. $training->id. '.html');
+      $training->slug = Str::slug($training->title .'-'. $training->id. '.html', '-', null);
 
       \DB::beginTransaction();
 
