@@ -98,7 +98,7 @@ class BlogController extends Controller
       $blog->status = $request->get('status');
       $blog->description = $request->get('description');
       $fileOld = $blog->featured_image;
-      $blog->slug = Str::slug($blog->title .'-'. $blog->id. '.html');
+      $blog->slug = Str::slug($blog->title .'-'. $blog->id. '.html', '-', null);
 
       \DB::beginTransaction();
 
