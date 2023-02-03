@@ -60,7 +60,7 @@ class BlogController extends Controller
       $result = array_merge($data, $data1);
 
       $blog = Blog::create($result);
-      $blog->slug = Str::slug($blog->title .'-'. $blog->id. '.html', '-', null);
+      $blog->slug = Str::slug($blog->title .'-'. $blog->id, '-', null);
       $blog->save();
 
       foreach ($categories as $id) {
@@ -98,7 +98,7 @@ class BlogController extends Controller
       $blog->status = $request->get('status');
       $blog->description = $request->get('description');
       $fileOld = $blog->featured_image;
-      $blog->slug = Str::slug($blog->title .'-'. $blog->id. '.html', '-', null);
+      $blog->slug = Str::slug($blog->title .'-'. $blog->id, '-', null);
 
       \DB::beginTransaction();
 
