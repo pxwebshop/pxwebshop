@@ -167,13 +167,16 @@ $(document).ready(function() {
 		slidesToScroll: 2,
 		autoplay: true,
 		autoplaySpeed: 2000,
+		centerMode: true,
+		centerPadding: '50px',
 		arrows: true,
 		responsive: [{
 			breakpoint: 768,
 			settings: {
-					slidesToShow: 1,
+					slidesToShow: 2,
 					slidesToScroll: 1,
-					centerMode: false
+					centerMode: false,
+					centerPadding: 0,
 			  	}
 			}
 		]
