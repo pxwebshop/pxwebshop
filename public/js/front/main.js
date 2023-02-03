@@ -160,12 +160,12 @@ $(document).ready(function() {
 	});
 
 	$('.c-box15__inner').slick({
-		dots: false,
+		dots: true,
 		infinite: false,
 		speed: 1000,
-		slidesToShow: 3,
+		slidesToShow: 3.5,
 		slidesToScroll: 1,
-		autoplay: true,
+		autoplay: false,
 		autoplaySpeed: 2000,
 		arrows: false,
 		responsive: [{
