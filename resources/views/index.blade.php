@@ -782,7 +782,7 @@
           <ul class="c-list10__list">
             @foreach($blogs as $key => $item)
             <li class="c-list10__item">
-              <a href="{{route('blog_detail', $item->id)}}" class="c-list10__wrap">
+              <a href="{{route('blog_detail', $item->slug)}}" class="c-list10__wrap">
                 <figure>
                   <img loading="lazy" src="{{url('storage/images/blog/feature/'.$item->featured_image.'')}}" alt="">
                 </figure>

@@ -10,6 +10,7 @@ use App\Models\BlogCategory;
 use Brian2694\Toastr\Facades\Toastr;
 use App\Http\Requests\Blog\CreateBlogRequest;
 use Auth;
+use Illuminate\Support\Str;
 
 class BlogController extends Controller
 {
@@ -59,7 +60,9 @@ class BlogController extends Controller
       $result = array_merge($data, $data1);
 
       $blog = Blog::create($result);
-     
+      $blog->slug = Str::slug($blog->title .'-'. $blog->id. '.html');
+      $blog->save();
+
       foreach ($categories as $id) {
          $blog->blog_category()->attach([ $id ]);
       }

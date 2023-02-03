@@ -27,7 +27,7 @@ Route::get('/login', 'Admin\UserController@login')->name('login');
 Route::post('/login', 'Admin\UserController@postLogin')->name('post_login');
 
 Route::group(['prefix' => 'blog'], function () {
-    Route::get('/{id}', 'BlogController@detail')->name('blog_detail');
+    Route::get('/{slug}', 'BlogController@detail')->name('blog_detail');
 });
 Route::group(['prefix' => 'training'], function () {
     Route::get('/{id}', 'TrainingController@detail')->name('training_detail');

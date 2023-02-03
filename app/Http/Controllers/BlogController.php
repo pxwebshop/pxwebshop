@@ -12,15 +12,15 @@ class BlogController extends Controller
       return view('blog');
    }
 
-   public function detail($id, Request $request)
+   public function detail($slug, Request $request)
    {
       $tocGenerator = new \TOC\TocGenerator();
 
-      $blog = Blog::where('id',$id)->active()->first();
+      $blog = Blog::where('slug', $slug)->active()->first();
       if (empty($blog)) {
          abort(404);
       }
-      $blogs = Blog::where('id', '!=', $id)->get();
+      $blogs = Blog::where('slug', '!=', $slug)->get();
 
       $markupFixer  = new \TOC\MarkupFixer();
       $blog->content = $markupFixer->fix($blog->content);
