@@ -76,6 +76,10 @@ body {
         &__content {
             position: sticky;
             top: 100px;
+            @include sp() {
+                position: static;
+                top: auto;
+            }
         }
     }
 }

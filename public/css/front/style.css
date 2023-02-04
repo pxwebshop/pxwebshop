@@ -370,6 +370,12 @@ body {
   position: sticky;
   top: 100px;
 }
+@media screen and (max-width: 767px) {
+  .l-container1__slidebar__content {
+    position: static;
+    top: auto;
+  }
+}
 
 /*------------------------------------------------------------
 side
@@ -1750,6 +1756,7 @@ list
 .c-list11__tlt {
   line-height: 1.3;
   margin-top: 5px;
+  font-weight: bold;
 }
 .c-list11__title {
   font-size: 2.5rem;
