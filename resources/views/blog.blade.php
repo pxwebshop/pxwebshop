@@ -2,6 +2,9 @@
 @section('description','lao smart tech ມີຄວາມຊ່ຽວຊານໃນການສະຫນອງການແກ້ໄຂເຕັກໂນໂລຢີຂໍ້ມູນຂ່າວສານ ແລະ ການອອກແບບເວັບໄຊ, ໂປຣແກຣມ, ໂລໂກ, ແບນເນີ, ເຄືອຂ່າຍ ແລະ ຈັດຝຶກອົບຮົມ')
 @section('keywords','lao smart tech, ອອກແບບເວັບໄຊ, ອອກແບບເວັບໄຊ, ສ້າງເວັບໄຊ, ຂຽນເວັບໄຊ, ພັດທະນາເວັບໄຊ, ອອກແບບໂປຣແກຣມ, ຂຽນໂປຣແກຣມ, ພັດທະນາໂປຣແກຣມ ອອກແບບໂລໂກ, banner, ອອກແບບລະບົບເຄືອຂ່າຍ, ຝຶກອົບຮົມ')
 @extends('layouts.template')
+@push('css')
+    <link rel="stylesheet" href="{{ asset('css/front/jquery.fancybox.min.css')}}" />
+@endpush
 
 @section('content')
 
@@ -65,3 +68,33 @@
     </section>
 </main>
 @endsection
+
+@push('scripts')
+    <script>
+        $(document).ready(function() {
+            $('.js-content img').each(function( index ) {
+                var src = $(this).attr('src');
+                let html = `<div class="grid-item">
+                    <a data-fancybox="gallery" href="${src}">
+                        <figure>
+                           ${$(this)[0].outerHTML}
+                        </figure>
+                    </a>
+                </div> `
+
+                $( html ).insertBefore( $(this) );
+                $(this).remove();
+            });
+        });
+    </script>
+@endpush
+
+@push('scripts')
+    <script>
+        jQuery(document).ready(function() {
+            jQuery.fancybox.defaults.thumbs.autoStart = true;
+        });
+    </script>
+
+    <script src="{{ asset('js/front/jquery.fancybox.min.js')}}"></script>
+@endpush
