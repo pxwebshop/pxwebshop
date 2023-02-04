@@ -149,6 +149,7 @@
     selector: 'textarea.my-editor',
     height:700,
     relative_urls: false,
+    content_style:"body { font-family: 'Noto Sans Lao', sans-serif; }",
     plugins: [
       "advlist autolink lists link image charmap print preview hr anchor pagebreak",
       "searchreplace wordcount visualblocks visualchars code fullscreen",
