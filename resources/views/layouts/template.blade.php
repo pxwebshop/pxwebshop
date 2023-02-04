@@ -21,6 +21,17 @@
     
     <link rel="stylesheet" href="{{ asset('css/front/jquery.modal.min.css')}}" />
     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=Your_Measurement_ID"></script>
+
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HLE804L6WE');
+    </script>
+
     @stack('css')
 </head>
 
