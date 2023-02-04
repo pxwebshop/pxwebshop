@@ -80,3 +80,4 @@ class HomeController extends Controller
          return response()->json(['captcha'=> captcha_img()]);
      }
 }
+
