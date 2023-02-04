@@ -36,28 +36,30 @@
                 </div>
             </div>
             <div class="l-container1__slidebar">
-                <div class="c-list11">
-                    <h3 class="c-list11__title">Tóm tắt</h3>
-                   
-                    <div class="c-toc">
-                        {!! $toc !!}
+               <div class="l-container1__slidebar__content">
+                    <div class="c-list11">
+                        <h3 class="c-list11__title">Tóm tắt</h3>
+                    
+                        <div class="c-toc">
+                            {!! $toc !!}
+                        </div>
                     </div>
-                </div>
-                <div class="c-list11">
-                    <h3 class="c-list11__title">ບົດຄວາມຫຼ້າສຸດ</h3>
-                    <ul class="c-list11__inner">
-                        @foreach($blogs as $item)
-                        <li class="c-list11__item">
-                            <a class="c-list11__link" href="/blog/{{$item->id}}">
-                                <figure>
-                                    <img src="{{url('storage/images/blog/feature/'.$item->featured_image.'')}}" alt="">
-                                </figure>
-                                <p class="c-list11__tlt">{{$item->title}}</p>
-                            </a>
-                        </li>
-                        @endforeach
-                    </ul>
-                </div>
+                    <div class="c-list11">
+                        <h3 class="c-list11__title">ບົດຄວາມຫຼ້າສຸດ</h3>
+                        <ul class="c-list11__inner">
+                            @foreach($blogs as $item)
+                            <li class="c-list11__item">
+                                <a class="c-list11__link" href="/blog/{{$item->id}}">
+                                    <figure>
+                                        <img src="{{url('storage/images/blog/feature/'.$item->featured_image.'')}}" alt="">
+                                    </figure>
+                                    <p class="c-list11__tlt">{{$item->title}}</p>
+                                </a>
+                            </li>
+                            @endforeach
+                        </ul>
+                    </div>
+               </div>
             </div>
         </div>
     </section>

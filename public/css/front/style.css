@@ -365,6 +365,11 @@ body {
 .l-container1__slidebar .c-list11:nth-child(1) {
   border-bottom: none;
 }
+.l-container1__slidebar__content {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
 
 /*------------------------------------------------------------
 side
@@ -1820,6 +1825,7 @@ list
   display: flex !important;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .c-list12__item i {
   font-size: 2.4rem;

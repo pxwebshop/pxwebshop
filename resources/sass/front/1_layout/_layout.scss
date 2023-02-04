@@ -73,5 +73,9 @@ body {
         .c-list11:nth-child(1) {
             border-bottom: none;
         }
+        &__content {
+            position: sticky;
+            top: 100px;
+        }
     }
 }
