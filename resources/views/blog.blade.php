@@ -90,11 +90,5 @@
 @endpush
 
 @push('scripts')
-    <script>
-        jQuery(document).ready(function() {
-            jQuery.fancybox.defaults.thumbs.autoStart = true;
-        });
-    </script>
-
     <script src="{{ asset('js/front/jquery.fancybox.min.js')}}"></script>
 @endpush
