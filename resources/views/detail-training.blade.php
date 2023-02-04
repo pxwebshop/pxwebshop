@@ -39,7 +39,7 @@
             </div>
 
             <div class="c-box15">
-                <h4 class="c-title3">Hình ảnh đào tạo</h4>
+                <h4 class="c-title3">ຮູບ​ພາບ​ການ​ຝຶກ​ອົບ​ຮົມ​</h4>
                 <ul class="c-box15__inner container">
                     @foreach($sliders as $item)
                         <li class="c-box15__item">
@@ -56,7 +56,7 @@
             </div>
 
             <div class="c-box15 c-box15--style1">
-                <h4 class="c-title3">Bài viết liên quan</h4>
+                <h4 class="c-title3">ບົດຄວາມທີ່ກ່ຽວຂ້ອງ</h4>
                 <ul class="c-box6__inner js-slider">
                     @foreach($trainings as $key => $item)
                         <li class="c-box6__item">

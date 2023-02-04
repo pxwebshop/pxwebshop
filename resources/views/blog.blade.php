@@ -38,7 +38,7 @@
             <div class="l-container1__slidebar">
                <div class="l-container1__slidebar__content">
                     <div class="c-list11">
-                        <h3 class="c-list11__title">Tóm tắt</h3>
+                        <h3 class="c-list11__title">ຫົວຂໍ້ຫຼັກ</h3>
                     
                         <div class="c-toc">
                             {!! $toc !!}
