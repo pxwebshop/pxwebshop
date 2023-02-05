@@ -116,7 +116,8 @@
                             <img src="/images/team/viananh.jpg" alt="">
                         </figure>
                         <div class="c-list8__content">
-                            <span class="c-list8__name">Master - Viananh</span> <br>
+                            <span class="c-list8__name">
+                                <span class="c-list8__title">Master</span> - Viananh</span> <br>
                             <span class="c-list8__position">Graphic Designer</span>
                             <ul class="c-list8__skill">
                                 <li><span>UI-UX</span></li>
