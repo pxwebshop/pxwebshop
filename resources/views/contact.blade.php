@@ -65,7 +65,7 @@
                             <div class="c-box8__icon">
                                 <h5 class="c-box8__titleSocial">ຕິດຕາມພວກເຮົາ: &nbsp; </h5>
                                 <div class="c-box8__socialIcons">
-                                    <a href="https://www.facebook.com/laosmarttech" target="_blank" rel="noopener noreferrer nofollow">
+                                    <a href="https://www.facebook.com/profile.php?id=100090027365370" target="_blank" rel="noopener noreferrer nofollow">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                     <a href="https://api.whatsapp.com/message/FJW3P3M2S54IA1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer nofollow">

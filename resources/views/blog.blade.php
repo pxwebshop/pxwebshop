@@ -90,5 +90,11 @@
 @endpush
 
 @push('scripts')
+    <script>
+        $(window).scroll(function() {
+            console.log(this);
+        })
+    </script>
+    
     <script src="{{ asset('js/front/jquery.fancybox.min.js')}}"></script>
 @endpush
