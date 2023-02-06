@@ -52,7 +52,7 @@
                         <ul class="c-list11__inner">
                             @foreach($blogs as $item)
                             <li class="c-list11__item">
-                                <a class="c-list11__link" href="/blog/{{$item->id}}">
+                                <a class="c-list11__link" href="/blog/{{$item->slug}}">
                                     <figure>
                                         <img src="{{url('storage/images/blog/feature/'.$item->featured_image.'')}}" alt="">
                                     </figure>
